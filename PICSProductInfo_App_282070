@@ -1,0 +1,377 @@
+"appinfo"
+{
+	"appid"		"282070"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"This War of Mine"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"a806ec2170dc3b10740b150bfd6392964fd92656"
+		"logo_small"		"a806ec2170dc3b10740b150bfd6392964fd92656_thumb"
+		"icon"		"38ad6fd10e2b89ab24e8013584ece7961bebe086"
+		"clienttga"		"e85549ac5e6c671acc253a3484a5f8cad2ccdbfb"
+		"clienticon"		"198d8cf28f0add2fe3a6f49135dd6d8e122f8e00"
+		"metacritic_name"		"This War of Mine"
+		"controller_support"		"none"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/this-war-of-mine"
+		"community_visible_stats"		"1"
+		"gameid"		"282070"
+	}
+	"extended"
+	{
+		"developer"		"11 bit studios"
+		"developer_url"		""
+		"publisher"		"11 bit studios"
+		"homepage"		"http://www.thiswarofmine.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"This War of Mine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"This War of Mine.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"This War of Mine.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"This War of Mine"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228981"
+		{
+			"name"		"VC 2005 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7613356809904826842"
+			}
+			"maxsize"		"5884085"
+			"depotfromapp"		"228980"
+		}
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8124929965194586177"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"282071"
+		{
+			"name"		"War of Mine Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2694629788397729159"
+			}
+			"maxsize"		"536019690"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"11CA05C4CEE704F49DB2DCC5BF539A9DA0192789716A9F4341A249892147E80515E32407EAC1AE670820CE0030C8ACBBBFCE26C6"
+				}
+				"hotfix"
+				{
+					"encrypted_gid"		"1D63DF8D491F6D0357A7BB610DB8232104F270470191FA8B843487045400C8521E27FBF792865FE53F8B4FD24202B4387ABAD396"
+				}
+				"koch"
+				{
+					"encrypted_gid"		"4BB97EB105620A23965665B066098E8EC9024BB598BBE4DF0CB5C8DC4196F79C4B75C2A434D66AAC3E7F0117F8787EFB94B60DAC"
+				}
+				"locqa"
+				{
+					"encrypted_gid"		"117C00AB232A94FF05A478A2920B15E6FD4EBA8F9965E2A156FB5349016F71FEDC0E64EB4D0DFE3A1B73F782F891F808431777FF"
+				}
+				"locqa1"
+				{
+					"encrypted_gid"		"BC2C1483B452B1BB2DA5A10588CD512CA5139BEB2454FFE32D68C98423B6F11A0D595B7E494ACC8DA55AA312795004000F11B046"
+				}
+				"targi"
+				{
+					"encrypted_gid"		"322DC8C154E69090606D8A418237F48FA8E9E58BDB4629CC2D7F497567E239E9174684304865EB1EEF7F0B66ADFBA0B430D5F609"
+				}
+				"test"
+				{
+					"encrypted_gid"		"19CFE7F9C98271B50C8246E634E0260A64A45F880B817EE1818A3D74ABC77A27BFC9A4E8244765EA2B1155820553B8F26F00B632"
+				}
+				"testbranch"
+				{
+					"encrypted_gid"		"9F66E627B196E4D524333A3DDABE5A041F57759A1EEC71E72F6F468EF0001D07A5FA0E7EE248F4789F1AF9B9B2FBD3CF4CC95FDB"
+				}
+			}
+		}
+		"282072"
+		{
+			"name"		"This War of Mine Mac Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7607394807942848914"
+			}
+			"maxsize"		"355912086"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"6D43435C07FFC0B464FC811E3C87FE23A0192789716A9F4341A249892147E805A93252106F106CF5E3DE07DD4C0144A0F53D3993"
+				}
+				"hotfix"
+				{
+					"encrypted_gid"		"06A389F274FBD0EF6906607C8AF8085604F270470191FA8B843487045400C85240A6BCFAF84EB22B99B667582963FD8AEE22AC56"
+				}
+				"koch"
+				{
+					"encrypted_gid"		"F5A4DD90D6BA849B96888022BDE29FC1C9024BB598BBE4DF0CB5C8DC4196F79C2D8370E8153091C660D8C5A33AE849BFCF4091DD"
+				}
+				"locqa"
+				{
+					"encrypted_gid"		"2916F2AD0957875FDDDA86ADDA1E15FBFD4EBA8F9965E2A156FB5349016F71FEEC78D8C0675B606782BFCBAB9ADF5E413E9E1A09"
+				}
+				"locqa1"
+				{
+					"encrypted_gid"		"6BE5E632B1B13A3173DFEE74215DB1F4A5139BEB2454FFE32D68C98423B6F11A7533382E22152C8638C60725B38E1FAE1CCE3307"
+				}
+				"targi"
+				{
+					"encrypted_gid"		"F3FA45754C140E93DB716653C535161AA8E9E58BDB4629CC2D7F497567E239E9C71A972BCDA0F7D0102697720AD6064630A3A74E"
+				}
+				"test"
+				{
+					"encrypted_gid"		"00E8BAF429A952C01FB9C7395830405664A45F880B817EE1818A3D74ABC77A27A9058B999D0CC838B821300435FFEA521F17CB0B"
+				}
+				"testbranch"
+				{
+					"encrypted_gid"		"1DDC3AFBD91C811801C3AD4B778287E71F57759A1EEC71E72F6F468EF0001D07E3615BE4861C17280AA49B3EA0A7F6D84170D2A1"
+				}
+			}
+		}
+		"282073"
+		{
+			"name"		"This War of Mine Linux Depot "
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2650081859016462511"
+			}
+			"maxsize"		"63880580"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"9C94CF780A73CD5458E559491AEF4771A0192789716A9F4341A249892147E8054A1C93632581B2EF5C2005B70807657C26B0C6AF"
+				}
+				"hotfix"
+				{
+					"encrypted_gid"		"C17DBDC10137490DFF265E50E4C01A0004F270470191FA8B843487045400C852CA0DA1F0AE54C06F6748562D82983B6D4C56E689"
+				}
+				"koch"
+				{
+					"encrypted_gid"		"7A258D3C66489AAEF6C616997E09DCB1C9024BB598BBE4DF0CB5C8DC4196F79C0F06035E62CCD66679E9D750C7C633054E06B39A"
+				}
+				"locqa"
+				{
+					"encrypted_gid"		"D29D01244E1CFB36EF68BF0A3A714283FD4EBA8F9965E2A156FB5349016F71FE88DABBC6012FAA8810B184E8847C857E649BCFF3"
+				}
+				"locqa1"
+				{
+					"encrypted_gid"		"E9B24A11CFF2ECB45D2790963761B4D9A5139BEB2454FFE32D68C98423B6F11A3AB1EDC7C121C9A58C60B7845134712CACBED402"
+				}
+				"targi"
+				{
+					"encrypted_gid"		"A3D20AC63DB04A17EFDA8C432296DD09A8E9E58BDB4629CC2D7F497567E239E91779CE39A7598FACEB6FBCF3137C5750AC75E982"
+				}
+				"test"
+				{
+					"encrypted_gid"		"2B989FCABCAE30A78410CBF5227DF95164A45F880B817EE1818A3D74ABC77A27C965E163AB7D797E0808EBDA2F2551E4B75498A2"
+				}
+				"testbranch"
+				{
+					"encrypted_gid"		"1339BFD5DED8E6FC2AEC7B4398C73A711F57759A1EEC71E72F6F468EF0001D073484A2E7D7795AE8C8F7E0FB3B0003DB0F77A4A1"
+				}
+			}
+		}
+		"282074"
+		{
+			"name"		"This War of Mine Common Depot"
+			"manifests"
+			{
+				"public"		"7599275144609737343"
+			}
+			"maxsize"		"823320184"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"A44DB71A0383E1C9052B6EDF9C49DBB2A0192789716A9F4341A249892147E805B0D12569DC9D2289B141EAD2059463C38F8539DE"
+				}
+				"hotfix"
+				{
+					"encrypted_gid"		"DBECA673D6696E9081B38AA8DF4B4E0104F270470191FA8B843487045400C85280AEDEDFD81EA82A3115E5F139FB04B68172B1B6"
+				}
+				"koch"
+				{
+					"encrypted_gid"		"8865B5101A9E9E6160A110F5A99FC6F1C9024BB598BBE4DF0CB5C8DC4196F79C378DB7D53D6E939DE735E5994D6DE18A19032D35"
+				}
+				"locqa"
+				{
+					"encrypted_gid"		"CC91BC2A69D8EB5566D24226B7EFEAE8FD4EBA8F9965E2A156FB5349016F71FE3755C07848611E03E8077C184BE8043A7C67A9A3"
+				}
+				"locqa1"
+				{
+					"encrypted_gid"		"8C47C71391A4692612EF5076494F6624A5139BEB2454FFE32D68C98423B6F11A0EDA6396F32134DCE4DFC6F7B7F025719DD5C8F3"
+				}
+				"targi"
+				{
+					"encrypted_gid"		"0682026B74B9DCA0991884823670FD5BA8E9E58BDB4629CC2D7F497567E239E9C946D0E0F80C9852FBEF6788DBD3562386F2C183"
+				}
+				"test"
+				{
+					"encrypted_gid"		"5C9FA3D34BA2BE8F9CFE9133A24EB60364A45F880B817EE1818A3D74ABC77A274E9AB132CDC3FFE8E9069886E833FCF19A8D54EE"
+				}
+				"testbranch"
+				{
+					"encrypted_gid"		"76E78C09CB5405C09CE3ECF60B7892631F57759A1EEC71E72F6F468EF0001D07A779D910B0295ECADFA40BC76ECA29345EC77FFF"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,russian,polish,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"477128"
+			}
+			"beta"
+			{
+				"buildid"		"410644"
+				"description"		"beta"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"42DE64337C72E500F3876028A60C0C7AA0192789716A9F4341A249892147E80513211C4B67EDF2B8792A9516E6CBE99D492F6D5B"
+			}
+			"hotfix"
+			{
+				"buildid"		"441646"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"08457CFD40DAD4637972ED9CC1E37A9104F270470191FA8B843487045400C85279D0927397246B5DC82547E154ACC7B838FDDD38"
+			}
+			"koch"
+			{
+				"buildid"		"409373"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"40BC7C8E30ABC5F318FFF6F2C08853D1C9024BB598BBE4DF0CB5C8DC4196F79C203BDFCB88DC691333062A715CC9D327809F3EBB"
+			}
+			"locqa"
+			{
+				"buildid"		"432142"
+				"description"		"for loc testing"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"32EC99E232663FEE881C66FB5F799E95FD4EBA8F9965E2A156FB5349016F71FECD41A88972B99267ECFC1F095EB2F86813F51530"
+			}
+			"locqa1"
+			{
+				"buildid"		"435121"
+				"description"		"locqa"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"98AE22AC37BBB7AD8F0E27EE4DA1F2EFA5139BEB2454FFE32D68C98423B6F11A705F7FF0698CA18303C6D832730BCC31032DAFF6"
+			}
+			"targi"
+			{
+				"buildid"		"366566"
+				"description"		"targi"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"EA34052042DDF089F0F4324DF9A804DBA8E9E58BDB4629CC2D7F497567E239E97CEA2808A0DAC2E8AC83E051A949FA12FCDA4F95"
+			}
+			"test"
+			{
+				"buildid"		"440331"
+				"description"		"test"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"B22A3D6772D9EC8C4A0B65F67A0F249F64A45F880B817EE1818A3D74ABC77A27F3FD876EE3F2CDFA8F230A0447DFED45030F416A"
+			}
+			"testbranch"
+			{
+				"buildid"		"465844"
+				"description"		"Bug free zone"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"96749E48C2A8E679F751772A3705EE051F57759A1EEC71E72F6F468EF0001D0755A883304C3555A0587BA3285D9C77995FEB239D"
+			}
+			"testymaków"
+			{
+				"buildid"		"477128"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"0ECD849D62952C178C19A7ECAD46893D4EDC7AA47B20D5E41F9B51D4B7AC34EF72E359C5E0D2755784033E50BA18FE7D971CE782"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"6400000"
+		"maxnumfiles"		"10"
+	}
+}
+ 

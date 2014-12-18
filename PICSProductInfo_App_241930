@@ -1,0 +1,593 @@
+"appinfo"
+{
+	"appid"		"241930"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Middle-earth: Shadow of Mordor"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"00631b918ee8799ff48b3d91d9eb0d3278aafa83"
+		"logo_small"		"00631b918ee8799ff48b3d91d9eb0d3278aafa83_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"clienticon"		"819fa2304595c994174a29420dc0783d7e9810fd"
+		"clienttga"		"51341c9e4e65be91817d43412753e28ad948a8da"
+		"icon"		"161afab3c9f725f593635723cc64a7fbeb324ead"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"241930_eula_0"
+				"name"		"Middle-earth: Shadow of Mordor EULA"
+				"url"		"http://store.steampowered.com//eula/241930_eula_0"
+			}
+		}
+		"metacritic_name"		"Middle-earth™: Shadow of Mordor™"
+		"controller_support"		"full"
+		"community_visible_stats"		"1"
+		"gameid"		"241930"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Monolith Productions, Inc."
+		"gamedir"		"ValveTestApp241930"
+		"homepage"		"http://www.shadowofmordor.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"311670,313370,313371,313372,313373,313374,313375,313380,313381,318390,318400,318401,318402,318410,318411,318412,318413,318414,318420,318550,319360,319361,322060,322061"
+		"developer_url"		""
+		"publisher"		"WB Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ShadowOfMordor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"x64/ShadowOfMordor.exe"
+				"description"		"Launch"
+				"workingdir"		"x64"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,spanish,russian,japanese,polish,brazilian"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8124929965194586177"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"241933"
+		{
+			"name"		"Middle-earth: Shadow of Mordor Japanese Build Only"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"japanbuild"
+				{
+					"encrypted_gid"		"12FC59D0C6780A5F6EAD598DCA55A72225B9A916E9ACFFF4744E7A107EE058F4DE0B986997F6591985D9EAFAB8ADDBE24029E4E9"
+				}
+			}
+			"maxsize"		"37029754169"
+		}
+		"241931"
+		{
+			"name"		"Middle-earth: Shadow of Mordor"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4645252343727460332"
+				"local"		"1411346527115738138"
+			}
+			"maxsize"		"45776524267"
+			"encryptedmanifests"
+			{
+				"dayone"
+				{
+					"encrypted_gid"		"7EB58AFE56BCC91D5A8041012C199BA964D9A262148A0C291D1BF3887889EEBF1346E045E7B0CA3DF8F1868406CC594C589D84CF"
+				}
+				"discbuild"
+				{
+					"encrypted_gid"		"6188BB6015EC807EDD3B9C0F81D72FAB20348D3220464A8563DA9E76531A52E1F743546CE38DAD3E930FCF49D44F90FB1CBA4907"
+				}
+				"dlc2build"
+				{
+					"encrypted_gid"		"C1E8E863F0616306224EF0F3FDCF9E4D9FD446595A1E7C65A10B200D0985C86D715CC92BDB4CF13D3A0463D08F69209BDD98568C"
+				}
+				"emergencypatch1"
+				{
+					"encrypted_gid"		"B95C7F16E14EB3DDAC646A33686B973064D9A262148A0C291D1BF3887889EEBFF300B2F1125933C2AC6E7026A996B8D0FA3C8B79"
+				}
+				"enzyme"
+				{
+					"encrypted_gid"		"4E976AB910A5B2643340122E48E4BC520291D10E9F1399F0EC1B09B87D85C52AB5D12DE66F00854126A973F4165295561CC81064"
+				}
+				"japanbuild"
+				{
+					"encrypted_gid"		"4FEC143F2D67D21493907F7204C70CA825B9A916E9ACFFF4744E7A107EE058F4C2C835D92D88AD71117CA9F72E4D9D6ED9D354D2"
+				}
+				"legalpatch"
+				{
+					"encrypted_gid"		"0B2222CDECC6D1808D5F5445EC1CCE9564D9A262148A0C291D1BF3887889EEBF04EC19C428A6F8B1C407C173392C2A0317BC255E"
+				}
+				"litharielpatch"
+				{
+					"encrypted_gid"		"21F10DB31FBB97EC0F0DE465B5A4D1BB64D9A262148A0C291D1BF3887889EEBF35D276C02F3D7BE994164667CD2783740F9681A6"
+				}
+				"mtlqa"
+				{
+					"encrypted_gid"		"435F98F1EC22D96C4743E53AA9617DE29FD446595A1E7C65A10B200D0985C86D6BE065D2A1F28A1E4B7F139199260AA2D9D31CA6"
+				}
+				"nvidiabranch"
+				{
+					"encrypted_gid"		"DE119FA82ECDC72C415AF2A6E96087BEC3D5E43961F13FECD0EFB8BF8C8F48F592E5AA2FD2008A7873094CC119D9C3E1839DAA32"
+				}
+				"photomode"
+				{
+					"encrypted_gid"		"FD5BDA49FFF385BBAB17F9DBB5954E3964D9A262148A0C291D1BF3887889EEBF2917F16D5D1ADB2A995C512396DC3C0613D1AA84"
+				}
+				"seaqa"
+				{
+					"encrypted_gid"		"9C5B0E0E89BEB7225EC6A4F582BDB4179FD446595A1E7C65A10B200D0985C86DD32A20DDCE0C4CB8C8BC827A9DDD6F504681151A"
+				}
+			}
+		}
+		"311670"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - HD Content (311670) Depot"
+			"manifests"
+			{
+				"public"		"1812801919891248732"
+			}
+			"maxsize"		"13973746884"
+			"encryptedmanifests"
+			{
+				"dayone"
+				{
+					"encrypted_gid"		"CA0C0F452D75DC1B18796F8CCEC1FA2E64D9A262148A0C291D1BF3887889EEBFBD1F9E270ABE9A5EB6BDC3CFDB3EE7B6005A9693"
+				}
+				"dlc2build"
+				{
+					"encrypted_gid"		"1C3DD764FDE0EC4D45C3ED64C4E0B5B69FD446595A1E7C65A10B200D0985C86D2332F8AB171951F1AD290B9DDBBC8D7428DF59EB"
+				}
+				"emergencypatch1"
+				{
+					"encrypted_gid"		"CA0C0F452D75DC1B18796F8CCEC1FA2E64D9A262148A0C291D1BF3887889EEBFBD1F9E270ABE9A5EB6BDC3CFDB3EE7B6005A9693"
+				}
+				"enzyme"
+				{
+					"encrypted_gid"		"E8DF7D88FA440EB27C08827D450355DF0291D10E9F1399F0EC1B09B87D85C52A6B16F6377860C6B3D473DD53DF47BDF9486D1FCF"
+				}
+				"japanbuild"
+				{
+					"encrypted_gid"		"69E178AEEE961194BC39837FE7808BD825B9A916E9ACFFF4744E7A107EE058F4301D73262A1A12FED9D9F552753F33A1EE8CB3F8"
+				}
+				"legalpatch"
+				{
+					"encrypted_gid"		"CA0C0F452D75DC1B18796F8CCEC1FA2E64D9A262148A0C291D1BF3887889EEBFBD1F9E270ABE9A5EB6BDC3CFDB3EE7B6005A9693"
+				}
+				"litharielpatch"
+				{
+					"encrypted_gid"		"0F2858DE1C4CF2A01DADB6FE325AD1EC64D9A262148A0C291D1BF3887889EEBF5175300F2548C7EF1447C2F0477C2CEFB5741514"
+				}
+				"nvidiabranch"
+				{
+					"encrypted_gid"		"14D13409BCEEF0F7EA0D86DFB80D0484C3D5E43961F13FECD0EFB8BF8C8F48F5E61E30875E94150D2FEFA8243883277B4F8BA975"
+				}
+				"photomode"
+				{
+					"encrypted_gid"		"CA0C0F452D75DC1B18796F8CCEC1FA2E64D9A262148A0C291D1BF3887889EEBFBD1F9E270ABE9A5EB6BDC3CFDB3EE7B6005A9693"
+				}
+				"seaqa"
+				{
+					"encrypted_gid"		"6F3A828D55A2BE19DB03F9A1D767F33B9FD446595A1E7C65A10B200D0985C86D2C25ADD2882636F4D9CE33BCFBA75C2032751578"
+				}
+			}
+			"dlcappid"		"311670"
+		}
+		"313370"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Captain of the Watch Character Skin (313370) Depot"
+			"manifests"
+			{
+				"public"		"6785743772532095830"
+			}
+			"maxsize"		"228"
+			"dlcappid"		"313370"
+		}
+		"313371"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - The Dark Ranger Character Skin (313371) Depot"
+			"manifests"
+			{
+				"public"		"2673701849941391340"
+			}
+			"maxsize"		"68"
+			"dlcappid"		"313371"
+		}
+		"313372"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Test of Power (313372) Depot"
+			"manifests"
+			{
+				"public"		"4150298883702055089"
+			}
+			"maxsize"		"224"
+			"dlcappid"		"313372"
+		}
+		"313373"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Hidden Blade Rune (313373) Depot"
+			"manifests"
+			{
+				"public"		"2100538871572823223"
+			}
+			"maxsize"		"68"
+			"dlcappid"		"313373"
+		}
+		"313374"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Deadly Archer Rune (313374) Depot"
+			"manifests"
+			{
+				"public"		"7782708720424048724"
+			}
+			"maxsize"		"68"
+			"dlcappid"		"313374"
+		}
+		"313375"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Flame of Anor Rune (313375) Depot"
+			"manifests"
+			{
+				"public"		"3626747238116382439"
+			}
+			"maxsize"		"68"
+			"dlcappid"		"313375"
+		}
+		"313380"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Orc Slayer Rune (313380) Depot"
+			"manifests"
+			{
+				"public"		"324148619083483478"
+			}
+			"maxsize"		"68"
+			"dlcappid"		"313380"
+		}
+		"313381"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Rising Storm Rune (313381) Depot"
+			"manifests"
+			{
+				"public"		"1897900014090252580"
+			}
+			"maxsize"		"68"
+			"dlcappid"		"313381"
+		}
+		"318400"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Test of Speed (318400) Depot"
+			"manifests"
+			{
+				"public"		"7073419462418481756"
+			}
+			"maxsize"		"220"
+			"dlcappid"		"318400"
+		}
+		"318401"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Test of Wisdom (318401) Depot"
+			"manifests"
+			{
+				"public"		"7582280970679003090"
+			}
+			"maxsize"		"224"
+			"dlcappid"		"318401"
+		}
+		"318402"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Endless Challenge (318402) Depot"
+			"manifests"
+			{
+				"public"		"1501748316290578442"
+			}
+			"maxsize"		"232"
+			"dlcappid"		"318402"
+		}
+		"318410"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Berserks Warband (318410) Depot"
+			"manifests"
+			{
+				"public"		"7721744647487988279"
+			}
+			"maxsize"		"216"
+			"dlcappid"		"318410"
+		}
+		"318411"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Blood Hunters Warband (318411) Depot"
+			"manifests"
+			{
+				"public"		"7570495842780458661"
+			}
+			"maxsize"		"224"
+			"dlcappid"		"318411"
+		}
+		"318412"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Skull Crushers Warband (318412) Depot"
+			"manifests"
+			{
+				"public"		"7896682710253848809"
+			}
+			"maxsize"		"216"
+			"dlcappid"		"318412"
+		}
+		"318413"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Guardians of the Flaming Eye (318413) Depot"
+			"manifests"
+			{
+				"public"		"982538916912193001"
+			}
+			"maxsize"		"216"
+			"dlcappid"		"318413"
+		}
+		"318414"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Flesh Burners Warband (318414) Depot"
+			"manifests"
+			{
+				"public"		"8828261464440646425"
+			}
+			"maxsize"		"224"
+			"dlcappid"		"318414"
+		}
+		"318390"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Lord of the Hunt (318390) Depot"
+			"manifests"
+			{
+				"public"		"2244672915508740651"
+			}
+			"maxsize"		"224"
+			"dlcappid"		"318390"
+		}
+		"318420"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Bright Lord (318420) Depot"
+			"manifests"
+			{
+				"public"		"6342813387448459939"
+			}
+			"maxsize"		"220"
+			"dlcappid"		"318420"
+		}
+		"318550"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Season Pass (318550) Depot"
+			"dlcappid"		"318550"
+		}
+		"319360"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Bundle F (319360) Depot"
+			"dlcappid"		"319360"
+		}
+		"319361"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Bundle G (319361) Depot"
+			"dlcappid"		"319361"
+		}
+		"322061"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Forgotten Runes (322061) Depot"
+			"manifests"
+			{
+				"public"		"6740177555138261104"
+			}
+			"maxsize"		"228"
+			"dlcappid"		"322061"
+		}
+		"322060"
+		{
+			"name"		"Middle-earth: Shadow of Mordor - Power of Shadow (322060) Depot"
+			"manifests"
+			{
+				"public"		"1356036462370594379"
+			}
+			"maxsize"		"224"
+			"encryptedmanifests"
+			{
+				"mtlqa"
+				{
+					"encrypted_gid"		"C231A641F00BBAB29E9D784BC93CCCEA9FD446595A1E7C65A10B200D0985C86D0126B1333AF69BA8DF9487DDEC66BEED61EA4E04"
+				}
+				"nvidiabranch"
+				{
+					"encrypted_gid"		"4C36A1AECB725AE3884AAEA3EB03EBC6C3D5E43961F13FECD0EFB8BF8C8F48F539D80B657D08835F524A48165BC5DD96BA09A87D"
+				}
+				"photomode"
+				{
+					"encrypted_gid"		"63D9F092154686DFFCA096C1801437F964D9A262148A0C291D1BF3887889EEBF61C5060EE1B412C95ACE0DD25383D775E48CEA8F"
+				}
+				"seaqa"
+				{
+					"encrypted_gid"		"C231A641F00BBAB29E9D784BC93CCCEA9FD446595A1E7C65A10B200D0985C86D0126B1333AF69BA8DF9487DDEC66BEED61EA4E04"
+				}
+			}
+			"dlcappid"		"322060"
+		}
+		"241932"
+		{
+			"name"		"savecancel"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"473434"
+			}
+			"dayone"
+			{
+				"buildid"		"416752"
+				"description"		"Day One Patch - RTM"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"211CD6F5DE8E61C85EB120ADA8F0AF4D64D9A262148A0C291D1BF3887889EEBF6D9093AA6E05D2FB1E67BE77F50D9CD63D9CC271"
+			}
+			"discbuild"
+			{
+				"buildid"		"476366"
+				"description"		"For building Disc builds of the main game"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"65DBD8AB394DDB2609659E66CB54FFCC20348D3220464A8563DA9E76531A52E1B452C75AA409C84CA9CEAB86B79E4B1E96BFB05A"
+			}
+			"dlc2build"
+			{
+				"buildid"		"476622"
+				"description"		"DLC2 Auto-Updated Build branch."
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7617FEF9F9134CD794224E182ED2F7479FD446595A1E7C65A10B200D0985C86DC0863DE698B26A633AA0C0FBF0A032AAFBF4B3BA"
+			}
+			"emergencypatch1"
+			{
+				"buildid"		"416755"
+				"description"		"Emergency Patch1 - RTM"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"211CD6F5DE8E61C85EB120ADA8F0AF4D64D9A262148A0C291D1BF3887889EEBF6D9093AA6E05D2FB1E67BE77F50D9CD63D9CC271"
+			}
+			"enzyme"
+			{
+				"buildid"		"433413"
+				"description"		"Enzyme Outsource Test Branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C8B9A7D05EC58481D7BA3B7D3899D1D30291D10E9F1399F0EC1B09B87D85C52ABFF93755B74B3657A1537C133E4F9AAF0B466C8A"
+			}
+			"japanbuild"
+			{
+				"buildid"		"471670"
+				"description"		"Japanese PC Build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"772008E5004453EEEC19F0C4AB898F7225B9A916E9ACFFF4744E7A107EE058F46D33910C2EE7119E3014AB1B0E6CFFC392C4DFE3"
+			}
+			"legalpatch"
+			{
+				"buildid"		"416754"
+				"description"		"Legal Patch - RTM"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"211CD6F5DE8E61C85EB120ADA8F0AF4D64D9A262148A0C291D1BF3887889EEBF6D9093AA6E05D2FB1E67BE77F50D9CD63D9CC271"
+			}
+			"litharielpatch"
+			{
+				"buildid"		"448622"
+				"description"		"Lithariel Patch - RTM"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"211CD6F5DE8E61C85EB120ADA8F0AF4D64D9A262148A0C291D1BF3887889EEBF6D9093AA6E05D2FB1E67BE77F50D9CD63D9CC271"
+			}
+			"local"
+			{
+				"buildid"		"301597"
+				"description"		"Local Content Server"
+			}
+			"loth-dlc1"
+			{
+				"buildid"		"470335"
+				"description"		"Lord of the Hunt - RTM"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"211CD6F5DE8E61C85EB120ADA8F0AF4D64D9A262148A0C291D1BF3887889EEBF6D9093AA6E05D2FB1E67BE77F50D9CD63D9CC271"
+			}
+			"mtlqa"
+			{
+				"buildid"		"476589"
+				"description"		"Montreal Pub QA"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7617FEF9F9134CD794224E182ED2F7479FD446595A1E7C65A10B200D0985C86DC0863DE698B26A633AA0C0FBF0A032AAFBF4B3BA"
+			}
+			"nvidiabranch"
+			{
+				"buildid"		"455622"
+				"description"		"testing SLI fixes against BETA driver"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"89ADE147B455BF46B19D9FA4EE4255B7C3D5E43961F13FECD0EFB8BF8C8F48F54DA7DEEE58648FEABE378452F2625AD2F1EAB01E"
+			}
+			"photomode"
+			{
+				"buildid"		"416770"
+				"description"		"Photo Mode - RTM"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"211CD6F5DE8E61C85EB120ADA8F0AF4D64D9A262148A0C291D1BF3887889EEBF6D9093AA6E05D2FB1E67BE77F50D9CD63D9CC271"
+			}
+			"seaqa"
+			{
+				"buildid"		"471754"
+				"description"		"Seattle Pub QA"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7617FEF9F9134CD794224E182ED2F7479FD446595A1E7C65A10B200D0985C86DC0863DE698B26A633AA0C0FBF0A032AAFBF4B3BA"
+			}
+			"testpatchpd"
+			{
+				"buildid"		"470335"
+				"description"		"Temp branch for Burbank PD"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"2D5530B205377F01251BC00A9BAA47FCD8C69044EE3C482400CCA83875632AF31ECF57A7AF13A5399E0BA70243A7B31FDABF54D9"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"5"
+	}
+}
+ 

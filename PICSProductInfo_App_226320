@@ -1,0 +1,468 @@
+"appinfo"
+{
+	"appid"		"226320"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Marvel Heroes 2015"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienticon"		"e1276ae3c039218a78c97385e7297fd78d8bc7ed"
+		"clienttga"		"8704f18858fb49524927e87cdda6fad2eede4282"
+		"icon"		"a0c1c35208af7b63759361305631da48539d45cc"
+		"logo"		"7121a66719963c4790d6169d38b9c65ad8f238bc"
+		"logo_small"		"7121a66719963c4790d6169d38b9c65ad8f238bc_thumb"
+		"clienticns"		"656da2b5c087daed0f9974c37676dd1105eac76c"
+		"metacritic_name"		"Marvel Heroes 2015"
+		"controller_support"		"none"
+		"metacritic_score"		"81"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/marvel-heroes-2015"
+		"community_visible_stats"		"1"
+		"gameid"		"226320"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Gazillion Entertainment"
+		"gamedir"		"Marvel Heroes"
+		"homepage"		"https://marvelheroes.com/?pcode=steamh"
+		"icon"		""
+		"installscript"		"226320_install.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"226330,226331,226332,226333,226334,226335,226336,226337,226338,262350,262351,262352,265290,265291,265292,265293,265520,306310,320200,321740,328700"
+		"developer_url"		""
+		"publisher"		"Gazillion Entertainment"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Marvel Heroes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"unrealengine3\\binaries\\win32\\MarvelHeroes2015.exe"
+				"arguments"		"-steam -nobitraider -nosolidstate"
+				"description"		"Normal Launch"
+				"workingdir"		"unrealengine3\\binaries\\win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"unrealengine3/binaries/mac/MarvelHeroes2015.app"
+				"arguments"		"-steam -nobitraider -nosolidstate"
+				"description"		"App Launch"
+				"workingdir"		"unrealengine3/binaries/mac"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"installscriptsignature"		"68f43d8f3003ac4d72f1c65a49bb7db76c6c7dca910155ce452ee2dbfbd33605e9b7967c499933f15c31ae46f6fc44bddecd5f8ddc0ddd0e24d4ca494dfa18f26b9658ea7ff66c12e1d23b6d4ea7f980fc4fbe7fa660336f6d5dd6a2bfba173aeb3aff38eef3b459dbff0c6b8be5e1b2e1be4b2c780abd47caf52917e0e8a29c"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\226320"
+				"process 1"		"%INSTALLDIR%\\InstallDependencies\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"msvcrt9x86"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\226320"
+				"process 1"		"%INSTALLDIR%\\InstallDependencies\\MSVCRT9\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"msvcrt10x86"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\226320"
+				"process 1"		"%INSTALLDIR%\\InstallDependencies\\MSVCRT10\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"amddualcoreoptimizer"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\226320"
+				"process 1"		"%INSTALLDIR%\\InstallDependencies\\AmdDualCoreOptimizer\\Setup.exe"
+				"command 1"		"/S /v/qn"
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"is64bitwindows"		"1"
+					"ostype"		"Windows XP"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"229031"
+		{
+			"name"		"PhysX System Software 9.12.1031"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7746630274301172884"
+			}
+			"maxsize"		"26729083"
+			"depotfromapp"		"228980"
+		}
+		"226321"
+		{
+			"name"		"Marvel Heroes Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3772286801799779221"
+			}
+			"encryptedmanifests"
+			{
+				"dev01"
+				{
+					"encrypted_gid"		"BFE9E05C8986B4D0DCE476EE90F4D6B63A482FA197A6E5E596F721BB37CD2A7C12CB339689069A8D0D1BDF10F4AF0939B62089C9"
+				}
+				"market01"
+				{
+					"encrypted_gid"		"6065090020B237250D3664A491F921263A482FA197A6E5E596F721BB37CD2A7C4EEDDCD867891E2B8AA1A230A505924293732485"
+				}
+				"play01"
+				{
+					"encrypted_gid"		"EDFEFF019B959B4091B709DDDA6A96913A482FA197A6E5E596F721BB37CD2A7C395EB6F902F46E5543B9BAE0830952920C618D82"
+				}
+				"deploy_disabled"
+				{
+					"encrypted_gid"		"879551B0FDCEA28ADF4D055EF999C3163A482FA197A6E5E596F721BB37CD2A7C354956B6E915F71A802B3AE21918BAABF40B5C69"
+				}
+				"qa06"
+				{
+					"encrypted_gid"		"016B46D38967738A274A8CD2857659543A482FA197A6E5E596F721BB37CD2A7C9CA9F0A337DFD1A4B84067FE85BA3FC4DFF6DE0C"
+				}
+			}
+			"maxsize"		"16204831135"
+		}
+		"226322"
+		{
+			"name"		"Mac Marvel Heroes"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1262967793988356889"
+				"public_mh_testcenter"		"8586897993436244087"
+			}
+			"maxsize"		"305975610"
+			"encryptedmanifests"
+			{
+				"dev01"
+				{
+					"encrypted_gid"		"A2B041399F425405459BF36ECDC3DDF43A482FA197A6E5E596F721BB37CD2A7C394E653D596D1C42ED6DDA95DD5AA393CAC96140"
+				}
+				"private_testcenter"
+				{
+					"encrypted_gid"		"9105D64F7DAB76381BAC0E0470DE81EB4C19D220FC20ECE1338A878FB4EB8C8BE412F58130E003A7AF91F8CD0CD47E1D25BE443D"
+				}
+				"qa02"
+				{
+					"encrypted_gid"		"7F58C880A1BA2AC4DDFDAEEC3BF791FC3A482FA197A6E5E596F721BB37CD2A7CC9F94844BC06060F39C0544A09008E636C183EBF"
+				}
+				"qa03"
+				{
+					"encrypted_gid"		"A9044C618902A6BCAD15D0D130DC9B433A482FA197A6E5E596F721BB37CD2A7CF6CEF18D3BA35591D4A03045C0D75D1BD52111D7"
+				}
+				"qa04"
+				{
+					"encrypted_gid"		"908F1E6673F84DC1DC7A681CB97EC03B3A482FA197A6E5E596F721BB37CD2A7C41729F0F7D6A1292E331C1367E0CF9DFA9AB2140"
+				}
+				"qa05"
+				{
+					"encrypted_gid"		"4C05F04CAAB465FC9E38F77C104EB3643A482FA197A6E5E596F721BB37CD2A7C66B8F13B767407B2D8DB576F8FFD09471A27B958"
+				}
+				"qa06"
+				{
+					"encrypted_gid"		"088283546FA7AF2267149367BFED69283A482FA197A6E5E596F721BB37CD2A7C4796BDAC7187D30F6F967B2B687995B86E7F186F"
+				}
+				"qa07"
+				{
+					"encrypted_gid"		"9B37530393FF676537D2401F94E957AF3A482FA197A6E5E596F721BB37CD2A7C99A934AC78940DCF236B6DF4803DC50AB40BDEA3"
+				}
+				"qa08"
+				{
+					"encrypted_gid"		"AADFD2EF6F0344A567BA99CE54DF08993A482FA197A6E5E596F721BB37CD2A7C137371452C80E9A847F31046E035BFA98483C385"
+				}
+				"release_candidates_tc"
+				{
+					"encrypted_gid"		"908F1E6673F84DC1DC7A681CB97EC03B3A482FA197A6E5E596F721BB37CD2A7C41729F0F7D6A1292E331C1367E0CF9DFA9AB2140"
+				}
+			}
+		}
+		"226323"
+		{
+			"name"		"Windows Marvel Heroes"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7588251611417697533"
+				"public_mh_testcenter"		"2623340675935978363"
+			}
+			"maxsize"		"564743181"
+			"encryptedmanifests"
+			{
+				"dev01"
+				{
+					"encrypted_gid"		"662AFB2B0AC35CDA4912FAA946EA876B3A482FA197A6E5E596F721BB37CD2A7C5A6A2D1ACD1ABC79807E7E2EABE3F1B76BDE8508"
+				}
+				"market01"
+				{
+					"encrypted_gid"		"11048AB37B5BD5AD6D3D100ACA936EB93A482FA197A6E5E596F721BB37CD2A7C1491793131031CC3EBAEF0FD5E8B56F2206C3086"
+				}
+				"play01"
+				{
+					"encrypted_gid"		"4C0C56A5C8CAF74744F68087D89006C73A482FA197A6E5E596F721BB37CD2A7CFE4E6E95BC7DBA2C5BA84CD22D1B65CE897C2CB3"
+				}
+				"private_testcenter"
+				{
+					"encrypted_gid"		"DE6C9260B674C754228D6C7CDEB541B44C19D220FC20ECE1338A878FB4EB8C8BC38F2FAF867D9CD4E31D61F95E5C9DA0EAA417EB"
+				}
+				"deploy_disabled"
+				{
+					"encrypted_gid"		"ED9091EEB61CF437CBBAE2FB93C187223A482FA197A6E5E596F721BB37CD2A7C2DCCD1355FDE8B161F22738A989984E1D860D41C"
+				}
+				"qa02"
+				{
+					"encrypted_gid"		"06C01BD8C46920BBB0682C5B1DF2E8A63A482FA197A6E5E596F721BB37CD2A7C65E5C3E2609C4808D36F39696979318E22BF02DD"
+				}
+				"qa03"
+				{
+					"encrypted_gid"		"A41A6B499234CA12D1456BD7EA234C5F3A482FA197A6E5E596F721BB37CD2A7C350304857F1B8BF00D87309BF83D1164D16A9FAB"
+				}
+				"qa04"
+				{
+					"encrypted_gid"		"F59888F9069BF362969E365D53096E103A482FA197A6E5E596F721BB37CD2A7C49A1F73FB064567D899B649281B47D4D8FE0F9FE"
+				}
+				"qa05"
+				{
+					"encrypted_gid"		"6FA37166BF6A622075BCDE6702B225E93A482FA197A6E5E596F721BB37CD2A7CC4CB3FEAE549D1376F579A983FB7C0967E072E23"
+				}
+				"qa06"
+				{
+					"encrypted_gid"		"6528FB8461E6C922D6848ECCBA68DC703A482FA197A6E5E596F721BB37CD2A7C1BC0AC6FA048FAB057F11A9123247FE3ABFDA26E"
+				}
+				"qa07"
+				{
+					"encrypted_gid"		"55B5085EC4C971D493E6E515C83B700C3A482FA197A6E5E596F721BB37CD2A7C5FDC74B30C876467FB844B44F19655CDB015C0A5"
+				}
+				"qa08"
+				{
+					"encrypted_gid"		"18152174F8C656D88CD0258E87ED24863A482FA197A6E5E596F721BB37CD2A7C950B525E97992C3A94761F2279F0E237307B150D"
+				}
+				"release_candidates_tc"
+				{
+					"encrypted_gid"		"F59888F9069BF362969E365D53096E103A482FA197A6E5E596F721BB37CD2A7C49A1F73FB064567D899B649281B47D4D8FE0F9FE"
+				}
+			}
+		}
+		"226325"
+		{
+			"name"		"OS Independent Data Marvel Heroes"
+			"manifests"
+			{
+				"public"		"8935099997020861850"
+				"public_mh_testcenter"		"800869040173947885"
+			}
+			"maxsize"		"16372445455"
+			"encryptedmanifests"
+			{
+				"dev01"
+				{
+					"encrypted_gid"		"14FDEFD05CA3B48649866FD3DEC4F3E13A482FA197A6E5E596F721BB37CD2A7CE19B2ACD608CDAE95310B8F6FFEECAD65F9BF7B6"
+				}
+				"market01"
+				{
+					"encrypted_gid"		"EECF116685B07A1BF6467D56F84618763A482FA197A6E5E596F721BB37CD2A7C39D3F5DFE4DE87F192A15BB0DB38605AFA174BD0"
+				}
+				"play01"
+				{
+					"encrypted_gid"		"4C453ADC4FF0B880D8BE95F844D8EA883A482FA197A6E5E596F721BB37CD2A7C783ECE7408C24B539495B18DF502865424321837"
+				}
+				"private_testcenter"
+				{
+					"encrypted_gid"		"86970A7AF1DEAACE1A80AC94B6CD41D14C19D220FC20ECE1338A878FB4EB8C8BD3F90C6A9B2210519585DF84169921E060662A34"
+				}
+				"deploy_disabled"
+				{
+					"encrypted_gid"		"B79981C06FD0754D260960398FF82A813A482FA197A6E5E596F721BB37CD2A7C497D1B30B9852E1D50097D9AA9F6E6AD7ECC4E80"
+				}
+				"qa02"
+				{
+					"encrypted_gid"		"5B9128F033CEC89F73489C816A39DE343A482FA197A6E5E596F721BB37CD2A7CC5E7875009A964DBFAA5BD89667199F890404094"
+				}
+				"qa03"
+				{
+					"encrypted_gid"		"27097F2A107158C21057D472F4F2BF533A482FA197A6E5E596F721BB37CD2A7C15F9B1890B4AFD27124196DF5335E712303DD9B8"
+				}
+				"qa04"
+				{
+					"encrypted_gid"		"8C600005188C05BAB318E9A9296B10F23A482FA197A6E5E596F721BB37CD2A7CDA8C97BBE57165D95E8A3E0C8FAF2490CDB698B5"
+				}
+				"qa05"
+				{
+					"encrypted_gid"		"5BB14192638BFD96E315CB752DCAE9E33A482FA197A6E5E596F721BB37CD2A7C473A6F326AEA249AA3C6FDCB8FDFD6F59C4D897A"
+				}
+				"qa06"
+				{
+					"encrypted_gid"		"21F8794DFF33BFF66C278DE983B46C883A482FA197A6E5E596F721BB37CD2A7CD5B15B0F75745C0BD26DC8DCEFB00B62A21F4C7B"
+				}
+				"qa07"
+				{
+					"encrypted_gid"		"7E5E75B20400910A5469A11CD1E2F0C23A482FA197A6E5E596F721BB37CD2A7CD44B8B70CCC02C6D645C997A81064E846BD5DA29"
+				}
+				"qa08"
+				{
+					"encrypted_gid"		"2656BCCFB9286F5ACCF2BEB4355DC47B3A482FA197A6E5E596F721BB37CD2A7CDA59AFC63A57994AC7723CE83FF4EB431F73983A"
+				}
+				"release_candidates_tc"
+				{
+					"encrypted_gid"		"EB38A9791C9385A7DDC17E972120FCE23A482FA197A6E5E596F721BB37CD2A7C413D4F67C0865099E0D9953F16B3AC1968C737FD"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"469284"
+			}
+			"dev01"
+			{
+				"buildid"		"366982"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"market01"
+			{
+				"buildid"		"476486"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"play01"
+			{
+				"buildid"		"443899"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"private_testcenter"
+			{
+				"buildid"		"463183"
+				"description"		"NDA TestCenter (Whitelist)"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"298151859CFE1620D529A732BE2ABE224C19D220FC20ECE1338A878FB4EB8C8B0E3A2F50B59E011C8B66C966CF23D8206CA0998F"
+			}
+			"deploy_disabled"
+			{
+				"buildid"		"470393"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"public_mh_testcenter"
+			{
+				"buildid"		"476359"
+				"description"		""
+			}
+			"qa02"
+			{
+				"buildid"		"459073"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"qa03"
+			{
+				"buildid"		"476126"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"qa04"
+			{
+				"buildid"		"476139"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"qa05"
+			{
+				"buildid"		"459061"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"qa06"
+			{
+				"buildid"		"430991"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"qa07"
+			{
+				"buildid"		"477117"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"qa08"
+			{
+				"buildid"		"477302"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"release_candidates_prod"
+			{
+				"buildid"		"469284"
+				"description"		"Holds Prod Builds Before Live"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+			"release_candidates_tc"
+			{
+				"buildid"		"476359"
+				"description"		"Holds TC Builds Before Live"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C3669730C018EFA53A49597306EFB9BA3A482FA197A6E5E596F721BB37CD2A7C75735F27B5BB0111DAA2E904EB7A5B9EA6407B45"
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,437 @@
+"appinfo"
+{
+	"appid"		"257510"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"The Talos Principle"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"0392d2bd5d1bec31f2fd283bc4555fdc22dd44a9"
+		"logo_small"		"0392d2bd5d1bec31f2fd283bc4555fdc22dd44a9_thumb"
+		"icon"		"8222673c1eb13e6a8a8367ec0e2940a887ecf270"
+		"clienttga"		"9dd99a3584ec96ac5eaf9cfde0d164871918ce69"
+		"clienticon"		"0518809d7fc702807d7b3ee0b7f4bc351be7bfae"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"workshop_visible"		"1"
+		"metacritic_name"		"The Talos Principle"
+		"controller_support"		"full"
+		"metacritic_score"		"88"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/the-talos-principle"
+		"community_visible_stats"		"1"
+		"gameid"		"257510"
+	}
+	"extended"
+	{
+		"listofdlc"		"307910,307911,316550,322020,322021,322022"
+		"developer"		"Croteam"
+		"developer_url"		""
+		"publisher"		"Devolver Digital"
+		"homepage"		"http://www.croteam.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Talos Principle"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bin/Talos.exe"
+				"description"		"Play"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Bin/Talos_Unrestricted.exe"
+				"description"		"Play moddable version"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Bin/Talos"
+				"description"		"Play"
+				"workingdir"		"Bin"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"Bin/Talos_Unrestricted"
+				"description"		"Play moddable version"
+				"workingdir"		"Bin"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"Bin/Talos"
+				"description"		"Play"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"Bin/Talos_Unrestricted"
+				"description"		"Play moddable version"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100923FF420FC5A554E011D6391BD70CABFC6E97E5854BC960864DA0B5581C242FA44F424DCE8447A96CE45BF11C7108C459F23CE1D8C8917E33866B9EADCB17F911D5C2CABB370A813E234949A0290819A23D4303E69F7F06D3CF9FF676B01CDAA0FA5BF77845882DA5AB51C5CC1500B5F827822231C0FB8BF90EDC0DD068BB4A3020111"
+		"checkguid"		"Talos.exe"
+		"checkguids"		"talos_unrestricted.exe;talos.exe"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"257511"
+		{
+			"name"		"GameBin_Windows"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2018192542376932921"
+				"publicbeta"		"3475103749484918333"
+			}
+			"maxsize"		"48912080"
+			"encryptedmanifests"
+			{
+				"dummybuild"
+				{
+					"encrypted_gid"		"F283C8B66397A3500B89556E00C5C30A4EECC00DF04FB4244ADB6B696041E9FA79A2B108D6E661F3BC9536B60E0E5C4C97703AEF"
+				}
+				"internal"
+				{
+					"encrypted_gid"		"53D503E7896262CE7E2B3878700003C172B2C3C19CCBF88493F37A5A5C2A0FF31B9D2A5651ACBCF04D4B355BA9ED88CDCDA2112E"
+				}
+				"preview_oct_20"
+				{
+					"encrypted_gid"		"480CE5FB79BE7ED2411DAFF29E5335840E9C6C27BBBC91E4E546831FF50C169BBC8DC6225D50779E57CFCDF74D2C6552EA8155A3"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid"		"1CF2B5520E57FB95F9543AE3A97F0ED1A7B6689B13A58EDF0BE9FAB1D027033C2C659D18CD2AEED8254D2B903C75E5162F59CF9E"
+				}
+			}
+		}
+		"257512"
+		{
+			"name"		"GameBin_OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8293380786570071450"
+				"publicbeta"		"9039878727927932832"
+			}
+			"maxsize"		"59920184"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid"		"134757A0AAEE2F06EEC4625F741C9D8D72B2C3C19CCBF88493F37A5A5C2A0FF36E145ADFFBDC96D42E967F0FCD68B00F10A681F9"
+				}
+				"preview_oct_20"
+				{
+					"encrypted_gid"		"593D71D39C6331C2E4FB41079799F7F60E9C6C27BBBC91E4E546831FF50C169BF16060D323848818B87086DC25AC45B912D66DE1"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid"		"FB43EC9538A9E27462AFA9BC9B922B0DA7B6689B13A58EDF0BE9FAB1D027033CC95FED335864B65F833B6B23EEE391F28B411D62"
+				}
+			}
+		}
+		"257513"
+		{
+			"name"		"GameBin_Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"3170107814038968689"
+				"publicbeta"		"8248810579048428198"
+			}
+			"maxsize"		"63779984"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid"		"484EFA8D4751572F3CFF4E73928DF3F572B2C3C19CCBF88493F37A5A5C2A0FF34834CA1935E58E9D7EA2AFC30965A1B35E7C151A"
+				}
+				"preview_oct_20"
+				{
+					"encrypted_gid"		"53B5DC47CF7537CF146032BBAA8F472B0E9C6C27BBBC91E4E546831FF50C169B33E17DEC11F345A420262F5D337CD6A05C0DCC92"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid"		"F81192A6C22B960A8DD4A5EE4B944CACA7B6689B13A58EDF0BE9FAB1D027033C44A0433F275DE4D506F216011EF9735741B10DA7"
+				}
+			}
+		}
+		"257515"
+		{
+			"name"		"Common"
+			"manifests"
+			{
+				"public"		"8986158524600611840"
+				"publicbeta"		"415067456888111848"
+			}
+			"maxsize"		"5439377389"
+			"encryptedmanifests"
+			{
+				"dummybuild"
+				{
+					"encrypted_gid"		"A0A22719E2247AA2744D5CD269FB3BBF4EECC00DF04FB4244ADB6B696041E9FAEC4E896FA8124A485C7A355D1A87FFA2538A856E"
+				}
+				"internal"
+				{
+					"encrypted_gid"		"0DF7EA15BD8EAE27D9F2467E0434F9EE72B2C3C19CCBF88493F37A5A5C2A0FF3F8132F2ED5D4D50F968387300D6D324C11654D49"
+				}
+				"preview_oct_20"
+				{
+					"encrypted_gid"		"C1DC9D0BF0600B47C5309FA8B178AB3B0E9C6C27BBBC91E4E546831FF50C169B8D64B92510ECCE82B27BDC5ACE1ADFA369EE0543"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid"		"1D8F2543CC66829FFE477933C6AA8EE2A7B6689B13A58EDF0BE9FAB1D027033C8AB34708A5A823E7B17AB2741CB4B4C25AAAEE9D"
+				}
+			}
+		}
+		"257516"
+		{
+			"name"		"Common_Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1237958166729860756"
+			}
+			"maxsize"		"117245"
+			"encryptedmanifests"
+			{
+				"dummybuild"
+				{
+					"encrypted_gid"		"100D939F08FBD0CF121564D30F2A60C34EECC00DF04FB4244ADB6B696041E9FAA9356B59DD04FC7A42C736748554F51FFE26D144"
+				}
+				"preview_oct_20"
+				{
+					"encrypted_gid"		"06D1FB5661BBC33DB5E9C288AD9DF6D50E9C6C27BBBC91E4E546831FF50C169BB269FF4E4B8BC9186C95B135C52B925F54887D76"
+				}
+			}
+		}
+		"257517"
+		{
+			"name"		"Common_OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2627255561033139705"
+			}
+			"maxsize"		"143747"
+		}
+		"257518"
+		{
+			"name"		"Common_Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5988183963816743810"
+			}
+			"maxsize"		"94259"
+			"encryptedmanifests"
+			{
+				"preview_oct_20"
+				{
+					"encrypted_gid"		"695098641D73A412BEA0F30A90C289680E9C6C27BBBC91E4E546831FF50C169B8B3DB3487439E1DD71C1E8DD3D6E603133A3CD3F"
+				}
+			}
+		}
+		"257519"
+		{
+			"name"		"CommonCatalog"
+			"manifests"
+			{
+				"public"		"4554990112195176406"
+				"publicbeta"		"4906101680219337427"
+			}
+			"maxsize"		"1858219"
+			"encryptedmanifests"
+			{
+				"dummybuild"
+				{
+					"encrypted_gid"		"49FB76B54F8EA078FB3DD4D2B6CF10E84EECC00DF04FB4244ADB6B696041E9FA904C93FCDF0EAE0D1F40AA5B53DE1FE042F82200"
+				}
+				"internal"
+				{
+					"encrypted_gid"		"10E146FD88E40DA4EA5033F3ECFC99B772B2C3C19CCBF88493F37A5A5C2A0FF3C25241DEE7ACFADF05FE83CBA0A50C57E1BE1327"
+				}
+				"preview_oct_20"
+				{
+					"encrypted_gid"		"08B24C97C2FC2E980606FCD202695D740E9C6C27BBBC91E4E546831FF50C169BC5F495DC6D1F2E0196ADBFD5E3D6FAFCFD1BD2E1"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid"		"2E75B65CC05E7150AB376FC50C288F50A7B6689B13A58EDF0BE9FAB1D027033C68B50F2D3A355AF861AECCC416D680DEFEB71949"
+				}
+			}
+		}
+		"257521"
+		{
+			"name"		"BugReporter_Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"322020"
+		{
+			"name"		"The Talos Principle - Soundtrack (322020) Depot"
+			"manifests"
+			{
+				"public"		"1039683691471898538"
+			}
+			"maxsize"		"1866885124"
+			"dlcappid"		"322020"
+		}
+		"322021"
+		{
+			"name"		"The Talos Principle - Bonus Content (322021) Depot"
+			"manifests"
+			{
+				"public"		"4757492834990747610"
+			}
+			"maxsize"		"793612656"
+			"dlcappid"		"322021"
+		}
+		"322022"
+		{
+			"name"		"The Talos Principle - Prototype (322022) Depot"
+			"manifests"
+			{
+				"public"		"4383443687812477256"
+				"publicbeta"		"7673940384630485679"
+			}
+			"maxsize"		"211726262"
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"encrypted_gid"		"CD310BC3E1D4007DA5AB160820D3F5FF72B2C3C19CCBF88493F37A5A5C2A0FF3480010192270B07DFC6041CAF6999BC86105433F"
+				}
+				"closedbeta"
+				{
+					"encrypted_gid"		"9D63E1F494D8D105227E4C0A44DE1FCCA7B6689B13A58EDF0BE9FAB1D027033CB98A176AAC01416BC5E503F075EAC8D88BFE8763"
+				}
+			}
+			"dlcappid"		"322022"
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"472860"
+			}
+			"dummybuild"
+			{
+				"buildid"		"370221"
+				"description"		"For AutoTest bot"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"EDCCBDAB9F64098E1BEDC9B52A6C9A5A4EECC00DF04FB4244ADB6B696041E9FADF7F5201E48CFB30E1BB2C201EA7B560AFA027B7"
+			}
+			"internal"
+			{
+				"buildid"		"476277"
+				"description"		"For testing in Croteam"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"E73763F5AF44E176410B3DBFD6C2B6E972B2C3C19CCBF88493F37A5A5C2A0FF38DEF5F85A06B0664922745B14BC8EAE726B6BA09"
+			}
+			"preview_oct_20"
+			{
+				"buildid"		"415174"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7917DB29A5F6C77E6D9986BAE3D665AA0E9C6C27BBBC91E4E546831FF50C169B0C71BAE53EF9A245D2B714E58CB437D3C7444787"
+			}
+			"closedbeta"
+			{
+				"buildid"		"476277"
+				"description"		"Testers, IHVs,..."
+				"pwdrequired"		"1"
+				"pwdtestgid"		"E236226A7E3413D5E240BC72CEA98B3BA7B6689B13A58EDF0BE9FAB1D027033C19DCEA7C6080358E45D45398B79A9226C1594E70"
+			}
+			"publicbeta"
+			{
+				"buildid"		"476277"
+				"description"		"Public testing"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

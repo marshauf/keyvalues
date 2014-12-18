@@ -1,0 +1,505 @@
+"appinfo"
+{
+	"appid"		"221540"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Defense Grid 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"ea60dcb1d2894b60197da68f841fd41004fbdd89"
+		"logo_small"		"ea60dcb1d2894b60197da68f841fd41004fbdd89_thumb"
+		"icon"		"5dbd84cf0b7d3ab7ea3a85d50fd7fe966e275ac0"
+		"clienttga"		"5a4492ec48911ec1be81c1655c3d690280fef397"
+		"clienticon"		"32133f0ec360cb66f5539400a778644d08dc6e4b"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"DG2: Defense Grid 2"
+		"controller_support"		"full"
+		"metacritic_score"		"81"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/dg2-defense-grid-2"
+		"community_visible_stats"		"1"
+		"gameid"		"221540"
+	}
+	"extended"
+	{
+		"developer"		"Hidden Path Entertainment"
+		"gamedir"		"ValveTestApp221540"
+		"homepage"		"http://www.hiddenpath.com/games/defense-grid-2/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"267190,267191,267192,315220,315410,315411,315412,330540"
+		"developer_url"		""
+		"publisher"		"505 Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DefenseGrid2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DefenseGrid2_Release.exe"
+				"description"		"Launch DG2: Defense Grid 2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"run_dg2.sh"
+				"description"		"Launch DG2: Defense Grid 2"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"run_dg2.sh"
+				"description"		"Launch DG2: Defense Grid 2"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"preloadonly"		"1"
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,brazilian"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8124929965194586177"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"221541"
+		{
+			"name"		"Defense Grid 2 Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6814956501322591013"
+			}
+			"maxsize"		"3784831484"
+			"encryptedmanifests"
+			{
+				"beta_staging"
+				{
+					"encrypted_gid"		"8B4D2516E79EAF980F2FE3AC884B4FF8FD15F83CBAA95325A4844F78C5AC54B9A39AAF8425BC8DA0F2E41F8B46D84D0AAA98CB79"
+				}
+				"dev"
+				{
+					"encrypted_gid"		"07E843B3BB4F7E58801262A5BE0434E87243A52DA5350C59A1ED9C6FA39494AD28ADF7647100D778DF835C65C2983E2F197E9F00"
+				}
+				"dg2press"
+				{
+					"encrypted_gid"		"AAA04CAD910277A14DBF7249362C4E250A2FC955BE1B237D1E7CAE3893F07C732755823A8DF689792EAC9C87827136457DE298CE"
+				}
+				"e3co-op"
+				{
+					"encrypted_gid"		"8456B7316AD3F54A0C2E57774595E98B0E151BF77D799ED137744120ACB2D3F4A4C459B41D13A6A9EF8EE1BAF1428908912340C1"
+				}
+				"e3sp"
+				{
+					"encrypted_gid"		"C43608A3F038C4229BD5D2B4240D4EC30E151BF77D799ED137744120ACB2D3F4B4B7A3DD49C58DCE1CE04873FF6E0BD6F5CB6755"
+				}
+				"gcmp"
+				{
+					"encrypted_gid"		"F6DCB3E3F8EF3F564AF76EDB794F28300E151BF77D799ED137744120ACB2D3F423D008352046CA886FB9388375DA7C23E29B2870"
+				}
+				"gcsp"
+				{
+					"encrypted_gid"		"7FAD9045CE3B6CC2E1B3AB3E565170280E151BF77D799ED137744120ACB2D3F491BBF5150B8B91C6D471B7446D42669746D59FEE"
+				}
+				"internal_test"
+				{
+					"encrypted_gid"		"433435F21D2F4DF19912B33BD8DABDD8B00F405751E37B60486E5B144C80885DF86F5190602CE7E2C060C0EA609846C49A6A1737"
+				}
+				"kiosk"
+				{
+					"encrypted_gid"		"5E8010582F089012B9F64B923919D321A30B8618B6AD8488625A3A4D2D6F1D45980C89B5D170B71B40FF5EDF2DD8397152CA22C9"
+				}
+				"language"
+				{
+					"encrypted_gid"		"CB6FBE4E4A7FB759E5BE48A139D7F8753343BF7BB4B88DB277E1C42AEB9E690CD824732B5EA9FE0331FB7F6E7D6CDB310DDD2FE3"
+				}
+				"mac_staging"
+				{
+					"encrypted_gid"		"B411097EADA2EE53FD9C9A45E1E42AC4329C2962BF86EF483A474C7B45F2C97B3300801249711CC232797272825FE9360339806B"
+				}
+				"opengl"
+				{
+					"encrypted_gid"		"73E39F9F63119465260F4EF6DB1D11818877496C219F23480E45E587D750DBD179E88B6FB97787FE8424E8C6B0062CC58B38936C"
+				}
+				"partner"
+				{
+					"encrypted_gid"		"131451ACCE97CAC83CDB211257ABE3B8764DCEC840F66E66719F38C27AAACAEE47D78544C02C32AA655594D35EB172F9B32BD081"
+				}
+				"architect"
+				{
+					"encrypted_gid"		"24E92C81AD9B8F912CE4DBE202A0012DE2B167B3732CD25CE4156AF44FDFDD56AA34CE4CBE64270D03A7F76DDD38E7C81FE6FDF5"
+				}
+				"weekly"
+				{
+					"encrypted_gid"		"172C78C769B0103AA6178992F49C64D72E6C4E1AC45DA84C2CC2914967AB8AFD5674C85699AF8377F2324E97F27DFBC84DA0C614"
+				}
+			}
+		}
+		"221542"
+		{
+			"name"		"Defense Grid 2 Content - Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6324048725750159060"
+			}
+			"maxsize"		"2914627435"
+			"encryptedmanifests"
+			{
+				"beta_staging"
+				{
+					"encrypted_gid"		"F5947625210922D6E34878E5C31B1F6FFD15F83CBAA95325A4844F78C5AC54B9D5F59ADC871FE18C834BE664791B4D380269C944"
+				}
+				"dev"
+				{
+					"encrypted_gid"		"45D46C85E5912CCC6562256EB4E130947243A52DA5350C59A1ED9C6FA39494ADE78931F94E3218968918DB4A3BECEB5CFF1DD753"
+				}
+				"dg2press"
+				{
+					"encrypted_gid"		"9E5DD23458B881F7933BA6DBD8F22F1E0A2FC955BE1B237D1E7CAE3893F07C7349852A2596B92E5EF36C2BB763DD622E972ED49F"
+				}
+				"internal_test"
+				{
+					"encrypted_gid"		"35FF50CFF2146B697FE3DB85133EE9B8B00F405751E37B60486E5B144C80885D6D9C56CDFEE7DC0F249E004C78A35792F7591331"
+				}
+				"language"
+				{
+					"encrypted_gid"		"98DAF6E9025613C3D5C59B792DBA70E23343BF7BB4B88DB277E1C42AEB9E690C90D1B51F145E97141D927DC0D7B81C57943EABF4"
+				}
+				"partner"
+				{
+					"encrypted_gid"		"FABFF1330672FD44D24F2F08DDC11F75764DCEC840F66E66719F38C27AAACAEE7E672DEA5C926A62CAF48AA10E52CB22789AFDD0"
+				}
+				"weekly"
+				{
+					"encrypted_gid"		"E9CBE5DB8B2624C0A79431527EDC67202E6C4E1AC45DA84C2CC2914967AB8AFDCF7E837EC3DA7874A48DA90C992115A93C275683"
+				}
+			}
+		}
+		"221543"
+		{
+			"name"		"Defense Grid 2 Content - Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2327929727359470570"
+			}
+			"maxsize"		"2129134763"
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"encrypted_gid"		"295C8304F0087D97F557DC1A10FD09977243A52DA5350C59A1ED9C6FA39494AD1D46A68DBCEA3E5663CB58C984F4AD48E80C0211"
+				}
+				"internal_test"
+				{
+					"encrypted_gid"		"120224466D912A41885DCB075C349C42B00F405751E37B60486E5B144C80885D36F627CADD974F081EEB4B755F9D1EEDCAB9782B"
+				}
+				"language"
+				{
+					"encrypted_gid"		"EDB55BB8E99979865F1208BA205D17C83343BF7BB4B88DB277E1C42AEB9E690C1E09395CABE3C5594BB05334587150738012CBDB"
+				}
+				"mac"
+				{
+					"encrypted_gid"		"77369D5F03E01FE4BC0B17E1FBDA2A4A4A4682554DFC0ED89FE564D3233DB326D0487308995B14C8230A9AFD10606C9A4ABCE2AC"
+				}
+				"mac_staging"
+				{
+					"encrypted_gid"		"AA932D0CCF40F05ACD9433BB476871DE329C2962BF86EF483A474C7B45F2C97BBE7A020929DB142C986DCC46C768CCAF08F502B0"
+				}
+				"architect"
+				{
+					"encrypted_gid"		"D50B4897CBD03CE8164C3E572918E128E2B167B3732CD25CE4156AF44FDFDD56C15E53A4232D1181BD9A4B7713EC6BB2BFD5F77F"
+				}
+			}
+		}
+		"267191"
+		{
+			"name"		"Defense Grid 2 - Double-Take (Designer's cut)"
+			"manifests"
+			{
+				"public"		"231229391403674061"
+			}
+			"maxsize"		"73312"
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"encrypted_gid"		"EFF56CB4AC0396877D146A0AF4E578F47243A52DA5350C59A1ED9C6FA39494ADF95E3A5A0100BC402B37F37F06CCC2C3ABCAC49F"
+				}
+			}
+			"dlcappid"		"267191"
+		}
+		"315410"
+		{
+			"name"		"Defense Grid 2 - The Art of Defense Grid (315410) Depot"
+			"manifests"
+			{
+				"public"		"7554778794138311298"
+			}
+			"maxsize"		"131348801"
+			"dlcappid"		"315410"
+		}
+		"315411"
+		{
+			"name"		"Defense Grid 2 - The Art of Defense Grid 2 (315411) Depot"
+			"manifests"
+			{
+				"public"		"9006761618856091943"
+			}
+			"maxsize"		"161905544"
+			"dlcappid"		"315411"
+		}
+		"315412"
+		{
+			"name"		"Defense Grid 2 - The Making of Defense Grid 2 (315412) Depot"
+			"manifests"
+			{
+				"public"		"7658571949456973234"
+			}
+			"maxsize"		"53068579"
+			"encryptedmanifests"
+			{
+				"language"
+				{
+					"encrypted_gid"		"F3D75FEBC3A671C687E89236C8D4A08F3343BF7BB4B88DB277E1C42AEB9E690CB411A2B62C928993B5B74DC0D871764F3B5FAC13"
+				}
+				"mac"
+				{
+					"encrypted_gid"		"76F780D0981A73F5B0CA6631FA2F7E2B4A4682554DFC0ED89FE564D3233DB3267220870F71B3782A818543A75B6BC28F48852538"
+				}
+				"mac_staging"
+				{
+					"encrypted_gid"		"79668811629D6366523DB8921337D181329C2962BF86EF483A474C7B45F2C97BEE3636976DF694E6ABC01BF061DF3EE88827E7AB"
+				}
+				"architect"
+				{
+					"encrypted_gid"		"9048EC2FE1A46240C8EBAC4941CAECE1E2B167B3732CD25CE4156AF44FDFDD56FDDCA244457ED5B437CC1D2025044D0F77400C16"
+				}
+			}
+			"dlcappid"		"315412"
+		}
+		"330540"
+		{
+			"name"		"Defense Grid 2 - Alienware: Alien Space Base (330540) Depot"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"encrypted_gid"		"80308A6EE57AF99C4A424FF8FA469A4E7243A52DA5350C59A1ED9C6FA39494ADAD3F5D63460030C9B78F6BF01B69C941A92E6EE8"
+				}
+			}
+			"maxsize"		"1003598"
+			"dlcappid"		"330540"
+		}
+		"267190"
+		{
+			"name"		"Defense Grid 2 - Multiplayer Map 01 - Alienware (267190) Depot"
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"encrypted_gid"		"BD9BAD111544E0267742455F9EE164947243A52DA5350C59A1ED9C6FA39494ADC69D30DE64C9E2F0A1956D398B6334A082353445"
+				}
+			}
+			"maxsize"		"1057754"
+			"dlcappid"		"267190"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"466614"
+			}
+			"beta_staging"
+			{
+				"buildid"		"466568"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"A5D4A81B2C74FBC601D79B0689E186BCFD15F83CBAA95325A4844F78C5AC54B9F3D80D72674FB5320562924956401DDB8EEA95E9"
+			}
+			"dev"
+			{
+				"buildid"		"477140"
+				"description"		"Internal dev branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"132EFB9A5A2E73376BB3CC9AE99C231F7243A52DA5350C59A1ED9C6FA39494ADA9D3E33D6DAA9AEA3B3AEBA30228ACB56A94758C"
+			}
+			"dg2press"
+			{
+				"buildid"		"386664"
+				"description"		"Press branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"E2133EBECC871B9FDA95AFC01242459C0A2FC955BE1B237D1E7CAE3893F07C7359C2DA4E8BB66C9A9BAC9C46C6E6C575E7961220"
+			}
+			"e3co-op"
+			{
+				"buildid"		"289559"
+				"description"		"E3 coop kiosk build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"55DF71D6533241EA9D4525E96C8C13A40E151BF77D799ED137744120ACB2D3F42CD5E266480B8472458A55AA5043E37CF158B695"
+			}
+			"e3sp"
+			{
+				"buildid"		"289564"
+				"description"		"E3 single player kiosk build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"55DF71D6533241EA9D4525E96C8C13A40E151BF77D799ED137744120ACB2D3F42CD5E266480B8472458A55AA5043E37CF158B695"
+			}
+			"gcmp"
+			{
+				"buildid"		"354067"
+				"description"		"Gamescom multiplayer kiosk build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"55DF71D6533241EA9D4525E96C8C13A40E151BF77D799ED137744120ACB2D3F42CD5E266480B8472458A55AA5043E37CF158B695"
+			}
+			"gcsp"
+			{
+				"buildid"		"354027"
+				"description"		"Gamescom single player kiosk build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"55DF71D6533241EA9D4525E96C8C13A40E151BF77D799ED137744120ACB2D3F42CD5E266480B8472458A55AA5043E37CF158B695"
+			}
+			"internal_test"
+			{
+				"buildid"		"441832"
+				"description"		"Internal test branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"FA0FD3B7B0CF092A523E1CA8D902B08DB00F405751E37B60486E5B144C80885D73AAAA8105845FB27A1F1ECA2057258269BE692F"
+			}
+			"kiosk"
+			{
+				"buildid"		"343508"
+				"description"		"Special kiosk build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"5C090A1471890D68815D15788440F4E0A30B8618B6AD8488625A3A4D2D6F1D45290CBC1790DD4B5E5948114F682710BD29801A18"
+			}
+			"language"
+			{
+				"buildid"		"397534"
+				"description"		"Loc test branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"129015BB4CEB302E408001EBCDB1F9F03343BF7BB4B88DB277E1C42AEB9E690C52EAD7198D5A36D4EE5DCE9F69F509716A275E32"
+			}
+			"mac"
+			{
+				"buildid"		"440665"
+				"description"		"previous live version of mac build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"8980707CDD568B73F241D7AB3351FAC54A4682554DFC0ED89FE564D3233DB3264F385528E94BC482C9C3E33323CF5B78F0020F4B"
+			}
+			"mac_staging"
+			{
+				"buildid"		"418325"
+				"description"		"branch used to test certain players configs."
+				"pwdrequired"		"1"
+				"pwdtestgid"		"504D783A8C5E6B9C30A456C338D595B0329C2962BF86EF483A474C7B45F2C97B958823655650E9F45F9D58AAB43648588C477F55"
+			}
+			"opengl"
+			{
+				"buildid"		"393642"
+				"description"		"Special OpenGL build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"9415B842736BBC1FAF2C5CEDF0A0CF308877496C219F23480E45E587D750DBD16C0E6342F41F3EF2DFB30C14F1B91955D8C26F12"
+			}
+			"partner"
+			{
+				"buildid"		"371845"
+				"description"		"partner build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"521FF344167234BE647AAF4E289A2288764DCEC840F66E66719F38C27AAACAEE97AA3B6949BF99520DBBA14455F5B389DBA16871"
+			}
+			"architect"
+			{
+				"buildid"		"419378"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"3FA6DB63F26EA0292FBB1E007A1EF2D2E2B167B3732CD25CE4156AF44FDFDD56C2AB67686ADB80A25BADEC894B03F538ABBB766F"
+			}
+			"weekly"
+			{
+				"buildid"		"384693"
+				"description"		"weekly build update"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"72B02C8DFD93AD3E57F46EA44E6946B92E6C4E1AC45DA84C2CC2914967AB8AFDA6C5C53C365E13B6DFB17491AD8D242BBB1D495F"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

@@ -1,0 +1,883 @@
+"appinfo"
+{
+	"appid"		"34330"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Total War: SHOGUN 2"
+		"clienticon"		"71a76cd2fbcd1457887fe57727aa10e5e1ce2ea4"
+		"clienttga"		"8e5fc44d9ec5f9b72f16ce03abe479acc187f897"
+		"icon"		"2fa97296a62daf0329b3867ad6837a2289229fbb"
+		"logo"		"c6f6e87e742a2e40689486423e8320bd318e3ec7"
+		"logo_small"		"c6f6e87e742a2e40689486423e8320bd318e3ec7_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"czech"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/eula_shogun2"
+				"id"		"eula_shogun2"
+				"name"		"eula_shogun2"
+			}
+		}
+		"clienticns"		"fa1cc5f34540929969f8f09e432b2a5d0cc07b7a"
+		"oslist"		"windows,macos"
+		"workshop_visible"		"1"
+		"type"		"game"
+		"community_visible_stats"		"1"
+		"gameid"		"34330"
+	}
+	"extended"
+	{
+		"developer"		"The Creative Assembly"
+		"gamedir"		"Total War Shogun 2"
+		"gamemanualurl"		"http://store.steampowered.com/manual/201270/"
+		"guideappid"		"101001"
+		"homepage"		"http://www.totalwar.com/shogun2"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"launcheula"		"http://store.steampowered.com/eula/eula_shogun2"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"34331"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"listofdlc"		"34342,34343,34344,34345,34346,34347,34348,201270,201271,201272,201273,201274,201275,201276,201277,201278,201279,202931,203710,223180,223181"
+		"developer_url"		""
+		"publisher"		""
+	}
+	"config"
+	{
+		"installscriptsignature"		"2f96f9faaa0d37676cf06c327c6e2bd8f7ce5471d23e47d48b943455d031485dc9c89931928ff565b18716dbd88cc7e599bdcfd2136958d9811a8bc2421f8b2bc1f594bc0b6a678132d858a83dcd1a3169cc44e5c8ddee3bbb693ff89e596b804090454998be88332305506262f7fdcf4787d2f7337588936295d7273a399758"
+		"contenttype"		"3"
+		"installdir"		"Total War SHOGUN 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Shogun2.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"data\\encyclopedia\\how_to_play.html"
+				"description"		"Encyclopaedia"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"benchmarks\\benchmark_specify_properties.bat"
+				"arguments"		"/gui Benchmarks/Sekigahara_Intro.replay; Benchmarks/Sekigahara_Intro_Camera.xml; benchmarks\\BenchmarkDX11GraphicsHigh1080p_preferences.script.txt;"
+				"description"		"Benchmark DX11 Graphics High 1080p"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"benchmarks\\benchmark_specify_properties.bat"
+				"arguments"		"/gui Benchmarks/Sekigahara_Intro.replay; Benchmarks/Sekigahara_Intro_Camera.xml; benchmarks\\BenchmarkDX11GraphicsBalanced720p_preferences.script.txt;"
+				"description"		"Benchmark DX11 Graphics Balanced 720p"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"benchmarks\\benchmark_current_settings.bat"
+				"arguments"		"/gui Benchmarks/Sekigahara_Intro.replay; Benchmarks/Sekigahara_Intro_Camera.xml;"
+				"description"		"Benchmark Game Settings"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"benchmarks\\benchmark_specify_properties.bat"
+				"arguments"		"/gui Benchmarks/Sekigahara_Intro.replay; Benchmarks/Sekigahara_Intro_Camera.xml; benchmarks\\BenchmarkDX9GraphicsBalanced720p_preferences.script.txt;"
+				"description"		"Benchmark DX9 Graphics Balanced 720p"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"6"
+			{
+				"executable"		"benchmarks\\benchmark_specify_properties.bat"
+				"arguments"		"/gui Benchmarks/BenchmarkDX9CPU.replay; Benchmarks/BenchmarkDX9CPU_camera.xml; benchmarks\\BenchmarkDX9CPU_preferences.script.txt;"
+				"description"		"Benchmark DX9 CPU"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"7"
+			{
+				"executable"		"Total War SHOGUN 2.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100AF336E35AD7B492545BA32DE317F4EB1D73BCD5E471A7D16E2796D30071AE019B210C26BF0655DCA68D061F1BE6CF3FFF5C668B28D1F1CD5B213BE649DD78CF79452E6E484681D177E30A2E36315E5DFA51D9BC3A9D2B43CEC3C97C1066DA3D28BEA05C73CE83A77B99522C31BD03B61AF094F2175B4063633CB6354276026C3020111"
+		"checkguid"		"Shogun2.dll"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\34330"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist2005 june 2011"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\34330"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"1"
+				"description"		"VCRedist2005"
+			}
+			"vcredist2005-sp1"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\34330"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86-sp1.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"1"
+			}
+			"vcredist2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\34330"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86_90.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"1"
+			}
+			"cleanvcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\34330"
+				"process 1"		"%INSTALLDIR%\\redist\\clean_vcredist.bat"
+				"nocleanup"		"1"
+			}
+			"flash player 11"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\34330"
+				"process 1"		"%INSTALLDIR%\\redist\\install_flash_player_11_plugin_32bit.exe"
+				"nocleanup"		"1"
+			}
+			"flash security exception"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\34330"
+				"process 1"		"%INSTALLDIR%\\redist\\flashsecurity.exe"
+				"nocleanup"		"1"
+			}
+		}
+		"delete files on uninstall"
+		{
+			"1"		"%INSTALLDIR%\\awesomium.log"
+			"2"		"%INSTALLDIR%\\awesomium_cache\\*"
+		}
+		"run process on uninstall"
+		{
+			"delete temporary files"
+			{
+				"process 1"		"%INSTALLDIR%\\redist\\clean_on_uninstall.bat"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"34333"
+		{
+			"name"		"Total War Shogun 2 redist"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1972056557494830740"
+			}
+			"maxsize"		"122926803"
+		}
+		"34332"
+		{
+			"name"		"Total War Shogun 2 data"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7514500714585308624"
+			}
+			"maxsize"		"19960990339"
+		}
+		"34331"
+		{
+			"name"		"Total War Shogun 2 exe"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6224892170849790400"
+			}
+			"maxsize"		"27270277"
+		}
+		"201278"
+		{
+			"name"		"Total War: SHOGUN 2 - Fall of the Samurai Soundtrack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1545335483322603358"
+			}
+			"maxsize"		"193084825"
+			"dlcappid"		"201278"
+		}
+		"201271"
+		{
+			"name"		"Total War: SHOGUN 2 - Fall of the Samurai"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3803329044277082064"
+			}
+			"maxsize"		"3740240814"
+			"dlcappid"		"201271"
+		}
+		"34334"
+		{
+			"name"		"Total War SHOGUN 2 English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8572849454388416810"
+			}
+			"maxsize"		"633340038"
+		}
+		"34335"
+		{
+			"name"		"Total War SHOGUN 2 Czech"
+			"config"
+			{
+				"language"		"czech"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8539211000709076671"
+			}
+			"maxsize"		"620487031"
+		}
+		"34336"
+		{
+			"name"		"Total War SHOGUN 2 French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8113049070912708088"
+			}
+			"maxsize"		"586637687"
+		}
+		"34337"
+		{
+			"name"		"Total War SHOGUN 2 German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1244711290222008924"
+			}
+			"maxsize"		"582469567"
+		}
+		"34338"
+		{
+			"name"		"Total War SHOGUN 2 Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6708468730270976987"
+			}
+			"maxsize"		"620913030"
+		}
+		"34339"
+		{
+			"name"		"Total War SHOGUN 2 Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5954890168201675003"
+			}
+			"maxsize"		"619509444"
+		}
+		"34340"
+		{
+			"name"		"Total War SHOGUN 2 Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7920812727774278352"
+			}
+			"maxsize"		"592560451"
+		}
+		"34341"
+		{
+			"name"		"Total War SHOGUN 2 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7704137764340540500"
+			}
+			"maxsize"		"595740671"
+		}
+		"34362"
+		{
+			"name"		"Total War SHOGUN 2 Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2019728393033869948"
+			}
+			"maxsize"		"517975764"
+		}
+		"214951"
+		{
+			"name"		"launcher"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5820377459498758589"
+			}
+			"maxsize"		"56941968"
+			"encryptedmanifests"
+			{
+				"beeswax"
+				{
+					"encrypted_gid"		"06D2A0E5C02FA5247AF8F901D4064FF82B8D7506716C6630E9769A9E887F067B2D461291AA80C82F08807806BBA84CC698DDA70B"
+				}
+				"bloodhound"
+				{
+					"encrypted_gid"		"8E620BD39B7CD5E765D5501A0E34748BB12111C1151D51E356A636D345DE372671446821D19E676ACA5B7E2BB6AF947F5609D0D0"
+				}
+				"bow_and_arrow"
+				{
+					"encrypted_gid"		"5A6BFF11C1CF1F10933073216B2A4A64B12111C1151D51E356A636D345DE37261A81FA566A7C2EA5BDE30829F33F2A66AE811411"
+				}
+				"doorknob"
+				{
+					"encrypted_gid"		"66FE5D9403CD0EEC5F58DC30936FD90EEC7B511524E195A45723A45622E09376249A4B7BE5A0BBFD3F623A1C5986C09499F86182"
+				}
+				"doorwedge"
+				{
+					"encrypted_gid"		"F336ED9C42CC85BD5DAB0AF3AE8E4431189F5D443526F9004586DED6B4F8CB2D40396C4304C2FC01ED8A7EB92656EBB8EF7DAC64"
+				}
+				"gold_master_eu"
+				{
+					"encrypted_gid"		"756578EA4412D1FB49F638E9058F16B1E9E87CE67015327F008CFCF334D167E8542D3632FFDA73FDD87A37CF0FA91C7B3030C51C"
+				}
+				"gold_master_us"
+				{
+					"encrypted_gid"		"00233AC53995B8545D0805E5DB078FF782758A0137746E721E80DDEC8205D30F30A4F5A72E75EA876BB9AE332118BB368B0B81E8"
+				}
+				"goose"
+				{
+					"encrypted_gid"		"6FE8B00407E4A683B6A69F01AFA134AB423E574A1C1B3F55CB397288014AB46F665EBE2C43ACDA1EBFA5D225FE9EEDA9ED64BAF2"
+				}
+				"goose2"
+				{
+					"encrypted_gid"		"BE445DC4EE56FCC0A22644140C7A390288BAF37A30E9EB769334BCF8DE7DF7FB50B832C64C5787400C9BDEE7D4F7F52C893F139E"
+				}
+				"hedgehog"
+				{
+					"encrypted_gid"		"C3A4327450FC0E674B15F2263E1F67C8C721F34E9BDF6F5DE93E4CB27B5ACE93B977FBCAECF9DE3F4E881E8C515578572C4C25F0"
+				}
+				"hedgehog2"
+				{
+					"encrypted_gid"		"B8F37E33F72B86025C41562A8D3AA526BBBD0F2B276884FE61C0C1636ED85CAC7AD999A17B76C0A302CCA090988945F01925C222"
+				}
+				"penguine"
+				{
+					"encrypted_gid"		"9345F58411C96E73660C81DB0C0EB3C1B12111C1151D51E356A636D345DE3726A0E4A8FCFA7C4B4BB1FBFD1ABEDF06F108E651F4"
+				}
+				"penguine2"
+				{
+					"encrypted_gid"		"A35CD5872D34B556B94540F922C7664F5F85CB0D7573C874AE7D183D7A8CE628CDD5A6AE36C981FBAA973FF3831E80EC0811F32B"
+				}
+				"beansprout"
+				{
+					"encrypted_gid"		"15DF5A16D29CB2E3A2ACDED527B7B758D8A9E676C2CFFBFB8010DB3C3200C355A7C687ADBA0334FA3420C3B4ED9CBBFACA094030"
+				}
+				"release_candidate"
+				{
+					"encrypted_gid"		"BE056965AFC984CE428E6EB9B7282EC1D1204CB3B41CAD6ADE7716AE6D48054883554FC945D50F6954C984C6240D42DCD7AE375E"
+				}
+				"spade2"
+				{
+					"encrypted_gid"		"49C7EB0EF523C08F7DD30CA2234ED344D1C68AC24EE8B3D68E2B862C90C1C72285DDC52F2D5F1AA4434A4F65159E5B16257B7838"
+				}
+			}
+			"depotfromapp"		"214950"
+		}
+		"34349"
+		{
+			"name"		"Mac Total War SHOGUN 2 Data"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6393434948689679344"
+			}
+			"maxsize"		"21636141434"
+			"encryptedmanifests"
+			{
+				"domesticated_privatebeta"
+				{
+					"encrypted_gid"		"85DB653AB1036FD9FEC8E9514D076B0FF0ED9FAD3512FB359C4343629FF3EEB46A827E4C275E6E4600022998216215D4B07CCC02"
+				}
+				"domesticated_submission"
+				{
+					"encrypted_gid"		"CEC7118A8FB409433C961C7ACC6FE10A7C13A558531B04A253A164FD24868D6FE4E5F35B5AE7397509389AAEFA2CCB3494B34C52"
+				}
+				"mac_1.0"
+				{
+					"encrypted_gid"		"384D078A328D019DAD4B1EA1A6FD93725B420C88557578A90826F97B778F7C0975E1861664FB65F9AF9318D0A17E9D12A78CC840"
+				}
+				"mac_external_beta"
+				{
+					"encrypted_gid"		"F4EB753EC55AAEFDF1E2578ED860040657C5FFB74DAF0FC7ADAAA5200F3070EA758AF9F3D29AEC4A9CC93E342AAAFC82B8842859"
+				}
+			}
+		}
+		"203711"
+		{
+			"name"		"Mac Total War SHOGUN 2 App"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7970738081334400752"
+				"local"		"7406637575413655960"
+			}
+			"maxsize"		"112846041"
+			"encryptedmanifests"
+			{
+				"domesticated_privatebeta"
+				{
+					"encrypted_gid"		"057D43906BF187EC66C5C5659093B45BF0ED9FAD3512FB359C4343629FF3EEB458CC5151DEDAA9A8B587EBB1B18B3188A8B47971"
+				}
+				"domesticated_submission"
+				{
+					"encrypted_gid"		"7E389D804128F1AD0A9C2D75152379FF7C13A558531B04A253A164FD24868D6F3E2A1C13BBE413693294B80CB9C156A3EE04F804"
+				}
+				"mac_1.0"
+				{
+					"encrypted_gid"		"18E02A0EDAD065315037C848A4F746D85B420C88557578A90826F97B778F7C09C4ABE4B1DCC092237606A42906D7556CE76A32D3"
+				}
+				"mac_external_beta"
+				{
+					"encrypted_gid"		"054427B162BE16A87D2947ECE5E78E8957C5FFB74DAF0FC7ADAAA5200F3070EABA0185FE5C1BA12D4137B3C3EE009220360F1FBB"
+				}
+			}
+		}
+		"203712"
+		{
+			"name"		"Mac Total War SHOGUN 2 Fall of the Samurai Soundtrack"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1268440574808975389"
+			}
+			"maxsize"		"15"
+		}
+		"203713"
+		{
+			"name"		"Mac Total War SHOGUN 2 Fall of the Samurai"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1866374797516873607"
+			}
+			"maxsize"		"2831998054"
+			"encryptedmanifests"
+			{
+				"domesticated_submission"
+				{
+					"encrypted_gid"		"F2A77B7562500A1DE897E1FC23D38D6D7C13A558531B04A253A164FD24868D6FD7D33B475C78C1F494F729F09B5D14473F74460E"
+				}
+			}
+		}
+		"203714"
+		{
+			"name"		"Mac Total War SHOGUN 2 English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"628388837067139549"
+			}
+			"maxsize"		"624350439"
+		}
+		"203715"
+		{
+			"name"		"Mac Total War SHOGUN 2 Czech"
+			"config"
+			{
+				"language"		"czech"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1183197238962596164"
+			}
+			"maxsize"		"610271975"
+		}
+		"203716"
+		{
+			"name"		"Mac Total War SHOGUN 2 French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2269766420080111912"
+			}
+			"maxsize"		"574750263"
+		}
+		"203717"
+		{
+			"name"		"Mac Total War SHOGUN 2 German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4380699829137518043"
+			}
+			"maxsize"		"573096863"
+		}
+		"203718"
+		{
+			"name"		"Mac Total War SHOGUN 2 Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"635634265744266460"
+			}
+			"maxsize"		"611445229"
+		}
+		"203719"
+		{
+			"name"		"Mac Total War SHOGUN 2 Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1922905075691669950"
+			}
+			"maxsize"		"610263176"
+		}
+		"203720"
+		{
+			"name"		"Mac Total War SHOGUN 2 Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"602644954695362770"
+			}
+			"maxsize"		"582044679"
+		}
+		"203721"
+		{
+			"name"		"Mac Total War SHOGUN 2 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1036502998177507790"
+			}
+			"maxsize"		"586166194"
+		}
+		"203722"
+		{
+			"name"		"Mac Total War SHOGUN 2 Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"1317818465072882453"
+			}
+			"maxsize"		"510680166"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"469691"
+			}
+			"domesticated_privatebeta"
+			{
+				"buildid"		"326081"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"F9168CC9D76B277684A79EF2BC445C42F0ED9FAD3512FB359C4343629FF3EEB4171CD95B17B8AED2C12EC96B99B50A3048100036"
+			}
+			"domesticated_submission"
+			{
+				"buildid"		"410667"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"2D7E48A4E8B60928191B0D29BA4D10DC7C13A558531B04A253A164FD24868D6FE998E06C550DB0482BF04EBFE2AFBE32ED2C8FAC"
+			}
+			"local"
+			{
+				"buildid"		"468727"
+				"description"		"Local Content Server"
+			}
+			"mac_1.0"
+			{
+				"buildid"		"474270"
+				"description"		"Original Release"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C5CEC31B5BDF085BD715702114B152015B420C88557578A90826F97B778F7C095A698FF49B76E853780797A3FAFD8FAD47D6AC94"
+			}
+			"mac_external_beta"
+			{
+				"buildid"		"330790"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"4D37E5B862B06BE1642C387540477F5857C5FFB74DAF0FC7ADAAA5200F3070EA7BE6F114ED82AB9B7DEF19A3DD026E51D88A7ED5"
+			}
+			"domesticated_internal"
+			{
+				"buildid"		"469691"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"36425D91D5212DAFC625E45BAF804FC59A1307060B44AC62EAC683FF4B8ED00C9B5A3CFAFAC39B69F75349E6CB99CF6019160708"
+			}
+			"release_candidate"
+			{
+				"buildid"		"57470"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"20BD0B5B7064B424199B2B8E97DA30D9D1204CB3B41CAD6ADE7716AE6D48054895C925447B74FDC30F8A1465DD23E1D25BB0CC06"
+			}
+			"beeswax"
+			{
+				"buildid"		"375514"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"79F425D6146A1FDBBD568F238478D8442B8D7506716C6630E9769A9E887F067B6B53A5F6C234FDC8A2355D188DD6C8E3E2E51DFE"
+			}
+			"bloodhound"
+			{
+				"buildid"		"301104"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"D5880436EAE90E64E4A67604316922F4B12111C1151D51E356A636D345DE3726C1B18AC48A7731671423A8A4C97B0AD2CFD62753"
+			}
+			"bow_and_arrow"
+			{
+				"buildid"		"294107"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"D5880436EAE90E64E4A67604316922F4B12111C1151D51E356A636D345DE3726C1B18AC48A7731671423A8A4C97B0AD2CFD62753"
+			}
+			"doorknob"
+			{
+				"buildid"		"465594"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C6657525A303D207719950D7F37DAA83EC7B511524E195A45723A45622E093769C82ED040B68E1EA8DD28209A471DD86D353B288"
+			}
+			"doorwedge"
+			{
+				"buildid"		"440199"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"65DD06B7D80CCF5D08B44238DDE0649B189F5D443526F9004586DED6B4F8CB2D3338F519EBE73CF8FF79AD0E0EDF22FA1EA3A658"
+			}
+			"gold_master_eu"
+			{
+				"buildid"		"97653"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"D084D36A86474EC0FB118D61A842C355E9E87CE67015327F008CFCF334D167E8A37F844E22CE83375EEDB7A78B77D50434868374"
+			}
+			"gold_master_us"
+			{
+				"buildid"		"92796"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"6BDF516B7A64F087F6633DFF95ED87BD82758A0137746E721E80DDEC8205D30FC798244376BF5CDAE1A297B29914EEF131123B4F"
+			}
+			"goose"
+			{
+				"buildid"		"341777"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"4BA8EFD0F2587A26218EBEEB43B75ADA423E574A1C1B3F55CB397288014AB46F5D2A3041DCDB9D47060D6DFC3434D80102173BED"
+			}
+			"goose2"
+			{
+				"buildid"		"333011"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"F8F619ED05565DA060B9B97CA002C2F788BAF37A30E9EB769334BCF8DE7DF7FBD2096863A765F4D0D11B5CF3DE7843D54D2A9DF6"
+			}
+			"hedgehog"
+			{
+				"buildid"		"348261"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"ED8E90E476BAEE4D5BD2C453FCA94E7DC721F34E9BDF6F5DE93E4CB27B5ACE93E9A3EDFE42496C9FB3F59D1E8A6D546374C3220A"
+			}
+			"hedgehog2"
+			{
+				"buildid"		"348258"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"EDD6BC56EF9611F7A74DD2A963AF5397BBBD0F2B276884FE61C0C1636ED85CAC986BE7E9765E52A6B59C23A3C8C862ED36F53C64"
+			}
+			"penguine"
+			{
+				"buildid"		"432455"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"D5880436EAE90E64E4A67604316922F4B12111C1151D51E356A636D345DE3726C1B18AC48A7731671423A8A4C97B0AD2CFD62753"
+			}
+			"penguine2"
+			{
+				"buildid"		"417106"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C26497735BD52F2D88C283C090D7C3A45F85CB0D7573C874AE7D183D7A8CE628125F84D95352B0FAA5A82AFE31300051C3E15EC1"
+			}
+			"beansprout"
+			{
+				"buildid"		"168725"
+				"description"		"QA training build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"3CA29CFE216C675E0D14C62B5617D6BCD8A9E676C2CFFBFB8010DB3C3200C35521CD4C81A71635E0E973398696BBC952DAF54EC1"
+			}
+			"spade2"
+			{
+				"buildid"		"477360"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"11D887B6EAF86947D02A235A6403D002D1C68AC24EE8B3D68E2B862C90C1C72288D0910767DE9085223ABAAA883A048E37582908"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
+ 

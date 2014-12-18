@@ -1,0 +1,760 @@
+"appinfo"
+{
+	"appid"		"65980"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Sid Meier's Civilization: Beyond Earth"
+		"oslist"		"windows,macos,linux"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+		}
+		"clienticon"		"0e20bd6a5016d383e7eea8444471ec412e1962eb"
+		"clienttga"		"ce208c2b618a7c7a97200a9ebeb9d63598e771ed"
+		"icon"		"d3ec8a47272ea6ecaf8545591df571fe6bb18f30"
+		"logo"		"2d0410a3f2a203ef467f6338050c5a9a5c6b601e"
+		"logo_small"		"2d0410a3f2a203ef467f6338050c5a9a5c6b601e_thumb"
+		"linuxclienticon"		"78c35d64150ed6788f2b22b5e214e9eb7755e498"
+		"clienticns"		"35a44e7fbf4281196daff650c4ef8226352f3b3f"
+		"workshop_visible"		"1"
+		"type"		"game"
+		"metacritic_name"		"Sid Meier's Civilization: Beyond Earth"
+		"controller_support"		"none"
+		"metacritic_score"		"81"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/sid-meiers-civilization-beyond-earth"
+		"community_visible_stats"		"1"
+		"gameid"		"65980"
+	}
+	"extended"
+	{
+		"developer"		"Firaxis Games"
+		"gamedir"		"civu"
+		"homepage"		"http://www.civilization.com/"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"304010"
+		"developer_url"		""
+		"publisher"		"2K"
+		"gamemanualurl"		"http://store.steampowered.com/manual/65980/"
+	}
+	"config"
+	{
+		"usemms"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"civilizationbe_dx11.exe"
+				"description"		"Civilization: Beyond Earth"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"civilizationbe_mantle.exe"
+				"description"		"Sid Meier's Civilization: Beyond Earth (AMD Mantle)"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Civilization Beyond Earth.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"./CivBE"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Sid Meier's Civilization Beyond Earth"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100B4334674CCA5C1FB671CE79B066BA49547D9BCF75FDC87351E68F9AC0BADBAF7761F6CA159407195A2030C7259CDB60952EC999F27E367241D71A5FB56B712C69C1E975D327766F49CD2908F0C8F373248A35F8C29FBF493C6DD893702B0F1249F10E01D9EA2C1E2C0CD6B62FC10BE4C27961EE0A460D1BB80728E4B9ECBF00B020111"
+		"checkguid"		"CivilizationBE_Mantle.exe"
+		"checkguids"		"civilizationbe_mantle.exe;civilizationbe_dx11.exe"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8629947100341372849"
+			}
+			"maxsize"		"13738197"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"65981"
+		{
+			"name"		"AE Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7153625966667715778"
+			}
+			"maxsize"		"6339232692"
+			"encryptedmanifests"
+			{
+				"2ktest"
+				{
+					"encrypted_gid"		"244611A1A27E669CADF15D66CF2991AA7B26DFA00B9CACC0A857123F593E7B3D8292B06BFC08C9FA2A3918BDCF18F5A0A463936A"
+				}
+				"actionpanel"
+				{
+					"encrypted_gid"		"B73E01582151505C6BFA949E0A505AC35CC5E98C1CCFD1C13E8020E2A0E53B0DCB26EE30AB2B001BA72D7BBD3B0F06753B955B22"
+				}
+				"actionpanel2"
+				{
+					"encrypted_gid"		"BE6D6F5C94B00533C8CBC4A2F6C411D0C211D2274E499E06653E4A230502309596EE3BC0A7F78790DD044DC1BC3126D3DCE88DA6"
+				}
+				"legacy"
+				{
+					"encrypted_gid"		"EBB42C3FB0B0BF557DE2A992EE97EFF0D1F5E6E101920B35319D43924E0D413C088D9432866CF78D71718C7C6EE9191DF90E4FB4"
+				}
+				"memphis"
+				{
+					"encrypted_gid"		"5B565C02C1EFF401EF0CA5D55D519D32418D39C6B728F2BE820AA9B89672289E6A630B83D242FFEE1D52D2BDB65275477DA15C42"
+				}
+				"pheonix"
+				{
+					"encrypted_gid"		"5D4ABCE17F0799C52EC7CEF353EA2CB5B00A034586FEB86B8313E245B631F4703FC2BE9A2DE59F535B10EFA7A4959A49372B6D13"
+				}
+				"2kpd"
+				{
+					"encrypted_gid"		"CE0F95194BDFE1AE495756C1DDE2D1DD7E9F82EC61CE8AA411AE358852A0811A7430FABE3BDB8DFC4727C4235FFA203E94614508"
+				}
+				"smoke"
+				{
+					"encrypted_gid"		"47ED540722EC377CBFA5D7B6262D2E692AAC91FEF8EB41AEDA836B88434E4CF91F6E38DFE9C1656AACA3C138755CD7D94BB3D7CE"
+				}
+				"smoke2"
+				{
+					"encrypted_gid"		"DD4480837083E4271EE3A5E57E1BC4306B57DB1721601D9BBF13A8EEFD9FFDA154FEA35045ED9CF141E3B1F2CEEFBB1429A72E50"
+				}
+				"test"
+				{
+					"encrypted_gid"		"7184DA5632E86C217B12965EC7945C8E86970B3D9FDD2B0E95D22A20D16934713605E0D245EE00DBDCE2E3950FE04378F3AD7E8E"
+				}
+			}
+		}
+		"65982"
+		{
+			"name"		"AE EXE"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5930265018613442386"
+			}
+			"maxsize"		"19966464"
+			"encryptedmanifests"
+			{
+				"2ktest"
+				{
+					"encrypted_gid"		"ADFBAFB398293396F1B1B215A08963C97B26DFA00B9CACC0A857123F593E7B3DE1F6E88CF42F16CF68438AD1424562AB917F7438"
+				}
+				"actionpanel"
+				{
+					"encrypted_gid"		"432DE89149D4C7B7E568779E1F7BF4C85CC5E98C1CCFD1C13E8020E2A0E53B0D59CEB0976FD128F926ED29C9CE82F0264F5326E4"
+				}
+				"actionpanel2"
+				{
+					"encrypted_gid"		"FDEA3661C38A166F06DA8D9FB3B9FF24C211D2274E499E06653E4A23050230955B0E8D88CB30EC3194B949E795AB1C7E4257AC71"
+				}
+				"legacy"
+				{
+					"encrypted_gid"		"7A1DB0C3193AC2363F95E140FA009D93D1F5E6E101920B35319D43924E0D413CDF92CD7A6957A5FE4AA5094706CB3678AF406D84"
+				}
+				"memphis"
+				{
+					"encrypted_gid"		"E279E74C711A5C9646738F3168EEAED3418D39C6B728F2BE820AA9B89672289EE21FBC623D0A3482A6B1EC39D3755DD48DA7D8D7"
+				}
+				"pheonix"
+				{
+					"encrypted_gid"		"119711D47A8D40E2693CC37171C6B90BB00A034586FEB86B8313E245B631F470722724273A470E98E800E8E902DF966FED6D3BA3"
+				}
+				"2kpd"
+				{
+					"encrypted_gid"		"C747348E3506F57DD0F2BB839AAE550F7E9F82EC61CE8AA411AE358852A0811A329A8FC48B59E1B6A98993D0223B1BE586D7A43F"
+				}
+				"smoke"
+				{
+					"encrypted_gid"		"3C04F73937350377503D1850C9399CDE2AAC91FEF8EB41AEDA836B88434E4CF99E9A798434C6185C4695D25D2A5193810624138B"
+				}
+				"smoke2"
+				{
+					"encrypted_gid"		"A9F37541E7459693E07C977AAB2D732D6B57DB1721601D9BBF13A8EEFD9FFDA1A3F51090B375AB1DF13B3B8D0022A4CD207B1DA1"
+				}
+				"test"
+				{
+					"encrypted_gid"		"60A12B3B979444A35FFC55B93889B02186970B3D9FDD2B0E95D22A20D16934712BAAC7B787A34736A079A9E85851474E1CA17213"
+				}
+			}
+		}
+		"65992"
+		{
+			"name"		"AE EXE Mantle"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6657498798872161229"
+			}
+			"maxsize"		"11600384"
+			"encryptedmanifests"
+			{
+				"2ktest"
+				{
+					"encrypted_gid"		"11180E10CBCF839273D3DB771B6BAF4C7B26DFA00B9CACC0A857123F593E7B3D8CD279A4A616015D5030369AA566B673198CA1A7"
+				}
+				"actionpanel"
+				{
+					"encrypted_gid"		"6D0E39991E882EC900AF79A933DE7CA15CC5E98C1CCFD1C13E8020E2A0E53B0D6B06553D04FFBFFDF5E5647E8A12A233BF5E9F6C"
+				}
+				"actionpanel2"
+				{
+					"encrypted_gid"		"7B663D4DBDE2D27AE40767065960AF27C211D2274E499E06653E4A2305023095ABC5F57F3F3EC86DE28FE71ED835ECA9C397DC42"
+				}
+				"legacy"
+				{
+					"encrypted_gid"		"D4B861279E12F58838A698D6CE14AEA9D1F5E6E101920B35319D43924E0D413C711B1C7B07C083D07219440E77ADF2E5601800BC"
+				}
+				"memphis"
+				{
+					"encrypted_gid"		"AB7D6D8C91D4CB36FD66491EA11061F9418D39C6B728F2BE820AA9B89672289E248B577A43394C0035E78A65A50411E0FCEA1AA1"
+				}
+				"pheonix"
+				{
+					"encrypted_gid"		"61A3D7DDA2C64862892DA4DEFD0BEE86B00A034586FEB86B8313E245B631F4709A1736A8576C79ABF228FA74C3CE6EEBA15347B8"
+				}
+				"smoke"
+				{
+					"encrypted_gid"		"F0F6B8D3AEFE292F2658472A899763092AAC91FEF8EB41AEDA836B88434E4CF9B73F010E1D68EB45971AC18524C69B0E62A61204"
+				}
+				"smoke2"
+				{
+					"encrypted_gid"		"A6DE43943103E28DFAD4E52A880FA9D06B57DB1721601D9BBF13A8EEFD9FFDA1459F895129DA619B180CE2D75E6B034162B8A1D9"
+				}
+				"test"
+				{
+					"encrypted_gid"		"4DB0BDABA197BC34F1E9E9A9B1114D6C86970B3D9FDD2B0E95D22A20D16934712C58EF9D826E1D5387F759BBA5BD3460AF95F577"
+				}
+			}
+		}
+		"304010"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth - D1 (304010) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2204743118255910881"
+			}
+			"maxsize"		"219083"
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"encrypted_gid"		"62469D5DB70284A83452C74AD14EA13786970B3D9FDD2B0E95D22A20D1693471BB092BC493AF3808840A4BD51A37ED873328B666"
+				}
+			}
+			"dlcappid"		"304010"
+		}
+		"65983"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth - French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+		}
+		"65984"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth Depot - Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+		}
+		"65985"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth Depot - German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+		}
+		"65986"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth Depot - Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+		}
+		"65987"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth Depot - Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+		}
+		"65988"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth Depot - Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+		}
+		"65989"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth Depot - Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+		}
+		"65990"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth Depot - Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+		}
+		"65991"
+		{
+			"name"		"Sid Meier's Civilization: Beyond Earth Depot - TChinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+		}
+		"328320"
+		{
+			"name"		"Mac Content"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5068633300242876893"
+			}
+			"maxsize"		"6185893822"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid"		"D658AFA2A119CDA1984BA935B11BBD4AD1F5E6E101920B35319D43924E0D413CA1700155BDBF06CFABA2D5087885F5A25343D74F"
+				}
+				"smoke2"
+				{
+					"encrypted_gid"		"0D0BF9A800602317EB3B5C6824E6B7006B57DB1721601D9BBF13A8EEFD9FFDA166E04B4CEE5C6986AFD56DD2801704513F645B09"
+				}
+			}
+		}
+		"328321"
+		{
+			"name"		"Mac Executable"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6877876233682473125"
+			}
+			"maxsize"		"23391171"
+			"encryptedmanifests"
+			{
+				"legacy"
+				{
+					"encrypted_gid"		"1E27B705034FFCFDEB269EAF9254C2A5D1F5E6E101920B35319D43924E0D413C9DCA77A5556894009D6B7C889B8A656DFB38F35D"
+				}
+				"smoke2"
+				{
+					"encrypted_gid"		"36A1B09BF4477060885B72F1840EEBBE6B57DB1721601D9BBF13A8EEFD9FFDA16C89286B364DFE5F23258E0EA6155FCB87F697EA"
+				}
+			}
+		}
+		"328322"
+		{
+			"name"		"Mac French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+		}
+		"328323"
+		{
+			"name"		"Mac Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+		}
+		"328324"
+		{
+			"name"		"Mac German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+		}
+		"328325"
+		{
+			"name"		"Mac Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+		}
+		"328326"
+		{
+			"name"		"Mac Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"macos"
+			}
+		}
+		"328327"
+		{
+			"name"		"Mac Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"macos"
+			}
+		}
+		"328328"
+		{
+			"name"		"Mac Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"macos"
+			}
+		}
+		"328329"
+		{
+			"name"		"Mac Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"macos"
+			}
+		}
+		"328330"
+		{
+			"name"		"Mac TChinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"macos"
+			}
+		}
+		"328331"
+		{
+			"name"		"Mac DLC D1"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"304010"
+			"manifests"
+			{
+				"public"		"8711510443847700821"
+			}
+			"maxsize"		"212332"
+		}
+		"328350"
+		{
+			"name"		"Linux Content"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"8962655463284924232"
+			}
+			"maxsize"		"6185894066"
+		}
+		"328351"
+		{
+			"name"		"Linux Executable"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6217008382184923926"
+			}
+			"maxsize"		"156812644"
+		}
+		"328352"
+		{
+			"name"		"Linux French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+		}
+		"328353"
+		{
+			"name"		"Linux Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+		}
+		"328354"
+		{
+			"name"		"Linux German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+		}
+		"328355"
+		{
+			"name"		"Linux Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+		}
+		"328356"
+		{
+			"name"		"Linux Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"linux"
+			}
+		}
+		"328357"
+		{
+			"name"		"Linux Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+		}
+		"328358"
+		{
+			"name"		"Linux Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"linux"
+			}
+		}
+		"328359"
+		{
+			"name"		"Linux Japanese"
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"linux"
+			}
+		}
+		"328360"
+		{
+			"name"		"Linux TChinese"
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"linux"
+			}
+		}
+		"328361"
+		{
+			"name"		"Linux DLC D1"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"dlcappid"		"304010"
+			"manifests"
+			{
+				"public"		"5425921483646046268"
+			}
+			"maxsize"		"212331"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"477546"
+			}
+			"2ktest"
+			{
+				"buildid"		"403746"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"E925C14EA3FB8EE661A9AB9F34B028DA7B26DFA00B9CACC0A857123F593E7B3DF017942CE078F0C9C4D38DC38B84F38BC21AB0B8"
+			}
+			"actionpanel"
+			{
+				"buildid"		"393488"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"F5F31E42315F1BD4752E3D9FF83C0DFC5CC5E98C1CCFD1C13E8020E2A0E53B0D52D4609BEE0AD614557C323670464A84AA400C9A"
+			}
+			"actionpanel2"
+			{
+				"buildid"		"398232"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"1C7594D3166ACAE6DFAEC26ECFC277F5C211D2274E499E06653E4A230502309575673BE545BD4D151FA3FB758034F1583B4EB644"
+			}
+			"legacy"
+			{
+				"buildid"		"455640"
+				"description"		"Previous Release Build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"CD8FF7D2E3E3C8F6DCA55665C72E970CD1F5E6E101920B35319D43924E0D413C2C422EC74F1D86854D9F730E505323FE78D03AAC"
+			}
+			"memphis"
+			{
+				"buildid"		"464457"
+				"description"		"Mac"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7218CAF636A4020781DC3773CF6E2020418D39C6B728F2BE820AA9B89672289E0E1194F1D4ED60C6BE9DB1B45CDE8F49C687417C"
+			}
+			"pheonix"
+			{
+				"buildid"		"465407"
+				"description"		"Linux"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"590E8A07B2BC31D9C6EDA8A3E4582102B00A034586FEB86B8313E245B631F47064325FC29969AB029DF30CC09ABDF766D211C584"
+			}
+			"2kpd"
+			{
+				"buildid"		"259463"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"AE90A328D69A023A0AAA299F838F4CA87E9F82EC61CE8AA411AE358852A0811AAE8150A33AA127A41C73BEF64F93A1AEEDE55651"
+			}
+			"smoke"
+			{
+				"buildid"		"454558"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"6454136A167A5E4FC5A3454B77A0129D2AAC91FEF8EB41AEDA836B88434E4CF94D17E0FD44D4345BEB58503E9C5C9467FF9D6540"
+			}
+			"smoke2"
+			{
+				"buildid"		"476152"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"5F20802D2F0F00CB787E382489F385B96B57DB1721601D9BBF13A8EEFD9FFDA1F3D8B79D1D64A123BBE471E5D45DC16090149B24"
+			}
+			"test"
+			{
+				"buildid"		"348472"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"FC2E4A0FE111AFC085901BB613032D3B86970B3D9FDD2B0E95D22A20D1693471932FB5324CBB6588C9B5FE5E89A9459E7E034A23"
+			}
+			"uploadtest"
+			{
+				"buildid"		"460897"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"1E1A648467E99C4026C6A75A3163E2CD84D61149E530F963E435E52A29FF7A74E59EEDB0622BCE601D3F88ACF999F2A41FC57538"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

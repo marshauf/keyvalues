@@ -1,0 +1,1510 @@
+"appinfo"
+{
+	"appid"		"223750"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"DCS World"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"czech"		"1"
+		}
+		"logo"		"27fff67df94901f4b58ded075f9a8ad20f74abeb"
+		"logo_small"		"27fff67df94901f4b58ded075f9a8ad20f74abeb_thumb"
+		"icon"		"25e21835af7a7ba1b5f2fb995185a97f320999b5"
+		"clienticon"		"f4d05390df20b963048d2f3f5ebeb70d1eed499b"
+		"clienttga"		"9a531ba9bf24ddbc9d85ef73779479552a46fe94"
+		"oslist"		"windows"
+		"metacritic_name"		"DCS World"
+		"controller_support"		"full"
+		"gameid"		"223750"
+	}
+	"extended"
+	{
+		"developer"		"Eagle Dynamics"
+		"gamedir"		"ValveTestApp223750"
+		"homepage"		"http://www.digitalcombatsimulator.com/en/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"isfreeapp"		"1"
+		"listofdlc"		"223770,240280,240300,240500,245570,245580,245810,249310,249320,250300,250310,250990,306240,316960,316961,316962,316963,316964,316965,316966,316967"
+		"developer_url"		""
+		"publisher"		"The Fighter Collection"
+		"gamemanualurl"		"http://store.steampowered.com/manual/223750/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DCSWorld"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Run.exe"
+				"description"		"Launch "
+				"workingdir"		"."
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"6b2ca4f823018328fddc2c24492f1301f71004ac3039d9d0f9e1f06b9582990cec4daa52ddbb103b864221fadd05c77ee2efda478af8bb548eb6c5ac877fe649550f69cd199f48916bdf539982c04e82e3ff81d2364199d9d1e8f1b79eab8b67855edef5ccd5f13b2035568b101a2bf7b57f1d5500c5a31c69c142efe1d7823a"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223750"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"markdlcdepots"		"1"
+		"228982"
+		{
+			"name"		"VC 2008 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6413394087650432851"
+			}
+			"maxsize"		"9688647"
+			"depotfromapp"		"228980"
+		}
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8124929965194586177"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8629947100341372849"
+			}
+			"maxsize"		"13738197"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"223751"
+		{
+			"name"		"DCS Wold Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5020805340421724388"
+				"openbeta"		"4992807637323566052"
+			}
+			"maxsize"		"18016690060"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"3EF673895A64CA37DD57D669AF22A900D881FB5BFD1DE68D5E3C0524FB126148D1493E862DC5FABD2E73D93AFDBE888808586230"
+				}
+			}
+		}
+		"223752"
+		{
+			"name"		"English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"3463370300160027682"
+			}
+			"maxsize"		"25759"
+		}
+		"223753"
+		{
+			"name"		"German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1728332619203495576"
+			}
+			"maxsize"		"185484971"
+		}
+		"223754"
+		{
+			"name"		"Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"2665632982689381468"
+			}
+			"maxsize"		"416992123"
+		}
+		"223755"
+		{
+			"name"		"Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"667363461705262629"
+			}
+			"maxsize"		"53678660"
+		}
+		"223756"
+		{
+			"name"		"Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"6075120716862012498"
+			}
+			"maxsize"		"1767103857"
+		}
+		"223770"
+		{
+			"name"		"DLC Mustang"
+			"manifests"
+			{
+				"public"		"6507538747159629823"
+				"openbeta"		"8279874587836217467"
+			}
+			"maxsize"		"263844361"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"94A941E270DCE209885972AEA1909510D881FB5BFD1DE68D5E3C0524FB12614853D56A949F9C3D85BECF4B78255C2E8E4721AC40"
+				}
+			}
+			"dlcappid"		"223770"
+		}
+		"223771"
+		{
+			"name"		"DLC Mustang English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"2897463591328934084"
+			}
+			"maxsize"		"346"
+		}
+		"223772"
+		{
+			"name"		"DLC Mustang German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"2337858701836827503"
+			}
+			"maxsize"		"203686479"
+		}
+		"223773"
+		{
+			"name"		"DLC Mustang Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"1330165573179749179"
+			}
+			"maxsize"		"159142467"
+		}
+		"223774"
+		{
+			"name"		"DLC Mustang Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"5976141157691667763"
+			}
+			"maxsize"		"136785402"
+		}
+		"223775"
+		{
+			"name"		"DLC Mustang Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"5985167566885274339"
+			}
+			"maxsize"		"110220919"
+		}
+		"240300"
+		{
+			"name"		"DLC CA"
+			"manifests"
+			{
+				"public"		"5793648559604627602"
+				"openbeta"		"2172816599505863351"
+			}
+			"maxsize"		"235210952"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"58EEA7B9402A774C2FE1D98AE1C0D977D881FB5BFD1DE68D5E3C0524FB126148A335DA0EF33A2217872433319223A3B759B8BEB9"
+				}
+			}
+			"dlcappid"		"240300"
+		}
+		"240301"
+		{
+			"name"		"DLC CA English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"8526894470769999339"
+			}
+			"maxsize"		"514"
+		}
+		"240302"
+		{
+			"name"		"DLC CA German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"6305875337650104423"
+			}
+			"maxsize"		"28743736"
+		}
+		"240303"
+		{
+			"name"		"DLC CA Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"2551805949247027130"
+			}
+			"maxsize"		"29505674"
+		}
+		"240304"
+		{
+			"name"		"DLC CA Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"854970504308518913"
+			}
+			"maxsize"		"7356929"
+		}
+		"240305"
+		{
+			"name"		"DLC CA Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"7828008643353113027"
+			}
+			"maxsize"		"9677349"
+		}
+		"240280"
+		{
+			"name"		"DLC KA-50"
+			"manifests"
+			{
+				"public"		"2567344720088316085"
+				"openbeta"		"1970967285918228530"
+			}
+			"maxsize"		"1951554723"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"49446F97CC8FE57856799421B1D161ADD881FB5BFD1DE68D5E3C0524FB1261486112636EF55BBAD0FF4C542102CE9145C740478C"
+				}
+			}
+			"dlcappid"		"240280"
+		}
+		"240281"
+		{
+			"name"		"DLC KA-50 English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"1150875588147364065"
+			}
+			"maxsize"		"346"
+		}
+		"240282"
+		{
+			"name"		"DLC KA-50 German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1374672687949067592"
+			}
+			"maxsize"		"262078541"
+		}
+		"240283"
+		{
+			"name"		"DLC KA-50 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"6049197512155209719"
+			}
+			"maxsize"		"198600495"
+		}
+		"240284"
+		{
+			"name"		"DLC KA-50 Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"3756837786253940920"
+			}
+			"maxsize"		"151374697"
+		}
+		"240285"
+		{
+			"name"		"DLC KA-50 Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"6853707678637632723"
+			}
+			"maxsize"		"2068422874"
+		}
+		"245570"
+		{
+			"name"		"DLC A-10A"
+			"manifests"
+			{
+				"public"		"4827242389883253335"
+				"openbeta"		"6745014394161401765"
+			}
+			"maxsize"		"702976752"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"5634012E580028BEC9C1C7B237B8C91AD881FB5BFD1DE68D5E3C0524FB126148554E17B6AF688AF5BCA0A684B5CCE2CC5071DC80"
+				}
+			}
+			"dlcappid"		"245570"
+		}
+		"245571"
+		{
+			"name"		"DLC A-10A English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"2913927869506233928"
+			}
+			"maxsize"		"346"
+		}
+		"245572"
+		{
+			"name"		"DLC A-10A German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"5102981020135646819"
+			}
+			"maxsize"		"18022"
+		}
+		"245573"
+		{
+			"name"		"DLC A-10A Spanish"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"5143974456799792456"
+			}
+			"maxsize"		"44717587"
+		}
+		"245574"
+		{
+			"name"		"DLC A-10A Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"2265377331566298779"
+			}
+			"maxsize"		"28751490"
+		}
+		"245575"
+		{
+			"name"		"DLC A-10A Russian"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"6229546068208311797"
+			}
+			"maxsize"		"786375688"
+		}
+		"245580"
+		{
+			"name"		"DLC Su-25"
+			"manifests"
+			{
+				"public"		"2706839567095032599"
+				"openbeta"		"7086401939945385212"
+			}
+			"maxsize"		"1105412884"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"8301288C49C0406D1670B31291604623D881FB5BFD1DE68D5E3C0524FB126148FC16D57199E217DF48CBFBA5D2F07A28341DCABD"
+				}
+			}
+			"dlcappid"		"245580"
+		}
+		"245581"
+		{
+			"name"		"DLC Su-25 English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"2654077333909448738"
+			}
+			"maxsize"		"346"
+		}
+		"245582"
+		{
+			"name"		"DLC Su-25 German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"980083024399429510"
+			}
+			"maxsize"		"17544"
+		}
+		"245583"
+		{
+			"name"		"DLC Su-25 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"1983730264220961799"
+			}
+			"maxsize"		"51801651"
+		}
+		"245584"
+		{
+			"name"		"DLC Su-25 Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"8424715854975488887"
+			}
+			"maxsize"		"21795389"
+		}
+		"245585"
+		{
+			"name"		"DLC Su-25 Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"4187232384989859361"
+			}
+			"maxsize"		"670902977"
+		}
+		"245810"
+		{
+			"name"		"DLC A-10C"
+			"manifests"
+			{
+				"public"		"1535848205955595175"
+				"openbeta"		"1557849502821727799"
+			}
+			"maxsize"		"343236243"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"1737F0C81BAA25A49D5020A3793478F7D881FB5BFD1DE68D5E3C0524FB126148BF8861820906BB29A3C5D09F03A119F8D6975917"
+				}
+			}
+			"dlcappid"		"245810"
+		}
+		"245811"
+		{
+			"name"		"DLC A-10C English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"8616323421904229340"
+			}
+			"maxsize"		"346"
+		}
+		"245812"
+		{
+			"name"		"DLC A-10C German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"2845971420312356247"
+			}
+			"maxsize"		"218845816"
+		}
+		"245813"
+		{
+			"name"		"DLC A-10C Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"3477452882669072863"
+			}
+			"maxsize"		"323272774"
+		}
+		"245814"
+		{
+			"name"		"DLC A-10C Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"685574157600530379"
+			}
+			"maxsize"		"199040202"
+		}
+		"245815"
+		{
+			"name"		"DLC A-10C Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"7238937388880030209"
+			}
+			"maxsize"		"256824567"
+		}
+		"249320"
+		{
+			"name"		"DLC  Flaming Cliffs 3"
+			"manifests"
+			{
+				"public"		"3526278609420799990"
+				"openbeta"		"416721039558605367"
+			}
+			"maxsize"		"3953602892"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"771DD22D55D3B10856865B08A5558ADAD881FB5BFD1DE68D5E3C0524FB1261488CFF7147866C40AB69C28F2B63C2C23AE7948F2A"
+				}
+			}
+			"dlcappid"		"249320"
+		}
+		"249321"
+		{
+			"name"		"DLC  Flaming Cliffs 3 English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"562162363853674695"
+			}
+			"maxsize"		"2"
+		}
+		"249322"
+		{
+			"name"		"DLC  Flaming Cliffs 3 German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"637284949999633700"
+			}
+			"maxsize"		"16066"
+		}
+		"249323"
+		{
+			"name"		"DLC  Flaming Cliffs 3 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"3813371931337495891"
+			}
+			"maxsize"		"281615226"
+		}
+		"249324"
+		{
+			"name"		"DLC  Flaming Cliffs 3 Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"854335929964477002"
+			}
+			"maxsize"		"125899283"
+		}
+		"249325"
+		{
+			"name"		"DLC  Flaming Cliffs 3 Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"4826200318544332887"
+			}
+			"maxsize"		"3309976464"
+		}
+		"240500"
+		{
+			"name"		"DLC UH-1H Huey"
+			"manifests"
+			{
+				"public"		"6000904948862622818"
+				"openbeta"		"2652044444574704115"
+			}
+			"maxsize"		"548585214"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"A7940D9F7A02E2218C2BD9F7CECEE564D881FB5BFD1DE68D5E3C0524FB1261481ABFBA1A7E79ABF7B3DC4E5A4299DCEE0DB7318B"
+				}
+			}
+			"dlcappid"		"240500"
+		}
+		"240501"
+		{
+			"name"		"DLC UH-1H Huey English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"5002326393766697715"
+			}
+			"maxsize"		"453"
+		}
+		"240502"
+		{
+			"name"		"DLC UH-1H Huey German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"8540769977371049901"
+			}
+			"maxsize"		"91634764"
+		}
+		"240503"
+		{
+			"name"		"DLC UH-1H Huey Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"8046566197232260776"
+			}
+			"maxsize"		"3067904"
+		}
+		"240504"
+		{
+			"name"		"DLC UH-1H Huey Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"3324309033730897945"
+			}
+			"maxsize"		"65889247"
+		}
+		"240505"
+		{
+			"name"		"DLC UH-1H Huey Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"362614383463696984"
+			}
+			"maxsize"		"77901981"
+		}
+		"249310"
+		{
+			"name"		"DCS: Mi-8MTv2 Hip (249310) Depot"
+			"manifests"
+			{
+				"public"		"3028480151456872962"
+				"openbeta"		"9042040899633830259"
+			}
+			"maxsize"		"277859797"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"E1A339AF343794A10A90FA2A36F79376D881FB5BFD1DE68D5E3C0524FB126148EA8B116745B6A8A3FFB3D0D3CD2000E24727DB4B"
+				}
+			}
+			"dlcappid"		"249310"
+		}
+		"249311"
+		{
+			"name"		"DLC Mi-8MTv2 Hip English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"9017563002363121681"
+			}
+			"maxsize"		"453"
+		}
+		"249312"
+		{
+			"name"		"DLC Mi-8MTv2 Hip German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"7860037238355586661"
+			}
+			"maxsize"		"19185"
+		}
+		"249313"
+		{
+			"name"		"DLC Mi-8MTv2 Hip Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"738092756801708254"
+			}
+			"maxsize"		"19913"
+		}
+		"249314"
+		{
+			"name"		"DLC Mi-8MTv2 Hip Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"180516916827833200"
+			}
+			"maxsize"		"103573751"
+		}
+		"249315"
+		{
+			"name"		"DLC Mi-8MTv2 Hip Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"5779503735006028238"
+				"openbeta"		"5521821627387305785"
+			}
+			"maxsize"		"149138391"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"E8E6CC7E5139C4BF6825219FA57F35B1D881FB5BFD1DE68D5E3C0524FB12614898076A6FBA54393FD54B37B694F8B6DDDE9ECD10"
+				}
+			}
+		}
+		"250300"
+		{
+			"name"		"DLC F-15C"
+			"manifests"
+			{
+				"public"		"159367316119977019"
+				"openbeta"		"8657359737046006962"
+			}
+			"maxsize"		"105991211"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"058B5BB8B503586E3EA729B13B42FDADD881FB5BFD1DE68D5E3C0524FB126148E61D658F95E2802892AB901BB17A9C754BB4BBFB"
+				}
+			}
+			"dlcappid"		"250300"
+		}
+		"250301"
+		{
+			"name"		"DLC F-15C English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"1575915231936370700"
+			}
+			"maxsize"		"310"
+		}
+		"250302"
+		{
+			"name"		"DLC F-15C German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"482323788555987687"
+			}
+			"maxsize"		"17839"
+		}
+		"250303"
+		{
+			"name"		"DLC F-15C Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"1873225815944999612"
+			}
+			"maxsize"		"39976607"
+		}
+		"250304"
+		{
+			"name"		"DLC F-15C Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"7174770665468514288"
+			}
+			"maxsize"		"15995278"
+		}
+		"250305"
+		{
+			"name"		"DLC F-15C Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"5507087030317423453"
+				"openbeta"		"4005252301779709525"
+			}
+			"maxsize"		"13870334"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"F152F0261DE275A48601818D3CF0FC54D881FB5BFD1DE68D5E3C0524FB126148B547F9E68B3F856C7475FAC1A3A8DB40AADFD782"
+				}
+			}
+		}
+		"306240"
+		{
+			"name"		"DCS: F-86F Sabre"
+			"manifests"
+			{
+				"public"		"3441882744785556464"
+				"openbeta"		"4530288872432611176"
+			}
+			"maxsize"		"104888090"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"BFDB1E85F0E7FA57B9CE40ECA2164512D881FB5BFD1DE68D5E3C0524FB126148CDB9C48E28C20035EAFD0F25003C3812A292436F"
+				}
+			}
+			"dlcappid"		"306240"
+		}
+		"306241"
+		{
+			"name"		"DCS: F-86F Sabre English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"5958511900798281833"
+			}
+			"maxsize"		"310"
+		}
+		"306242"
+		{
+			"name"		"DCS: F-86F Sabre German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1338996946254360474"
+			}
+			"maxsize"		"19113"
+		}
+		"306243"
+		{
+			"name"		"DCS: F-86F Sabre Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"5428022849897692868"
+			}
+			"maxsize"		"18204"
+		}
+		"306244"
+		{
+			"name"		"DCS: F-86F Sabre Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"5250405294817250638"
+			}
+			"maxsize"		"2935255"
+		}
+		"306245"
+		{
+			"name"		"DCS: F-86F Sabre Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"2287745853595793163"
+			}
+			"maxsize"		"4391707"
+		}
+		"250990"
+		{
+			"name"		"DCS: Fw 190 D-9"
+			"manifests"
+			{
+				"public"		"8235254180602804817"
+				"openbeta"		"4226428618688301602"
+			}
+			"maxsize"		"193953526"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"916C4157EB854965A30B0A733C4B1E80D881FB5BFD1DE68D5E3C0524FB1261487C41CC95B26EFE45232061B6BBFC5DAEB72C3144"
+				}
+			}
+			"dlcappid"		"250990"
+		}
+		"250991"
+		{
+			"name"		"DCS: Fw 190 D-9 English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"387957901156006999"
+			}
+			"maxsize"		"390"
+		}
+		"250992"
+		{
+			"name"		"DCS: Fw 190 D-9 German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1789505245079202347"
+			}
+			"maxsize"		"82243110"
+		}
+		"250993"
+		{
+			"name"		"DCS: Fw 190 D-9 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"4527557199081263081"
+			}
+			"maxsize"		"17305"
+		}
+		"250994"
+		{
+			"name"		"DCS: Fw 190 D-9 Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"5860841775712646520"
+			}
+			"maxsize"		"73001819"
+		}
+		"250995"
+		{
+			"name"		"DCS: Fw 190 D-9 Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"7388827684160343595"
+			}
+			"maxsize"		"12351605"
+		}
+		"316964"
+		{
+			"name"		"DCS: MiG-21bis (316964) Depot"
+			"manifests"
+			{
+				"public"		"5259578619174333569"
+				"openbeta"		"938282501606351099"
+			}
+			"maxsize"		"413837321"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"2D4613E4BAD8DB34647AB67279FC0302D881FB5BFD1DE68D5E3C0524FB126148D09757A878361CB7865284D5226EE650F10B8B19"
+				}
+			}
+			"dlcappid"		"316964"
+		}
+		"250311"
+		{
+			"name"		"DCS: MiG-21bis English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"3835143777604864048"
+			}
+			"maxsize"		"2"
+		}
+		"250312"
+		{
+			"name"		"DCS: MiG-21bis German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"8451482355082832803"
+			}
+			"maxsize"		"13609"
+		}
+		"250313"
+		{
+			"name"		"DCS: MiG-21bis Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"5201590273881074180"
+			}
+			"maxsize"		"13609"
+		}
+		"250314"
+		{
+			"name"		"DCS: MiG-21bis Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"4249668338063626911"
+			}
+			"maxsize"		"2"
+		}
+		"250315"
+		{
+			"name"		"DCS: MiG-21bis Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"2965584995341653106"
+			}
+			"maxsize"		"28580810"
+		}
+		"250310"
+		{
+			"name"		"Su-27: DCS Flaming Cliffs DLC (250310) Depot"
+			"manifests"
+			{
+				"public"		"4453294105801372604"
+				"openbeta"		"1594074908682843721"
+			}
+			"maxsize"		"221635529"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"1B028EC78CEE08045ECBC10DC4D1C3E1D881FB5BFD1DE68D5E3C0524FB126148DBB9A48F8DF2BB33EACE1AB353C1ABFE3EF6A58B"
+				}
+			}
+			"dlcappid"		"250310"
+		}
+		"223761"
+		{
+			"name"		"Su-27: DCS Flaming Cliffs DLC English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"7574652011074944089"
+			}
+			"maxsize"		"390"
+		}
+		"223762"
+		{
+			"name"		"Su-27: DCS Flaming Cliffs DLC German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"4823506495369265037"
+			}
+			"maxsize"		"16579"
+		}
+		"223763"
+		{
+			"name"		"Su-27: DCS Flaming Cliffs DLC Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"6856063920691743902"
+			}
+			"maxsize"		"17212"
+		}
+		"223764"
+		{
+			"name"		"Su-27: DCS Flaming Cliffs DLC Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"6861536032261327415"
+			}
+			"maxsize"		"14310"
+		}
+		"223765"
+		{
+			"name"		"Su-27: DCS Flaming Cliffs DLC Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"3545514377933672011"
+			}
+			"maxsize"		"9220"
+		}
+		"316960"
+		{
+			"name"		"DCS: Bf 109 K-4 Kurfürst (316960) Depot"
+			"manifests"
+			{
+				"public"		"7283716681991098663"
+				"openbeta"		"4650597401095677594"
+			}
+			"maxsize"		"186280863"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"972FF4B40F5979A91121AE56697CCAD4D881FB5BFD1DE68D5E3C0524FB126148666B774A2F0611A0D31368EE6A32C4103608CF11"
+				}
+			}
+			"dlcappid"		"316960"
+		}
+		"223781"
+		{
+			"name"		"DCS: Bf 109 K-4 Kurfürst English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"7096280623876044645"
+			}
+			"maxsize"		"390"
+		}
+		"223782"
+		{
+			"name"		"DCS: Bf 109 K-4 Kurfürst German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"2615276868460930898"
+			}
+			"maxsize"		"23063"
+		}
+		"223783"
+		{
+			"name"		"DCS: Bf 109 K-4 Kurfürst Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"5710453239879398862"
+			}
+			"maxsize"		"17420"
+		}
+		"223784"
+		{
+			"name"		"DCS: Bf 109 K-4 Kurfürst Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"4937314557418839687"
+			}
+			"maxsize"		"19148"
+		}
+		"223785"
+		{
+			"name"		"DCS: Bf 109 K-4 Kurfürst Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"3478285036770719754"
+				"openbeta"		"4086334244271058157"
+			}
+			"maxsize"		"1709273"
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"encrypted_gid"		"5111BF48D4AF3949D6000FA38712FB7DD881FB5BFD1DE68D5E3C0524FB126148C470E6AD61E8198B0F3B3CD0F7DD818E0A2FC91F"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"467396"
+			}
+			"openbeta"
+			{
+				"buildid"		"477236"
+				"description"		"Public beta versions"
+			}
+			"beta"
+			{
+				"buildid"		"477236"
+				"description"		"Beta branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"9E690CB4FE6D1E7056EB2B2623A628E9D881FB5BFD1DE68D5E3C0524FB12614835F36283BFDA75BB339BA4F7C716BEBCED1D6140"
+			}
+		}
+	}
+}
+ 

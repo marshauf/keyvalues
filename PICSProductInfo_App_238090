@@ -1,0 +1,659 @@
+"appinfo"
+{
+	"appid"		"238090"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Sniper Elite 3"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"bd0bbf10de9f7ca196ca598ae11218e36ed2025c"
+		"logo_small"		"bd0bbf10de9f7ca196ca598ae11218e36ed2025c_thumb"
+		"icon"		"addaab4e7308d808f53d32fbcdec0d9c2deb20fd"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+			"brazilian"		"1"
+		}
+		"clienticon"		"9a706c5ce3224960fb3d3b810ab0e802e18282cf"
+		"clienttga"		"50d96b8fca4c644e52f2609705118b9002a3146f"
+		"oslist"		"windows"
+		"metacritic_name"		"Sniper Elite 3"
+		"controller_support"		"full"
+		"community_visible_stats"		"1"
+		"gameid"		"238090"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Rebellion"
+		"gamedir"		"ValveTestApp238090"
+		"homepage"		"http://www.rebellion.co.uk/games/sniper-elite-3"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"305180,305181,305182,305183,305184,305185,305186,305187,308310,312680,312690,312740,326430,326431"
+		"developer_url"		""
+		"publisher"		"Rebellion"
+		"gamemanualurl"		"http://store.steampowered.com/manual/238090/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sniper Elite 3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher\\Sniper3Launcher.exe"
+			}
+		}
+		"installscriptsignature"		"20a59dc7148e00bf7fc187d95335cc69b35ed06674ba516e9f656ea9c9001bcadb668e720e64fa00a1b0461a838b38d656abc2806dc3d6f574e48ccdfe73f559267637ffde64f9eeea3d64f01a3ed76f8459760712cec7ca35a93fd1e9a043518559aaadff33136f54de13511d311a23c7e7cc368caaf6d4e451a9daa9fd802a"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100D28813DE5E01EA9BE4632C7F6596ECD80EDE849246ABCEBADC03B8CE7685E6E740F745089C0F3A28988A4BEA4EFFC96A59A8A86D8BED957FF7ED80B770F8CFCA817336CB31E92A92310BA7EFF8BB49D281A6E44798A35B7CA4D3951C7EEE4A6A01044E934717E4733D43F39DDE5EA8532013E90B509C2D17C075967248D19E87020111"
+		"checkguid"		"SniperElite3.exe"
+		"checkguids"		"sniperelite3_mantle.exe;sniperelite3.exe"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\\software\\rebellion\\sniperelite3"
+			{
+				"dword"
+				{
+					"english"
+					{
+						"language"		"0"
+					}
+					"french"
+					{
+						"language"		"1"
+					}
+					"german"
+					{
+						"language"		"2"
+					}
+					"italian"
+					{
+						"language"		"3"
+					}
+					"spanish"
+					{
+						"language"		"4"
+					}
+					"polish"
+					{
+						"language"		"14"
+					}
+					"russian"
+					{
+						"language"		"5"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"dllcheck"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\238090"
+				"process 1"		"%INSTALLDIR%\\redist\\DllCheck\\DllCheck.exe"
+				"command 1"		"SniperElite3"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8124929965194586177"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"238091"
+		{
+			"name"		"Sniper Elite 3 Base Files"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9196898912345599887"
+				"customersupportlogging"		"6465240400210804963"
+			}
+			"maxsize"		"99302364"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"A848E92556410988CB537D769F4FB0C68BACF8EE08C1F2CB4D471C3238F75C6A4CB9E9E1E883C9BED553DBF854D61F2EFBAC5E71"
+				}
+			}
+		}
+		"238092"
+		{
+			"name"		"Sniper Elite 3 Client Files"
+			"manifests"
+			{
+				"public"		"922334489146307654"
+				"customersupportlogging"		"4748032309930700492"
+			}
+			"maxsize"		"17905010305"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"53759EBAAB11AB1C9847D15ACEE5C8AF8BACF8EE08C1F2CB4D471C3238F75C6A672B4E97462BF583304196E692D1FA5A8A27DF81"
+				}
+			}
+		}
+		"238093"
+		{
+			"name"		"Sniper Elite 3 Standard Exe"
+			"manifests"
+			{
+				"public"		"1931678958513770304"
+				"customersupportlogging"		"2179709987715305632"
+			}
+			"maxsize"		"10496512"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"D101E31FD1C0D81FF16878668AFDC72E8BACF8EE08C1F2CB4D471C3238F75C6A908A12A8408C451FF60E22480AAA187CBCCAB3BC"
+				}
+			}
+		}
+		"238094"
+		{
+			"name"		"Sniper Elite 3 English"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"3244111733696679193"
+				"customersupportlogging"		"2136656882095122227"
+			}
+			"maxsize"		"183009070"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"3AC27B8C2D5477C52A89FAB8A9D5C0A18BACF8EE08C1F2CB4D471C3238F75C6A09CF130C8781695D2294A9BD113B0E2B443EC6FE"
+				}
+			}
+		}
+		"238095"
+		{
+			"name"		"Sniper Elite 3 French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"4367311849659423953"
+				"customersupportlogging"		"6822942055316346301"
+			}
+			"maxsize"		"181703999"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"6BE18FF378BC2C92AA1C15DAC6BC93988BACF8EE08C1F2CB4D471C3238F75C6AFFD76E5EAE8B55C2ABF65B721CA82CC7F6C946C2"
+				}
+			}
+		}
+		"238096"
+		{
+			"name"		"Sniper Elite 3 Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"3263145788050018165"
+				"customersupportlogging"		"8558507101155960225"
+			}
+			"maxsize"		"182089171"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"B70322CDF00D057C8135A4B548E6B6958BACF8EE08C1F2CB4D471C3238F75C6A3A198B306007EA105B0DB37906491564A0D2202A"
+				}
+			}
+		}
+		"238097"
+		{
+			"name"		"Sniper Elite 3 Germany"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"3952587918213939201"
+				"customersupportlogging"		"3705250836401814806"
+			}
+			"maxsize"		"182331331"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"FB23219B5E37A883A4407D108BABCED88BACF8EE08C1F2CB4D471C3238F75C6AF3C87B9F4285850725710EA6B0A5F60E31F181B2"
+				}
+			}
+		}
+		"238098"
+		{
+			"name"		"Sniper Elite 3 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"9125017959456760654"
+				"customersupportlogging"		"2512839771900258881"
+			}
+			"maxsize"		"182049927"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"B73DE3E276E30DABBB51977C4E64EB8B8BACF8EE08C1F2CB4D471C3238F75C6A03405876D32D2A883DFB9ECE85FC96A3B970C55F"
+				}
+			}
+		}
+		"238099"
+		{
+			"name"		"Sniper Elite 3 MP Maps"
+			"manifests"
+			{
+				"public"		"8864805831573393016"
+				"customersupportlogging"		"3377125437492688571"
+			}
+			"maxsize"		"6329281816"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"BF6462C62CF16223DE7DC1063A18AACB8BACF8EE08C1F2CB4D471C3238F75C6ADF9678301851D96F07EECA3B5CED2833D1598111"
+				}
+			}
+		}
+		"238100"
+		{
+			"name"		"Sniper Elite 3 Portuguese(Brazilian)"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+				"public"		"1392164110101246705"
+				"customersupportlogging"		"4973782076552250770"
+			}
+			"maxsize"		"183175250"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"E0DFA6982E8F6F1B5FDC8F146272ECF18BACF8EE08C1F2CB4D471C3238F75C6AD3C23BCD238AD6354ACB15EA9DFDDB7F056E3A22"
+				}
+			}
+		}
+		"238101"
+		{
+			"name"		"Sniper Elite 3 Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"2199258933891332800"
+				"customersupportlogging"		"8971136877331964420"
+			}
+			"maxsize"		"183820397"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"4F55727847F05213120063EA511B163E8BACF8EE08C1F2CB4D471C3238F75C6AA78A4FC39E1F21B437912C632B93CA7952257D46"
+				}
+			}
+		}
+		"238102"
+		{
+			"name"		"Sniper Elite 3 Polish"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"7659604915632260005"
+				"customersupportlogging"		"8304858730198700245"
+			}
+			"maxsize"		"183160533"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"0FF5125A7366AF8B2D51353A619A8B728BACF8EE08C1F2CB4D471C3238F75C6A2986F01F16DB6663564894D22B237BA77DC7212B"
+				}
+			}
+		}
+		"238103"
+		{
+			"name"		"Sniper Elite 3 Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"797924515293592618"
+				"customersupportlogging"		"5531725226319010454"
+			}
+			"maxsize"		"183138498"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"F0020F4F68C31BA304C39598306AF5548BACF8EE08C1F2CB4D471C3238F75C6AA7153BCB29497431EAB4103E14EEE4ECFC9884AF"
+				}
+			}
+		}
+		"305180"
+		{
+			"name"		"Sniper Elite 3 - Target Hitler: Hunt the Grey Wolf (305180) Depot"
+			"manifests"
+			{
+				"public"		"6251574843094961153"
+				"customersupportlogging"		"6919276922572398166"
+			}
+			"maxsize"		"785698087"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"C51AC307D35E6BDDE3F4E81CFB7123648BACF8EE08C1F2CB4D471C3238F75C6AD97C91A3FC45C74F21FD63EB1ECB20381AE3899C"
+				}
+			}
+			"dlcappid"		"305180"
+		}
+		"305182"
+		{
+			"name"		"Sniper Elite 3 - Hunter Weapons Pack (305182) Depot"
+			"manifests"
+			{
+				"public"		"1655804681957506702"
+			}
+			"maxsize"		"4747"
+			"dlcappid"		"305182"
+		}
+		"305187"
+		{
+			"name"		"Sniper Elite 3 - Allied Reinforcement Outfits Pack (305187) Depot"
+			"manifests"
+			{
+				"public"		"344111981229159733"
+			}
+			"maxsize"		"4504"
+			"dlcappid"		"305187"
+		}
+		"305181"
+		{
+			"name"		"Sniper Elite 3 - Camouflage Weapons Pack (305181) Depot"
+			"manifests"
+			{
+				"public"		"853192798450062717"
+			}
+			"maxsize"		"4747"
+			"dlcappid"		"305181"
+		}
+		"238104"
+		{
+			"name"		"Sniper Elite 3 Unreleased MP Maps"
+			"manifests"
+			{
+				"public"		"1976459191499860290"
+				"customersupportlogging"		"425213840478544665"
+			}
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"211F5D78CBE68AC9837DF92AB29F7DDD8BACF8EE08C1F2CB4D471C3238F75C6AECB5089D5F2B72F6A8B6FECC246E506D6AC054A2"
+				}
+			}
+			"maxsize"		"1360108186"
+		}
+		"312680"
+		{
+			"name"		"Sniper Elite 3 Save Churchill Part 1: In Shadows"
+			"manifests"
+			{
+				"public"		"3097102851951772610"
+				"customersupportlogging"		"5200862679637068950"
+			}
+			"maxsize"		"504538720"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"DC25B6ACFAF5465E10A6BD4B325D33538BACF8EE08C1F2CB4D471C3238F75C6A6C821DB2028960F086CDE175F46509F64AA0479D"
+				}
+			}
+			"dlcappid"		"312680"
+		}
+		"305183"
+		{
+			"name"		"Sniper Elite 3 - Patriot Weapons Pack (305183) Depot"
+			"manifests"
+			{
+				"public"		"7667090834166325528"
+			}
+			"maxsize"		"6867"
+			"dlcappid"		"305183"
+		}
+		"312740"
+		{
+			"name"		"Sniper Elite 3 - Save Churchill Part 3: Confrontation (312740) Depot"
+			"manifests"
+			{
+				"public"		"7529415928088135394"
+				"customersupportlogging"		"8097324910964807589"
+			}
+			"maxsize"		"752059310"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"361D15990C0E6E61DF9D37A2900AB29F8BACF8EE08C1F2CB4D471C3238F75C6A788B26ACF48A094CA83AACE5E8F5C8753A8AA027"
+				}
+			}
+			"dlcappid"		"312740"
+		}
+		"312690"
+		{
+			"name"		"Sniper Elite 3 - Save Churchill Part 2: Belly of the Beast (312690) Depot"
+			"manifests"
+			{
+				"public"		"6392808891980154805"
+				"customersupportlogging"		"5839176262749075249"
+			}
+			"maxsize"		"518463423"
+			"encryptedmanifests"
+			{
+				"earlyaccess"
+				{
+					"encrypted_gid"		"541877E5A1A59CEF1D987E0ADF8E704E8BACF8EE08C1F2CB4D471C3238F75C6AFE5BBD3163F283D9F1B812FE4DA2C4BA6A659E98"
+				}
+			}
+			"dlcappid"		"312690"
+		}
+		"305184"
+		{
+			"name"		"Sniper Elite 3 - Sniper Rifle Weapons Pack (305184) Depot"
+			"manifests"
+			{
+				"public"		"3610357265614430300"
+			}
+			"maxsize"		"8099"
+			"dlcappid"		"305184"
+		}
+		"305185"
+		{
+			"name"		"Sniper Elite 3 - Axis Weapons Pack (305185) Depot"
+			"manifests"
+			{
+				"public"		"3535793877192974515"
+				"customersupportlogging"		"228841535688272599"
+			}
+			"maxsize"		"8291"
+			"dlcappid"		"305185"
+		}
+		"305186"
+		{
+			"name"		"Sniper Elite 3 - Eastern Front Weapons Pack (305186) Depot"
+			"manifests"
+			{
+				"public"		"7977361222314045734"
+			}
+			"maxsize"		"8099"
+			"dlcappid"		"305186"
+		}
+		"238105"
+		{
+			"name"		"Sniper Elite 3 Mantle Exe"
+			"manifests"
+			{
+				"public"		"7018350587412657571"
+				"customersupportlogging"		"3494911765143256619"
+			}
+			"maxsize"		"10448384"
+		}
+		"326430"
+		{
+			"name"		"Sniper Elite 3 - U.S. Camouflage Rifles Pack (326430) Depot"
+			"manifests"
+			{
+				"public"		"6388188532671471767"
+			}
+			"maxsize"		"9875"
+			"dlcappid"		"326430"
+		}
+		"326431"
+		{
+			"name"		"Sniper Elite 3 - International Camouflage Rifles Pack (326431) Depot"
+			"manifests"
+			{
+				"public"		"1303246013841487943"
+			}
+			"maxsize"		"9875"
+			"dlcappid"		"326431"
+		}
+		"238106"
+		{
+			"name"		"Sniper Elite 3 Launcher"
+			"manifests"
+			{
+				"public"		"6835754718273678944"
+				"classiclauncher"		"4094121659865050913"
+			}
+			"maxsize"		"1080832"
+			"encryptedmanifests"
+			{
+				"internaltesting"
+				{
+					"encrypted_gid"		"D67CAF52E2ABCE86EB47565BDB1521E8920F73C021C7A6FB00BC6F4DF72E3F823161B719CC209F1946D42B4E2C36329A269D8B9A"
+				}
+			}
+		}
+		"baselanguages"		""
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"466849"
+			}
+			"customersupportlogging"
+			{
+				"buildid"		"371870"
+				"description"		"Build With Startup Logging"
+			}
+			"earlyaccess"
+			{
+				"buildid"		"341215"
+				"description"		"Early Access"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"63DA33C9523DC39E38360B71BBE9D5AE8BACF8EE08C1F2CB4D471C3238F75C6AEED4510D1D8BDD297374A56DA6ADA63EF1C7510F"
+			}
+			"internaltesting"
+			{
+				"buildid"		"469876"
+				"description"		"Local test depots pre push to devbeta"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"675B915525984C95DDB25552682748B5920F73C021C7A6FB00BC6F4DF72E3F82221E696F6DA832230B26DC2F86EE28C3670925EF"
+			}
+			"classiclauncher"
+			{
+				"buildid"		"469876"
+				"description"		"Old-style non-web-based launcher (for compatibility issues)"
+			}
+			"se3devbeta"
+			{
+				"buildid"		"466849"
+				"description"		"Test depots"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"8F75C21A7115EA7DDF03F3FC39478D1937C578CA20B9184356101D69D564B7C9E2B69E7DF3F6B2312D218FD514F1E62A9DE11831"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"52428800"
+		"maxnumfiles"		"50"
+	}
+}
+ 

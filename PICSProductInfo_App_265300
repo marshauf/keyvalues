@@ -1,0 +1,923 @@
+"appinfo"
+{
+	"appid"		"265300"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Lords Of The Fallen"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"b01d7d060da64430dbbc5195f26225f2e75c38b0"
+		"oslist"		"windows"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"czech"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"fdfdbc63bd9135077be18a47e8c74f293a9aab85"
+		"logo_small"		"fdfdbc63bd9135077be18a47e8c74f293a9aab85_thumb"
+		"clienticon"		"058a412f927c3413feeca0f0f77c6b75967a965b"
+		"clienttga"		"66ed40386fd5a4c3de9e8cb2482c9379fab3eb16"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"265300_eula_0"
+				"name"		"Lords Of The Fallen EULA"
+				"url"		"http://store.steampowered.com//eula/265300_eula_0"
+			}
+		}
+		"metacritic_name"		"Lords of the Fallen"
+		"controller_support"		"partial"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/lords-of-the-fallen"
+		"community_visible_stats"		"1"
+		"gameid"		"265300"
+	}
+	"extended"
+	{
+		"listofdlc"		"317200,317201,317202,317203,317204,317205,317206,317207,317208,327270,328820,328821,333800,335270,335280"
+		"developer"		"CI Games"
+		"developer_url"		""
+		"publisher"		"CI Games"
+		"homepage"		"http://lordsofthefallen.com"
+		"gamemanualurl"		"http://store.steampowered.com/manual/265300/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Lords Of The Fallen"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\LordsOfTheFallen.exe"
+				"description"		"Launch Game"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamvrsupport"		"1"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"265301"
+		{
+			"name"		"Lords Of The Fallen Main"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1470171377248965627"
+				"local"		"3076420759557702864"
+			}
+			"maxsize"		"1007577657"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"6D48BD2243BB6EEAC16F073F87ACF43F0A36A8CD68891EF5F52D330A1419E5B5BC331427B3D33694842C047568EBA2045D51EF3A"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"1128A6CAE93F103C474931D4A2F705CCD2764677EE1D63F4A8692D827FFE040CD0A3F87AD0235A0B5F7E2C7809013AA92152756E"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"091D37412388202744305AD4A6CBE822FA2F93F6BA41D4D4354509CC034073B013465C9B6E1B15C1BB4BE0F5B9DE61806BD18063"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"3D3DC41AE8B2EE56CA3A6A27063E7109849325863335984E815BF4C6186E064002B63757240F2B9CE815A4F3EF22D163E3436E59"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"70B22F8BF901D94709692B0AEE26EC9ED6E3AD1F6E0BC55F75949D80A975091B32E5EB2EE6E9281464421B8E76441115D977F431"
+				}
+				"testing_nodlc"
+				{
+					"encrypted_gid"		"E2662B61E1F9B7E777F3EFAC36AB153F31F045134F1CAC6C0182EE2082486E9F54328AED6A0BFE0DA4719406C00F761DC66C8B24"
+				}
+			}
+		}
+		"265302"
+		{
+			"name"		"Lords Of The Fallen Level Bundles"
+			"manifests"
+			{
+				"public"		"3636997376011459124"
+				"local"		"5272371537574977175"
+			}
+			"maxsize"		"17511545776"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"67C389FDFCF768FBA0D4D7437D309C0B0A36A8CD68891EF5F52D330A1419E5B5AB2C27C291B5B47CDA7FB388EABD72651CE89BFB"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"961440330FABF7FB43621831A7C1F514D2764677EE1D63F4A8692D827FFE040C1D44DD49D0BBD526F6C269D402BA2877C4E18984"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"C7E0F4BECE55223ABBBE03B06CE822D5FA2F93F6BA41D4D4354509CC034073B033DE120E42D26E73477CE0CC9326984032FA861F"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"5C99890A8B53C9AF4F13C300305103FE849325863335984E815BF4C6186E06405AFE3C473AB97C1960775F5A6947CA632A734BD1"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"63B7FB1B48B5ACE693C7CB3E8060565CD6E3AD1F6E0BC55F75949D80A975091B2B2BB3C8175201CB070A1BB1EAD3BD90B1D5EADA"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"AF2015708B01665818157723735F145A847AF841CE7425D1EE8FCC21A1BEDE938A81E19C0649A3410C4A86C54305B64FCDF5F9B5"
+				}
+			}
+		}
+		"265316"
+		{
+			"name"		"Lords Of The Fallen DataBin Bundle"
+			"manifests"
+			{
+				"public"		"7308562197551645130"
+			}
+			"maxsize"		"387526288"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"EF74AD33C21391DEEDA380EC10A4DDD80A36A8CD68891EF5F52D330A1419E5B5791CB5B9D3AE9B11EB9E6303D5266E8F6036E6DD"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"7852117968907FF3DCC5D86AEAE334AED2764677EE1D63F4A8692D827FFE040CB9B171433DA0E512B3C929A56E6A4B739C9B2192"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"40AD7638D0B3DDEAC3E9E5CA4FBFEB57FA2F93F6BA41D4D4354509CC034073B05CDC042AE8B93C1CA6FA38FCB88FC637F7615FCF"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"BFFEDC815D3CC98AE01753627B5471E0849325863335984E815BF4C6186E06405FBCFCC27D8276DA1F2A5B811B97546BF2FA4CD0"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"E4872FA7FEF22A73164EF7C49099F9E6D6E3AD1F6E0BC55F75949D80A975091B21653D2DA6301F16A37BE0EBA5AD39CFE015E600"
+				}
+				"testing_nodlc"
+				{
+					"encrypted_gid"		"E207E131AC1ADD194A232C58B7D5494931F045134F1CAC6C0182EE2082486E9F1CB7B579150DE717685C09818BB23F82B47DE98F"
+				}
+			}
+		}
+		"265303"
+		{
+			"name"		"Lords Of The Fallen - Language CS"
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"		"5498426602096248090"
+				"local"		"8744669662792115053"
+			}
+			"maxsize"		"68"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"951208E3642CC7FB6AC12E60F090AA660A36A8CD68891EF5F52D330A1419E5B5A9632DAE596CB66861ECED4E0D52B9C2155D56D0"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"415C5CF2D7379AEE04C6F37E4535AD59D2764677EE1D63F4A8692D827FFE040C4DE5DF743516AE7647315EB8043E31FEF7EEF8B1"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"27658574F32B6FA2739F81B2E2855A57FA2F93F6BA41D4D4354509CC034073B02F06235E82A9034033955C53D495E7AAD41338CF"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"CF96FBE0AE95C4B5668E610E2104EEE8849325863335984E815BF4C6186E0640891709DBAF4DDE4DFB9A3A2AF8CD1C17AEDFCC7E"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"8079753D3138175E314979E4E0F5E9F5D6E3AD1F6E0BC55F75949D80A975091B8DE2B715F5A5F5F10E46B3A270ED693D03C2A263"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"2F8698FE1A2D0A4F751CA47000F53D30847AF841CE7425D1EE8FCC21A1BEDE93475C9FE39D230B8E8C207EB1CE119CCD8AF98216"
+				}
+			}
+		}
+		"265304"
+		{
+			"name"		"Lords Of The Fallen - Language DE"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"8135119134996387303"
+				"local"		"7158828442353638956"
+			}
+			"maxsize"		"82506916"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"E86A4648361D3A6DAED6746BC63733320A36A8CD68891EF5F52D330A1419E5B531DCA7BC8FEA17404D820D94B6E39205965527A1"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"818D0570432ACCE556E5116C5FD5239BD2764677EE1D63F4A8692D827FFE040C87A6402E8A52292DBDBE02B45C9E054939C27DD1"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"82B9644BEB23C895AB93545F95DC74BBFA2F93F6BA41D4D4354509CC034073B026EF88AA563AF0D7D14B39AB4F865D5A5184EB11"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"D16B5330570331822B1336C10F26C978849325863335984E815BF4C6186E064090314777C41EF30AD35F5ED94281EBA1D5694C95"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"335695CC64B37F59FDBD3B4B49C2BF25D6E3AD1F6E0BC55F75949D80A975091B0D89F938C545B9191FEE98EF1D1FC7910207B6ED"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"2D9E32AB37179AC6F62D14CA6EC95A57847AF841CE7425D1EE8FCC21A1BEDE936117DA9A24E599EA8F09FBD4B0854A6F61A5EDF0"
+				}
+			}
+		}
+		"265305"
+		{
+			"name"		"Lords Of The Fallen - Language FR"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"5155832538433534152"
+				"local"		"8732570614666560181"
+			}
+			"maxsize"		"77749220"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"4410D199E3BB498D80F9ECD8311FBF790A36A8CD68891EF5F52D330A1419E5B5FA501C69C451831739E56ADC8E4B62C4E26B19A2"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"A004B7568DC53B2E579F3AF28D8D4708D2764677EE1D63F4A8692D827FFE040C689BCCA3BAEE624CAD0E0E3E736C9402DBFECC23"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"2F9B651C4834DC7A007A34FAF1ACAC3CFA2F93F6BA41D4D4354509CC034073B06AF39F5875A84E00F709B61C06D853376BF3B3A1"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"2BA9DA075D552498C72FDA9A83FB7714849325863335984E815BF4C6186E06408A177ACAB229E80299BBDC44225A395778A6D6A5"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"EB72F3F4352D8FC7CE765BFC56D12FF4D6E3AD1F6E0BC55F75949D80A975091B98054A328ACF3873AA988B6CDE890A619704950E"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"C26CD95573155D6EDC16DEB16F4870A3847AF841CE7425D1EE8FCC21A1BEDE930B7A6E0ECEDF87CF338575AF09202AFA4BB93222"
+				}
+			}
+		}
+		"265306"
+		{
+			"name"		"Lords Of The Fallen - Language IT"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"7857714984114768846"
+				"local"		"8876763125919832467"
+			}
+			"maxsize"		"70"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"8426E508FA302648062499CE14F658FA0A36A8CD68891EF5F52D330A1419E5B506357678193FFF8882B9845FD51842FB32AC7F71"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"36D2ACDE87922D0EB5AC02E4D4CB1380D2764677EE1D63F4A8692D827FFE040C06D59E1363BD0857B323EFEBB3F89F4FE2FE9F2C"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"057309EC27CF6A460D63007555FF07BDFA2F93F6BA41D4D4354509CC034073B0AE1D6ABDFD31510B339A44D9274C90BACE5C0D89"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"F1EF7E06AEC9C85586A12A2CE3BBD879849325863335984E815BF4C6186E0640196E6C41D9C6315978D7CA3B81B3FAD005E9262C"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"B393028D0EE2ABCC08FF433F673E0908D6E3AD1F6E0BC55F75949D80A975091B236B69BBB15F4324FEB8A1D19818D59C2DE1A8DD"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"88FA1E824DE612931DA2EA59A49F0E80847AF841CE7425D1EE8FCC21A1BEDE935BB07CE4DB974C83859179A89F4CD5651AB45311"
+				}
+			}
+		}
+		"265307"
+		{
+			"name"		"Lords Of The Fallen - Language JP"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"3260903839498041004"
+				"local"		"2298769788454847390"
+			}
+			"maxsize"		"71"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"491E98844FFB7BC85D08F72DD13935DA0A36A8CD68891EF5F52D330A1419E5B5C7FB6F8AE091454BF51C740077CF961AECDDEAB2"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"B91334EB833B03EF7BBAFF18BF7724DED2764677EE1D63F4A8692D827FFE040C454B2A1413BAF1591DBE94EA47B041E318B6B0FF"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"E6CAF6C2C7377A08315DBA83EBFAAC77FA2F93F6BA41D4D4354509CC034073B0B0834CC7033219D295A34CCE427B03F5FA3CC1D8"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"AF2674C96CCD87526C7EAC176F157A01849325863335984E815BF4C6186E0640DA5526F7F50E6B501BA44DA6C334FEE27010DC89"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"976C1F448494D06FA816520DB3F44919D6E3AD1F6E0BC55F75949D80A975091BE62427A6AEBD3BCE580FE16DCFD818E9C206CFE1"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"DFFF523D0A4590FAB72A50C70C9D102F847AF841CE7425D1EE8FCC21A1BEDE93F68CE522757D9519CECD9D17092BEE0C1B27AC21"
+				}
+			}
+		}
+		"265308"
+		{
+			"name"		"Lords Of The Fallen - Language PL"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"8846035135648576280"
+				"local"		"8437476820646427062"
+			}
+			"maxsize"		"69"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"9B8A542A734AB4281C5E653B149C3B510A36A8CD68891EF5F52D330A1419E5B589ECA4BD169036025177D672A09B01F36994C916"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"72873992B214C713BA6911D31D5FE73CD2764677EE1D63F4A8692D827FFE040C18656053487E1890286EF891BD3DCF2B6B75E2DC"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"E10919B693B1610764CD341B1B415881FA2F93F6BA41D4D4354509CC034073B05BC02025886B0E449C024CCE3B4B0AAF50B83827"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"D72C879E25BE42CF7E0C515D40B8946B849325863335984E815BF4C6186E064081D1E9F9C361FD4A5DCFEAE92AFF54C72EB9670A"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"57683E167C9986262AAD9B679C76979DD6E3AD1F6E0BC55F75949D80A975091B61706F92B01750EFE354DABF059AA71F4EC4AEE5"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"61B34A49AF7AF1CA89A11F2BF7C00457847AF841CE7425D1EE8FCC21A1BEDE9327BF62CBCDD94229AED3B15BDFFE01D6CEDA5B75"
+				}
+			}
+		}
+		"265309"
+		{
+			"name"		"Lords Of The Fallen - Language PT"
+			"config"
+			{
+				"language"		"portuguese"
+			}
+			"manifests"
+			{
+				"public"		"3502328373092977325"
+				"local"		"5963949134694288003"
+			}
+			"maxsize"		"73"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"F5FCDF5EBCED84CB52C4DDFC7E7E28A00A36A8CD68891EF5F52D330A1419E5B50153AC16839968EF4E9402F4EFDB01EC6398E811"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"C9798270983DB8294AB7ADA950FF69C3D2764677EE1D63F4A8692D827FFE040C63A6AA739EDE814DCE29A4D380035A914FD05E06"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"E00705369B2ADC965F52C9ABC1009F8DFA2F93F6BA41D4D4354509CC034073B033D7126BDCD86C383D5B6D6465147D5257A195E7"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"6C52B4242309C9C039F750923A70DD60849325863335984E815BF4C6186E06403562D7CF8365CACA24B9D5A04A113E84ED1643E6"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"03670EEB90AE32555AC36C948002A837D6E3AD1F6E0BC55F75949D80A975091BF0AFFC65C026277AAE129CA58B1AFB8A2A3C34BD"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"116ADA79842D5489A40D17502E2B6B96847AF841CE7425D1EE8FCC21A1BEDE93A9F48BEF41CD4CE8E58E7E1D15401F56ABB5ADB1"
+				}
+			}
+		}
+		"265310"
+		{
+			"name"		"Lords Of The Fallen - Language BR"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+				"public"		"9043046040102376860"
+				"local"		"746167982989819450"
+			}
+			"maxsize"		"72"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"6F996A86C391F3AAC2E27E7EA6D9DDB90A36A8CD68891EF5F52D330A1419E5B5A63A2754890C88E10581BF2D29D3AD4A58E21ABD"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"879EFFE7E9D0F34C9CFBEA0CA1F9EAF1D2764677EE1D63F4A8692D827FFE040C47CA5F7C9174CD7107D604AC266AB827C6925CEA"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"75A21143A7D21E6E0E36F8943A974886FA2F93F6BA41D4D4354509CC034073B0234753D23FA1415D52AD9AC025FFA5860BD61DC0"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"D1F4DFEAA930A4F1946C499C1EA7F7F7849325863335984E815BF4C6186E0640E9A4BFFF16AA4F25452DCA1806C346A6FB79CB6E"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"AA01DCE85B7344FD8283C6B6AAD8BC8CD6E3AD1F6E0BC55F75949D80A975091BBCADA3B1D6C64B43CD6E59B14A57951843C89DFF"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"0D862FEC282E733BF556D7E040240CE4847AF841CE7425D1EE8FCC21A1BEDE938DADD93C83CDA732D81D2D8291B1B814C11F6E24"
+				}
+			}
+		}
+		"265311"
+		{
+			"name"		"Lords Of The Fallen - Language RU"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"2418968131027949334"
+				"local"		"1225011510152661645"
+			}
+			"maxsize"		"70"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"C82A3E00A837379D62D9C73A313128CF0A36A8CD68891EF5F52D330A1419E5B576411FFB3DD5694A92093406E9630430DAFB2401"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"3CBAFB5E79E3F3BA86BC9750B3D22686D2764677EE1D63F4A8692D827FFE040C14F9DD13A71C588AEAEE88E107FFE45CA5F2C6D1"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"A2BD1AD6690B8D17DFED5E7A786732D7FA2F93F6BA41D4D4354509CC034073B033BD888D47DA547D7BC6ED5AD97ED8E3D8B46B2B"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"290EE1D177E60F07999FA6D145425C78849325863335984E815BF4C6186E064070CF3B6A02C6E71C5E8FEA0A946A70A63E7F88D0"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"3E75738070D01C4CD352672C0F8B60E4D6E3AD1F6E0BC55F75949D80A975091B83E24F5D48E90D8A788FCB20D365C1A7FE08DA92"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"2D65030426F9126C53D576D378ABFC9B847AF841CE7425D1EE8FCC21A1BEDE938959538E8A468DBBC654153807E4F0EEC89AB598"
+				}
+			}
+		}
+		"265312"
+		{
+			"name"		"Lords Of The Fallen - Language SP"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"6270664583307597895"
+				"local"		"1664232488527960900"
+			}
+			"maxsize"		"70"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"48E42770AF38DA233CD834BFD299D2390A36A8CD68891EF5F52D330A1419E5B55BF42C99132E751FBD2B4143722E233E9513E7D9"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"C6527E1F39376226FE510E16CF35B0E0D2764677EE1D63F4A8692D827FFE040CED143AFD95A6A341F01468E3A64DD64AE2CDDC0F"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"CC5545D527A8F8E00260E0BC1FDD92A9FA2F93F6BA41D4D4354509CC034073B070B44F753A8CDB1A7A2C3D1FD585F24F4E4BE3B7"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"ED196EE606D290A181F7AB2553602808849325863335984E815BF4C6186E064059D118CDD005F770ECB7404859C17E84644DC205"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"9C8D9D30F0BE28B791E41639A5F6A894D6E3AD1F6E0BC55F75949D80A975091BC5CBA597F28BDC3906F1EB82B648E1C0DDF1AB08"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"68FE24ADDB9701AA4099F4BF23A741E6847AF841CE7425D1EE8FCC21A1BEDE93E42EABA88F2AD7074018FED020FA74E537674BEC"
+				}
+			}
+		}
+		"265313"
+		{
+			"name"		"Lords Of The Fallen - Language ZH"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"8472828001726371837"
+				"local"		"4175098644856719909"
+			}
+			"maxsize"		"70"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"984E779EA38942890C994AB988635D4A0A36A8CD68891EF5F52D330A1419E5B5CEFA05812C821B6732C86A2EED3F88938A136EA7"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"EBF98DB2702FAAB161F60934EEAA3CBBD2764677EE1D63F4A8692D827FFE040C1C8A252A5AFEC2FF4302011DDCCF84C3B8592112"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"998F0BBED7EA65AA865D978EAD7E6D39FA2F93F6BA41D4D4354509CC034073B0F892B5B2377B538AAB05DCB26BE89761EE4AF08C"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"CCA2771A321D8B7235CD5CCF830DD5D2849325863335984E815BF4C6186E0640CEB1D50DDA63CC2F1C9225733A2AABCD45AA6071"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"4E3D95A58767794A7BC6917464C1FFECD6E3AD1F6E0BC55F75949D80A975091BF7320B15B28FCD2D8F5FE4633A0978E3E0A655F3"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"E0DF14413571D91F25ECC337AF3920EF847AF841CE7425D1EE8FCC21A1BEDE93B1850C6E6DD42616152076000DF53CE5EA7C21CD"
+				}
+			}
+		}
+		"265314"
+		{
+			"name"		"Lords Of The Fallen Depot - Restricted RU"
+			"manifests"
+			{
+				"public"		"3441560166759719911"
+			}
+			"maxsize"		"70"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"CE0BE1F96E4A9E49ED94A1B197650D360A36A8CD68891EF5F52D330A1419E5B56D67223718B0FB0DAEEA70193375F4765C4A2D5B"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"30011C059251101438F4E779DF8BD327D2764677EE1D63F4A8692D827FFE040C9FBAFD667B375DDAEA862401EDD8317D32A8CEC8"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"C068DF66186150A86D43BC85FA1426FCFA2F93F6BA41D4D4354509CC034073B0347767C1ECA41DBCA4C5010F7114FC0924F6375E"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"B2F6BC8B63C4084A11809E6D7423ACF7849325863335984E815BF4C6186E0640E4672CF14D20C1C20E55D89DAB0638DCDECF77A1"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"8896615A811F9724C15F3EF737B32E42D6E3AD1F6E0BC55F75949D80A975091BF188DA9E52129C4A20195D135AEB46FC1F7C5453"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"2641DD4C945491F6EA79D593175E7BFB847AF841CE7425D1EE8FCC21A1BEDE93B98925CCCA1A6A6891A6E63E3AF73EC7034F936F"
+				}
+			}
+		}
+		"265315"
+		{
+			"name"		"Lords Of The Fallen Depot - Restricted KR"
+			"manifests"
+			{
+				"public"		"3113061759435430993"
+			}
+			"maxsize"		"69"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"80E5F3577898BA8AD244B04CD66ED9EF0A36A8CD68891EF5F52D330A1419E5B519BF99CA050C945E8CA8D282376742DDFE0BEED3"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"1283E79A00683AA8B1C97460AC52C19AD2764677EE1D63F4A8692D827FFE040C75BC53AAD4DE91D4B419041A0B53811A52D0C1F0"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"A0BD52C8C34ECD75F0E32169113CD951FA2F93F6BA41D4D4354509CC034073B020E350FF702E506A9AD1EEF6B97A9FC063F550C3"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"07F804798E252F78400C6539024906AC849325863335984E815BF4C6186E0640270F37122513848132FCA59910ADBE66A28A5F5E"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"C98F4F4850573B491F26CE56AD26B081D6E3AD1F6E0BC55F75949D80A975091B71BF9477FD7D9AC6FD26539C92EA1299766A725A"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"FC078030208CC7C41B1F953ADFDE07E0847AF841CE7425D1EE8FCC21A1BEDE93353128F2FC9CA2D9A2226F8FFB28B098A51CAFD6"
+				}
+			}
+		}
+		"265318"
+		{
+			"name"		"Lords Of The Fallen - Language KR"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"2012285440330021010"
+			}
+			"maxsize"		"69"
+			"encryptedmanifests"
+			{
+				"default_test"
+				{
+					"encrypted_gid"		"E536C019BD2E1AFEF07C68A64EEBDFEB0A36A8CD68891EF5F52D330A1419E5B5D2BB0D32D2B7572EE062498CD2A009EF77BDCC37"
+				}
+				"delta_patch_test"
+				{
+					"encrypted_gid"		"4B070863B3F031C8D0988BB02777B8D5D2764677EE1D63F4A8692D827FFE040C9C94F713DDD12225E3E331C8DE6321281EDF29C2"
+				}
+				"gm_october_01"
+				{
+					"encrypted_gid"		"0AB7695D58A0CC33763806F5AA98DC69FA2F93F6BA41D4D4354509CC034073B0D174A6DD008F487DF9861FB0FA812864A489BE60"
+				}
+				"beta_vblog4"
+				{
+					"encrypted_gid"		"00D84C9872139132439BE4B53D80F5E7849325863335984E815BF4C6186E06401034C3867CF9DFB85CD0B8A4B223DC2AE7C706D0"
+				}
+				"svn_gm"
+				{
+					"encrypted_gid"		"DF057629EFE1BD29B6E168D882E4C4F6D6E3AD1F6E0BC55F75949D80A975091B23A62519B6FB89EEBE97973BC9BCE34B31C99BFB"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"D98AAD886469F03C7843D788B95B4741847AF841CE7425D1EE8FCC21A1BEDE9372D44704D58E47CED887ECE8A438BE0BC106FEFF"
+				}
+			}
+		}
+		"265319"
+		{
+			"name"		"Lords Of The Fallen VLogger Complete"
+			"manifests"
+			{
+				"public"		"5351626885346793271"
+			}
+			"maxsize"		"6890884957"
+		}
+		"265317"
+		{
+			"name"		"Lords Of The Fallen - Library Bundle"
+		}
+		"327270"
+		{
+			"name"		"Soundtrack (327270) Depot"
+			"manifests"
+			{
+				"public"		"1321609013280020670"
+			}
+			"maxsize"		"580628109"
+			"dlcappid"		"327270"
+		}
+		"317204"
+		{
+			"name"		"The Power of 3 (317204) Depot"
+			"dlcappid"		"317204"
+		}
+		"317205"
+		{
+			"name"		"Lich Boss (317205) Depot"
+			"dlcappid"		"317205"
+		}
+		"317206"
+		{
+			"name"		"Guardian Boss (317206) Depot"
+			"dlcappid"		"317206"
+		}
+		"317207"
+		{
+			"name"		"Champion Boss (317207) Depot"
+			"dlcappid"		"317207"
+		}
+		"317202"
+		{
+			"name"		"Booster Pack 1 (317202) Depot"
+			"dlcappid"		"317202"
+		}
+		"317203"
+		{
+			"name"		"Booster Pack 2 (317203) Depot"
+			"dlcappid"		"317203"
+		}
+		"317208"
+		{
+			"name"		"Lion pack (317208) Depot"
+			"dlcappid"		"317208"
+		}
+		"317201"
+		{
+			"name"		"Demonic Weapon Pack (317201) Depot"
+			"dlcappid"		"317201"
+		}
+		"317200"
+		{
+			"name"		"Monk Decipher (317200) Depot"
+			"dlcappid"		"317200"
+		}
+		"328820"
+		{
+			"name"		"LOTF - Artbook (328820) Depot"
+			"manifests"
+			{
+				"public"		"7495831261684265723"
+			}
+			"maxsize"		"51447903"
+			"dlcappid"		"328820"
+		}
+		"328821"
+		{
+			"name"		"LOTF - Map (328821) Depot"
+			"manifests"
+			{
+				"public"		"3249891583808968474"
+			}
+			"maxsize"		"3658968"
+			"dlcappid"		"328821"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"475562"
+			}
+			"default_test"
+			{
+				"buildid"		"442151"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"133F7DD9485AB24EE0A2E51C8C9791CC0A36A8CD68891EF5F52D330A1419E5B5093A9ED5161E4829318AA50D19A6C73DD52D0857"
+			}
+			"delta_patch_test"
+			{
+				"buildid"		"464248"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"AEF1D262D19AE476EF04236575BF3E3BD2764677EE1D63F4A8692D827FFE040C7444A84724979669890572C4927565154F0EB0C3"
+			}
+			"gm_october_01"
+			{
+				"buildid"		"398901"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"EF29D40126EA7BEDA762E2AC5E39A35FFA2F93F6BA41D4D4354509CC034073B072CE79E14CE65285C10A756DA76343D998CF941E"
+			}
+			"local"
+			{
+				"buildid"		"382364"
+				"description"		"Local Content Server"
+			}
+			"beta_vblog4"
+			{
+				"buildid"		"396685"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"E73AAA4BC48103870E20ADE64169ECD6849325863335984E815BF4C6186E06403B8B64E3A50D97C2236EAE3DBCF7D51E9C76DD00"
+			}
+			"svn_gm"
+			{
+				"buildid"		"398262"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"34626C6F1CA3E3485F3DE96E8497DFD4D6E3AD1F6E0BC55F75949D80A975091B6C0498DFEF136921BBFA88624611E11D2082F3C8"
+			}
+			"testing"
+			{
+				"buildid"		"474226"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"780D3DA19E4B806918F033AD311D8BF0847AF841CE7425D1EE8FCC21A1BEDE939728420A8B164709822B5A48B8390B15B9026856"
+			}
+			"testing_nodlc"
+			{
+				"buildid"		"477121"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"BCBAA2E388340F3CBE056326DE17066C31F045134F1CAC6C0182EE2082486E9F9AE7BF19C71FC199825A58032CA1C06544568BC0"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
+ 

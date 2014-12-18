@@ -1,0 +1,1417 @@
+"appinfo"
+{
+	"appid"		"227300"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Euro Truck Simulator 2"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"logo"		"719b87f11209f9f20aeb237b3c6a42992bcf7c57"
+		"logo_small"		"719b87f11209f9f20aeb237b3c6a42992bcf7c57_thumb"
+		"icon"		"adc18a4fc9adc0330144b76d61cbda68bb2394a0"
+		"clienttga"		"d28916b551b0b24c877145d552c9125695e87fc8"
+		"clienticon"		"5daee883eed0789df7a96d8ffe89def35edc1431"
+		"linuxclienticon"		"f665b2bffeff1a779a0c57838b88fbeb5592f811"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"danish"		"1"
+			"finnish"		"1"
+			"norwegian"		"1"
+			"swedish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+			"romanian"		"1"
+			"brazilian"		"1"
+			"greek"		"1"
+			"ukrainian"		"1"
+		}
+		"metacritic_name"		"Euro Truck Simulator 2"
+		"controller_support"		"partial"
+		"metacritic_score"		"79"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/euro-truck-simulator-2"
+		"community_visible_stats"		"1"
+		"gameid"		"227300"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"SCS Software"
+		"gamedir"		"Euro Truck Simulator 2"
+		"homepage"		"http://eurotrucksimulator2.com/"
+		"icon"		""
+		"installscript"		"227300_install.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"227310,258460,266930,266931,292320,297790,297791,297792,297793,301180,304020,304140,304210,304211,304212,304213,304214,318500,318510,318511,318520,318521"
+		"developer_url"		""
+		"publisher"		"SCS Software"
+		"gamemanualurl"		"http://store.steampowered.com/manual/227300/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Euro Truck Simulator 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/win_x86/eurotrucks2.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/win_x86/eurotrucks2.exe"
+				"arguments"		"-rdevice dx9"
+				"description"		"Launch with DirectX"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/win_x86/eurotrucks2.exe"
+				"arguments"		"-rdevice gl"
+				"description"		"Launch with OpenGL"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"bin/win_x86/eurotrucks2.exe"
+				"arguments"		"-safe"
+				"description"		"Launch with safe mode"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"bin/linux_x86/eurotrucks2"
+				"workingdir"		"bin/linux_x86"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"5"
+			{
+				"executable"		"bin/linux_x64/eurotrucks2"
+				"workingdir"		"bin/linux_x64"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"bin/linux_x86/eurotrucks2"
+				"arguments"		"-safe"
+				"description"		"Launch with safe mode"
+				"workingdir"		"bin/linux_x86"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"7"
+			{
+				"executable"		"Euro Truck Simulator 2.app"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+		"installscriptsignature"		"183d26e4fb0f2d2906462bd8772b85cb11ac238c70c2075f0fccfc25ca9b19998c10777b8e802d55af1f814e88c67068443d7eb0155404e79f59694696ead30896dc26d49e54c65572ac72e4a4d6dd10de65eb3853ddd94333988bfb0002cb2943a88a69a83c4f80415000467c2292a8c197d7f3e7fe3ab61ea609b8d7f581f3"
+	}
+	"install"
+	{
+		"firewall"
+		{
+			"euro truck simulator 2"		"%INSTALLDIR%\\bin\\eurotrucks2.exe"
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"227301"
+		{
+			"name"		"Euro Truck Simulator 2 Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1562466165081975483"
+				"gamepad"		"1146984314555872271"
+				"local"		"5950393882774037834"
+				"oculus"		"5226916742657968831"
+				"steamvr"		"6419636971513867418"
+				"temporary_1_10_01_19"		"2855811815017511194"
+				"temporary_1_11_01"		"3702168725461824595"
+				"temporary_1_12_01"		"2099948670262780807"
+				"temporary_1_13_02"		"1061776028077673821"
+				"temporary_1_13_04_01"		"1146984314555872271"
+				"temporary_1_14_01"		"6018263965586324115"
+				"temporary_1_14_02"		"7265599896545961739"
+				"temporary1101"		"8955179522149415959"
+				"temporary11017"		"1371543400048552413"
+				"temporary1261"		"5044779406933061358"
+				"temporary131"		"8047653635328484519"
+				"temporary141"		"4184411439849826682"
+				"temporary1412"		"102413728951404624"
+				"temporary145"		"8595113436298808906"
+				"temporary148"		"7638521231983477501"
+				"temporary152"		"1929753134446733066"
+				"temporary160"		"3495751294886012549"
+				"temporary161"		"5829359105313681203"
+				"temporary170"		"4260486397512876985"
+				"temporary171"		"8136732397123131837"
+				"temporary1823"		"6651321860539135209"
+				"temporary1824"		"6894772280533019653"
+				"temporary1825"		"8202702651257918146"
+				"temporary1922"		"5353617808491566104"
+				"temporary1924"		"3669632573134870057"
+			}
+			"maxsize"		"2658411619"
+			"encryptedmanifests"
+			{
+				"gamepad_dev"
+				{
+					"encrypted_gid"		"83E33606260E634952833E5FBF32A5851979F97E527B7B948770AE951275A23EC32CACA4C0D08D6460FA9FAAF9B28EB103004767"
+				}
+				"gm_build"
+				{
+					"encrypted_gid"		"42B786020AB907410F2C95CCE285408B34AC4ADBB07EAAD9D12C49E07F1134CD28DC6F0C4431FB496F39D58AF20569074391AA34"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"BBD84DE46EACCB0D6E7BAF81A5F3CEEAE23FBB5491FC580424A89374C47078AEA05E8D6EE5882D47FB0E789C2DD255D13C2D25BD"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"607B70C12E9B213DE0601732DB058B4E481F57CA503F54338C07ED92CE1497D0E0F8B46B271432600B77B8EC31FE7E329B841F37"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"195B09CE7501EC3362CC47FD2D72546146FE2E5FE19DC46CC88AF12DFE93E5C0B3E241EF75E14C6D404A9E438622252AEB704316"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"73881583D033D04A07992DF5D17DE369274439E5E1BAE2A05C342AC7C82EE838D2CD03BC31CE13D3CB749F4EEAEF91F767A6BB1C"
+				}
+			}
+		}
+		"227302"
+		{
+			"name"		"Euro Truck Simulator 2 Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1282100906584303800"
+				"gamepad"		"8217430449153383838"
+				"local"		"8304229916657657544"
+				"oculus"		"2386272405794561074"
+				"steamvr"		"5990452751116531878"
+				"temporary_1_10_01_19"		"8304229916657657544"
+				"temporary_1_11_01"		"1383708096649121725"
+				"temporary_1_12_01"		"5573546716235778202"
+				"temporary_1_13_02"		"4908174817817464657"
+				"temporary_1_13_04_01"		"8217430449153383838"
+				"temporary_1_14_01"		"6217851468143965596"
+				"temporary_1_14_02"		"6217851468143965596"
+				"temporary1101"		"8304229916657657544"
+				"temporary11017"		"8304229916657657544"
+				"temporary1261"		"6656657663498527945"
+				"temporary131"		"6656657663498527945"
+				"temporary141"		"5209696127183219414"
+				"temporary1412"		"9115184229013396942"
+				"temporary145"		"4243423121877938167"
+				"temporary148"		"6775077134828989603"
+				"temporary152"		"3171852440280872288"
+				"temporary160"		"6781875758244457498"
+				"temporary161"		"4755198926073660080"
+				"temporary170"		"1413388946992240930"
+				"temporary171"		"1935765968411886672"
+				"temporary1823"		"7312263663389001970"
+				"temporary1824"		"7312263663389001970"
+				"temporary1825"		"7312263663389001970"
+				"temporary1922"		"8408258706125482716"
+				"temporary1924"		"8408258706125482716"
+			}
+			"maxsize"		"35428848"
+			"encryptedmanifests"
+			{
+				"gamepad_dev"
+				{
+					"encrypted_gid"		"B3215CC3297E153C98564C55FCFA16CF1979F97E527B7B948770AE951275A23E1CE9EC4E3DE861F63CD7A0066CEE5E473D475E9D"
+				}
+				"gm_build"
+				{
+					"encrypted_gid"		"816A375F7A0A9C7B3E8BC2198D57BF6B34AC4ADBB07EAAD9D12C49E07F1134CDFFA7E1064768FD6CCABD0E0D565ED0045C36A148"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"DCA9BDE71DED0B3188008230327308EEE23FBB5491FC580424A89374C47078AE3BD7BD5DD14DD70F85FC75E5D1DF38CFF92E64CA"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"AC957F5A17729B14F7CE227850A59A56481F57CA503F54338C07ED92CE1497D0E8CEC8350A1A327A930FBE0913FE1122BDC3E390"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"DE26A75D6A61ACA64BA5019CFABFDCE446FE2E5FE19DC46CC88AF12DFE93E5C0DA5B9704159E307C4A80911603D36DB6601FBC17"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"2AF07635ADACB52A4F1F5972816B681B274439E5E1BAE2A05C342AC7C82EE838E9366AC8720C0252F981D9B70B073967D9FABFBF"
+				}
+			}
+		}
+		"227303"
+		{
+			"name"		"Euro Truck Simulator 2 Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7695699811067734383"
+				"gamepad"		"6280677028329463730"
+				"local"		"5601652243191262795"
+				"oculus"		"7852326273509369519"
+				"steamvr"		"7852326273509369519"
+				"temporary_1_10_01_19"		"5973901396333752258"
+				"temporary_1_11_01"		"6405715795289235955"
+				"temporary_1_12_01"		"6189190596472035508"
+				"temporary_1_13_02"		"7398709531687418968"
+				"temporary_1_13_04_01"		"6280677028329463730"
+				"temporary_1_14_01"		"1950692503054291978"
+				"temporary_1_14_02"		"1950692503054291978"
+				"temporary1101"		"5973901396333752258"
+				"temporary11017"		"5973901396333752258"
+				"temporary152"		"4559787724179900632"
+				"temporary160"		"4737808495631554547"
+				"temporary161"		"8426069339284743039"
+				"temporary170"		"1029597508852009174"
+				"temporary171"		"7811046307518548162"
+				"temporary1823"		"7879558973450437892"
+				"temporary1824"		"7879558973450437892"
+				"temporary1825"		"7879558973450437892"
+				"temporary1922"		"5601652243191262795"
+				"temporary1924"		"5601652243191262795"
+			}
+			"maxsize"		"37431957"
+			"encryptedmanifests"
+			{
+				"gamepad_dev"
+				{
+					"encrypted_gid"		"C8CB34A7B5D12CC756C08C81E1260E5B1979F97E527B7B948770AE951275A23ED0ED266E1B5A35FD1779C780EB63631891DFE795"
+				}
+				"gm_build"
+				{
+					"encrypted_gid"		"D8EEA6CD0861A357F1E2E692213F07B734AC4ADBB07EAAD9D12C49E07F1134CD5D740E2593C01F6107EA2B90AF74F382683EC098"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"D63560B1890EF4FF16650147638D4BB9E23FBB5491FC580424A89374C47078AE73A5CEF2373B937D1DDDE8318F79A1B44B326585"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"2CB6F892970563EE750321157890A007481F57CA503F54338C07ED92CE1497D0D9E245BB246714F7CF02AF85C1741BB07859A5F4"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"73082E2B886F8DDB3055F27498DD858C46FE2E5FE19DC46CC88AF12DFE93E5C0343D86DFA144B8DC28B0FD5E920F603BFA253BD8"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"EC7075A04C9D5F60CC130526DE72CDBD274439E5E1BAE2A05C342AC7C82EE838992FB475CC379A62AEBE3CFF446EF08D2D2A530A"
+				}
+			}
+		}
+		"227304"
+		{
+			"name"		"Euro Truck Simulator 2 OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"experimental2"
+				{
+					"encrypted_gid"		"48A8DBA642AE5A1B7BBC0446DAE1DDE7F62E0D4467867E9E5C331772AECB792EA2C676FA1D7958006B73E5414D67C1B8C5D4710C"
+				}
+			}
+			"maxsize"		"21433458"
+		}
+		"227310"
+		{
+			"name"		"Euro Truck Simulator 2 - Going East! (227310) Depot"
+			"manifests"
+			{
+				"public"		"549365506062577873"
+				"gamepad"		"7006937193351743279"
+				"local"		"8194463718480921860"
+				"oculus"		"5606901093862826813"
+				"steamvr"		"8582262694971752559"
+				"temporary_1_10_01_19"		"7231815074650642884"
+				"temporary_1_11_01"		"3122164463069588832"
+				"temporary_1_12_01"		"8172248675759178327"
+				"temporary_1_13_02"		"2300712899204289095"
+				"temporary_1_13_04_01"		"7006937193351743279"
+				"temporary_1_14_01"		"5771503820510365389"
+				"temporary_1_14_02"		"7594776356607340422"
+				"temporary1101"		"5708157137628070575"
+				"temporary11017"		"999977752407303786"
+				"temporary152"		"6137289501264118420"
+				"temporary160"		"4958739946487828374"
+				"temporary161"		"4906202032288967689"
+				"temporary170"		"500461475177325702"
+				"temporary171"		"8472481815056183320"
+				"temporary1823"		"7780102799653350809"
+				"temporary1824"		"7611060103816899967"
+				"temporary1825"		"393981433479669103"
+				"temporary1922"		"2007831355204129045"
+				"temporary1924"		"4374355333528174870"
+			}
+			"maxsize"		"50456236"
+			"encryptedmanifests"
+			{
+				"gamepad_dev"
+				{
+					"encrypted_gid"		"33BBA722A1EEAB36913D94B8DD26BD8F1979F97E527B7B948770AE951275A23E45EB17086E35F820B7C522282D4C1AE2C04EE5A2"
+				}
+				"gm_build"
+				{
+					"encrypted_gid"		"02F06BB42E259213725EDE19F262461D34AC4ADBB07EAAD9D12C49E07F1134CD8F7F7C348D08C40A5AE6FE94E106520A51509E6E"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"4ED3D7DBAF719974D255820E4FD529D1E23FBB5491FC580424A89374C47078AE6222B64859C74CD700E1B8C4021D232E2144BAB3"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"6FCEE20D5622DCD4BEB82C42F387AA17481F57CA503F54338C07ED92CE1497D016C2EFCBC03E84ED7AB3099D119B7D95F9E7412B"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"8F625E804A84ED5990F0E796592DC8D246FE2E5FE19DC46CC88AF12DFE93E5C0781D088BA06CF16F4B657D4823AD291110A426D8"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"3183A251791573F216B32AFC5A742759274439E5E1BAE2A05C342AC7C82EE838140568554E203816701BE665CA8B297D88FF5326"
+				}
+			}
+			"dlcappid"		"227310"
+		}
+		"258460"
+		{
+			"name"		"Euro Truck Simulator 2 - Halloween Paint Jobs DLC (258460) Depot"
+			"manifests"
+			{
+				"public"		"1227223457312187165"
+				"gamepad"		"2853964912374988642"
+				"local"		"584666759200829798"
+				"oculus"		"8347281398419818572"
+				"steamvr"		"2401132890655008270"
+				"temporary_1_10_01_19"		"8626216962756472617"
+				"temporary_1_11_01"		"5661349927779341455"
+				"temporary_1_12_01"		"6210207850949960809"
+				"temporary_1_13_02"		"5781785126852513298"
+				"temporary_1_13_04_01"		"2853964912374988642"
+				"temporary_1_14_01"		"5452105230652994371"
+				"temporary_1_14_02"		"6401697807756253275"
+				"temporary1101"		"7810211599883601834"
+				"temporary11017"		"8156754313025759210"
+				"temporary170"		"2747036242941994481"
+				"temporary171"		"2371353542216405771"
+				"temporary1823"		"1261212921745743427"
+				"temporary1824"		"6705206731798620124"
+				"temporary1825"		"8558957555698640067"
+				"temporary1922"		"8489727376593226832"
+				"temporary1924"		"4533131699993952533"
+			}
+			"maxsize"		"254910004"
+			"encryptedmanifests"
+			{
+				"gamepad_dev"
+				{
+					"encrypted_gid"		"127B89789C52B1545BE09B54554E7AED1979F97E527B7B948770AE951275A23E15741A383BB344F7D10A43292E3072A9C6B5F5B3"
+				}
+				"gm_build"
+				{
+					"encrypted_gid"		"4129418293D7015F67065A56500DC0A434AC4ADBB07EAAD9D12C49E07F1134CD6C5F0B5EDFC17EF42052F1206AB6F3078CB2767B"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"BB92E418C93279A28AF6E202F5D3D5F5E23FBB5491FC580424A89374C47078AED05578C010EDE84041D979C67DBD2B178604D549"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"8A5A4825054FA50C0354F9786B8A2959481F57CA503F54338C07ED92CE1497D0007407D188710D9397241B02BC661224891AE37C"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"0CAC078512D8924CDAC054E4F465C71C46FE2E5FE19DC46CC88AF12DFE93E5C0912CCFC86BD0108316273F3C4BA01FF2B50E2F92"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"57BFADA7CA5D1DE338ECDE9CBFE027DA274439E5E1BAE2A05C342AC7C82EE8383725A4456C79796CE36C895BA9DADB0F1764FB2F"
+				}
+			}
+			"dlcappid"		"258460"
+		}
+		"266930"
+		{
+			"name"		"Euro Truck Simulator 2 - Ice Cold Paint Jobs DLC (266930) Depot"
+			"manifests"
+			{
+				"public"		"1819565893350485621"
+				"gamepad"		"7996517204280641981"
+				"local"		"2664084799692080634"
+				"oculus"		"5403245688961578625"
+				"steamvr"		"824134905927105202"
+				"temporary_1_10_01_19"		"3283469150169607126"
+				"temporary_1_11_01"		"3924444802597797031"
+				"temporary_1_12_01"		"4916603729843310050"
+				"temporary_1_13_02"		"8009170583526794867"
+				"temporary_1_13_04_01"		"7996517204280641981"
+				"temporary_1_14_01"		"6861438213997575569"
+				"temporary_1_14_02"		"7880562173057834795"
+				"temporary1101"		"5870230833924324830"
+				"temporary11017"		"4653190951754253919"
+				"temporary1824"		"7784585348565631250"
+				"temporary1825"		"4253420794727531620"
+				"temporary1922"		"4195261302713709299"
+				"temporary1924"		"987399736778882209"
+			}
+			"maxsize"		"350001664"
+			"encryptedmanifests"
+			{
+				"gamepad_dev"
+				{
+					"encrypted_gid"		"24757519B50F87C26EDF7F7F498A3B6F1979F97E527B7B948770AE951275A23E9BE57CDA4CA10BBB77641B3ABF165959D77F277B"
+				}
+				"gm_build"
+				{
+					"encrypted_gid"		"778B61B82D0A3D83A080BC5F596CD6B734AC4ADBB07EAAD9D12C49E07F1134CD163CDDB5FE18ADA0FC8D32F7357C318D60320352"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"C0270165C1490A39F7FE2161F86BF1E2E23FBB5491FC580424A89374C47078AE301D28DC847B98AC9D813CF6A60ABBA7EEF3A58D"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"28D1CBDCD00B7F5D21708911321869CB481F57CA503F54338C07ED92CE1497D05FCF13D35E2EBC332DDDFCBDAC66666A929DBD15"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"9275F54427D8221811FC8651864E863D46FE2E5FE19DC46CC88AF12DFE93E5C08EACB475116DBEDAA403701F908820EBC80DE8E3"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"CCEFD1DFCA9678488B963296A086EF4A274439E5E1BAE2A05C342AC7C82EE838546AE89DC23B5710F25D1423C137C4A2ACCC1F23"
+				}
+			}
+			"dlcappid"		"266930"
+		}
+		"292320"
+		{
+			"name"		"Euro Truck Simulator 2 - Force of Nature Paint Jobs DLC (292320) Depot"
+			"manifests"
+			{
+				"public"		"8487200094065894838"
+				"gamepad"		"1687899570966683425"
+				"local"		"584827798425802107"
+				"oculus"		"3747507371596370506"
+				"steamvr"		"4367629238140517767"
+				"temporary_1_10_01_19"		"3407233487343930732"
+				"temporary_1_11_01"		"380174689367487104"
+				"temporary_1_12_01"		"4983431830429471574"
+				"temporary_1_13_02"		"1246142848824150726"
+				"temporary_1_13_04_01"		"1687899570966683425"
+				"temporary_1_14_01"		"3702587306334913939"
+				"temporary_1_14_02"		"2149075058719563340"
+				"temporary1101"		"2138581288611167416"
+				"temporary11017"		"7397787164109331237"
+				"temporary1924"		"1523479158307472955"
+			}
+			"maxsize"		"558319386"
+			"encryptedmanifests"
+			{
+				"gamepad_dev"
+				{
+					"encrypted_gid"		"BAC55C05C2257B4154E9B01FBA2AA0EF1979F97E527B7B948770AE951275A23EDC7A0F0BBE401AA0832CAEC37B51AC0451DE3EFE"
+				}
+				"gm_build"
+				{
+					"encrypted_gid"		"F3FCED7E1E1F9B036A0DF5176656D6D434AC4ADBB07EAAD9D12C49E07F1134CD358E03A302C4E2D70416A6868A1572717B737994"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"097FB9BB2A1E74D0F2AAB921E18A731BE23FBB5491FC580424A89374C47078AE266A2152EBA9C0436F85A0B140E35567C46238CA"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"5EBEB6A1F5D103BDA6AF19D56D33C146481F57CA503F54338C07ED92CE1497D070940EFCB9328E2F4A3D29A7C48053DFB1109642"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"E564516C233A8BAFBF4C21ACD68CBCB746FE2E5FE19DC46CC88AF12DFE93E5C036EBA40FF82681F6655B88D1F0704C71E6BB191A"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"E5D3A99F54A7BD2D97C9D643130D5991274439E5E1BAE2A05C342AC7C82EE838E71579E3BEE16F5ECACEBD00BCCC2072F4416F4A"
+				}
+			}
+			"dlcappid"		"292320"
+		}
+		"297790"
+		{
+			"name"		"Euro Truck Simulator 2 - Metallic Paint Jobs DLC (297790) Depot"
+			"manifests"
+			{
+				"public"		"2823135467125995139"
+				"gamepad"		"1101649707652221920"
+				"local"		"5184164949363358693"
+				"oculus"		"3580903589519351638"
+				"steamvr"		"4807729404042781988"
+				"temporary_1_10_01_19"		"6008171146417802534"
+				"temporary_1_11_01"		"8830702888528328938"
+				"temporary_1_12_01"		"5327664115609306800"
+				"temporary_1_13_02"		"5138781577591736265"
+				"temporary_1_13_04_01"		"1101649707652221920"
+				"temporary_1_14_01"		"230814830469714616"
+				"temporary_1_14_02"		"1613298103199298575"
+				"temporary1101"		"4042454174525229760"
+				"temporary11017"		"3322676036248187873"
+			}
+			"maxsize"		"14782571"
+			"encryptedmanifests"
+			{
+				"gm_build"
+				{
+					"encrypted_gid"		"9B9DEDC22D9FCA4B570D3C0D961A411134AC4ADBB07EAAD9D12C49E07F1134CD6C7A3D3AAA684F149D5C48B3932B72CB29AA5DD2"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"751C3CDB04B74CB7F2F5E1A1C4DE609AE23FBB5491FC580424A89374C47078AE2D8C6F17833B28A47E080411E97CBC1E1951FA18"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"CC9CC133EB9E4FCEADE21B8E57A3CDEF481F57CA503F54338C07ED92CE1497D01CCBF42EBB409AE0E1C1C3CA2905850A99281920"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"4DF76D5949F88D2BDDA9492434305F9146FE2E5FE19DC46CC88AF12DFE93E5C0095230C5F2838B72088BABC162D0BE2BA705C1FD"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"5CA577B33D1664E9974340C8440AD8E4274439E5E1BAE2A05C342AC7C82EE83896352A6BF5D5FD393C3B77F6449B6B56A62EBE78"
+				}
+			}
+			"dlcappid"		"297790"
+		}
+		"297791"
+		{
+			"name"		"Euro Truck Simulator 2 - UK Paint Jobs DLC (297791) Depot"
+			"manifests"
+			{
+				"public"		"1094239298016447324"
+				"gamepad"		"4102463844970598085"
+				"local"		"2769817456311377651"
+				"oculus"		"6912172701511648012"
+				"steamvr"		"6889289591313127323"
+				"temporary_1_10_01_19"		"5311589692880942681"
+				"temporary_1_11_01"		"8925567472264105553"
+				"temporary_1_12_01"		"3006310280667309886"
+				"temporary_1_13_02"		"1505298182103284547"
+				"temporary_1_13_04_01"		"4102463844970598085"
+				"temporary_1_14_01"		"7105456807583717907"
+				"temporary_1_14_02"		"5949366717538778790"
+				"temporary1101"		"4079140841048519560"
+				"temporary11017"		"9206517343203425131"
+			}
+			"maxsize"		"211413969"
+			"encryptedmanifests"
+			{
+				"gm_build"
+				{
+					"encrypted_gid"		"72A5135655BA507786F5798696C0824E34AC4ADBB07EAAD9D12C49E07F1134CD914B9B84816C8C044B1A1B9E907D16A227109F62"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"A0EF73ACA70445AC3154E1EF1EC4AF18E23FBB5491FC580424A89374C47078AE4860B785A9FC3972CD2322037A61B1C72CF02206"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"FEA4B080E2369B89AAE9DBF0D2908F93481F57CA503F54338C07ED92CE1497D0EDF869F09110A2EDF9D12D57C19C540D9C76BFB7"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"EE6A96E486B5114C10A1C7AC28EDE1C246FE2E5FE19DC46CC88AF12DFE93E5C00A69D56F13B2BE90ACF6270DBC2149B94BEC1C48"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"B5FB55DE129496E74C02BBC93C731301274439E5E1BAE2A05C342AC7C82EE838BC3B43323A6016251CDDA113777C537FA0FBB57D"
+				}
+			}
+			"dlcappid"		"297791"
+		}
+		"297792"
+		{
+			"name"		"Euro Truck Simulator 2 - Irish Paint Jobs DLC (297792) Depot"
+			"manifests"
+			{
+				"public"		"6158553486816099224"
+				"gamepad"		"1516170750143471975"
+				"local"		"8541491432364218759"
+				"oculus"		"7449038730825330531"
+				"steamvr"		"7075043715067288721"
+				"temporary_1_10_01_19"		"1492732944661277755"
+				"temporary_1_11_01"		"6775597111506489580"
+				"temporary_1_12_01"		"2704380650248523054"
+				"temporary_1_13_02"		"7092956950848243838"
+				"temporary_1_13_04_01"		"1516170750143471975"
+				"temporary_1_14_01"		"6411316500881795679"
+				"temporary_1_14_02"		"1542392978561081077"
+				"temporary1101"		"4543398034042604643"
+				"temporary11017"		"2625879213971248985"
+			}
+			"maxsize"		"189041759"
+			"encryptedmanifests"
+			{
+				"gm_build"
+				{
+					"encrypted_gid"		"CA1C14DDC4C515788116222276EDDBA634AC4ADBB07EAAD9D12C49E07F1134CDDA52090A0397261E8EAC5A98573C25925C21B349"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"AB5EAF1B3EE0BDA05C6D578EF0CF0736E23FBB5491FC580424A89374C47078AE1D5C308D46FD7B4D9A3A46982A3C0825A315EC7F"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"D80276097AF0FF652C210B89A274A125481F57CA503F54338C07ED92CE1497D07C31216DADD8F8F2FFDDEF3D68CAFFBE958779CD"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"C9ACF6D6F258BD2E56174587E303F4D746FE2E5FE19DC46CC88AF12DFE93E5C0EB734B4F25BBD5A5520894BA69268B11439C091F"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"CE97ABA1808D3B08589D5F470A79818C274439E5E1BAE2A05C342AC7C82EE838118C70AAC6912E31119632B6B611345BAD7181A6"
+				}
+			}
+			"dlcappid"		"297792"
+		}
+		"297793"
+		{
+			"name"		"Euro Truck Simulator 2 - Scottish Paint Jobs DLC (297793) Depot"
+			"manifests"
+			{
+				"public"		"5047772080654462154"
+				"gamepad"		"3906665785444979900"
+				"local"		"1051907051589093414"
+				"oculus"		"299902090895223205"
+				"steamvr"		"5593058540833464331"
+				"temporary_1_10_01_19"		"7220937600291202389"
+				"temporary_1_11_01"		"5604918160267787260"
+				"temporary_1_12_01"		"8843559825436628802"
+				"temporary_1_13_02"		"5008607460870279357"
+				"temporary_1_13_04_01"		"3906665785444979900"
+				"temporary_1_14_01"		"5389321724866246491"
+				"temporary_1_14_02"		"6197648759557004278"
+				"temporary1101"		"7873244672868395072"
+				"temporary11017"		"3984201747867739347"
+			}
+			"maxsize"		"225397400"
+			"encryptedmanifests"
+			{
+				"gm_build"
+				{
+					"encrypted_gid"		"2198BFEB317DA0F240855DD3D9831C1834AC4ADBB07EAAD9D12C49E07F1134CD8F63B67A00171D8AF22A6C7E0D40100F9BBEFF46"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"80A083F80C286809E905E483ED30049FE23FBB5491FC580424A89374C47078AE81D1D3F3DCB9E9B98DC9712F4674749C4D51A0EB"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"13531A1C92F75FF62B20F6E0AD4B3E3B481F57CA503F54338C07ED92CE1497D08CC4336C25D1BD0B266EF637380A15C827081A97"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"3B3B1C1CA8E4B7154C70EBC7D397490F46FE2E5FE19DC46CC88AF12DFE93E5C0172939A03E51E5287C7A1B6E69F0451CCE60E65C"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"D6843512688C966AB4C43EFB4263DE63274439E5E1BAE2A05C342AC7C82EE838457806DACF129E094016CCCF8D7FC948C1258B2B"
+				}
+			}
+			"dlcappid"		"297793"
+		}
+		"301180"
+		{
+			"name"		"Euro Truck Simulator 2 - Flip Paint Designs DLC (301180) Depot"
+			"manifests"
+			{
+				"public"		"230050300903176803"
+				"gamepad"		"4955752956199301265"
+				"oculus"		"5702978902943652156"
+				"steamvr"		"6559517534126845801"
+				"temporary_1_10_01_19"		"5083171964243261387"
+				"temporary_1_11_01"		"2150922611262717697"
+				"temporary_1_12_01"		"138191522474800961"
+				"temporary_1_13_02"		"5884218137639086178"
+				"temporary_1_13_04_01"		"4955752956199301265"
+				"temporary_1_14_01"		"9196272485358396511"
+				"temporary_1_14_02"		"855272549768989300"
+				"temporary11017"		"524046450414791012"
+			}
+			"maxsize"		"27704008"
+			"encryptedmanifests"
+			{
+				"gm_build"
+				{
+					"encrypted_gid"		"C747AA73BAA9276249EA178CAF85976A34AC4ADBB07EAAD9D12C49E07F1134CD624D552815AFC0003FF4FAF1A0450A49481F78BD"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"AC08DDB8041BB2F8E57D8E999785008EE23FBB5491FC580424A89374C47078AEFD16E631FBD773AA3E112DCD70C290C8A0ECCD97"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"1EA6009B8E71C18437A02398F1EB39DF481F57CA503F54338C07ED92CE1497D09481E2C47B3239152401509BA780915E302A1121"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"7B7FC5D2C3E496D5BD0DE4D1CEA0755246FE2E5FE19DC46CC88AF12DFE93E5C0ACEADFB25EAEE1FACF506F781B37C2E32C48EBE6"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"D3B8A8F3354BA1AFAFB5623ACA20E6D3274439E5E1BAE2A05C342AC7C82EE838546D4FBB13F48AE7A9AB03AAA6FDAA7426CDB83C"
+				}
+			}
+			"dlcappid"		"301180"
+		}
+		"304020"
+		{
+			"name"		"Euro Truck Simulator 2 - Polish Paint Jobs Pack (304020) Depot"
+			"manifests"
+			{
+				"public"		"2144638917239822220"
+				"gamepad"		"5412233219878276243"
+				"oculus"		"3211099889742726941"
+				"steamvr"		"5865568056371879280"
+				"temporary_1_10_01_19"		"9147412713643166603"
+				"temporary_1_11_01"		"7756127301077822307"
+				"temporary_1_12_01"		"6029579573941788013"
+				"temporary_1_13_02"		"6768622822478597453"
+				"temporary_1_13_04_01"		"5412233219878276243"
+				"temporary_1_14_01"		"755546996255103324"
+				"temporary_1_14_02"		"2116666434205825142"
+			}
+			"maxsize"		"194632236"
+			"encryptedmanifests"
+			{
+				"gm_build"
+				{
+					"encrypted_gid"		"8C3B03D49EF49D6139C31EBB9D16FE8234AC4ADBB07EAAD9D12C49E07F1134CDC9F78C280DE9B5F2845CF142BD1F546599DB4F82"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"14054627CAFCED95242BF253214B9DCCE23FBB5491FC580424A89374C47078AEC423D0CD3FD0E988337E111AEF8FB9C27131A983"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"F44359BCD47B13DC758698494F75E712481F57CA503F54338C07ED92CE1497D0C73028C0423A72D769AC7091C5119EF06B20C94F"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"078BBDBF485B286FC2C4B7DAE111970F46FE2E5FE19DC46CC88AF12DFE93E5C0E691740381E558BF098C3B4EAED31443F00ED9CA"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"74C3BEBCA91F4FB3A1282B43D176E80B274439E5E1BAE2A05C342AC7C82EE838A56BEF93F907DF5A47147727BCA1BC6A563B90BE"
+				}
+			}
+			"dlcappid"		"304020"
+		}
+		"304140"
+		{
+			"name"		"Euro Truck Simulator 2 - Brazilian Paint Jobs Pack (304140) Depot"
+			"manifests"
+			{
+				"public"		"425852597760761796"
+				"gamepad"		"7630825673325955982"
+				"oculus"		"3699123822328456368"
+				"steamvr"		"1217680155562280244"
+				"temporary_1_10_01_19"		"152858962693069330"
+				"temporary_1_11_01"		"8979033947953397778"
+				"temporary_1_12_01"		"8201429702471954250"
+				"temporary_1_13_02"		"3445746491294117874"
+				"temporary_1_13_04_01"		"7630825673325955982"
+				"temporary_1_14_01"		"7430371594351736218"
+				"temporary_1_14_02"		"5565871577832703535"
+			}
+			"maxsize"		"147094607"
+			"encryptedmanifests"
+			{
+				"gm_build"
+				{
+					"encrypted_gid"		"2CACCBC871BDE4F7B34BD9A05439D8C834AC4ADBB07EAAD9D12C49E07F1134CD5792AA8FB6695450EF22EC07B32D9AC173A84DF5"
+				}
+				"oculus_dev"
+				{
+					"encrypted_gid"		"F31F93894158096BD4315B60E33F52BBE23FBB5491FC580424A89374C47078AEB9FE4987959D02A43AA2C3562444717A142C2963"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"D8B2DB34327E6F26C9C9A5A8536EE5C7481F57CA503F54338C07ED92CE1497D09F0B0CC4E5AFDFFB386530F8DB2B2BD28E4AE127"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"AA7EAF382F8DEE6FCDD47151DAA4C6AA46FE2E5FE19DC46CC88AF12DFE93E5C044E6569AC49AA1B3F0C0F41A37EE963F783045CD"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"CA25EE82CBB28AD39D0B2D9E826E4683274439E5E1BAE2A05C342AC7C82EE838D5B1F0DB081272F323F5112AB4D831B9B8700E02"
+				}
+			}
+			"dlcappid"		"304140"
+		}
+		"304210"
+		{
+			"name"		"Euro Truck Simulator 2 - Fantasy Paint Jobs Pack (304210) Depot"
+			"manifests"
+			{
+				"public"		"427316695477997699"
+				"gamepad"		"6501202002237278178"
+				"oculus"		"4236544817784189924"
+				"steamvr"		"5385557299136201563"
+				"temporary_1_10_01_19"		"5082677013495568578"
+				"temporary_1_11_01"		"4214135258169612522"
+				"temporary_1_12_01"		"4090491316698713811"
+				"temporary_1_13_02"		"7781027915033084579"
+				"temporary_1_13_04_01"		"6501202002237278178"
+				"temporary_1_14_01"		"2140039686389114127"
+				"temporary_1_14_02"		"5417164769905372683"
+			}
+			"maxsize"		"201772169"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"F630C7CEF363BD10A65AE78333464F3CE23FBB5491FC580424A89374C47078AE309253601A7D25C9057427B67595FC7467CB4D4C"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"E5EA3BDC99409CC3497734B87C1D3C08481F57CA503F54338C07ED92CE1497D09D6D2BDF2D4EFF764359F08B149093CE5D1E39D9"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"FC939CCE757E9D9B715BBAE37A5153E546FE2E5FE19DC46CC88AF12DFE93E5C01072E5363BA3510CCE69E634BF8532FFAC2962B0"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"D6D32E3618E7DC6BC6007C9F16A240CE274439E5E1BAE2A05C342AC7C82EE838FC20086E66E79F6B32D6FC8A311F25FCD0A66959"
+				}
+			}
+			"dlcappid"		"304210"
+		}
+		"304213"
+		{
+			"name"		"Euro Truck Simulator 2 - Canadian Paint Jobs Pack (304213) Depot"
+			"manifests"
+			{
+				"public"		"7942767726568573949"
+				"gamepad"		"9044044158155430305"
+				"oculus"		"7219673673418737212"
+				"steamvr"		"8341014113711226445"
+				"temporary_1_10_01_19"		"9103632312717719792"
+				"temporary_1_11_01"		"6464667697686397068"
+				"temporary_1_12_01"		"5166652011641675871"
+				"temporary_1_13_02"		"6488310430899000993"
+				"temporary_1_13_04_01"		"9044044158155430305"
+				"temporary_1_14_01"		"7047872817184809896"
+				"temporary_1_14_02"		"1390369115134168160"
+			}
+			"maxsize"		"196033912"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"DBDBB99210C0F5A69E39D42AB09A8E84E23FBB5491FC580424A89374C47078AE6100CACAAAA58F1A5F0A91C9A87F53191151DD03"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"611AE3BABE9CAC19F66B9B5B56C04000481F57CA503F54338C07ED92CE1497D022D9105107EE87D538C7E98483FB07EFC08F91CE"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"2D44EF7B7E8603D1AE49EC421EA02E1B46FE2E5FE19DC46CC88AF12DFE93E5C01ED227260C4EA347179528285D3F2373DABDA27C"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"831503B846CDA30E9F4AD1AA09DB026C274439E5E1BAE2A05C342AC7C82EE838CF5D55019BA67F53E6FA4A7BAAC8EF0661DEC765"
+				}
+			}
+			"dlcappid"		"304213"
+		}
+		"304211"
+		{
+			"name"		"Euro Truck Simulator 2 - USA Paint Jobs Pack (304211) Depot"
+			"manifests"
+			{
+				"public"		"271335267265312826"
+				"gamepad"		"3615692886284234278"
+				"oculus"		"1871902051780168838"
+				"steamvr"		"7079450076556608077"
+				"temporary_1_10_01_19"		"366206917019412247"
+				"temporary_1_11_01"		"1600297986609033377"
+				"temporary_1_12_01"		"1529755115891964476"
+				"temporary_1_13_02"		"6305435900767449485"
+				"temporary_1_13_04_01"		"3615692886284234278"
+				"temporary_1_14_01"		"4797349955056263351"
+				"temporary_1_14_02"		"3326329811340817851"
+			}
+			"maxsize"		"173665555"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"3EB44779FAA37B0342C1AE56A72A86E9E23FBB5491FC580424A89374C47078AE09D07B108C0331CD8A2215B12DC59D357FC3BFB2"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"E1FCC30F09CEEEC711181AA2D0F292FA481F57CA503F54338C07ED92CE1497D05787FB17AE28EDC87CEDBCFB7D2976F5DDC83351"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"325FFEBE97A65C8AEC003DE455C3304546FE2E5FE19DC46CC88AF12DFE93E5C011FB019A1407F7789CC1622FC6DC451FA1DCEC58"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"E5223FC4F29178263E1BF043BFB6B14B274439E5E1BAE2A05C342AC7C82EE8383013DBB3FB511A295514A02284BE55524C544005"
+				}
+			}
+			"dlcappid"		"304211"
+		}
+		"304214"
+		{
+			"name"		"Euro Truck Simulator 2 - High Power Cargo Pack (304214) Depot"
+			"manifests"
+			{
+				"public"		"4353548709932316567"
+				"gamepad"		"7886241647817106846"
+				"oculus"		"4844534184280235817"
+				"steamvr"		"7215184788374657745"
+				"temporary_1_12_01"		"743946854812955550"
+				"temporary_1_13_02"		"9113265866774123636"
+				"temporary_1_13_04_01"		"7886241647817106846"
+				"temporary_1_14_01"		"350478486760470185"
+				"temporary_1_14_02"		"697486931512915273"
+			}
+			"maxsize"		"80602438"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"358938E510D7A1D522D5BBC636D8C2C3E23FBB5491FC580424A89374C47078AE10AB35681427F8ABAA925399F5D572BF42E5CE1F"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"87F14B88A0EDE2BF267CA887982678B9481F57CA503F54338C07ED92CE1497D00200C0A1C6564B8A4F94ED6F951A13F1F9548895"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"89CCBBCD7A449A9D81A5027DB34FA03C46FE2E5FE19DC46CC88AF12DFE93E5C0EFC9B630638EC238084F1935C0B9C4248B038C18"
+				}
+				"testing2"
+				{
+					"encrypted_gid"		"484A11D748DBC889B43550F9C74629A8274439E5E1BAE2A05C342AC7C82EE8387AC2DFD64A9C2AE8F16B3D90ED34442B4B9F2912"
+				}
+			}
+			"dlcappid"		"304214"
+		}
+		"318500"
+		{
+			"name"		"Euro Truck Simulator 2 - German Paint Jobs Pack (318500) Depot"
+			"manifests"
+			{
+				"public"		"972779765930123276"
+				"gamepad"		"1012944049217941095"
+				"oculus"		"8369538458311466623"
+				"steamvr"		"2044953132848089501"
+				"temporary_1_13_02"		"4496702579685121611"
+				"temporary_1_13_04_01"		"1012944049217941095"
+				"temporary_1_14_01"		"4788507778485859189"
+				"temporary_1_14_02"		"785120243385189431"
+			}
+			"maxsize"		"298105900"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"F33BEC3286A66C5339841546E89DBD57E23FBB5491FC580424A89374C47078AE6AC45D59DE25151F1BFAC26DDCED0AE32BD5A96F"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"4CA8FE83096181594F2ABCD1DA06285D481F57CA503F54338C07ED92CE1497D0C0FFB2252E13D5CE1548DBE9369304F102F83228"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"DF868E08C667F678157761E7CF055DEC46FE2E5FE19DC46CC88AF12DFE93E5C06FBAEE6F20D79FD2CA6E8B5FF88BE14EDBB007AB"
+				}
+			}
+			"dlcappid"		"318500"
+		}
+		"318510"
+		{
+			"name"		"Euro Truck Simulator 2 - French Paint Jobs Pack (318510) Depot"
+			"manifests"
+			{
+				"public"		"9007211874420537936"
+				"gamepad"		"5466046531648384695"
+				"oculus"		"8457373366603660904"
+				"steamvr"		"3897166303745760241"
+				"temporary_1_13_02"		"7992617693705249682"
+				"temporary_1_13_04_01"		"5466046531648384695"
+				"temporary_1_14_01"		"9187539500259289879"
+				"temporary_1_14_02"		"7102035646740925480"
+			}
+			"maxsize"		"777658729"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"D99150BF12EA9835E029B8594343EF1DE23FBB5491FC580424A89374C47078AE6B0F4762C00B4D143F38F664E1346E74B9815515"
+				}
+				"oculus_dev2"
+				{
+					"encrypted_gid"		"C3A7D9A621291ACC09D3A846D1664EAC481F57CA503F54338C07ED92CE1497D0C589A62D65CDCAAA3D7AE839FB315ABD464284CE"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"A4E9D25F7867C3FE0262B03916CDBB1B46FE2E5FE19DC46CC88AF12DFE93E5C087E8BD4B76B1BF1C639CE2601E4112D82BE49228"
+				}
+			}
+			"dlcappid"		"318510"
+		}
+		"318511"
+		{
+			"name"		"Euro Truck Simulator 2 - Czech Paint Jobs Pack (318511) Depot"
+			"manifests"
+			{
+				"public"		"1868370619575972625"
+				"oculus"		"3707751200187885515"
+				"temporary_1_14_01"		"7911611178681705440"
+				"temporary_1_14_02"		"2258113741093137701"
+			}
+			"maxsize"		"1068461508"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"5FF5F997C2FDCE55DEC939EE44B5AC8BE23FBB5491FC580424A89374C47078AEBC042213F4B95DC7A5BCFAA82F6723F966830A99"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"710668C8BE9F2DA469D1A56D80E3A12246FE2E5FE19DC46CC88AF12DFE93E5C0891415EECAE96168C87634604D54B3AD03DC0F53"
+				}
+			}
+			"dlcappid"		"318511"
+		}
+		"318520"
+		{
+			"name"		"Euro Truck Simulator 2 - Christmas Paint Jobs Pack (318520) Depot"
+			"manifests"
+			{
+				"public"		"6282946291785495217"
+				"oculus"		"412975682688721727"
+				"temporary_1_14_02"		"442875268947762904"
+			}
+			"maxsize"		"358466754"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"8A6BF9098B30E2750FF6D68CE5A65580E23FBB5491FC580424A89374C47078AE1D5F75272D14CD1F83F1AE79FD346BA22FC7BE3F"
+				}
+				"experimental"
+				{
+					"encrypted_gid"		"DC1F4B19D983A01641B651C82BA634A546FE2E5FE19DC46CC88AF12DFE93E5C05A0A6554FB974CBA1773A9FA27D8FC60D7A19962"
+				}
+			}
+			"dlcappid"		"318520"
+		}
+		"318521"
+		{
+			"name"		"Euro Truck Simulator 2 - Raven Truck Design Pack (318521) Depot"
+			"manifests"
+			{
+				"public"		"7574325942897311486"
+				"oculus"		"8273132831693240875"
+			}
+			"maxsize"		"549173555"
+			"encryptedmanifests"
+			{
+				"oculus_dev"
+				{
+					"encrypted_gid"		"C2CA7A34C98954157C89119BEFAB16F7E23FBB5491FC580424A89374C47078AED0C4296ADC4F14462247AA694A6E1BAF8788AF93"
+				}
+			}
+			"dlcappid"		"318521"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"473233"
+			}
+			"experimental2"
+			{
+				"buildid"		"477532"
+				"description"		"For testing changes from experimental variants of release branches"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"9A9FF053F13BE7603A6279700EBF1AFAF62E0D4467867E9E5C331772AECB792E1D4A65A691F95EC5EF081A2745DBF597D53FD2B9"
+			}
+			"gamepad"
+			{
+				"buildid"		"406715"
+				"description"		"Experimental support for use of gamepads in ui"
+			}
+			"gamepad_dev"
+			{
+				"buildid"		"228142"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"A43630EE10B46B01228412BB29EA20351979F97E527B7B948770AE951275A23E4E965E1AE7F2EEE538C2A07E24F03EDE89718A32"
+			}
+			"gm_build"
+			{
+				"buildid"		"290244"
+				"description"		"Used to prepare gold masters"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"16A291E04FBA1519E5E963041B4FF19C34AC4ADBB07EAAD9D12C49E07F1134CD58A0EFCE8C73E11C618A95A38373B770DBAA2BC1"
+			}
+			"local"
+			{
+				"buildid"		"264854"
+				"description"		"Local Content Server"
+			}
+			"oculus"
+			{
+				"buildid"		"471310"
+				"description"		"Experimental support for Oculus Rift"
+			}
+			"oculus_dev"
+			{
+				"buildid"		"471310"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"9A8ED3210F07F92566D123825EA0860BE23FBB5491FC580424A89374C47078AE05BA560D80E1E2F01BDCBCF1CDC7AF56CD3AFB0D"
+			}
+			"oculus_dev2"
+			{
+				"buildid"		"410531"
+				"description"		"Internal builds for OVR"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"0F2D1451B604495893F00C3FA4A5C32E481F57CA503F54338C07ED92CE1497D09B8C64E406AE72A17D7477AB669438612A09F6D8"
+			}
+			"experimental"
+			{
+				"buildid"		"453101"
+				"description"		"For testing changes before propagating them to the 'testing' branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"974DE2F3FAFD4D74B895611BF347C6A546FE2E5FE19DC46CC88AF12DFE93E5C05617CFD0D6CE92DF46F8208A62D9DC6D752388E0"
+			}
+			"public_beta"
+			{
+				"buildid"		"473233"
+				"description"		"1.15 public beta"
+			}
+			"steamvr"
+			{
+				"buildid"		"410531"
+				"description"		"Experimental support for SteamVR"
+			}
+			"temporary_1_10_01_19"
+			{
+				"buildid"		"322248"
+				"description"		"1.10.1.19 for incompatible mods"
+			}
+			"temporary_1_11_01"
+			{
+				"buildid"		"338136"
+				"description"		"1.11.1 for incompatible mods"
+			}
+			"temporary_1_12_01"
+			{
+				"buildid"		"355240"
+				"description"		"1.12.1 for incompatible mods"
+			}
+			"temporary_1_13_02"
+			{
+				"buildid"		"399472"
+				"description"		"1.13.3 for incompatible mods"
+			}
+			"temporary_1_13_04_01"
+			{
+				"buildid"		"406715"
+				"description"		"1.13.4.1 for incompatible mods"
+			}
+			"temporary_1_14_01"
+			{
+				"buildid"		"440043"
+				"description"		"1.14.1 for incompatible mods"
+			}
+			"temporary_1_14_02"
+			{
+				"buildid"		"453101"
+				"description"		"1.14.2 for incompatible mods"
+			}
+			"temporary_1_15_01"
+			{
+				"buildid"		"473233"
+				"description"		"1.15.1 for incompatible mods"
+			}
+			"temporary1101"
+			{
+				"buildid"		"273100"
+				"description"		"Temporary 1.10.1 for incompatible mods"
+			}
+			"temporary11017"
+			{
+				"buildid"		"283404"
+				"description"		"Temporary 1.10.1.7 for incompatible mods"
+			}
+			"temporary1261"
+			{
+				"buildid"		"106687"
+				"description"		"Temporary 1.2.6.1 for incompatible mods"
+			}
+			"temporary131"
+			{
+				"buildid"		"106681"
+				"description"		"Temporary 1.3.1 for incompatible mods"
+			}
+			"temporary141"
+			{
+				"buildid"		"89126"
+				"description"		"Temporary 1.4.1 for early access before we update the default"
+			}
+			"temporary1412"
+			{
+				"buildid"		"100178"
+				"description"		"Temporary 1.4.12 for early access"
+			}
+			"temporary145"
+			{
+				"buildid"		"91116"
+				"description"		"Temporary 1.4.5 for early access"
+			}
+			"temporary148"
+			{
+				"buildid"		"92449"
+				"description"		"Temporary 1.4.8 for early access"
+			}
+			"temporary152"
+			{
+				"buildid"		"115938"
+				"description"		"Temporary 1.5.2 for early access"
+			}
+			"temporary160"
+			{
+				"buildid"		"128163"
+				"description"		"Temporary 1.6.0 for incompatible mods"
+			}
+			"temporary161"
+			{
+				"buildid"		"130097"
+				"description"		"Temporary 1.6.1 for incompatible mods"
+			}
+			"temporary170"
+			{
+				"buildid"		"133264"
+				"description"		"Temporary 1.7.0 for incompatible mods"
+			}
+			"temporary171"
+			{
+				"buildid"		"143826"
+				"description"		"Temporary 1.7.1 for incompatible mods"
+			}
+			"temporary1823"
+			{
+				"buildid"		"154415"
+				"description"		"Temporary 1.8.2.3 for incompatible mods"
+			}
+			"temporary1824"
+			{
+				"buildid"		"155962"
+				"description"		"Temporary 1.8.2.4 for incompatible mods"
+			}
+			"temporary1825"
+			{
+				"buildid"		"157515"
+				"description"		"Temporary 1.8.2.5 for incompatible mods"
+			}
+			"temporary1922"
+			{
+				"buildid"		"218263"
+				"description"		"Temporary 1.9.22 for incompatible mods"
+			}
+			"temporary1924"
+			{
+				"buildid"		"228142"
+				"description"		"Temporary 1.9.24 for incompatible mods"
+			}
+			"testing"
+			{
+				"buildid"		"473233"
+				"description"		"Testing"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"2219E06B1663729C331614F22F4558351B61ABDE7A03322CFAEB5A2219066F05A78DF95A6AF13A2723CA0DCEA5B6D3F86E82FFC7"
+			}
+			"testing2"
+			{
+				"buildid"		"355240"
+				"description"		"Testing of different branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"8D57A5EDF3CCB7E409D857F9D45FF34C274439E5E1BAE2A05C342AC7C82EE838F327463305AB1B18BA495D95C80426284BEBCABA"
+			}
+		}
+	}
+}
+ 

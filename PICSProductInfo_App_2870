@@ -1,0 +1,473 @@
+"appinfo"
+{
+	"appid"		"2870"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"X Rebirth"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"0203b62730214fe7e9dd753c5b3676f40114a227"
+		"clienttga"		"1782c189126d6aa083dbd233e402f9c142b8d044"
+		"icon"		"9994410c43d4baa098844c10c258b4626edab0b4"
+		"logo"		"68fe65afe4ec7bc2efed5b44408d5228450fd6d8"
+		"logo_small"		"68fe65afe4ec7bc2efed5b44408d5228450fd6d8_thumb"
+		"oslist"		"windows"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+		}
+		"workshop_visible"		"1"
+		"metacritic_name"		"X Rebirth"
+		"controller_support"		"full"
+		"metacritic_score"		"33"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/x-rebirth"
+		"community_visible_stats"		"1"
+		"gameid"		"2870"
+	}
+	"extended"
+	{
+		"listofdlc"		"258990,258991,258992,258993,258994,325580"
+		"developer"		"Egosoft"
+		"developer_url"		""
+		"publisher"		"Egosoft"
+		"homepage"		"http://www.egosoft.com/games/x_rebirth/info_en.php"
+		"gamemanualurl"		"http://store.steampowered.com/manual/2870/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"X Rebirth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"XRebirth.exe"
+				"description"		"Default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"preloadonly"		"1"
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8124929965194586177"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"2871"
+		{
+			"name"		"X Rebirth Main Data 1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6747223171101723060"
+				"legacy"		"7613027218610260374"
+			}
+			"maxsize"		"5225162725"
+		}
+		"2872"
+		{
+			"name"		"X Rebirth Main Data 2"
+			"manifests"
+			{
+				"public"		"7514106716330266349"
+				"legacy"		"9204260528771605390"
+			}
+			"maxsize"		"1391315088"
+			"encryptedmanifests"
+			{
+				"nightly"
+				{
+					"encrypted_gid"		"0F94D5E3296C747CB6129B1561B51B48DF7C6D84979A525F77215FDC60AC1BB8424348FD6FFD17B8FAE2DB28CF56F19E62DFCC35"
+				}
+				"nightly_cheat"
+				{
+					"encrypted_gid"		"25660CF465785B08C52EBCE671FEEBCC9C90515EC102A8BD25A81632BB3F74D4B3D8E153929223F47DF3EB444B8C8F2438B72FDE"
+				}
+				"private_beta"
+				{
+					"encrypted_gid"		"7DAACED7FB500FDCA7022B306672A50AD198FC687684681B769261A215DF16B281BB9C89B408CC679F3C55103C36287A56029C74"
+				}
+				"cheats"
+				{
+					"encrypted_gid"		"E47E4F77A37E05C09A5A4468E07906583E051FDEB2531BB6B6BD6DECA2CB33657FC2C41B4AF45EB8DB6D3A7F418F5D5B72E4A6D9"
+				}
+				"public_beta"
+				{
+					"encrypted_gid"		"86429293E1AAC23EAEA387AD8F930A464D6961F645656517A3B461EC15105987168E0F37A1020FBAA76DADF2C50D4E08DB24295F"
+				}
+			}
+		}
+		"2873"
+		{
+			"name"		"X Rebirth Main Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"569941020644325906"
+				"legacy"		"3553170905531767088"
+			}
+			"maxsize"		"48591220"
+			"encryptedmanifests"
+			{
+				"nightly"
+				{
+					"encrypted_gid"		"3425CF2E25DA2B099C6F2F4EA5928A53DF7C6D84979A525F77215FDC60AC1BB8EA7D1E8E6344533C9FC5A73ABA5977FF1C237DCE"
+				}
+				"nightly_cheat"
+				{
+					"encrypted_gid"		"294F9A47EE8AB13AFA686437AA1869169C90515EC102A8BD25A81632BB3F74D46BB02FD4E4D676F99C5BA6062BC0762ACE54B02A"
+				}
+				"private_beta"
+				{
+					"encrypted_gid"		"A454EEF7B1AFF047EC3EAAC6D65CE238D198FC687684681B769261A215DF16B2177AC1E5FD6619B8224DC6A9366C15D4FA3748FB"
+				}
+				"cheats"
+				{
+					"encrypted_gid"		"0C9BD906CF5B31C73A138694B20A13513E051FDEB2531BB6B6BD6DECA2CB33659B103108AE03A53AF5C710CDDA03B602ABB794A0"
+				}
+				"public_beta"
+				{
+					"encrypted_gid"		"A3D71FCA5A300F20FD295989771410024D6961F645656517A3B461EC151059874E0B78F4BD366849DBF6350882919617C04F4AF3"
+				}
+			}
+		}
+		"2880"
+		{
+			"name"		"X Rebirth Main Debug"
+			"manifests"
+			{
+				"public"		"1537487932073095545"
+			}
+			"encryptedmanifests"
+			{
+				"nightly"
+				{
+					"encrypted_gid"		"247CAB29133D9623E25DCC3E430AE460DF7C6D84979A525F77215FDC60AC1BB8438BEA6A629BD97BD8393085B786B24BB896F6A5"
+				}
+				"nightly_cheat"
+				{
+					"encrypted_gid"		"73DCCAD5AD0ADF1931609F6B56B3F64D9C90515EC102A8BD25A81632BB3F74D4DB3B7E5546D013EFFFFE4C944B4675F4F25BD472"
+				}
+				"private_beta"
+				{
+					"encrypted_gid"		"696F4AAE7B3E0947F732A8A6E9B2CDD5D198FC687684681B769261A215DF16B21B78883AC5F73EDF838CC9D8BDFD79B97ED13DB5"
+				}
+				"cheats"
+				{
+					"encrypted_gid"		"7DDAF5EC3A3A0B2F49CC2BC3C4F16F603E051FDEB2531BB6B6BD6DECA2CB336557FCF198D1F146B986981B522306D0337B06F30B"
+				}
+				"public_beta"
+				{
+					"encrypted_gid"		"9DA70A828729D86780019E393124DC154D6961F645656517A3B461EC1510598766AF678818A91580F3805F52824BA59040BF312E"
+				}
+			}
+			"maxsize"		"872748854"
+		}
+		"2881"
+		{
+			"name"		"X Rebirth DeepSilver"
+			"manifests"
+			{
+				"public"		"841422303861230533"
+			}
+			"maxsize"		"6659045"
+		}
+		"2882"
+		{
+			"name"		"X Rebirth TriSynergy"
+			"manifests"
+			{
+				"public"		"8783885823638824740"
+			}
+			"maxsize"		"941185"
+		}
+		"2874"
+		{
+			"name"		"X Rebirth German"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1092551743775357127"
+				"legacy"		"5249282619810704310"
+			}
+			"maxsize"		"832145234"
+		}
+		"2875"
+		{
+			"name"		"X Rebirth Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"4707321719287574751"
+			}
+			"maxsize"		"4420"
+		}
+		"2876"
+		{
+			"name"		"X Rebirth Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"8874166802484532506"
+			}
+			"maxsize"		"4150"
+		}
+		"2877"
+		{
+			"name"		"X Rebirth Simplified Chinese"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"3315670493929719164"
+			}
+			"maxsize"		"651038126"
+		}
+		"2878"
+		{
+			"name"		"X Rebirth French"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"6480294080617081433"
+				"legacy"		"8755043243523871437"
+			}
+			"maxsize"		"671729047"
+		}
+		"2879"
+		{
+			"name"		"X Rebirth Traditional Chinese"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"7885679014192393455"
+			}
+			"maxsize"		"651038126"
+		}
+		"2883"
+		{
+			"name"		"X Rebirth Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"7016663782476431338"
+			}
+			"maxsize"		"3999"
+		}
+		"2884"
+		{
+			"name"		"X Rebirth Korean"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"1393131679984385617"
+			}
+			"maxsize"		"539485657"
+		}
+		"258990"
+		{
+			"name"		"X Rebirth - Soundtrack Volume 1 (258990) Depot"
+			"manifests"
+			{
+				"public"		"2668620325362397507"
+			}
+			"maxsize"		"261044880"
+			"dlcappid"		"258990"
+		}
+		"258991"
+		{
+			"name"		"X Rebirth - Soundtrack Volume 2 (258991) Depot"
+			"manifests"
+			{
+				"public"		"2073480622314646083"
+			}
+			"maxsize"		"210607508"
+			"dlcappid"		"258991"
+		}
+		"258992"
+		{
+			"name"		"X Rebirth - Encyclopedia (258992) Depot"
+			"manifests"
+			{
+				"public"		"3159080276605007405"
+			}
+			"maxsize"		"27140314"
+			"dlcappid"		"258992"
+		}
+		"258993"
+		{
+			"name"		"X Rebirth - Artworks (258993) Depot"
+			"manifests"
+			{
+				"public"		"4205045044570354198"
+			}
+			"maxsize"		"57028260"
+			"dlcappid"		"258993"
+		}
+		"258994"
+		{
+			"name"		"X The Space Opera (258994) Depot"
+			"allowaddremovewhilerunning"		"1"
+			"config"
+			{
+				"optionaldlc"		"258994"
+			}
+			"manifests"
+			{
+				"public"		"6275221620680434530"
+			}
+			"maxsize"		"4757404788"
+			"dlcappid"		"258994"
+		}
+		"325580"
+		{
+			"name"		"X Rebirth: The Teladi Outpost (325580) Depot"
+			"manifests"
+			{
+				"public"		"3444653555860913017"
+				"legacy"		"8940383276372478040"
+			}
+			"maxsize"		"290858446"
+			"dlcappid"		"325580"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"477051"
+			}
+			"legacy"
+			{
+				"buildid"		"413026"
+				"description"		"2.51 (32 bit)"
+			}
+			"nightly"
+			{
+				"buildid"		"477305"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"4D29E59DBE69C660DA7F78F04043B8C8DF7C6D84979A525F77215FDC60AC1BB814BA51B4FD4ADE9ED1601C9D3A62E25922C3B085"
+			}
+			"nightly_cheat"
+			{
+				"buildid"		"477297"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"6E76807C4CFB3E5382FF728794B728FB9C90515EC102A8BD25A81632BB3F74D4D0F16008FCE665CD8C679BA10FD21040E7EF3F2E"
+			}
+			"private_beta"
+			{
+				"buildid"		"477305"
+				"description"		"3.10 Special Test"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"DA0849F878F313F006F4AAE3FB1B680BD198FC687684681B769261A215DF16B2EFA427FB1E203E36AC110D117C5B62C795B13123"
+			}
+			"cheats"
+			{
+				"buildid"		"477297"
+				"description"		"3.10 Special Test - Limited cheats available"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"6FBE3EE8664E1F534FFF9CE2BA5473F33E051FDEB2531BB6B6BD6DECA2CB3365883F221ECA602A0F840309E486C0DA64CF9A21D5"
+			}
+			"public_beta"
+			{
+				"buildid"		"477305"
+				"description"		"3.10 Special Test"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"6CA756675B29EAA14F345A1747C1DD714D6961F645656517A3B461EC151059874E078947727B2CC1E379B38CBF0327D9B3A01C75"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Egosoft\\X Rebirth\\{Steam3AccountID}"
+				"pattern"		"inputmap*.xml"
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Egosoft\\X Rebirth\\{Steam3AccountID}"
+				"pattern"		"uidata.xml"
+			}
+			"3"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Egosoft\\X Rebirth\\{Steam3AccountID}\\save"
+				"pattern"		"*.xml"
+			}
+		}
+	}
+}
+ 

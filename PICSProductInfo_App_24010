@@ -1,0 +1,6268 @@
+"appinfo"
+{
+	"appid"		"24010"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Train Simulator 2015"
+		"type"		"Game"
+		"logo"		"561725e3eaec8f77287b26f9c4aa3f127c2e7d3a"
+		"logo_small"		"561725e3eaec8f77287b26f9c4aa3f127c2e7d3a_thumb"
+		"clienticon"		"eed4bfb06ef4aedd15cbc948dffef7c565209420"
+		"clienttga"		"32b36f8c8559d8f5ba6bc2fc040295efdc3b1faf"
+		"icon"		"04a8d6b48d4a6396267d678770acd0c6b5d7f55f"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"polish"		"1"
+		}
+		"oslist"		"windows"
+		"workshop_visible"		"1"
+		"metacritic_name"		"Train Simulator 2015"
+		"controller_support"		"full"
+		"community_visible_stats"		"1"
+		"gameid"		"24010"
+	}
+	"extended"
+	{
+		"allowelevation"		"1"
+		"developer"		"RailSimulator.com"
+		"gamedir"		"RailWorks"
+		"homepage"		"http://www.train-simulator.com"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"languages"		"english,french,german,italian,spanish,polish,russian"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"24009"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"listofdlc"		"32,24012,24021,24022,24023,24024,24025,24026,24027,24028,24029,24030,24031,24032,24033,24034,24035,24036,24037,24038,24039,24040,24041,24042,24043,24044,24045,24046,24047,24048,24049,24050,24051,24052,24053,24054,24055,24056,24057,24058,24059,24060,24061,24062,24065,24066,24067,24068,24069,24070,24071,24072,24073,24074,24075,24076,24077,24078,24079,24080,24081,24082,24083,24084,24085,24086,24087,24088,24089,24090,24091,24092,24093,24094,24095,24096,24097,24098,24099,65210,65211,65212,65213,65214,65215,65216,65217,65218,65219,65220,65221,65222,65223,65224,65225,65226,65227,65228,65229,65230,65231,65232,65233,65234,65235,65236,65237,65238,65239,65240,65241,65242,65243,65244,65245,65246,65247,65248,65249,65250,65251,65252,65253,65254,65255,65256,65257,65258,65259,208280,208281,208282,208283,208284,208285,208286,208287,208288,208289,208290,208291,208292,208293,208294,208295,208296,208298,208299,208300,208301,208302,208303,208304,208305,208306,208307,208311,208312,208313,208314,208315,208316,208317,208318,208319,208320,208321,208323,208340,208341,208342,208343,208344,208345,208346,208347,208348,208349,208350,208351,208352,208353,208354,208355,208356,208357,208358,208359,208360,208361,208362,208363,208364,208365,208366,208367,208368,208369,208370,208371,208372,208373,208374,208375,208376,208377,208378,208379,222540,222541,222542,222543,222544,222545,222546,222547,222548,222549,222550,222551,222554,222555,222556,222557,222558,222561,222562,222564,222565,222566,222567,222568,222569,222570,222571,222572,222573,222574,222575,222576,222577,222578,222579,222580,222581,222582,222583,222584,222585,222586,222587,222588,222589,222590,222591,222592,222593,222594,222595,222596,222597,222598,222599,222600,222601,222602,222603,222604,222605,222606,222607,222608,222609,222610,222611,222612,222613,222614,222615,222616,222617,222618,222619,222620,222621,222622,222623,222624,222625,222626,222627,222628,222629,222630,222631,222632,222633,222634,222635,222636,222637,222638,222639,234410,234411,234412,234413,234414,234415,234416,234417,234418,234419,249840,256520,256521,256522,256523,256524,256525,256526,256527,256528,256529,256530,256531,256532,256533,256534,256535,256539,256540,256541,256546,256547,256548,256549,256550,256551,256552,256554,256555,256556,256568,256570,256576,256611,256614,258640,258641,258642,258643,258644,258645,258646,258647,258648,258649,258650,258651,258652,258653,258654,258655,258656,258657,258658,258659,258660,258661,258662,258663,258664,258665,258666,258667,258668,258669,258670,258671,258672,258673,258674,258675,258676,258677,258678,258679,275120,275121,275122,275123,275124,275125,275126,275127,275128,275129,275130,275131,275132,275133,275134,275135,275136,275137,275138,275139,275140,275141,275142,275143,275144,275145,275146,275147,275148,275149,275150,275151,275152,275153,275154,275155,275156,275157,275158,275159,275160,275161,275162,275163,275164,275165,275166,275167,275168,275169,275770,275771,275772,275773,275774,275775,275776,275777,275778,275779,275800,275801,275802,275803,275804,275805,275806,275807,275808,275809,277730,277731,277732,277733,277734,277735,277736,277737,277738,277739,277740,277741,277742,277743,277744,277745,277746,277747,277748,277749,277750,277751,277752,277753,277754,277755,277756,277757,277758,277759,277760,277761,277762,277763,277764,277765,277766,277767,277768,277769,277770,277771,277772,277773,277774,277775,277776,277777,277778,277779,295160,295161,295162,295163,295164,295165,295166,295167,295168,295169,295170,295171,295172,295173,295174,295175,295176,295177,295178,295179,295180,295181,295182,295183,295184,295185,295186,295187,295188,295189,295190,295191,295192,295193,295194,295195,295196,295197,295198,295199,295200,295201,295202,295203,295204,295205,295206,295207,295208,295209,325950,325951,325952,325953,325954,325955,325956,325957,325958,325959,325960,325961,325962,325963,325964,325965,325966,325967,325968,325969,325970,325971,325972,325973,325974,325975,325976,325977,325978,325979,325980,325981,325982,325983,325984,325985,325986,325987,325988,325989,325990,325991,325992,325993,325994,325995,325996,325997,325998,325999,326000,326001,326002,326003,326004,326005,326006,326007,326008,326009,326010,326011,326012,326013,326014,326015,326016,326017,326018,326019,326020,326021,326022,326023,326024,326025,326026,326027,326028,326029,326030,326031,326032,326033,326034,326035,326036,326037,326038,326039,326040,326041,326042,326043,326044,326045,326046,326047,326048,326049"
+		"developer_url"		""
+		"publisher"		"RailSimulator.com"
+		"gamemanualurl"		"http://store.steampowered.com/manual/24010/"
+	}
+	"config"
+	{
+		"installscriptsignature"		"4546a5396bf0b66311ab1b822827832038a507a5bee503e0635bc85e23af3b644cac084c8bd9feb634c38e2276271967d3a97035a6c7b35c51533b408b5de31813bbc39f516d9e3e981e0bc68e83ea2fc7912588dec1fe5e14bd2ddbffaa640ecbdaa561dee1d70562fe96a5637c7a0220c1902c4e388d9fb1a7fab8c8693571"
+		"installscriptoverride"		"0"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RailWorks.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"RailWorks"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\\software\\railsimulator.com\\railworks"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\RailWorks.exe"
+				}
+			}
+		}
+		"run process"
+		{
+			"vcredist10sp1"
+			{
+				"process 1"		"%INSTALLDIR%\\Install\\vcredist_x86.exe"
+				"description"		"VC10 Runtime Libraries"
+				"command 1"		"/passive /norestart"
+				"nocleanup"		"1"
+			}
+			"directx43"
+			{
+				"process 1"		"%INSTALLDIR%\\Install\\DirectX9\\DXSETUP.exe"
+				"description"		"DirectX 9"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"physx9"
+			{
+				"process 1"		"%INSTALLDIR%\\Install\\PhysX_9.10.0513_SystemSoftware.exe"
+				"command 1"		"/quiet /norestart"
+				"description"		"PhysX"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+			"flash11"
+			{
+				"process 1"		"%INSTALLDIR%\\Install\\flashplayer11_4r402_278_winax.exe"
+				"description"		"Adobe Flash Player 11"
+				"command "		"-install"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,spanish,russian,polish"
+		"markdlcdepots"		"1"
+		"277759"
+		{
+			"name"		"Product OneHundredSeventeen (277759)"
+			"manifests"
+			{
+				"public"		"665192754377749855"
+			}
+			"maxsize"		"378285149"
+			"dlcappid"		"277759"
+		}
+		"277758"
+		{
+			"name"		"Product OneHundredSixteen (277758)"
+			"manifests"
+			{
+				"public"		"2029292842652944728"
+			}
+			"maxsize"		"209183248"
+			"dlcappid"		"277758"
+		}
+		"277757"
+		{
+			"name"		"Product OneHundredFifteen (277757)"
+			"manifests"
+			{
+				"public"		"7601767675846925722"
+			}
+			"maxsize"		"81278619"
+			"dlcappid"		"277757"
+		}
+		"277754"
+		{
+			"name"		"Product OneHundredFourteen (277754) "
+			"manifests"
+			{
+				"public"		"1693910576623957229"
+			}
+			"maxsize"		"396511499"
+			"dlcappid"		"277754"
+		}
+		"277756"
+		{
+			"name"		"Product OneHundredThirteen (277756)"
+			"manifests"
+			{
+				"public"		"4354328411059985309"
+			}
+			"maxsize"		"297870686"
+			"dlcappid"		"277756"
+		}
+		"258642"
+		{
+			"name"		"Product SixtyThree"
+			"manifests"
+			{
+				"public"		"5541014917558588269"
+			}
+			"maxsize"		"144629496"
+			"dlcappid"		"258642"
+		}
+		"277752"
+		{
+			"name"		"Product OneHundredTwelve (277752)"
+			"manifests"
+			{
+				"public"		"3376421731954284408"
+			}
+			"maxsize"		"1270711622"
+			"dlcappid"		"277752"
+		}
+		"277755"
+		{
+			"name"		"Product OneHundredEleven (277755)"
+			"manifests"
+			{
+				"public"		"3211934742573057130"
+			}
+			"maxsize"		"163636158"
+			"dlcappid"		"277755"
+		}
+		"277753"
+		{
+			"name"		"Product OneHundredTen (277753) "
+			"manifests"
+			{
+				"public"		"4024608684760180872"
+			}
+			"maxsize"		"621193236"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"D88FA03C8EB0CD8766AA4D71FF8E732F5C74DEC154749A7C63C573C151A31315D32A1B874A661ECC2940A26CDFBC2712542783C6"
+				}
+			}
+			"dlcappid"		"277753"
+		}
+		"258663"
+		{
+			"name"		"Product OneHundredNine (258663)"
+			"manifests"
+			{
+				"public"		"2048820894456874843"
+			}
+			"maxsize"		"119048053"
+			"dlcappid"		"258663"
+		}
+		"277730"
+		{
+			"name"		"Product OneHundredEight (277730)"
+			"manifests"
+			{
+				"public"		"538305715979098762"
+			}
+			"maxsize"		"211429914"
+			"dlcappid"		"277730"
+		}
+		"258668"
+		{
+			"name"		"Product OneHundredSeven (258668) "
+			"manifests"
+			{
+				"public"		"8991086218653423779"
+			}
+			"maxsize"		"96941923"
+			"dlcappid"		"258668"
+		}
+		"277739"
+		{
+			"name"		"Product OneHundredSix (277739)"
+			"manifests"
+			{
+				"public"		"6693522012996632486"
+			}
+			"maxsize"		"2027790723"
+			"dlcappid"		"277739"
+		}
+		"277751"
+		{
+			"name"		"Product OneHundredFive (277751)"
+			"manifests"
+			{
+				"public"		"2352089483258247569"
+			}
+			"maxsize"		"378777618"
+			"dlcappid"		"277751"
+		}
+		"258679"
+		{
+			"name"		"Product OneHundredFour (258679)"
+			"manifests"
+			{
+				"public"		"4599961477164906571"
+			}
+			"maxsize"		"181786387"
+			"dlcappid"		"258679"
+		}
+		"277750"
+		{
+			"name"		"Product OneHundredThree (277750)"
+			"manifests"
+			{
+				"public"		"2991349309562794638"
+			}
+			"maxsize"		"277307147"
+			"dlcappid"		"277750"
+		}
+		"277749"
+		{
+			"name"		"Product OneHundredTwo (277749) "
+			"manifests"
+			{
+				"public"		"3016065622419877318"
+			}
+			"maxsize"		"51316677"
+			"dlcappid"		"277749"
+		}
+		"295191"
+		{
+			"name"		"MarketPlaceDepot75 (Depot 295191)"
+			"manifests"
+			{
+				"public"		"5280698800423955900"
+			}
+			"maxsize"		"51217996"
+			"dlcappid"		"295191"
+		}
+		"258674"
+		{
+			"name"		"Product OneHundredOne (258674)"
+			"manifests"
+			{
+				"public"		"2151216376288682483"
+			}
+			"maxsize"		"109708763"
+			"dlcappid"		"258674"
+		}
+		"277748"
+		{
+			"name"		"Product OneHundred (277748)"
+			"manifests"
+			{
+				"public"		"3257187144429455000"
+			}
+			"maxsize"		"1372230760"
+			"dlcappid"		"277748"
+		}
+		"295190"
+		{
+			"name"		"MarketPlaceDepot74 (Depot 295190)"
+			"manifests"
+			{
+				"public"		"1899426817077717130"
+			}
+			"maxsize"		"825991557"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"27C70CD202FAED721BB37EE4AFC40C435C74DEC154749A7C63C573C151A31315FB2A3EBB3055E82D50E828AF4763B0BCA1F6419C"
+				}
+			}
+			"dlcappid"		"295190"
+		}
+		"277747"
+		{
+			"name"		"Product NinetyNine (277747)"
+			"manifests"
+			{
+				"public"		"5918135206115746701"
+			}
+			"maxsize"		"488526815"
+			"dlcappid"		"277747"
+		}
+		"275774"
+		{
+			"name"		"MarketPlaceDepot73 (Depot 275774)"
+			"dlcappid"		"275774"
+		}
+		"295189"
+		{
+			"name"		"MarketPlaceDepot72 (Depot 295189)"
+			"manifests"
+			{
+				"public"		"8839940850456212510"
+			}
+			"maxsize"		"188641486"
+			"dlcappid"		"295189"
+		}
+		"275127"
+		{
+			"name"		"MarketPlaceDepot71 (Depot 275127)"
+			"manifests"
+			{
+				"public"		"2125346140967971592"
+			}
+			"maxsize"		"57742356"
+			"dlcappid"		"275127"
+		}
+		"295188"
+		{
+			"name"		"MarketPlaceDepot70 (Depot 295188)"
+			"manifests"
+			{
+				"public"		"8353897795492499795"
+			}
+			"maxsize"		"58126972"
+			"dlcappid"		"295188"
+		}
+		"295187"
+		{
+			"name"		"MarketPlaceDepot69 (Depot 295187)"
+			"manifests"
+			{
+				"public"		"8064422264684537432"
+			}
+			"maxsize"		"120457956"
+			"dlcappid"		"295187"
+		}
+		"222631"
+		{
+			"name"		"ProductFiftyTwo"
+			"manifests"
+			{
+				"public"		"4264616109753004070"
+			}
+			"maxsize"		"316529111"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"D910239B0AD3AF83F3B35CEB246BCAC55C74DEC154749A7C63C573C151A3131586760D68FC4D2D66FA9DD9A07A87751AB4DC837D"
+				}
+			}
+			"dlcappid"		"222631"
+		}
+		"277734"
+		{
+			"name"		"Product NinetyEight (277734)"
+			"manifests"
+			{
+				"public"		"260280071208526039"
+			}
+			"maxsize"		"889353484"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"C365FE7DEDDF61439A7D3831B7548CB45C74DEC154749A7C63C573C151A313152B225D95D7D2F41E510C3A51B422E9BF7035D0AF"
+				}
+			}
+			"dlcappid"		"277734"
+		}
+		"277731"
+		{
+			"name"		"Product NinetySeven (277731) "
+			"manifests"
+			{
+				"public"		"1909277222507272871"
+			}
+			"maxsize"		"252416947"
+			"dlcappid"		"277731"
+		}
+		"258662"
+		{
+			"name"		"Product NinetySix (258662)"
+			"manifests"
+			{
+				"public"		"1851267839761224383"
+			}
+			"maxsize"		"159290409"
+			"dlcappid"		"258662"
+		}
+		"295186"
+		{
+			"name"		"MarketPlaceDepot68 (Depot 295186)"
+			"manifests"
+			{
+				"public"		"4286881810554363857"
+			}
+			"maxsize"		"159873659"
+			"dlcappid"		"295186"
+		}
+		"295185"
+		{
+			"name"		"MarketPlaceDepot67 (Depot 295185)"
+			"manifests"
+			{
+				"public"		"3385692300798667695"
+			}
+			"maxsize"		"242197594"
+			"dlcappid"		"295185"
+		}
+		"277746"
+		{
+			"name"		"Product NinetyFive (277746)"
+			"manifests"
+			{
+				"public"		"2933484927822041732"
+			}
+			"maxsize"		"497532824"
+			"dlcappid"		"277746"
+		}
+		"258641"
+		{
+			"name"		"Product SixtyTwo"
+			"manifests"
+			{
+				"public"		"7667584849373707884"
+			}
+			"maxsize"		"420411288"
+			"dlcappid"		"258641"
+		}
+		"277732"
+		{
+			"name"		"Product NinetyFour (277732)"
+			"manifests"
+			{
+				"public"		"3240726145445914843"
+			}
+			"maxsize"		"89932669"
+			"dlcappid"		"277732"
+		}
+		"277745"
+		{
+			"name"		"Product NinetyThree (277745)"
+			"manifests"
+			{
+				"public"		"5124792980229075168"
+			}
+			"maxsize"		"339788448"
+			"dlcappid"		"277745"
+		}
+		"295184"
+		{
+			"name"		"MarketPlaceDepot66 (Depot 295184)"
+			"manifests"
+			{
+				"public"		"3935883471279361424"
+			}
+			"maxsize"		"42268408"
+			"dlcappid"		"295184"
+		}
+		"295183"
+		{
+			"name"		"MarketPlaceDepot65 (Depot 295183)"
+			"manifests"
+			{
+				"public"		"7043232899864919846"
+			}
+			"maxsize"		"42250735"
+			"dlcappid"		"295183"
+		}
+		"295182"
+		{
+			"name"		"MarketPlaceDepot64 (Depot 295182)"
+			"manifests"
+			{
+				"public"		"934871959995963762"
+			}
+			"maxsize"		"42294262"
+			"dlcappid"		"295182"
+		}
+		"295181"
+		{
+			"name"		"MarketPlaceDepot63 (Depot 295181)"
+			"manifests"
+			{
+				"public"		"7303142155442746013"
+			}
+			"maxsize"		"42399499"
+			"dlcappid"		"295181"
+		}
+		"258677"
+		{
+			"name"		"Product NinetyTwo (258677)"
+			"manifests"
+			{
+				"public"		"795822797050944315"
+			}
+			"maxsize"		"164460307"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"14131FB11F95D2A9271A8117C8A5685A5C74DEC154749A7C63C573C151A31315E732067DA4575A2D0A7FD129C4900FA317D0A0B1"
+				}
+			}
+			"dlcappid"		"258677"
+		}
+		"277736"
+		{
+			"name"		"Product NintetyOne (277736)"
+			"manifests"
+			{
+				"public"		"8220592059194036799"
+			}
+			"maxsize"		"196013440"
+			"dlcappid"		"277736"
+		}
+		"258653"
+		{
+			"name"		"Product SeventyFour (258653) "
+			"manifests"
+			{
+				"public"		"1926265168908354905"
+			}
+			"maxsize"		"1170070193"
+			"dlcappid"		"258653"
+		}
+		"295175"
+		{
+			"name"		"MarketPlaceDepot62 (Depot 295175)"
+			"manifests"
+			{
+				"public"		"1841936761128798384"
+			}
+			"maxsize"		"141125086"
+			"dlcappid"		"295175"
+		}
+		"295176"
+		{
+			"name"		"MarketPlaceDepot61 (Depot 295176)"
+			"manifests"
+			{
+				"public"		"2194948078531757056"
+			}
+			"maxsize"		"143244402"
+			"dlcappid"		"295176"
+		}
+		"295168"
+		{
+			"name"		"MarketPlaceDepot60 (Depot 295168)"
+			"manifests"
+			{
+				"public"		"7212106113113282711"
+			}
+			"maxsize"		"484498090"
+			"dlcappid"		"295168"
+		}
+		"277733"
+		{
+			"name"		"Product Ninety (277733)"
+			"manifests"
+			{
+				"public"		"4575121957831943518"
+			}
+			"maxsize"		"127576336"
+			"dlcappid"		"277733"
+		}
+		"277740"
+		{
+			"name"		"Product EightyNine (277740)"
+			"manifests"
+			{
+				"public"		"1269078540002998888"
+			}
+			"maxsize"		"1045300653"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"0177EC4CCBFACF977E7A02FB5C4B78485C74DEC154749A7C63C573C151A313157058603AD5AA2AD181BA621B10AD04A4340F252A"
+				}
+			}
+			"dlcappid"		"277740"
+		}
+		"222573"
+		{
+			"name"		"Product EightyEight (222573)"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8803997839045394737"
+			}
+			"maxsize"		"170782650"
+			"dlcappid"		"222573"
+		}
+		"258644"
+		{
+			"name"		"Product SixtyFive (258644)"
+			"manifests"
+			{
+				"public"		"7312838803088003233"
+			}
+			"maxsize"		"300863236"
+			"dlcappid"		"258644"
+		}
+		"258666"
+		{
+			"name"		"Product EightySeven (258666)"
+			"manifests"
+			{
+				"public"		"6468160190195225118"
+			}
+			"maxsize"		"177776167"
+			"dlcappid"		"258666"
+		}
+		"258656"
+		{
+			"name"		"Product EightySix (258656)"
+			"manifests"
+			{
+				"public"		"138601775294482341"
+			}
+			"maxsize"		"172737433"
+			"dlcappid"		"258656"
+		}
+		"277744"
+		{
+			"name"		"Product EightyFive (277744)"
+			"manifests"
+			{
+				"public"		"3332477133936758636"
+			}
+			"maxsize"		"310951379"
+			"dlcappid"		"277744"
+		}
+		"277743"
+		{
+			"name"		"Product EightyFour (277743)"
+			"manifests"
+			{
+				"public"		"4297832551299793151"
+			}
+			"maxsize"		"790726722"
+			"dlcappid"		"277743"
+		}
+		"277742"
+		{
+			"name"		"Product EightyThree (277742)"
+			"manifests"
+			{
+				"public"		"7320778420259854741"
+			}
+			"maxsize"		"2377844417"
+			"dlcappid"		"277742"
+		}
+		"277737"
+		{
+			"name"		"Product EightyThree (277737)"
+			"manifests"
+			{
+				"public"		"441264262892197552"
+			}
+			"maxsize"		"192241027"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"72F5DD5141AB073A1A3EB25460F22B015C74DEC154749A7C63C573C151A313153C5022D424375AA17DB09CD1452768AFA1B24E92"
+				}
+			}
+			"dlcappid"		"277737"
+		}
+		"295178"
+		{
+			"name"		"MarketPlaceDepot59 (Depot 295178)"
+			"manifests"
+			{
+				"public"		"5452554230100702089"
+			}
+			"maxsize"		"155179510"
+			"dlcappid"		"295178"
+		}
+		"295177"
+		{
+			"name"		"MarketPlaceDepot58 (Depot 295177)"
+			"manifests"
+			{
+				"public"		"3795992921644247496"
+			}
+			"maxsize"		"145382502"
+			"dlcappid"		"295177"
+		}
+		"295172"
+		{
+			"name"		"MarketPlaceDepot57 (Depot 295172)"
+			"manifests"
+			{
+				"public"		"4834651059389169619"
+			}
+			"maxsize"		"197349376"
+			"dlcappid"		"295172"
+		}
+		"295171"
+		{
+			"name"		"MarketPlaceDepot56 (Depot 295171)"
+			"manifests"
+			{
+				"public"		"960063103511435312"
+			}
+			"maxsize"		"195038433"
+			"dlcappid"		"295171"
+		}
+		"295180"
+		{
+			"name"		"MarketPlaceDepot55 (Depot 295180)"
+			"manifests"
+			{
+				"public"		"7843362077671628990"
+			}
+			"maxsize"		"259610265"
+			"dlcappid"		"295180"
+		}
+		"277741"
+		{
+			"name"		"Product EightyTwo (277741)"
+			"manifests"
+			{
+				"public"		"6883579068538608789"
+			}
+			"maxsize"		"286681625"
+			"dlcappid"		"277741"
+		}
+		"258671"
+		{
+			"name"		"Product EightyOne (258671)"
+			"manifests"
+			{
+				"public"		"8139064748113279931"
+			}
+			"maxsize"		"102700275"
+			"dlcappid"		"258671"
+		}
+		"295179"
+		{
+			"name"		"MarketPlaceDepot54 (Depot 295179)"
+			"manifests"
+			{
+				"public"		"3797994567311609201"
+			}
+			"maxsize"		"131669460"
+			"dlcappid"		"295179"
+		}
+		"295164"
+		{
+			"name"		"MarketPlaceDepot53 (Depot 295164) "
+			"manifests"
+			{
+				"public"		"2176714266098101308"
+			}
+			"maxsize"		"281417087"
+			"dlcappid"		"295164"
+		}
+		"258661"
+		{
+			"name"		"Product Eighty (258661)"
+			"manifests"
+			{
+				"public"		"4775815415856017621"
+			}
+			"maxsize"		"185732605"
+			"dlcappid"		"258661"
+		}
+		"258654"
+		{
+			"name"		"Product SeventyFive (258654) "
+			"manifests"
+			{
+				"public"		"2104796557803252066"
+			}
+			"maxsize"		"1291210058"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"9018BDFBF88600650D40C4B3B306FEB55C74DEC154749A7C63C573C151A31315EF00AE839275F189A65CD7439008D5F851BFECA1"
+				}
+			}
+			"dlcappid"		"258654"
+		}
+		"295163"
+		{
+			"name"		"MarketPlaceDepotEighty (Depot 295163)"
+			"manifests"
+			{
+				"public"		"7442011187647176870"
+			}
+			"maxsize"		"486137416"
+			"dlcappid"		"295163"
+		}
+		"258655"
+		{
+			"name"		"Product SeventyNine (258655)"
+			"manifests"
+			{
+				"public"		"8913491481827292244"
+			}
+			"maxsize"		"210514262"
+			"dlcappid"		"258655"
+		}
+		"295162"
+		{
+			"name"		"MarketPlaceDepot50 (Depot 295162)"
+			"manifests"
+			{
+				"public"		"3360788000297077863"
+			}
+			"maxsize"		"477748557"
+			"dlcappid"		"295162"
+		}
+		"295174"
+		{
+			"name"		"MarketPlaceDepot49 (Depot 295174)"
+			"manifests"
+			{
+				"public"		"2414914436413965489"
+			}
+			"maxsize"		"167977509"
+			"dlcappid"		"295174"
+		}
+		"295173"
+		{
+			"name"		"MarketPlaceDepot48 (Depot 295173)"
+			"manifests"
+			{
+				"public"		"3714266342363330572"
+			}
+			"maxsize"		"261693703"
+			"dlcappid"		"295173"
+		}
+		"275142"
+		{
+			"name"		"MarketplaceDeot47 (Depot 275142)"
+			"manifests"
+			{
+				"public"		"6549267871069301285"
+			}
+			"maxsize"		"166000364"
+			"dlcappid"		"275142"
+		}
+		"258646"
+		{
+			"name"		"Product SixtySeven (258646)"
+			"manifests"
+			{
+				"public"		"4663237210075792789"
+			}
+			"maxsize"		"157279651"
+			"dlcappid"		"258646"
+		}
+		"295160"
+		{
+			"name"		"MarketPlaceDepot46 (Depot 295160)"
+			"manifests"
+			{
+				"public"		"4228020007013980115"
+			}
+			"maxsize"		"502591519"
+			"dlcappid"		"295160"
+		}
+		"258657"
+		{
+			"name"		"Product SeventyEight (258657)"
+			"manifests"
+			{
+				"public"		"8809262043102435123"
+			}
+			"maxsize"		"233179456"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"47B231411FEFC3511990AEF72859A31B5C74DEC154749A7C63C573C151A31315FBA7802C2E26E7E4DF256E6B25BDC9C6094856AB"
+				}
+			}
+			"dlcappid"		"258657"
+		}
+		"275800"
+		{
+			"name"		"MarketplaceDepot45 (Depot 275800)"
+			"manifests"
+			{
+				"public"		"6530653914553686745"
+			}
+			"maxsize"		"320317358"
+			"dlcappid"		"275800"
+		}
+		"277735"
+		{
+			"name"		"Product SeventySeven (277735)"
+			"manifests"
+			{
+				"public"		"5888168084068474290"
+			}
+			"maxsize"		"270055649"
+			"dlcappid"		"277735"
+		}
+		"275125"
+		{
+			"name"		"MarketPlaceDepot44 (Depot 275125) "
+			"manifests"
+			{
+				"public"		"7241471286993379562"
+			}
+			"maxsize"		"255490137"
+			"dlcappid"		"275125"
+		}
+		"275161"
+		{
+			"name"		"MarketPlaceDepot43 (Depot 275161)"
+			"manifests"
+			{
+				"public"		"8446005380938694305"
+			}
+			"maxsize"		"113756968"
+			"dlcappid"		"275161"
+		}
+		"258652"
+		{
+			"name"		"Product SeventyThree (258652)"
+			"manifests"
+			{
+				"public"		"2904099848588356298"
+			}
+			"maxsize"		"1426691260"
+			"dlcappid"		"258652"
+		}
+		"275163"
+		{
+			"name"		"MarketplaceDepot42 (Depot 275163)"
+			"manifests"
+			{
+				"public"		"2090856037795785105"
+			}
+			"maxsize"		"290477533"
+			"dlcappid"		"275163"
+		}
+		"258678"
+		{
+			"name"		"Product SeventySix (258678)"
+			"manifests"
+			{
+				"public"		"7678455368376878042"
+			}
+			"maxsize"		"654133169"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"CBE4E1DD5AC3EDCBC56D0E41C4CD82D15C74DEC154749A7C63C573C151A313156B03E2FBED64BA7340B169A14CB800C948980AF1"
+				}
+			}
+			"dlcappid"		"258678"
+		}
+		"275134"
+		{
+			"name"		"MarketplaceDepot41 (Depot 275134)"
+			"manifests"
+			{
+				"public"		"4213482682854088906"
+			}
+			"maxsize"		"208531671"
+			"dlcappid"		"275134"
+		}
+		"275809"
+		{
+			"name"		"MarketplaceDepot40 (Depot 275809)"
+			"manifests"
+			{
+				"public"		"2812731757392303357"
+			}
+			"maxsize"		"45236273"
+			"dlcappid"		"275809"
+		}
+		"275808"
+		{
+			"name"		"MarketplaceDepot39 (Depot 275808)"
+			"manifests"
+			{
+				"public"		"8004246787013599316"
+			}
+			"maxsize"		"70732012"
+			"dlcappid"		"275808"
+		}
+		"275807"
+		{
+			"name"		"MarketplaceDepot38 (Depot 275807)"
+			"manifests"
+			{
+				"public"		"4654381375689865449"
+			}
+			"maxsize"		"44070539"
+			"dlcappid"		"275807"
+		}
+		"275804"
+		{
+			"name"		"MarketplaceDepot37 (Depot 275804)"
+			"manifests"
+			{
+				"public"		"4030413442552917235"
+			}
+			"maxsize"		"44098244"
+			"dlcappid"		"275804"
+		}
+		"275806"
+		{
+			"name"		"MarketplaceDepot36  (Depot 275806) "
+			"manifests"
+			{
+				"public"		"7746715561030483966"
+			}
+			"maxsize"		"48663590"
+			"dlcappid"		"275806"
+		}
+		"275805"
+		{
+			"name"		"MarketplaceDepot35 (Depot 275805) "
+			"manifests"
+			{
+				"public"		"3452668883502066856"
+			}
+			"maxsize"		"50391349"
+			"dlcappid"		"275805"
+		}
+		"222628"
+		{
+			"name"		"ProductFourtyNine (222628)"
+			"manifests"
+			{
+				"public"		"8360480124682796791"
+			}
+			"maxsize"		"175436338"
+			"dlcappid"		"222628"
+		}
+		"222636"
+		{
+			"name"		"ProductFiftySeven (222636)"
+			"manifests"
+			{
+				"public"		"2428911386543319632"
+			}
+			"maxsize"		"199582348"
+			"dlcappid"		"222636"
+		}
+		"258647"
+		{
+			"name"		"Product SixtyEight (258647)"
+			"manifests"
+			{
+				"public"		"6414809002940748956"
+			}
+			"maxsize"		"121533784"
+			"dlcappid"		"258647"
+		}
+		"222635"
+		{
+			"name"		"ProductFiftySix (222635)"
+			"manifests"
+			{
+				"public"		"6940189862302925459"
+			}
+			"maxsize"		"220415198"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"648CD805D1EB88F5DE66E84D449B9CF15C74DEC154749A7C63C573C151A31315BDBB1A20A3D4FE47517310496F1E44591DCA29A7"
+				}
+			}
+			"dlcappid"		"222635"
+		}
+		"222630"
+		{
+			"name"		"ProductFiftyOne (222630)"
+			"manifests"
+			{
+				"public"		"3639277368188882551"
+			}
+			"maxsize"		"251156900"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"8563D3F79256A04881BE485AEC97AA505C74DEC154749A7C63C573C151A31315BAED3C188BD74C8626552A0A8FA2F5B39AE9A941"
+				}
+			}
+			"dlcappid"		"222630"
+		}
+		"222558"
+		{
+			"name"		"Product SeventySix (222558)"
+			"manifests"
+			{
+				"public"		"4024964884906148164"
+			}
+			"maxsize"		"150453578"
+			"dlcappid"		"222558"
+		}
+		"258645"
+		{
+			"name"		"Product SixtySix (258645)"
+			"manifests"
+			{
+				"public"		"3358974612452965498"
+			}
+			"maxsize"		"115512914"
+			"dlcappid"		"258645"
+		}
+		"258643"
+		{
+			"name"		"Product SixtyFour (258643)"
+			"manifests"
+			{
+				"public"		"2567630870641560240"
+			}
+			"maxsize"		"1461223114"
+			"dlcappid"		"258643"
+		}
+		"258640"
+		{
+			"name"		"Product SixtyOne"
+			"manifests"
+			{
+				"public"		"3243369009566353734"
+			}
+			"maxsize"		"259812846"
+			"dlcappid"		"258640"
+		}
+		"222634"
+		{
+			"name"		"ProductFiftyFive"
+			"manifests"
+			{
+				"public"		"8788770690570791213"
+			}
+			"maxsize"		"335315415"
+			"dlcappid"		"222634"
+		}
+		"258651"
+		{
+			"name"		"Product SeventyTwo (258651) "
+			"manifests"
+			{
+				"public"		"7182906536093541888"
+			}
+			"maxsize"		"138425051"
+			"dlcappid"		"258651"
+		}
+		"258648"
+		{
+			"name"		"Product SixtyNine"
+			"manifests"
+			{
+				"public"		"3818576798649870948"
+			}
+			"maxsize"		"2054904238"
+			"dlcappid"		"258648"
+		}
+		"222639"
+		{
+			"name"		"ProductSixty"
+			"manifests"
+			{
+				"public"		"230636933226388859"
+			}
+			"maxsize"		"132001656"
+			"dlcappid"		"222639"
+		}
+		"275128"
+		{
+			"name"		"MarketPlaceDepot34 (Depot 275128)"
+			"manifests"
+			{
+				"public"		"5647827804222430526"
+			}
+			"maxsize"		"428481919"
+			"dlcappid"		"275128"
+		}
+		"275124"
+		{
+			"name"		"MarketPlaceDepot33 (Depot 275124)"
+			"manifests"
+			{
+				"public"		"7273520526472296924"
+			}
+			"maxsize"		"455066775"
+			"dlcappid"		"275124"
+		}
+		"275144"
+		{
+			"name"		"MarketPlaceDepot32 (Depot 275144)"
+			"manifests"
+			{
+				"public"		"86535247195589264"
+			}
+			"maxsize"		"104526474"
+			"dlcappid"		"275144"
+		}
+		"222629"
+		{
+			"name"		"ProductFifty"
+			"manifests"
+			{
+				"public"		"725628368942839295"
+			}
+			"maxsize"		"206114871"
+			"dlcappid"		"222629"
+		}
+		"256570"
+		{
+			"name"		"MarketPlaceDepot52 (Depot 256570)"
+			"manifests"
+			{
+				"public"		"4687046799864943765"
+			}
+			"maxsize"		"209164956"
+			"dlcappid"		"256570"
+		}
+		"256576"
+		{
+			"name"		"MarketPlaceDepot58 (Depot 256576)"
+			"manifests"
+			{
+				"public"		"6120282451247993798"
+			}
+			"maxsize"		"95849836"
+			"dlcappid"		"256576"
+		}
+		"256611"
+		{
+			"name"		"MarketPlaceDepot93 (Depot 256611)"
+			"manifests"
+			{
+				"public"		"599013215969162852"
+			}
+			"maxsize"		"72651641"
+			"dlcappid"		"256611"
+		}
+		"256556"
+		{
+			"name"		"MarketPlaceDepot31 (Depot 256566)"
+			"manifests"
+			{
+				"public"		"8143780378885934581"
+			}
+			"maxsize"		"145392095"
+			"dlcappid"		"256556"
+		}
+		"256546"
+		{
+			"name"		"MarketPlaceDepot30 (Depot 256546)"
+			"manifests"
+			{
+				"public"		"8499769299248691407"
+			}
+			"maxsize"		"142961197"
+			"dlcappid"		"256546"
+		}
+		"256614"
+		{
+			"name"		"MarketPlaceDepot29 (Depot 256614)"
+			"manifests"
+			{
+				"public"		"7688392456328529126"
+			}
+			"maxsize"		"207589812"
+			"dlcappid"		"256614"
+		}
+		"256525"
+		{
+			"name"		"MarketPlaceDepot28 (Depot 256525)"
+			"manifests"
+			{
+				"public"		"5661191340550628102"
+			}
+			"maxsize"		"15972603"
+			"dlcappid"		"256525"
+		}
+		"258650"
+		{
+			"name"		"Product SevenyOne"
+			"manifests"
+			{
+				"public"		"8363381794047126568"
+			}
+			"maxsize"		"157204255"
+			"dlcappid"		"258650"
+		}
+		"222627"
+		{
+			"name"		"Product FortyEight"
+			"manifests"
+			{
+				"public"		"5898717415931075826"
+			}
+			"maxsize"		"286267746"
+			"dlcappid"		"222627"
+		}
+		"258649"
+		{
+			"name"		"Product Seventy"
+			"manifests"
+			{
+				"public"		"7115586079374443587"
+			}
+			"maxsize"		"348944190"
+			"dlcappid"		"258649"
+		}
+		"222632"
+		{
+			"name"		"Product FiftyThree"
+			"manifests"
+			{
+				"public"		"3474946807423837162"
+			}
+			"maxsize"		"1662842649"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"8F9F66F91980D8AEE0C4D3367E49F7EE5C74DEC154749A7C63C573C151A3131513A022D02CCB7572614C1B8653530FA412A88FA8"
+				}
+			}
+			"dlcappid"		"222632"
+		}
+		"222626"
+		{
+			"name"		"Product FortySeven"
+			"manifests"
+			{
+				"public"		"2183279871982907816"
+			}
+			"maxsize"		"384583907"
+			"dlcappid"		"222626"
+		}
+		"222625"
+		{
+			"name"		"Product FortySix"
+			"manifests"
+			{
+				"public"		"1288563911166011037"
+			}
+			"maxsize"		"292007896"
+			"dlcappid"		"222625"
+		}
+		"256568"
+		{
+			"name"		"MarketPlaceDepot27 (Depot 256568)"
+			"manifests"
+			{
+				"public"		"2047524633440801452"
+			}
+			"maxsize"		"14182624"
+			"dlcappid"		"256568"
+		}
+		"256554"
+		{
+			"name"		"MarketPlaceDepot26"
+			"manifests"
+			{
+				"public"		"1790562022865012560"
+			}
+			"maxsize"		"64097992"
+			"dlcappid"		"256554"
+		}
+		"222624"
+		{
+			"name"		"Product FortyFive"
+			"manifests"
+			{
+				"public"		"7173662186069705945"
+			}
+			"maxsize"		"153360333"
+			"dlcappid"		"222624"
+		}
+		"256552"
+		{
+			"name"		"MarketPlaceDepot25"
+			"manifests"
+			{
+				"public"		"5606877084134180037"
+			}
+			"maxsize"		"63634862"
+			"dlcappid"		"256552"
+		}
+		"256555"
+		{
+			"name"		"MarketPlaceDepot24"
+			"manifests"
+			{
+				"public"		"4830357312955073158"
+			}
+			"maxsize"		"84159556"
+			"dlcappid"		"256555"
+		}
+		"256551"
+		{
+			"name"		"MarketPlaceDepot23"
+			"manifests"
+			{
+				"public"		"7645317155635301944"
+			}
+			"maxsize"		"73291048"
+			"dlcappid"		"256551"
+		}
+		"256532"
+		{
+			"name"		"MarketPlaceDepot22 (Depot 256532)"
+			"manifests"
+			{
+				"public"		"8076767884090319943"
+			}
+			"maxsize"		"66610099"
+			"dlcappid"		"256532"
+		}
+		"256550"
+		{
+			"name"		"MarketPlaceDepot21"
+			"manifests"
+			{
+				"public"		"8242634675660822176"
+			}
+			"maxsize"		"58958516"
+			"dlcappid"		"256550"
+		}
+		"256549"
+		{
+			"name"		"MarketPlaceDepot20"
+			"manifests"
+			{
+				"public"		"8792613898124403248"
+			}
+			"maxsize"		"204438973"
+			"dlcappid"		"256549"
+		}
+		"256548"
+		{
+			"name"		"MarketPlaceDepot19"
+			"manifests"
+			{
+				"public"		"2709168093452852058"
+			}
+			"maxsize"		"443051294"
+			"dlcappid"		"256548"
+		}
+		"222623"
+		{
+			"name"		"Product FortyFour"
+			"manifests"
+			{
+				"public"		"1250161234812540468"
+			}
+			"maxsize"		"171777087"
+			"dlcappid"		"222623"
+		}
+		"256539"
+		{
+			"name"		"MarketPlaceDepot18 (Depot 256539)"
+			"manifests"
+			{
+				"public"		"3345605354294122243"
+			}
+			"maxsize"		"429332549"
+			"dlcappid"		"256539"
+		}
+		"256540"
+		{
+			"name"		"MarketPlaceDepot17 (Depot 256540)"
+			"manifests"
+			{
+				"public"		"7187882902610789821"
+			}
+			"maxsize"		"114682530"
+			"dlcappid"		"256540"
+		}
+		"256547"
+		{
+			"name"		"MarketPlaceDepot16"
+			"manifests"
+			{
+				"public"		"3953290980189145496"
+			}
+			"maxsize"		"178576730"
+			"dlcappid"		"256547"
+		}
+		"222622"
+		{
+			"name"		"Product FortyThree"
+			"manifests"
+			{
+				"public"		"5174059663646608755"
+			}
+			"maxsize"		"696233479"
+			"dlcappid"		"222622"
+		}
+		"256541"
+		{
+			"name"		"MarketPlaceDepot15 (Depot 256541)"
+			"manifests"
+			{
+				"public"		"7847554885566422448"
+			}
+			"maxsize"		"270805057"
+			"dlcappid"		"256541"
+		}
+		"256531"
+		{
+			"name"		"MarketPlaceDepot14 (Depot 256531)"
+			"manifests"
+			{
+				"public"		"3765728355166161047"
+			}
+			"maxsize"		"143002012"
+			"dlcappid"		"256531"
+		}
+		"256530"
+		{
+			"name"		"MarketPlaceDepot13 (Depot 256530)"
+			"manifests"
+			{
+				"public"		"5366335281702996650"
+			}
+			"maxsize"		"143016157"
+			"dlcappid"		"256530"
+		}
+		"222621"
+		{
+			"name"		"Product FortyTwo"
+			"manifests"
+			{
+				"public"		"2211935365709528968"
+			}
+			"maxsize"		"449181584"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"FF5D55878747BA60CBCEADCA21AFCBBF5C74DEC154749A7C63C573C151A313157FFAAC73DFAC94276E35D9C4391E33F6121DC69B"
+				}
+			}
+			"dlcappid"		"222621"
+		}
+		"256529"
+		{
+			"name"		"MarketPlaceDepot12 (256529)"
+			"manifests"
+			{
+				"public"		"2482145696282093552"
+			}
+			"maxsize"		"114327520"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"B2DD91BF06AFA983064EFC5A542520FA5C74DEC154749A7C63C573C151A313157488350EEC496DF3BCFF9A778A03D8CD02CBA112"
+				}
+			}
+			"dlcappid"		"256529"
+		}
+		"256528"
+		{
+			"name"		"MarketPlaceDepot11 (Depot 256528)"
+			"manifests"
+			{
+				"public"		"7434398062139824737"
+			}
+			"maxsize"		"114347248"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"35D0F04C1F3DE2437CA5A52B8B79B4B45C74DEC154749A7C63C573C151A31315C2CB6EB7F27E5AC8E76735897599216F3E500AE6"
+				}
+			}
+			"dlcappid"		"256528"
+		}
+		"256527"
+		{
+			"name"		"MarketPlaceDepot10 (Depot 256527)"
+			"manifests"
+			{
+				"public"		"7480428522360252301"
+			}
+			"maxsize"		"89745256"
+			"dlcappid"		"256527"
+		}
+		"256526"
+		{
+			"name"		"MarketPlaceDepot9 (Depot 256526)"
+			"manifests"
+			{
+				"public"		"4960774221754601074"
+			}
+			"maxsize"		"89716739"
+			"dlcappid"		"256526"
+		}
+		"222620"
+		{
+			"name"		"Product FortyOne"
+			"manifests"
+			{
+				"public"		"360398683995179280"
+			}
+			"maxsize"		"1314047440"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"DC6AF1DEEB957F5543E0EE2ADE946C705C74DEC154749A7C63C573C151A31315FF149BC3AE564C0BC8F255D89DCCCDCB1C05755C"
+				}
+			}
+			"dlcappid"		"222620"
+		}
+		"256535"
+		{
+			"name"		"MarketPlaceDepot8 (Depot 256535)"
+			"manifests"
+			{
+				"public"		"8891417641603328334"
+			}
+			"maxsize"		"345148237"
+			"dlcappid"		"256535"
+		}
+		"256534"
+		{
+			"name"		"MarketPlaceDepot7 (Depot 256534)"
+			"manifests"
+			{
+				"public"		"4075511202394876853"
+			}
+			"maxsize"		"344918569"
+			"dlcappid"		"256534"
+		}
+		"256533"
+		{
+			"name"		"MarketPlaceDepot6 (Depot 256533)"
+			"manifests"
+			{
+				"public"		"518784419747705266"
+			}
+			"maxsize"		"426406607"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"44AC6E21E75A6C9E68F7BF440E5E5A7E5C74DEC154749A7C63C573C151A3131574C9AF3929A3B14180598757D22AD5021DAC82D7"
+				}
+			}
+			"dlcappid"		"256533"
+		}
+		"256524"
+		{
+			"name"		"MarketPlaceDepot5 (Depot 256524)"
+			"manifests"
+			{
+				"public"		"4280260524148111480"
+			}
+			"maxsize"		"7215112"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"B0A3860FE620CA1A7053CEF6BB0BB6785C74DEC154749A7C63C573C151A313157EB369086686C8E4DAF6BF68384AF8005330CE41"
+				}
+			}
+			"dlcappid"		"256524"
+		}
+		"222619"
+		{
+			"name"		"Product Forty"
+			"manifests"
+			{
+				"public"		"2039017470216448701"
+			}
+			"maxsize"		"390220446"
+			"dlcappid"		"222619"
+		}
+		"222618"
+		{
+			"name"		"Product ThirtyNine"
+			"manifests"
+			{
+				"public"		"684416657617321965"
+			}
+			"maxsize"		"1600654575"
+			"dlcappid"		"222618"
+		}
+		"222617"
+		{
+			"name"		"Product ThirtyEight"
+			"manifests"
+			{
+				"public"		"3011574275454352073"
+			}
+			"maxsize"		"1915954000"
+			"dlcappid"		"222617"
+		}
+		"222616"
+		{
+			"name"		"ProductThirtySeven"
+			"manifests"
+			{
+				"public"		"6670998107676874487"
+			}
+			"maxsize"		"136453200"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"D788A32AECB3AB3E563ABB114F9EE72A5C74DEC154749A7C63C573C151A31315A1A223533A03AF73E429B244ADD571C2AB0FD0CD"
+				}
+			}
+			"dlcappid"		"222616"
+		}
+		"222615"
+		{
+			"name"		"ProductThirtySix"
+			"manifests"
+			{
+				"public"		"1167719147877230861"
+			}
+			"maxsize"		"1129890606"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"2A3E61C612CFCC1082E6D91EC6880B7D5C74DEC154749A7C63C573C151A31315D28E3F65A2C841F9B94D20B1AE29CDD403C13F29"
+				}
+			}
+			"dlcappid"		"222615"
+		}
+		"222614"
+		{
+			"name"		"ProductThirtyFive"
+			"manifests"
+			{
+				"public"		"8013300439938946765"
+			}
+			"maxsize"		"169183094"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"367B3FCC9A85BD571F072CD266407EE95C74DEC154749A7C63C573C151A313150071018D365C1C64463054B2E095EF580D0EC9AC"
+				}
+			}
+			"dlcappid"		"222614"
+		}
+		"256523"
+		{
+			"name"		"MarketPlaceDepot4"
+			"manifests"
+			{
+				"public"		"6756014756936466729"
+			}
+			"maxsize"		"32167558"
+			"dlcappid"		"256523"
+		}
+		"256522"
+		{
+			"name"		"MarketPlaceDepot3"
+			"manifests"
+			{
+				"public"		"1947946762196399275"
+			}
+			"maxsize"		"40758926"
+			"dlcappid"		"256522"
+		}
+		"256521"
+		{
+			"name"		"MarketPlaceDepot2"
+			"manifests"
+			{
+				"public"		"1868583714926464641"
+			}
+			"maxsize"		"30741253"
+			"dlcappid"		"256521"
+		}
+		"222613"
+		{
+			"name"		"ProductThirtyFour"
+			"manifests"
+			{
+				"public"		"5198932444902155813"
+			}
+			"maxsize"		"1879310298"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"3E3D50A4DBF153FF67DF599B893B87865C74DEC154749A7C63C573C151A31315FCD30FFF5F34676BD52CED42A63754C53A76EE28"
+				}
+			}
+			"dlcappid"		"222613"
+		}
+		"208370"
+		{
+			"name"		"Train Simulator 2012 - 56XX Debundle (208370) Depot"
+			"manifests"
+			{
+				"public"		"7434505687862899316"
+			}
+			"maxsize"		"331697043"
+			"dlcappid"		"208370"
+		}
+		"222612"
+		{
+			"name"		"Product ThirtyThree"
+			"manifests"
+			{
+				"public"		"395778945323708872"
+			}
+			"maxsize"		"304798807"
+			"dlcappid"		"222612"
+		}
+		"256520"
+		{
+			"name"		"Big TrainSim DLC Range (256520) Depot"
+			"manifests"
+			{
+				"public"		"3812566010318528366"
+			}
+			"maxsize"		"7160860"
+			"dlcappid"		"256520"
+		}
+		"222611"
+		{
+			"name"		"ProductThirtyTwo"
+			"manifests"
+			{
+				"public"		"7888070367206380148"
+			}
+			"maxsize"		"113556683"
+			"dlcappid"		"222611"
+		}
+		"222610"
+		{
+			"name"		"ProductThirtyOne"
+			"manifests"
+			{
+				"public"		"2295124428222619144"
+			}
+			"maxsize"		"192395447"
+			"dlcappid"		"222610"
+		}
+		"222609"
+		{
+			"name"		"ProductThirty"
+			"manifests"
+			{
+				"public"		"498334457933822268"
+			}
+			"maxsize"		"487979418"
+			"dlcappid"		"222609"
+		}
+		"222608"
+		{
+			"name"		"ProductTwentyNine"
+			"manifests"
+			{
+				"public"		"4255485351335171530"
+			}
+			"maxsize"		"91290498"
+			"dlcappid"		"222608"
+		}
+		"222607"
+		{
+			"name"		"ProductTwentyEight"
+			"manifests"
+			{
+				"public"		"1755839011017626459"
+			}
+			"maxsize"		"129980224"
+			"dlcappid"		"222607"
+		}
+		"222606"
+		{
+			"name"		"ProductTwentySeven"
+			"manifests"
+			{
+				"public"		"8187083335642290038"
+			}
+			"maxsize"		"1816280966"
+			"dlcappid"		"222606"
+		}
+		"222605"
+		{
+			"name"		"Product TwentySix"
+			"manifests"
+			{
+				"public"		"8640046365983103224"
+			}
+			"maxsize"		"14"
+			"dlcappid"		"222605"
+		}
+		"222604"
+		{
+			"name"		"Product TwentyFive"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1987201894805520877"
+			}
+			"maxsize"		"114170664"
+			"dlcappid"		"222604"
+		}
+		"222603"
+		{
+			"name"		"Product TwentyFour"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3071825277474350175"
+			}
+			"maxsize"		"165509654"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"4AD4BB28A0988502ED72EFBEFC1DEDE45C74DEC154749A7C63C573C151A3131585E942EC8A036E6F184206B85ED1CD37F9269EA7"
+				}
+			}
+			"dlcappid"		"222603"
+		}
+		"222602"
+		{
+			"name"		"Product TwentyThree"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7121591980514739999"
+			}
+			"maxsize"		"84977100"
+			"dlcappid"		"222602"
+		}
+		"222601"
+		{
+			"name"		"Product TwentyTwo"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5072692870455317861"
+			}
+			"maxsize"		"112546194"
+			"dlcappid"		"222601"
+		}
+		"222600"
+		{
+			"name"		"Product TwentyOne"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6929514870607616423"
+			}
+			"maxsize"		"1866036706"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"EAE93B9F040770A7FE5D72C14D3AC1355C74DEC154749A7C63C573C151A31315C9B36283CBAA6E48BB0DD799DB1E1FA776D76AE6"
+				}
+			}
+			"dlcappid"		"222600"
+		}
+		"222599"
+		{
+			"name"		"Product Twenty"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7473108873656281768"
+			}
+			"maxsize"		"146476802"
+			"dlcappid"		"222599"
+		}
+		"222598"
+		{
+			"name"		"Product Nineteen"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4558993055063586138"
+			}
+			"maxsize"		"423749643"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"5BD9A0819E73537F4DDF63F6B336C08D5C74DEC154749A7C63C573C151A31315216282AA0C5DBE12816A1EFBD35447DC7B3E5566"
+				}
+			}
+			"dlcappid"		"222598"
+		}
+		"222597"
+		{
+			"name"		"Product Eighteen"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6543720653678089906"
+			}
+			"maxsize"		"860339544"
+			"dlcappid"		"222597"
+		}
+		"222596"
+		{
+			"name"		"Product Seventeen"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3648414753366401458"
+			}
+			"maxsize"		"166046836"
+			"dlcappid"		"222596"
+		}
+		"222595"
+		{
+			"name"		"Product Sixteen "
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8097758202033596456"
+			}
+			"maxsize"		"119456421"
+			"dlcappid"		"222595"
+		}
+		"222594"
+		{
+			"name"		"Product Fifthteen"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8050142664517597781"
+			}
+			"maxsize"		"82699764"
+			"dlcappid"		"222594"
+		}
+		"222593"
+		{
+			"name"		"Product Fourteen"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"561504429166908261"
+			}
+			"maxsize"		"1563293836"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"5D7B9DDF1CFD63422519BAEE45E7A8AE5C74DEC154749A7C63C573C151A31315527929B201350BDB434083421D33D54104FAB7AD"
+				}
+			}
+			"dlcappid"		"222593"
+		}
+		"222592"
+		{
+			"name"		"Product Thirteen"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1034366283555839749"
+			}
+			"maxsize"		"150463554"
+			"dlcappid"		"222592"
+		}
+		"222591"
+		{
+			"name"		"Product Twelve"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3506098902767834242"
+			}
+			"maxsize"		"140840017"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"CF53ABF33C5870C8BF50AABE9ECD706F5C74DEC154749A7C63C573C151A313151BFC167CF7E7B0133F05DD0E957C05FC5A0653A0"
+				}
+			}
+			"dlcappid"		"222591"
+		}
+		"222590"
+		{
+			"name"		"Product Eleven"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6147839097710845007"
+			}
+			"maxsize"		"455151559"
+			"dlcappid"		"222590"
+		}
+		"222589"
+		{
+			"name"		"Product Ten"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4457397264002505463"
+			}
+			"maxsize"		"108216766"
+			"dlcappid"		"222589"
+		}
+		"222588"
+		{
+			"name"		"Product Nine"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1051600840177457002"
+			}
+			"maxsize"		"1705685431"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"ACBFF82DE8CCF69D5D6B2AB16549713C5C74DEC154749A7C63C573C151A3131505E054D2ABDBA2568C43E315C54E0943A96BA03B"
+				}
+			}
+			"dlcappid"		"222588"
+		}
+		"222555"
+		{
+			"name"		"Product Eight"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4680745082907617623"
+			}
+			"maxsize"		"654156992"
+			"dlcappid"		"222555"
+		}
+		"222587"
+		{
+			"name"		"Product Seven"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1847708518505653513"
+			}
+			"maxsize"		"209636548"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"415C67CD7C8D27600410898A3B97FAD85C74DEC154749A7C63C573C151A313159C76B85C02F956EC7318D8F4F9119CA33BAACF96"
+				}
+			}
+			"dlcappid"		"222587"
+		}
+		"222586"
+		{
+			"name"		"Product Six"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1652218507165978686"
+			}
+			"maxsize"		"75091134"
+			"dlcappid"		"222586"
+		}
+		"222585"
+		{
+			"name"		"Product Five"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6957243179376948450"
+			}
+			"maxsize"		"1614845264"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"131CD605EA4A46798FFB7895A9F53DAB5C74DEC154749A7C63C573C151A313158059299135A78AC473689344397C24AABA5ABC44"
+				}
+			}
+			"dlcappid"		"222585"
+		}
+		"208375"
+		{
+			"name"		"Product Four"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6351641650077496357"
+			}
+			"maxsize"		"433289219"
+			"dlcappid"		"208375"
+		}
+		"222584"
+		{
+			"name"		"Product Three"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7694463782706677133"
+			}
+			"maxsize"		"280354119"
+			"dlcappid"		"222584"
+		}
+		"222583"
+		{
+			"name"		"Product Two"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3646596786102866361"
+			}
+			"maxsize"		"166118110"
+			"dlcappid"		"222583"
+		}
+		"222582"
+		{
+			"name"		"Product One"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7319937980008135555"
+			}
+			"maxsize"		"1963551983"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"827A71C321C30AF485B57919B20805B05C74DEC154749A7C63C573C151A313152665CE6357BC9E4E7D74CF04205B1C758BEE1370"
+				}
+			}
+			"dlcappid"		"222582"
+		}
+		"222581"
+		{
+			"name"		"BNSF GP38-2"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8329143258164578646"
+			}
+			"maxsize"		"317004382"
+			"dlcappid"		"222581"
+		}
+		"222580"
+		{
+			"name"		"DB BR423"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4988777302077448092"
+			}
+			"maxsize"		"68132133"
+			"dlcappid"		"222580"
+		}
+		"222579"
+		{
+			"name"		"BR Class 101"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4661868279669796562"
+			}
+			"maxsize"		"274272907"
+			"dlcappid"		"222579"
+		}
+		"222578"
+		{
+			"name"		"Class 08 TOCs"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1205612613339066344"
+			}
+			"maxsize"		"75946633"
+			"dlcappid"		"222578"
+		}
+		"222577"
+		{
+			"name"		"SD40-2"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7476868382187939458"
+			}
+			"maxsize"		"210853768"
+			"dlcappid"		"222577"
+		}
+		"222576"
+		{
+			"name"		"Class 465 Locomotive"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3799058257091500880"
+			}
+			"maxsize"		"122746966"
+			"dlcappid"		"222576"
+		}
+		"222561"
+		{
+			"name"		"Marias Pass"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"63645419432131421"
+			}
+			"maxsize"		"1482870546"
+			"dlcappid"		"222561"
+		}
+		"222575"
+		{
+			"name"		"Class 3F Jinty"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5949271243824442959"
+			}
+			"maxsize"		"693557826"
+			"dlcappid"		"222575"
+		}
+		"222574"
+		{
+			"name"		"Alco RS11"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3092826243209315995"
+			}
+			"maxsize"		"105892537"
+			"dlcappid"		"222574"
+		}
+		"222572"
+		{
+			"name"		"GP20ATSF"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"294827668965799090"
+			}
+			"maxsize"		"171345579"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"484956D67A1D38187C6DF306E80F698D5C74DEC154749A7C63C573C151A31315910145AC8E1EEF4D4F00D6ECB2B8324F08A5E2FB"
+				}
+			}
+			"dlcappid"		"222572"
+		}
+		"222571"
+		{
+			"name"		"GP20SP"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"361441082810654711"
+			}
+			"maxsize"		"164112267"
+			"dlcappid"		"222571"
+		}
+		"222570"
+		{
+			"name"		"GP20BN"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"27334871641381248"
+			}
+			"maxsize"		"166942706"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"F5BFD959D4553FBA95E39FD30BCF253E5C74DEC154749A7C63C573C151A3131561DC2DFA54DA51AAF24B884844272F9C62418198"
+				}
+			}
+			"dlcappid"		"222570"
+		}
+		"222569"
+		{
+			"name"		"GP20UP"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"739467532209537167"
+			}
+			"maxsize"		"165918577"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"FE7AE8824F956D084E8FD195D9832B635C74DEC154749A7C63C573C151A3131524DEFD1F23A4EA2312D2B4A54BF197C9CBF2F054"
+				}
+			}
+			"dlcappid"		"222569"
+		}
+		"222556"
+		{
+			"name"		"BR Standard 2MT"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1306899306005240387"
+			}
+			"maxsize"		"335414247"
+			"dlcappid"		"222556"
+		}
+		"222557"
+		{
+			"name"		"London Faversham Highspeed"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7250168684144333322"
+			}
+			"maxsize"		"1502409269"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"B7651CBFFD262D88F8660FB4474D609B5C74DEC154749A7C63C573C151A31315C0B76B0F7BB964CA9D09CF60E57BBA0756EC534D"
+				}
+			}
+			"dlcappid"		"222557"
+		}
+		"222549"
+		{
+			"name"		"A & T Consolidation Class 280-157 Electric Locomotive"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9154319046745527279"
+			}
+			"maxsize"		"1022092703"
+			"dlcappid"		"222549"
+		}
+		"222554"
+		{
+			"name"		"WLOS - The Port Road"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5155312562330317622"
+			}
+			"maxsize"		"1725507260"
+			"dlcappid"		"222554"
+		}
+		"222566"
+		{
+			"name"		"Railworks 3 57/0 Freightliner"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5777164915457391774"
+			}
+			"maxsize"		"501663898"
+			"dlcappid"		"222566"
+		}
+		"222551"
+		{
+			"name"		"Railworks 3 SP SD45 Diesel Locomotive"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5482118273232977455"
+			}
+			"maxsize"		"242312467"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"17D5C057EFB6E581F9CFCF6E7548712A5C74DEC154749A7C63C573C151A313154A1E7072F0F886AF2BB8D5DF2FBA8912874B980E"
+				}
+			}
+			"dlcappid"		"222551"
+		}
+		"222546"
+		{
+			"name"		"Railworks 3 PRR SD45 Diesel Locomotive"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"602753793014245082"
+			}
+			"maxsize"		"251409648"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"7DC055F1C1CB9DDAE3AC6C5BB35124D25C74DEC154749A7C63C573C151A31315E48C84E6CFA08445F2780DBEA30356CFE58A777B"
+				}
+			}
+			"dlcappid"		"222546"
+		}
+		"222568"
+		{
+			"name"		"Railworks 3 Class 66 EWS"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3767611830377563057"
+			}
+			"maxsize"		"74202886"
+			"dlcappid"		"222568"
+		}
+		"222567"
+		{
+			"name"		"Railworks 3 Class 150 Sprinter DMU"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7746880680486567460"
+			}
+			"maxsize"		"209128203"
+			"dlcappid"		"222567"
+		}
+		"208352"
+		{
+			"name"		"Railworks 3 SP GS4 Daylight"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3452683386784130151"
+			}
+			"maxsize"		"214295677"
+			"dlcappid"		"208352"
+		}
+		"208349"
+		{
+			"name"		"Railworks 3 SPS Northerns"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6512613056163409619"
+			}
+			"maxsize"		"64375280"
+			"dlcappid"		"208349"
+		}
+		"208348"
+		{
+			"name"		"Railworks 3 NKP Berkshires"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9018482238537070711"
+			}
+			"maxsize"		"81763044"
+			"dlcappid"		"208348"
+		}
+		"222550"
+		{
+			"name"		"Railworks 3 GE44 - Southern Pacific"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2616805839362330282"
+			}
+			"maxsize"		"102730041"
+			"dlcappid"		"222550"
+		}
+		"222548"
+		{
+			"name"		"Railworks 3 GE44 - B&M"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"142792258378614363"
+			}
+			"maxsize"		"102864776"
+			"dlcappid"		"222548"
+		}
+		"222547"
+		{
+			"name"		"Railworks 3 4BIG Class 422 EMU"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2407377055345333041"
+			}
+			"maxsize"		"95012082"
+			"dlcappid"		"222547"
+		}
+		"222562"
+		{
+			"name"		"Railworks 3 Class 66 Freightliner"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4923369515519665088"
+			}
+			"maxsize"		"85898477"
+			"dlcappid"		"222562"
+		}
+		"222565"
+		{
+			"name"		"Railworks 3 Norfolk Southern Freight Pack 1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"214307974280126234"
+			}
+			"maxsize"		"29025006"
+			"dlcappid"		"222565"
+		}
+		"222543"
+		{
+			"name"		"Railworks 3 Norfolk Southern Heritage Pack 2 (SD70)"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6711184125059876925"
+			}
+			"maxsize"		"240057933"
+			"dlcappid"		"222543"
+		}
+		"222542"
+		{
+			"name"		"Railworks 3 Norfolk Southern Heritage Pack 1 (ES44)"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7462493272667798112"
+			}
+			"maxsize"		"247437570"
+			"dlcappid"		"222542"
+		}
+		"222564"
+		{
+			"name"		"Railworks 3 Class 101 Strathclyde DMU (WCML)"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2680042875436195911"
+			}
+			"maxsize"		"143106896"
+			"dlcappid"		"222564"
+		}
+		"222545"
+		{
+			"name"		"Railworks 3 ICE2 High Speed Train"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3343727699606665493"
+			}
+			"maxsize"		"101343508"
+			"dlcappid"		"222545"
+		}
+		"222544"
+		{
+			"name"		"Railworks 3 A3 Flying Scotsman Wartime Black"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8584316947624903823"
+			}
+			"maxsize"		"112824390"
+			"dlcappid"		"222544"
+		}
+		"208350"
+		{
+			"name"		"Railworks 3 Union Pacific Challenger"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9140511784993870666"
+			}
+			"maxsize"		"522712607"
+			"dlcappid"		"208350"
+		}
+		"208361"
+		{
+			"name"		"Railworks 3 Union Pacific Big Boy"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7950552767763380825"
+			}
+			"maxsize"		"216787504"
+			"dlcappid"		"208361"
+		}
+		"222541"
+		{
+			"name"		"Railworks 3 Class 377 First Capital Connect"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5243125544776462002"
+			}
+			"maxsize"		"82275316"
+			"dlcappid"		"222541"
+		}
+		"208289"
+		{
+			"name"		"Railworks 3 B1 Pack"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6299621542484597279"
+			}
+			"maxsize"		"156582722"
+			"dlcappid"		"208289"
+		}
+		"208357"
+		{
+			"name"		"Railworks 3 SR Light Pacific"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8333538481310525352"
+			}
+			"maxsize"		"204707586"
+			"dlcappid"		"208357"
+		}
+		"208295"
+		{
+			"name"		"Class 57/0 Railtours Pack"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6953841704598407251"
+			}
+			"maxsize"		"189536665"
+			"dlcappid"		"208295"
+		}
+		"222540"
+		{
+			"name"		"Railworks 3 Trains Vs Zombies 2: Escape to New York"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5262835470399608562"
+			}
+			"maxsize"		"878360672"
+			"dlcappid"		"222540"
+		}
+		"208290"
+		{
+			"name"		"Railworks 3 ICE3 Train Assets"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5667935078226891232"
+			}
+			"maxsize"		"152361632"
+			"dlcappid"		"208290"
+		}
+		"208288"
+		{
+			"name"		"Railworks 3 Munich Augsburg"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5293627325306227045"
+			}
+			"maxsize"		"1152576872"
+			"dlcappid"		"208288"
+		}
+		"208319"
+		{
+			"name"		"Railworks 3 UP SD45 Diesel Locomotive"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3456065217658302213"
+			}
+			"maxsize"		"318958731"
+			"dlcappid"		"208319"
+		}
+		"208318"
+		{
+			"name"		"Railworks 3 Baldwin Centipede"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8884728028743738488"
+			}
+			"maxsize"		"186370870"
+			"dlcappid"		"208318"
+		}
+		"208374"
+		{
+			"name"		"Train Simulator 2013 GWR King Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8517722621907993109"
+			}
+			"maxsize"		"101568008"
+			"dlcappid"		"208374"
+		}
+		"208363"
+		{
+			"name"		"Train Simulator 2013 LNER A3 Flying Scotsman Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9037579699728492070"
+			}
+			"maxsize"		"127479594"
+			"dlcappid"		"208363"
+		}
+		"208299"
+		{
+			"name"		"Train Simular 2013 UKWagons01 Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8119765066459055710"
+			}
+			"maxsize"		"33929678"
+			"dlcappid"		"208299"
+		}
+		"208377"
+		{
+			"name"		"Train Simulator 2013 ICE1 EMU Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1321700265639865275"
+			}
+			"maxsize"		"96857659"
+			"dlcappid"		"208377"
+		}
+		"208371"
+		{
+			"name"		"Train Simulator 2013 GP9 Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2043313741799173961"
+			}
+			"maxsize"		"219710054"
+			"dlcappid"		"208371"
+		}
+		"208367"
+		{
+			"name"		"Train Simulator 2013 SW1500 Switchers Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8848378613393731509"
+			}
+			"maxsize"		"346866061"
+			"dlcappid"		"208367"
+		}
+		"208355"
+		{
+			"name"		"Train Simulator 2013 SD40-2W WideNose Locomotive Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1039206890028350697"
+			}
+			"maxsize"		"102410256"
+			"dlcappid"		"208355"
+		}
+		"208354"
+		{
+			"name"		"Train Simulator 2013 SD40-2N HighNose Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4342243012495918499"
+			}
+			"maxsize"		"57671751"
+			"dlcappid"		"208354"
+		}
+		"208347"
+		{
+			"name"		"Train Simulator 2013 LMS 6P Jubilee Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4199219652701630716"
+			}
+			"maxsize"		"140789051"
+			"dlcappid"		"208347"
+		}
+		"208346"
+		{
+			"name"		"Train Simulator 2013 Class 158 DMU Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5332183435458543105"
+			}
+			"maxsize"		"136641231"
+			"dlcappid"		"208346"
+		}
+		"208345"
+		{
+			"name"		"Train Simulator 2013 Class 66 Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6647442500097416682"
+			}
+			"maxsize"		"82089469"
+			"dlcappid"		"208345"
+		}
+		"208344"
+		{
+			"name"		"Train Simulator 2013 Class 08 Shunters Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"372413997711209761"
+			}
+			"maxsize"		"120301523"
+			"dlcappid"		"208344"
+		}
+		"208364"
+		{
+			"name"		"Railworks 3 Class 170 DMU Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"214009954183488711"
+			}
+			"maxsize"		"175882706"
+			"dlcappid"		"208364"
+		}
+		"208366"
+		{
+			"name"		"Railworks 3 Class 111 DMU Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7653417028073245818"
+			}
+			"maxsize"		"92299217"
+			"dlcappid"		"208366"
+		}
+		"208356"
+		{
+			"name"		"Railworks 3 C44-9W Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3543887240681548568"
+			}
+			"maxsize"		"183642581"
+			"dlcappid"		"208356"
+		}
+		"208351"
+		{
+			"name"		"Railworks 3 LNER A1 Tornado Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4566787679095780180"
+			}
+			"maxsize"		"118954748"
+			"dlcappid"		"208351"
+		}
+		"208365"
+		{
+			"name"		"Railworks 3 SD70 Volume 2 Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5457562717013223207"
+			}
+			"maxsize"		"189428305"
+			"dlcappid"		"208365"
+		}
+		"208362"
+		{
+			"name"		"Railworks 3 SD70ACe Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2736432346973900501"
+			}
+			"maxsize"		"71000094"
+			"dlcappid"		"208362"
+		}
+		"208369"
+		{
+			"name"		"Railworks 3 Class 67 Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2802682498163338533"
+			}
+			"maxsize"		"104215881"
+			"dlcappid"		"208369"
+		}
+		"208353"
+		{
+			"name"		"Railworks 3 Class 380 EMU Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5914621907361107988"
+			}
+			"maxsize"		"36317171"
+			"dlcappid"		"208353"
+		}
+		"208378"
+		{
+			"name"		"Railworks 3 Class 31 Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5101639062324221262"
+			}
+			"maxsize"		"86091946"
+			"dlcappid"		"208378"
+		}
+		"208379"
+		{
+			"name"		"Railworks 3 Class 86 Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9171620806288429528"
+			}
+			"maxsize"		"127160924"
+			"dlcappid"		"208379"
+		}
+		"208376"
+		{
+			"name"		"Railworks 3 Class 325 EMU Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2714211249335042481"
+			}
+			"maxsize"		"53252927"
+			"dlcappid"		"208376"
+		}
+		"208343"
+		{
+			"name"		"Railworks 3 Class 390 EMU Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7750267436315950951"
+			}
+			"maxsize"		"225413957"
+			"dlcappid"		"208343"
+		}
+		"208298"
+		{
+			"name"		"Railworks 3 Class 33 Locomotives Debundle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8326021754162365214"
+			}
+			"maxsize"		"255707051"
+			"dlcappid"		"208298"
+		}
+		"208296"
+		{
+			"name"		"Railworks 3 F40PH California Zephyr Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2286408401046479341"
+			}
+			"maxsize"		"302328337"
+			"dlcappid"		"208296"
+		}
+		"208286"
+		{
+			"name"		"Railworks 3 Sherman Hill"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"147729166925567235"
+			}
+			"maxsize"		"1401286983"
+			"dlcappid"		"208286"
+		}
+		"208285"
+		{
+			"name"		"Railworks 3 LNER V2 Locomotive"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5555065081515026476"
+			}
+			"maxsize"		"95847594"
+			"dlcappid"		"208285"
+		}
+		"208294"
+		{
+			"name"		"Railworks 3 J94 Memories Of Maerdy Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3342338276440123021"
+			}
+			"maxsize"		"1258857789"
+			"dlcappid"		"208294"
+		}
+		"208293"
+		{
+			"name"		"Railworks 3 J94 Steam Locomotive Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7278414114132932500"
+			}
+			"maxsize"		"187195916"
+			"dlcappid"		"208293"
+		}
+		"208282"
+		{
+			"name"		"Railworks 3 Robinson O4 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"257484994180591441"
+			}
+			"maxsize"		"141047028"
+			"dlcappid"		"208282"
+		}
+		"208292"
+		{
+			"name"		"Railworks 3 Southern Pacific CabForwards"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4347934545573923951"
+			}
+			"maxsize"		"193215397"
+			"dlcappid"		"208292"
+		}
+		"208342"
+		{
+			"name"		"Railworks 3 UP GE44ton Switcher"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7210156465724528502"
+			}
+			"maxsize"		"98609021"
+			"dlcappid"		"208342"
+		}
+		"208341"
+		{
+			"name"		"Railworks 3 PRR GE44ton Switcher"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2027630203431020614"
+			}
+			"maxsize"		"100493934"
+			"dlcappid"		"208341"
+		}
+		"208340"
+		{
+			"name"		"Railworks 3 DTM Common"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1056598788897695729"
+			}
+			"maxsize"		"2545046"
+			"dlcappid"		"208340"
+		}
+		"208283"
+		{
+			"name"		"Railworks 3 ICE3M High Speed Train"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7365765053492286501"
+			}
+			"maxsize"		"7136246"
+			"dlcappid"		"208283"
+		}
+		"208323"
+		{
+			"name"		"Railworks 3 GE-44 UP"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1017631493461049579"
+			}
+			"maxsize"		"14"
+			"dlcappid"		"208323"
+		}
+		"208321"
+		{
+			"name"		"Railworks 3 GE-44 PRR"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6172217073660493232"
+			}
+			"maxsize"		"14"
+			"dlcappid"		"208321"
+		}
+		"208320"
+		{
+			"name"		"Railworks 3 GE44Ton_Common"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"361642129051534007"
+			}
+			"maxsize"		"14"
+			"dlcappid"		"208320"
+		}
+		"208316"
+		{
+			"name"		"Railworks 3 LegacyAssetsFoliage"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6085280171048127296"
+			}
+			"maxsize"		"64986708"
+			"dlcappid"		"208316"
+		}
+		"208315"
+		{
+			"name"		"Railworks 3 LegacyScenariosFictional"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5620640624579939880"
+			}
+			"maxsize"		"6961856"
+			"dlcappid"		"208315"
+		}
+		"208317"
+		{
+			"name"		"Railworks 3 LegacyScenariosCP"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"809963667899514040"
+			}
+			"maxsize"		"4581332"
+			"dlcappid"		"208317"
+		}
+		"208313"
+		{
+			"name"		"Railworks 3 LegacyScenariosNY"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4066524950688450156"
+			}
+			"maxsize"		"5374025"
+			"dlcappid"		"208313"
+		}
+		"208307"
+		{
+			"name"		"Railworks 3 LegacyRouteCP"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5058417612900610586"
+			}
+			"maxsize"		"284194852"
+			"dlcappid"		"208307"
+		}
+		"208314"
+		{
+			"name"		"Railworks 3 LegacyScenariosHS"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5472672211399731036"
+			}
+			"maxsize"		"7796358"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"1DAB28373F40CD26B4CF98FEEA5318235C74DEC154749A7C63C573C151A31315D5EDFBB70D9CB98BBAD492671D85D6794164D613"
+				}
+			}
+			"dlcappid"		"208314"
+		}
+		"208312"
+		{
+			"name"		"Railworks 3 LegacyScenariosBT"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"413211683587805164"
+			}
+			"maxsize"		"5664892"
+			"dlcappid"		"208312"
+		}
+		"208311"
+		{
+			"name"		"Railworks 3 LegacyScenariosOP"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3758551605352731329"
+			}
+			"maxsize"		"4775282"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"4A216C311036799DDC40A31CC1EF30555C74DEC154749A7C63C573C151A3131513137B52263E674050418D806C63F182C84C32B4"
+				}
+			}
+			"dlcappid"		"208311"
+		}
+		"208305"
+		{
+			"name"		"Railworks 3 LegacyRoutesFictional"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2063978555401016471"
+			}
+			"maxsize"		"261715522"
+			"dlcappid"		"208305"
+		}
+		"208304"
+		{
+			"name"		"Railworks 3 LegacyRouteHS"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7971961221258381446"
+			}
+			"maxsize"		"203872277"
+			"dlcappid"		"208304"
+		}
+		"208303"
+		{
+			"name"		"Railworks 3 LegacyRouteNY"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4571321337947011762"
+			}
+			"maxsize"		"187325488"
+			"dlcappid"		"208303"
+		}
+		"208302"
+		{
+			"name"		"Railworks 3 LegacyRouteBT"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8723156952824378852"
+			}
+			"maxsize"		"133716531"
+			"dlcappid"		"208302"
+		}
+		"208301"
+		{
+			"name"		"Railworks 3 LegacyRouteOP"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8260146131532327040"
+			}
+			"maxsize"		"168320985"
+			"dlcappid"		"208301"
+		}
+		"208306"
+		{
+			"name"		"Railworks 3 LegacyAssetsUS"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3022256364161474939"
+			}
+			"maxsize"		"1408915627"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"50FCB91B64C8E9829D1C926671B2BBC55C74DEC154749A7C63C573C151A313154A7FCE98C3F58AAF67392029CC2218D8A804F528"
+				}
+			}
+			"dlcappid"		"208306"
+		}
+		"208300"
+		{
+			"name"		"Railworks 3 LegacyAssetsEU"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"847528311381055068"
+			}
+			"maxsize"		"3269434327"
+			"dlcappid"		"208300"
+		}
+		"208287"
+		{
+			"name"		"Railworks 3 4CIG Southern EMU"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4901272467065447310"
+			}
+			"maxsize"		"97631221"
+			"dlcappid"		"208287"
+		}
+		"208284"
+		{
+			"name"		"Railworks 3 Class 67 Diamond Jubilee"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5607344252372949183"
+			}
+			"maxsize"		"77720773"
+			"dlcappid"		"208284"
+		}
+		"208280"
+		{
+			"name"		"Railworks 3 London to Brighton"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"785246206090328586"
+			}
+			"maxsize"		"1236218879"
+			"dlcappid"		"208280"
+		}
+		"208281"
+		{
+			"name"		"Railworks 3 BR 143 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7949939263791270057"
+			}
+			"maxsize"		"240280082"
+			"dlcappid"		"208281"
+		}
+		"65259"
+		{
+			"name"		"RailWorks 3 SD75MI Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3766842165017154052"
+			}
+			"maxsize"		"188849142"
+			"dlcappid"		"65259"
+		}
+		"65258"
+		{
+			"name"		"RailWorks 3 Settle Steam Specials"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5399951046501071367"
+			}
+			"maxsize"		"315654312"
+			"dlcappid"		"65258"
+		}
+		"65257"
+		{
+			"name"		"Railworks 3 Easter Rail Tour 2012"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"629097231680640154"
+			}
+			"maxsize"		"70442509"
+			"dlcappid"		"65257"
+		}
+		"65256"
+		{
+			"name"		"Railworks 2 4VEP Add-On"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2621555886709782772"
+			}
+			"maxsize"		"234312624"
+			"dlcappid"		"65256"
+		}
+		"65255"
+		{
+			"name"		"Railworks 3 Settle to Carlisle"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1697901809301783575"
+			}
+			"maxsize"		"1198944389"
+			"dlcappid"		"65255"
+		}
+		"65254"
+		{
+			"name"		"Railworks 3 E18 Passenger Add-On"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1260089564059325093"
+			}
+			"maxsize"		"307703183"
+			"dlcappid"		"65254"
+		}
+		"65253"
+		{
+			"name"		"Railworks 3 CLass 444 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8603612934253883749"
+			}
+			"maxsize"		"206068839"
+			"dlcappid"		"65253"
+		}
+		"65252"
+		{
+			"name"		"Railworks 3 Class 70 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3675199255638462381"
+			}
+			"maxsize"		"133752248"
+			"dlcappid"		"65252"
+		}
+		"65251"
+		{
+			"name"		"Railworks 3 AerosoftCommon"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1578291497942818858"
+			}
+			"maxsize"		"22401508"
+			"dlcappid"		"65251"
+		}
+		"65250"
+		{
+			"name"		"Railworks 3 Class 76 77 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9049291843023114977"
+			}
+			"maxsize"		"172164331"
+			"dlcappid"		"65250"
+		}
+		"65249"
+		{
+			"name"		"Railworks 3 DB 1970s Freight Trains"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9132772547164457029"
+			}
+			"maxsize"		"423903486"
+			"dlcappid"		"65249"
+		}
+		"65248"
+		{
+			"name"		"Railworks 3 Centennial Diesel Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7608714591331321288"
+			}
+			"maxsize"		"2100369"
+			"dlcappid"		"65248"
+		}
+		"65247"
+		{
+			"name"		"RailWorks 3 - PRR K4 Locomotive"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6879531755331654358"
+			}
+			"maxsize"		"107041954"
+			"dlcappid"		"65247"
+		}
+		"65246"
+		{
+			"name"		"RailWorks 3 Cologne - Dusseldorf"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6044944942799122895"
+			}
+			"maxsize"		"1474640701"
+			"dlcappid"		"65246"
+		}
+		"65245"
+		{
+			"name"		"RailWorks 3 Intercity-Express"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5827562870791851758"
+			}
+			"maxsize"		"2709206"
+			"dlcappid"		"65245"
+		}
+		"65244"
+		{
+			"name"		"RailWorks 3 The Woodhead Line"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8611203704329143634"
+			}
+			"maxsize"		"968185386"
+			"dlcappid"		"65244"
+		}
+		"65243"
+		{
+			"name"		"Railworks 3 Ohio Steel 2"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7888311369805242039"
+			}
+			"maxsize"		"393569700"
+			"dlcappid"		"65243"
+		}
+		"65242"
+		{
+			"name"		"Railworks 3 PRR GG1 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"313109383185689468"
+			}
+			"maxsize"		"129705913"
+			"dlcappid"		"65242"
+		}
+		"65241"
+		{
+			"name"		"Railworks 3 Class 325 Express Mail"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7550373704046463551"
+			}
+			"maxsize"		"747701"
+			"dlcappid"		"65241"
+		}
+		"65240"
+		{
+			"name"		"Railworks 3 Class 33 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7725324380508466704"
+			}
+			"maxsize"		"487720"
+			"dlcappid"		"65240"
+		}
+		"65239"
+		{
+			"name"		"Railworks 3 Donner Pass Southern Pacific"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1785348360857326528"
+			}
+			"maxsize"		"2013867667"
+			"dlcappid"		"65239"
+		}
+		"65238"
+		{
+			"name"		"Railworks 3 Class 50 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6116801281329440435"
+			}
+			"maxsize"		"3113517"
+			"dlcappid"		"65238"
+		}
+		"65237"
+		{
+			"name"		"Railworks 3 Class 150 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3324898010901231870"
+			}
+			"maxsize"		"1599313"
+			"dlcappid"		"65237"
+		}
+		"65236"
+		{
+			"name"		"Railworks 3 GWR King Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5566968044013804071"
+			}
+			"maxsize"		"223004"
+			"dlcappid"		"65236"
+		}
+		"65235"
+		{
+			"name"		"Railworks 3 Trains Vs Zombies DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5818499699630409826"
+			}
+			"maxsize"		"173359704"
+			"dlcappid"		"65235"
+		}
+		"65234"
+		{
+			"name"		"RailWorks 3 Super Express Train DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2915293462739677960"
+			}
+			"maxsize"		"81736698"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"D6C30A6CB2DC50AA9B1A18847566AAEF5C74DEC154749A7C63C573C151A31315B80451E63F57C98397F87013410FFE8CF1F25E9F"
+				}
+			}
+			"dlcappid"		"65234"
+		}
+		"65233"
+		{
+			"name"		"RailWorks 3 HorseshoeCurve DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7751643617244718407"
+			}
+			"maxsize"		"1079601972"
+			"dlcappid"		"65233"
+		}
+		"65231"
+		{
+			"name"		"RailWorks 2 Acela Express"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6691418483052571683"
+			}
+			"maxsize"		"182828315"
+			"dlcappid"		"65231"
+		}
+		"65230"
+		{
+			"name"		"Railworks 2 P42DC Genesis"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2927788661859062450"
+			}
+			"maxsize"		"284888250"
+			"dlcappid"		"65230"
+		}
+		"65229"
+		{
+			"name"		"RailWorks 2 Class 455 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6217051609623834084"
+			}
+			"maxsize"		"104739746"
+			"dlcappid"		"65229"
+		}
+		"65228"
+		{
+			"name"		"RailWorks 2 Class 421 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3521108447679299904"
+			}
+			"maxsize"		"105773730"
+			"dlcappid"		"65228"
+		}
+		"65227"
+		{
+			"name"		"RailWorks 2 GR-ICE1"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9014906176733655138"
+			}
+			"maxsize"		"103392692"
+			"dlcappid"		"65227"
+		}
+		"65226"
+		{
+			"name"		"RailWorks 2 Hatchet Hill Quarry"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1217011885477262636"
+			}
+			"maxsize"		"209575036"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"7899E545785192BC432F9BF24F3043535C74DEC154749A7C63C573C151A31315D21B432994DE55E061BD8D23CFCDD2EAD1D1F1CE"
+				}
+			}
+			"dlcappid"		"65226"
+		}
+		"65225"
+		{
+			"name"		"RailWorks 2 Class 60"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2183676276615313368"
+			}
+			"maxsize"		"107110852"
+			"dlcappid"		"65225"
+		}
+		"65224"
+		{
+			"name"		"RailWorks 2 BristolExeter"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8061735218172326764"
+			}
+			"maxsize"		"802147619"
+			"dlcappid"		"65224"
+		}
+		"65223"
+		{
+			"name"		"RailWorks 2 GP9Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5762672214617032548"
+			}
+			"maxsize"		"21073934"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"3BE7123E5C0A478B26B5E7A1D9DB439F5C74DEC154749A7C63C573C151A31315CDA2E16699937AFFCE36F317466945AD95DD0A87"
+				}
+			}
+			"dlcappid"		"65223"
+		}
+		"65222"
+		{
+			"name"		"RailWorks 2 GWR56xx"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5624969531194084625"
+			}
+			"maxsize"		"1000127"
+			"dlcappid"		"65222"
+		}
+		"65221"
+		{
+			"name"		"RailWorks 2 GR-SBahn"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5618743402635017204"
+			}
+			"maxsize"		"74109442"
+			"dlcappid"		"65221"
+		}
+		"65220"
+		{
+			"name"		"Railworks 2 Class 67 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2470444127416963789"
+			}
+			"maxsize"		"441287"
+			"dlcappid"		"65220"
+		}
+		"65219"
+		{
+			"name"		"Railworks 2 GR-Steuerwagen DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1399622964039044446"
+			}
+			"maxsize"		"82757241"
+			"dlcappid"		"65219"
+		}
+		"65218"
+		{
+			"name"		"RailWorks 2 Portsmouth Direct Line"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3538953217040084128"
+			}
+			"maxsize"		"558690327"
+			"dlcappid"		"65218"
+		}
+		"65217"
+		{
+			"name"		"Railworks 2 Class 156 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6474188973870146206"
+			}
+			"maxsize"		"523150257"
+			"dlcappid"		"65217"
+		}
+		"65216"
+		{
+			"name"		"Railworks 2 Edinburgh Glasgow DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8111720777493033048"
+			}
+			"maxsize"		"969465790"
+			"dlcappid"		"65216"
+		}
+		"65215"
+		{
+			"name"		"RailWorks 2 Portland Terminal DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6618927655629046264"
+			}
+			"maxsize"		"734292198"
+			"dlcappid"		"65215"
+		}
+		"65214"
+		{
+			"name"		"RailWorks 2 SW1500 Switcher DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8718793666111384727"
+			}
+			"maxsize"		"809831"
+			"dlcappid"		"65214"
+		}
+		"65213"
+		{
+			"name"		"RailWorks 2 GR Class 120 DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1193016225551294785"
+			}
+			"maxsize"		"82920683"
+			"dlcappid"		"65213"
+		}
+		"65212"
+		{
+			"name"		"RailWorks 2 GR Class 118"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3411167681430593480"
+			}
+			"maxsize"		"103222544"
+			"dlcappid"		"65212"
+		}
+		"65211"
+		{
+			"name"		"RailWorks 2 Class 111 DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7334489446864138996"
+			}
+			"maxsize"		"5"
+			"dlcappid"		"65211"
+		}
+		"65210"
+		{
+			"name"		"Railworks 2 Granfield Branch Line DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7417853474550042326"
+			}
+			"maxsize"		"28612983"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"C9CF7A32EA08999D3EFD8613CADEFD3E5C74DEC154749A7C63C573C151A31315DA35E4830ED297CAA8AA849E3705BA1D20AB065E"
+				}
+			}
+			"dlcappid"		"65210"
+		}
+		"24099"
+		{
+			"name"		"RailWorks 2 SD70MAC Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6944903933398287095"
+			}
+			"maxsize"		"5"
+			"dlcappid"		"24099"
+		}
+		"24098"
+		{
+			"name"		"RailWorks 2 SD70M-2 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1998784516054211055"
+			}
+			"maxsize"		"674672"
+			"dlcappid"		"24098"
+		}
+		"24097"
+		{
+			"name"		"RailWorks 2 Class 86 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2706298952946631887"
+			}
+			"maxsize"		"73659"
+			"dlcappid"		"24097"
+		}
+		"24096"
+		{
+			"name"		"RailWorks 2 FalmouthBranchLine"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6469870307261332966"
+			}
+			"maxsize"		"506823701"
+			"dlcappid"		"24096"
+		}
+		"24095"
+		{
+			"name"		"Railworks 2 DoncasterWorks"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5153053156243488591"
+			}
+			"maxsize"		"114477268"
+			"dlcappid"		"24095"
+		}
+		"24094"
+		{
+			"name"		"Railworks 2 Class 31 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2966142742376608179"
+			}
+			"maxsize"		"552886"
+			"dlcappid"		"24094"
+		}
+		"24093"
+		{
+			"name"		"RailWorks 2 AllAboardCore"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"956089981867788018"
+			}
+			"maxsize"		"236149442"
+			"dlcappid"		"24093"
+		}
+		"24092"
+		{
+			"name"		"RailWorks 2 OhioSteel"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2283212546580836885"
+			}
+			"maxsize"		"271169045"
+			"dlcappid"		"24092"
+		}
+		"24091"
+		{
+			"name"		"RailWorks 2 Class170Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4069032702755863610"
+			}
+			"maxsize"		"713395"
+			"dlcappid"		"24091"
+		}
+		"24090"
+		{
+			"name"		"RailWorks 2 Flying Scotsman"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1790273016119942712"
+			}
+			"maxsize"		"2460368"
+			"dlcappid"		"24090"
+		}
+		"24089"
+		{
+			"name"		"RailWorks 2 SD70ACe Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8141077747759793501"
+			}
+			"maxsize"		"511301"
+			"dlcappid"		"24089"
+		}
+		"24088"
+		{
+			"name"		"Railworks BonusScenario02"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1423403108978900712"
+			}
+			"maxsize"		"4685549"
+			"dlcappid"		"24088"
+		}
+		"24087"
+		{
+			"name"		"Railworks 2Ppack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3461409282091655758"
+			}
+			"maxsize"		"101626609"
+			"dlcappid"		"24087"
+		}
+		"24086"
+		{
+			"name"		"Railworks AssetPack01"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4086207586889980613"
+			}
+			"maxsize"		"17081324"
+			"dlcappid"		"24086"
+		}
+		"24085"
+		{
+			"name"		"Railworks Class56 DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7912506009626542503"
+			}
+			"maxsize"		"933362681"
+			"dlcappid"		"24085"
+		}
+		"24084"
+		{
+			"name"		"Railworks UK LED Signals"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8597236628796781049"
+			}
+			"maxsize"		"15418189"
+			"dlcappid"		"24084"
+		}
+		"24083"
+		{
+			"name"		"Railworks WCMLNorth"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7377158396403780632"
+			}
+			"maxsize"		"886314682"
+			"dlcappid"		"24083"
+		}
+		"24082"
+		{
+			"name"		"Railworks HST Pack 01"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3380611147273519812"
+			}
+			"maxsize"		"113786612"
+			"dlcappid"		"24082"
+		}
+		"24081"
+		{
+			"name"		"Railworks Up the Junction Add-On"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4120556033815557433"
+			}
+			"maxsize"		"108123748"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"DA35E290A18FE7B605E94B346ECA83D35C74DEC154749A7C63C573C151A313150C454523BA8AED813A4F144EE4A66CCB75228C69"
+				}
+			}
+			"dlcappid"		"24081"
+		}
+		"24080"
+		{
+			"name"		"Railworks BigBoyPackCS"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3139577675721514419"
+			}
+			"maxsize"		"1669641"
+			"dlcappid"		"24080"
+		}
+		"24079"
+		{
+			"name"		"Railworks ThePortRoad"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4317893968550141245"
+			}
+			"maxsize"		"128725968"
+			"dlcappid"		"24079"
+		}
+		"24078"
+		{
+			"name"		"Railworks BigBoyPack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5883490291475030608"
+			}
+			"maxsize"		"236815235"
+			"dlcappid"		"24078"
+		}
+		"24077"
+		{
+			"name"		"Railworks Class57"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4813052983868811109"
+			}
+			"maxsize"		"232772717"
+			"dlcappid"		"24077"
+		}
+		"24076"
+		{
+			"name"		"Railworks BonusScenario01 Cotswold Line"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2224032838893137664"
+			}
+			"maxsize"		"730929"
+			"dlcappid"		"24076"
+		}
+		"24075"
+		{
+			"name"		"Railworks NSE Class 47"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2746003007800384692"
+			}
+			"maxsize"		"86995500"
+			"dlcappid"		"24075"
+		}
+		"24074"
+		{
+			"name"		"Railworks CN Scenario Pack01"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7623563974764421657"
+			}
+			"maxsize"		"1731715"
+			"dlcappid"		"24074"
+		}
+		"24073"
+		{
+			"name"		"Railworks 4MT Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7936900770005133074"
+			}
+			"maxsize"		"75043717"
+			"dlcappid"		"24073"
+		}
+		"24072"
+		{
+			"name"		"Railworks LightPacific Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2345913007443480145"
+			}
+			"maxsize"		"854901"
+			"dlcappid"		"24072"
+		}
+		"24071"
+		{
+			"name"		"Railworks Class 02 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4049922640636513378"
+			}
+			"maxsize"		"57621308"
+			"dlcappid"		"24071"
+		}
+		"24070"
+		{
+			"name"		"Railworks 4FPack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"708867609366399589"
+			}
+			"maxsize"		"98120153"
+			"dlcappid"		"24070"
+		}
+		"24069"
+		{
+			"name"		"Railworks GR Class 143 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3366535022607249721"
+			}
+			"maxsize"		"67997275"
+			"dlcappid"		"24069"
+		}
+		"24068"
+		{
+			"name"		"Railworks Class 101 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"702935967352156772"
+			}
+			"maxsize"		"709004529"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"F105FC9A790430ADCCBCA441698DCE675C74DEC154749A7C63C573C151A31315F1F9CC8F2BDD1B0F689AAEA120BCEB491FEABB20"
+				}
+			}
+			"dlcappid"		"24068"
+		}
+		"24067"
+		{
+			"name"		"Railworks BNSF Dash9 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8943154150839082825"
+			}
+			"maxsize"		"705450"
+			"dlcappid"		"24067"
+		}
+		"24066"
+		{
+			"name"		"Railworks German Wagon Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"1617529874928093757"
+			}
+			"maxsize"		"47240675"
+			"dlcappid"		"24066"
+		}
+		"24065"
+		{
+			"name"		"Railworks Glasgow Airport Rail Link DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2275824358587703353"
+			}
+			"maxsize"		"665960855"
+			"dlcappid"		"24065"
+		}
+		"24062"
+		{
+			"name"		"Railworks ATSF Warbonnet DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4193511592477609196"
+			}
+			"maxsize"		"454988805"
+			"dlcappid"		"24062"
+		}
+		"24061"
+		{
+			"name"		"Railworks MJA Wagons DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4839579132187478020"
+			}
+			"maxsize"		"138044926"
+			"dlcappid"		"24061"
+		}
+		"24060"
+		{
+			"name"		"Railworks BN SD40 Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8587574949747349184"
+			}
+			"maxsize"		"34309135"
+			"dlcappid"		"24060"
+		}
+		"24059"
+		{
+			"name"		"Railworks DT Wagon Pack 01 DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"353160010257598570"
+			}
+			"maxsize"		"66987733"
+			"dlcappid"		"24059"
+		}
+		"24058"
+		{
+			"name"		"Railworks Evening Star DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7353116116335719811"
+			}
+			"maxsize"		"395756049"
+			"dlcappid"		"24058"
+		}
+		"24057"
+		{
+			"name"		"Railworks SF SD40 Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7749535272418818237"
+			}
+			"maxsize"		"43245132"
+			"dlcappid"		"24057"
+		}
+		"24056"
+		{
+			"name"		"Railworks Project Platform"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1347715822305180823"
+			}
+			"maxsize"		"635351665"
+			"dlcappid"		"24056"
+		}
+		"24055"
+		{
+			"name"		"Railworks FortKent to EagleLake DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3294811411457053296"
+			}
+			"maxsize"		"353724123"
+			"dlcappid"		"24055"
+		}
+		"24054"
+		{
+			"name"		"Railworks CN ES44DC Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8512507803871254696"
+			}
+			"maxsize"		"31201925"
+			"dlcappid"		"24054"
+		}
+		"24053"
+		{
+			"name"		"Railworks CN SD40 Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6980962531470839686"
+			}
+			"maxsize"		"25797050"
+			"dlcappid"		"24053"
+		}
+		"24052"
+		{
+			"name"		"Railworks CN WideNose Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9221996440557185372"
+			}
+			"maxsize"		"2148450"
+			"dlcappid"		"24052"
+		}
+		"24051"
+		{
+			"name"		"Railworks NS HighNose Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1141553295853779419"
+			}
+			"maxsize"		"1471199"
+			"dlcappid"		"24051"
+		}
+		"24050"
+		{
+			"name"		"Railworks IHH Extra Content DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1184607955154307986"
+			}
+			"maxsize"		"350429214"
+			"dlcappid"		"24050"
+		}
+		"24049"
+		{
+			"name"		"Railworks Class 45 Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3351725006095149400"
+			}
+			"maxsize"		"168894784"
+			"dlcappid"		"24049"
+		}
+		"24048"
+		{
+			"name"		"Railworks Class 380 Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5137281197247500567"
+			}
+			"maxsize"		"373009"
+			"dlcappid"		"24048"
+		}
+		"24047"
+		{
+			"name"		"Railworks GX Daylights DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6127398553644014849"
+			}
+			"maxsize"		"40192"
+			"dlcappid"		"24047"
+		}
+		"24046"
+		{
+			"name"		"Railworks TEA Wagons DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2427022452192643315"
+			}
+			"maxsize"		"380692223"
+			"dlcappid"		"24046"
+		}
+		"24045"
+		{
+			"name"		"Railworks TestTraK DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2799516918392768690"
+			}
+			"maxsize"		"320024134"
+			"dlcappid"		"24045"
+		}
+		"24044"
+		{
+			"name"		"Railworks Mk1Coaches DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3665336901812180167"
+			}
+			"maxsize"		"488688177"
+			"dlcappid"		"24044"
+		}
+		"24043"
+		{
+			"name"		"Railworks Class 20 Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7116308450730044901"
+			}
+			"maxsize"		"790832217"
+			"dlcappid"		"24043"
+		}
+		"24042"
+		{
+			"name"		"Railworks Class 390 Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1463638659325869163"
+			}
+			"maxsize"		"664263"
+			"dlcappid"		"24042"
+		}
+		"24041"
+		{
+			"name"		"Railworks A1 Tornado Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"689498381692035164"
+			}
+			"maxsize"		"2045743"
+			"dlcappid"		"24041"
+		}
+		"24040"
+		{
+			"name"		"Railworks Saddle Tank Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2792154920243857724"
+			}
+			"maxsize"		"84194882"
+			"dlcappid"		"24040"
+		}
+		"24039"
+		{
+			"name"		"Railworks Mk2e Coaches DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4409801745968467627"
+			}
+			"maxsize"		"88164240"
+			"dlcappid"		"24039"
+		}
+		"24038"
+		{
+			"name"		"Railworks Class 37 Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1693756325465681646"
+			}
+			"maxsize"		"138595863"
+			"dlcappid"		"24038"
+		}
+		"24037"
+		{
+			"name"		"Railworks V2Pack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5011982721837122643"
+			}
+			"maxsize"		"1038239"
+			"dlcappid"		"24037"
+		}
+		"24036"
+		{
+			"name"		"Railworks HSTBufferPack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5024978867085893114"
+			}
+			"maxsize"		"187048425"
+			"dlcappid"		"24036"
+		}
+		"24035"
+		{
+			"name"		"Railworks B5ScenarioPack01 DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9029602957396653086"
+			}
+			"maxsize"		"39215990"
+			"dlcappid"		"24035"
+		}
+		"24034"
+		{
+			"name"		"Railworks 7FScenarioPack01 DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6513813429046633756"
+			}
+			"maxsize"		"36953131"
+			"dlcappid"		"24034"
+		}
+		"24033"
+		{
+			"name"		"Railworks ChallengerPack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4352091740666988215"
+			}
+			"maxsize"		"344265731"
+			"dlcappid"		"24033"
+		}
+		"24032"
+		{
+			"name"		"Railworks GWRBset DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2744407696962881857"
+			}
+			"maxsize"		"84365166"
+			"dlcappid"		"24032"
+		}
+		"24031"
+		{
+			"name"		"Railworks SPS Northerns DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8918598990138846808"
+			}
+			"maxsize"		"23109"
+			"dlcappid"		"24031"
+		}
+		"24030"
+		{
+			"name"		"Railworks GXBerkshires DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1263503502600512116"
+			}
+			"maxsize"		"56751"
+			"dlcappid"		"24030"
+		}
+		"24029"
+		{
+			"name"		"Railworks ColtonNorthern DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"3347975510175154421"
+			}
+			"maxsize"		"290781926"
+			"dlcappid"		"24029"
+		}
+		"65232"
+		{
+			"name"		"RailWorks 2 Northeast Corridor DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"4130383348877129448"
+			}
+			"maxsize"		"732360654"
+			"dlcappid"		"65232"
+		}
+		"24028"
+		{
+			"name"		"Railworks RascalCottonwood DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6553398141501382881"
+			}
+			"maxsize"		"212183484"
+			"dlcappid"		"24028"
+		}
+		"24027"
+		{
+			"name"		"Railworks HallPack DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7646221362878473775"
+			}
+			"maxsize"		"152888411"
+			"dlcappid"		"24027"
+		}
+		"24026"
+		{
+			"name"		"Railworks Jubilee DLC"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6695934868594207653"
+			}
+			"maxsize"		"3985932"
+			"dlcappid"		"24026"
+		}
+		"24025"
+		{
+			"name"		"Railworks 8F Pack"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5265474894353762354"
+			}
+			"maxsize"		"88590059"
+			"dlcappid"		"24025"
+		}
+		"24024"
+		{
+			"name"		"Railworks Class158"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6996551776000129901"
+			}
+			"maxsize"		"3499339"
+			"dlcappid"		"24024"
+		}
+		"24023"
+		{
+			"name"		"Railworks Class66"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9043527885337984140"
+			}
+			"maxsize"		"7438233"
+			"dlcappid"		"24023"
+		}
+		"24022"
+		{
+			"name"		"Railworks Class08"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5911139967057316162"
+			}
+			"maxsize"		"2843116"
+			"dlcappid"		"24022"
+		}
+		"24021"
+		{
+			"name"		"RailWorks Isle of Wight Addon"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"6558406753873641691"
+			}
+			"maxsize"		"746085092"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"2740DE1A6610B142C33F6AF90396E4885C74DEC154749A7C63C573C151A31315DDDABD477AC2FC6BEC2DCEA255D58077E5F13568"
+				}
+			}
+			"dlcappid"		"24021"
+		}
+		"24012"
+		{
+			"name"		"BNSF Officially Licensed RailWorks Add-on"
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9130525058480048722"
+			}
+			"maxsize"		"66233903"
+			"dlcappid"		"24012"
+		}
+		"24009"
+		{
+			"name"		"RailWorks Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"1753096361237007451"
+			}
+			"maxsize"		"729229263"
+		}
+		"258658"
+		{
+			"name"		"Train Simulator 2014 - DLC 119 (258658) Depot"
+			"dlcappid"		"258658"
+		}
+		"258659"
+		{
+			"name"		"Train Simulator 2014 - DLC 120 (258659) Depot"
+			"dlcappid"		"258659"
+		}
+		"258660"
+		{
+			"name"		"Train Simulator 2014 - DLC 121 (258660) Depot"
+			"dlcappid"		"258660"
+		}
+		"258664"
+		{
+			"name"		"Train Simulator 2014 - DLC 125 (258664) Depot"
+			"dlcappid"		"258664"
+		}
+		"258665"
+		{
+			"name"		"Train Simulator 2014 - DLC 126 (258665) Depot"
+			"dlcappid"		"258665"
+		}
+		"258667"
+		{
+			"name"		"Train Simulator 2014 - DLC 128 (258667) Depot"
+			"dlcappid"		"258667"
+		}
+		"258669"
+		{
+			"name"		"Train Simulator 2014 - DLC 130 (258669) Depot"
+			"dlcappid"		"258669"
+		}
+		"258670"
+		{
+			"name"		"Train Simulator 2014 - DLC 131 (258670) Depot"
+			"dlcappid"		"258670"
+		}
+		"258672"
+		{
+			"name"		"Train Simulator 2014 - DLC 133 (258672) Depot"
+			"dlcappid"		"258672"
+		}
+		"258673"
+		{
+			"name"		"Train Simulator 2014 - DLC 134 (258673) Depot"
+			"dlcappid"		"258673"
+		}
+		"258675"
+		{
+			"name"		"Train Simulator 2014 - DLC 136 (258675) Depot"
+			"dlcappid"		"258675"
+		}
+		"258676"
+		{
+			"name"		"Train Simulator 2014 - DLC 137 (258676) Depot"
+			"dlcappid"		"258676"
+		}
+		"222633"
+		{
+			"name"		"ProductFiftyFour"
+			"manifests"
+			{
+				"public"		"62491219737650700"
+			}
+			"maxsize"		"193378865"
+			"dlcappid"		"222633"
+		}
+		"222637"
+		{
+			"name"		"ProductFiftyEight"
+			"dlcappid"		"222637"
+		}
+		"222638"
+		{
+			"name"		"ProductFiftyNine"
+			"manifests"
+			{
+				"public"		"7690803116827365894"
+			}
+			"maxsize"		"1534822173"
+			"encryptedmanifests"
+			{
+				"dlcfixes"
+				{
+					"encrypted_gid"		"B9AB1192605D45A841150F629EA5ECA95C74DEC154749A7C63C573C151A31315B674424AC616E4238AB9FD514AC371F11D5D8293"
+				}
+			}
+			"dlcappid"		"222638"
+		}
+		"275120"
+		{
+			"name"		"Marketplace DLC 1 (275120) Depot"
+			"dlcappid"		"275120"
+		}
+		"275121"
+		{
+			"name"		"Marketplace DLC 2 (275121) Depot"
+			"dlcappid"		"275121"
+		}
+		"275122"
+		{
+			"name"		"Marketplace DLC 3 (275122) Depot"
+			"dlcappid"		"275122"
+		}
+		"275123"
+		{
+			"name"		"Marketplace DLC 4 (275123) Depot"
+			"dlcappid"		"275123"
+		}
+		"275126"
+		{
+			"name"		"Marketplace DLC 7 (275126) Depot"
+			"dlcappid"		"275126"
+		}
+		"275129"
+		{
+			"name"		"Marketplace DLC 10 (275129) Depot"
+			"dlcappid"		"275129"
+		}
+		"275130"
+		{
+			"name"		"Marketplace DLC 11 (275130) Depot"
+			"dlcappid"		"275130"
+		}
+		"275131"
+		{
+			"name"		"Marketplace DLC 12 (275131) Depot"
+			"dlcappid"		"275131"
+		}
+		"275132"
+		{
+			"name"		"Marketplace DLC 13 (275132) Depot"
+			"dlcappid"		"275132"
+		}
+		"275133"
+		{
+			"name"		"Marketplace DLC 14 (275133) Depot"
+			"dlcappid"		"275133"
+		}
+		"275135"
+		{
+			"name"		"Marketplace DLC 16 (275135) Depot"
+			"dlcappid"		"275135"
+		}
+		"275136"
+		{
+			"name"		"Marketplace DLC 17 (275136) Depot"
+			"dlcappid"		"275136"
+		}
+		"275137"
+		{
+			"name"		"Marketplace DLC 18 (275137) Depot"
+			"dlcappid"		"275137"
+		}
+		"275138"
+		{
+			"name"		"Marketplace DLC 19 (275138) Depot"
+			"dlcappid"		"275138"
+		}
+		"275139"
+		{
+			"name"		"Marketplace DLC 20 (275139) Depot"
+			"dlcappid"		"275139"
+		}
+		"275140"
+		{
+			"name"		"Marketplace DLC 21 (275140) Depot"
+			"dlcappid"		"275140"
+		}
+		"275141"
+		{
+			"name"		"Marketplace DLC 22 (275141) Depot"
+			"dlcappid"		"275141"
+		}
+		"275143"
+		{
+			"name"		"Marketplace DLC 24 (275143) Depot"
+			"dlcappid"		"275143"
+		}
+		"275145"
+		{
+			"name"		"Marketplace DLC 26 (275145) Depot"
+			"dlcappid"		"275145"
+		}
+		"275146"
+		{
+			"name"		"Marketplace DLC 27 (275146) Depot"
+			"dlcappid"		"275146"
+		}
+		"275147"
+		{
+			"name"		"Marketplace DLC 28 (275147) Depot"
+			"dlcappid"		"275147"
+		}
+		"275148"
+		{
+			"name"		"Marketplace DLC 29 (275148) Depot"
+			"dlcappid"		"275148"
+		}
+		"275149"
+		{
+			"name"		"Marketplace DLC 30 (275149) Depot"
+			"dlcappid"		"275149"
+		}
+		"275150"
+		{
+			"name"		"Marketplace DLC 31 (275150) Depot"
+			"dlcappid"		"275150"
+		}
+		"275151"
+		{
+			"name"		"Marketplace DLC 32 (275151) Depot"
+			"dlcappid"		"275151"
+		}
+		"275152"
+		{
+			"name"		"Marketplace DLC 33 (275152) Depot"
+			"dlcappid"		"275152"
+		}
+		"275153"
+		{
+			"name"		"Marketplace DLC 34 (275153) Depot"
+			"dlcappid"		"275153"
+		}
+		"275154"
+		{
+			"name"		"Marketplace DLC 35 (275154) Depot"
+			"dlcappid"		"275154"
+		}
+		"275155"
+		{
+			"name"		"Marketplace DLC 36 (275155) Depot"
+			"dlcappid"		"275155"
+		}
+		"275156"
+		{
+			"name"		"Marketplace DLC 37 (275156) Depot"
+			"dlcappid"		"275156"
+		}
+		"275157"
+		{
+			"name"		"Marketplace DLC 38 (275157) Depot"
+			"dlcappid"		"275157"
+		}
+		"275158"
+		{
+			"name"		"Marketplace DLC 39 (275158) Depot"
+			"dlcappid"		"275158"
+		}
+		"275159"
+		{
+			"name"		"Marketplace DLC 40 (275159) Depot"
+			"dlcappid"		"275159"
+		}
+		"275160"
+		{
+			"name"		"Marketplace DLC 41 (275160) Depot"
+			"dlcappid"		"275160"
+		}
+		"275162"
+		{
+			"name"		"Marketplace DLC 43 (275162) Depot"
+			"dlcappid"		"275162"
+		}
+		"275164"
+		{
+			"name"		"Marketplace DLC 45 (275164) Depot"
+			"dlcappid"		"275164"
+		}
+		"275165"
+		{
+			"name"		"Marketplace DLC 46 (275165) Depot"
+			"dlcappid"		"275165"
+		}
+		"275166"
+		{
+			"name"		"Marketplace DLC 47 (275166) Depot"
+			"dlcappid"		"275166"
+		}
+		"275167"
+		{
+			"name"		"Marketplace DLC 48 (275167) Depot"
+			"dlcappid"		"275167"
+		}
+		"275168"
+		{
+			"name"		"Marketplace DLC 49 (275168) Depot"
+			"dlcappid"		"275168"
+		}
+		"275169"
+		{
+			"name"		"Marketplace DLC 50 (275169) Depot"
+			"dlcappid"		"275169"
+		}
+		"275770"
+		{
+			"name"		"Marketplace DLC 51 (275770) Depot"
+			"dlcappid"		"275770"
+		}
+		"275771"
+		{
+			"name"		"Marketplace DLC 52 (275771) Depot"
+			"dlcappid"		"275771"
+		}
+		"275772"
+		{
+			"name"		"Marketplace DLC 53 (275772) Depot"
+			"dlcappid"		"275772"
+		}
+		"275773"
+		{
+			"name"		"Marketplace DLC 54 (275773) Depot"
+			"dlcappid"		"275773"
+		}
+		"275775"
+		{
+			"name"		"Marketplace DLC 56 (275775) Depot"
+			"dlcappid"		"275775"
+		}
+		"275776"
+		{
+			"name"		"Marketplace DLC 57 (275776) Depot"
+			"dlcappid"		"275776"
+		}
+		"275777"
+		{
+			"name"		"Marketplace DLC 58 (275777) Depot"
+			"dlcappid"		"275777"
+		}
+		"275778"
+		{
+			"name"		"Marketplace DLC 59 (275778) Depot"
+			"dlcappid"		"275778"
+		}
+		"275779"
+		{
+			"name"		"Marketplace DLC 60 (275779) Depot"
+			"dlcappid"		"275779"
+		}
+		"275801"
+		{
+			"name"		"Marketplace DLC 62 (275801) Depot"
+			"dlcappid"		"275801"
+		}
+		"275802"
+		{
+			"name"		"Marketplace DLC 63 (275802) Depot"
+			"dlcappid"		"275802"
+		}
+		"275803"
+		{
+			"name"		"Marketplace DLC 64 (275803) Depot"
+			"dlcappid"		"275803"
+		}
+		"277738"
+		{
+			"name"		"TS 2014 - Jan DLC9 (277738) Depot"
+			"dlcappid"		"277738"
+		}
+		"277760"
+		{
+			"name"		"TS 2014 - Jan DLC31 (277760) Depot"
+			"dlcappid"		"277760"
+		}
+		"277761"
+		{
+			"name"		"TS 2014 - Jan DLC32 (277761) Depot"
+			"dlcappid"		"277761"
+		}
+		"277762"
+		{
+			"name"		"TS 2014 - Jan DLC33 (277762) Depot"
+			"dlcappid"		"277762"
+		}
+		"277763"
+		{
+			"name"		"TS 2014 - Jan DLC34 (277763) Depot"
+			"dlcappid"		"277763"
+		}
+		"277764"
+		{
+			"name"		"TS 2014 - Jan DLC35 (277764) Depot"
+			"dlcappid"		"277764"
+		}
+		"277765"
+		{
+			"name"		"TS 2014 - Jan DLC36 (277765) Depot"
+			"dlcappid"		"277765"
+		}
+		"277766"
+		{
+			"name"		"TS 2014 - Jan DLC37 (277766) Depot"
+			"dlcappid"		"277766"
+		}
+		"277767"
+		{
+			"name"		"TS 2014 - Jan DLC38 (277767) Depot"
+			"dlcappid"		"277767"
+		}
+		"277768"
+		{
+			"name"		"TS 2014 - Jan DLC39 (277768) Depot"
+			"dlcappid"		"277768"
+		}
+		"277769"
+		{
+			"name"		"TS 2014 - Jan DLC40 (277769) Depot"
+			"dlcappid"		"277769"
+		}
+		"277770"
+		{
+			"name"		"TS 2014 - Jan DLC41 (277770) Depot"
+			"dlcappid"		"277770"
+		}
+		"277771"
+		{
+			"name"		"TS 2014 - Jan DLC42 (277771) Depot"
+			"dlcappid"		"277771"
+		}
+		"277772"
+		{
+			"name"		"TS 2014 - Jan DLC43 (277772) Depot"
+			"dlcappid"		"277772"
+		}
+		"277773"
+		{
+			"name"		"TS 2014 - Jan DLC44 (277773) Depot"
+			"dlcappid"		"277773"
+		}
+		"277774"
+		{
+			"name"		"TS 2014 - Jan DLC45 (277774) Depot"
+			"dlcappid"		"277774"
+		}
+		"277775"
+		{
+			"name"		"TS 2014 - Jan DLC46 (277775) Depot"
+			"dlcappid"		"277775"
+		}
+		"277776"
+		{
+			"name"		"TS 2014 - Jan DLC47 (277776) Depot"
+			"dlcappid"		"277776"
+		}
+		"277777"
+		{
+			"name"		"TS 2014 - Jan DLC48 (277777) Depot"
+			"dlcappid"		"277777"
+		}
+		"277778"
+		{
+			"name"		"TS 2014 - Jan DLC49 (277778) Depot"
+			"dlcappid"		"277778"
+		}
+		"277779"
+		{
+			"name"		"TS 2014 - Jan DLC50 (277779) Depot"
+			"dlcappid"		"277779"
+		}
+		"295167"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 8 (295167) Depot"
+			"dlcappid"		"295167"
+		}
+		"295161"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 2 (295161) Depot"
+			"dlcappid"		"295161"
+		}
+		"295165"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 6 (295165) Depot"
+			"dlcappid"		"295165"
+		}
+		"295166"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 7 (295166) Depot"
+			"dlcappid"		"295166"
+		}
+		"295169"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 10 (295169) Depot"
+			"dlcappid"		"295169"
+		}
+		"295170"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 11 (295170) Depot"
+			"dlcappid"		"295170"
+		}
+		"295194"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 35 (295194) Depot"
+			"dlcappid"		"295194"
+		}
+		"295192"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 33 (295192) Depot"
+			"dlcappid"		"295192"
+		}
+		"295193"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 34 (295193) Depot"
+			"dlcappid"		"295193"
+		}
+		"295195"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 36 (295195) Depot"
+			"dlcappid"		"295195"
+		}
+		"295196"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 37 (295196) Depot"
+			"dlcappid"		"295196"
+		}
+		"295197"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 38 (295197) Depot"
+			"dlcappid"		"295197"
+		}
+		"295198"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 39 (295198) Depot"
+			"dlcappid"		"295198"
+		}
+		"295200"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 41 (295200) Depot"
+			"dlcappid"		"295200"
+		}
+		"295199"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 40 (295199) Depot"
+			"dlcappid"		"295199"
+		}
+		"295204"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 45 (295204) Depot"
+			"dlcappid"		"295204"
+		}
+		"295201"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 42 (295201) Depot"
+			"dlcappid"		"295201"
+		}
+		"295202"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 43 (295202) Depot"
+			"dlcappid"		"295202"
+		}
+		"295203"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 44 (295203) Depot"
+			"dlcappid"		"295203"
+		}
+		"295209"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 50 (295209) Depot"
+			"dlcappid"		"295209"
+		}
+		"295205"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 46 (295205) Depot"
+			"dlcappid"		"295205"
+		}
+		"295206"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 47 (295206) Depot"
+			"dlcappid"		"295206"
+		}
+		"295207"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 48 (295207) Depot"
+			"dlcappid"		"295207"
+		}
+		"295208"
+		{
+			"name"		"Train Simulator 2014 - Additional DLC 49 (295208) Depot"
+			"dlcappid"		"295208"
+		}
+		"325950"
+		{
+			"name"		"TS2015 - DLC1 (325950) Depot"
+			"dlcappid"		"325950"
+		}
+		"325951"
+		{
+			"name"		"TS2015 - DLC2 (325951) Depot"
+			"dlcappid"		"325951"
+		}
+		"325952"
+		{
+			"name"		"TS2015 - DLC3 (325952) Depot"
+			"dlcappid"		"325952"
+		}
+		"325953"
+		{
+			"name"		"TS2015 - DLC4 (325953) Depot"
+			"dlcappid"		"325953"
+		}
+		"325954"
+		{
+			"name"		"TS2015 - DLC5 (325954) Depot"
+			"dlcappid"		"325954"
+		}
+		"325955"
+		{
+			"name"		"TS2015 - DLC6 (325955) Depot"
+			"dlcappid"		"325955"
+		}
+		"325956"
+		{
+			"name"		"TS2015 - DLC7 (325956) Depot"
+			"dlcappid"		"325956"
+		}
+		"325957"
+		{
+			"name"		"TS2015 - DLC8 (325957) Depot"
+			"dlcappid"		"325957"
+		}
+		"325958"
+		{
+			"name"		"TS2015 - DLC9 (325958) Depot"
+			"dlcappid"		"325958"
+		}
+		"325959"
+		{
+			"name"		"TS2015 - DLC10 (325959) Depot"
+			"dlcappid"		"325959"
+		}
+		"325960"
+		{
+			"name"		"TS2015 - DLC11 (325960) Depot"
+			"dlcappid"		"325960"
+		}
+		"325961"
+		{
+			"name"		"TS2015 - DLC12 (325961) Depot"
+			"dlcappid"		"325961"
+		}
+		"325962"
+		{
+			"name"		"TS2015 - DLC13 (325962) Depot"
+			"dlcappid"		"325962"
+		}
+		"325963"
+		{
+			"name"		"TS2015 - DLC14 (325963) Depot"
+			"dlcappid"		"325963"
+		}
+		"325964"
+		{
+			"name"		"TS2015 - DLC15 (325964) Depot"
+			"dlcappid"		"325964"
+		}
+		"325965"
+		{
+			"name"		"TS2015 - DLC16 (325965) Depot"
+			"dlcappid"		"325965"
+		}
+		"325966"
+		{
+			"name"		"TS2015 - DLC17 (325966) Depot"
+			"dlcappid"		"325966"
+		}
+		"325967"
+		{
+			"name"		"TS2015 - DLC18 (325967) Depot"
+			"dlcappid"		"325967"
+		}
+		"325968"
+		{
+			"name"		"TS2015 - DLC19 (325968) Depot"
+			"dlcappid"		"325968"
+		}
+		"325969"
+		{
+			"name"		"TS2015 - DLC20 (325969) Depot"
+			"dlcappid"		"325969"
+		}
+		"325970"
+		{
+			"name"		"TS2015 - DLC21 (325970) Depot"
+			"dlcappid"		"325970"
+		}
+		"325971"
+		{
+			"name"		"TS2015 - DLC22 (325971) Depot"
+			"dlcappid"		"325971"
+		}
+		"325972"
+		{
+			"name"		"TS2015 - DLC23 (325972) Depot"
+			"dlcappid"		"325972"
+		}
+		"325973"
+		{
+			"name"		"TS2015 - DLC24 (325973) Depot"
+			"dlcappid"		"325973"
+		}
+		"325974"
+		{
+			"name"		"TS2015 - DLC25 (325974) Depot"
+			"dlcappid"		"325974"
+		}
+		"325975"
+		{
+			"name"		"TS2015 - DLC26 (325975) Depot"
+			"dlcappid"		"325975"
+		}
+		"325976"
+		{
+			"name"		"TS2015 - DLC27 (325976) Depot"
+			"dlcappid"		"325976"
+		}
+		"325977"
+		{
+			"name"		"TS2015 - DLC28 (325977) Depot"
+			"dlcappid"		"325977"
+		}
+		"325978"
+		{
+			"name"		"TS2015 - DLC29 (325978) Depot"
+			"dlcappid"		"325978"
+		}
+		"325979"
+		{
+			"name"		"TS2015 - DLC30 (325979) Depot"
+			"dlcappid"		"325979"
+		}
+		"325980"
+		{
+			"name"		"TS2015 - DLC31 (325980) Depot"
+			"dlcappid"		"325980"
+		}
+		"325981"
+		{
+			"name"		"TS2015 - DLC32 (325981) Depot"
+			"dlcappid"		"325981"
+		}
+		"325982"
+		{
+			"name"		"TS2015 - DLC33 (325982) Depot"
+			"dlcappid"		"325982"
+		}
+		"325983"
+		{
+			"name"		"TS2015 - DLC34 (325983) Depot"
+			"dlcappid"		"325983"
+		}
+		"325984"
+		{
+			"name"		"TS2015 - DLC35 (325984) Depot"
+			"dlcappid"		"325984"
+		}
+		"325985"
+		{
+			"name"		"TS2015 - DLC36 (325985) Depot"
+			"dlcappid"		"325985"
+		}
+		"325986"
+		{
+			"name"		"TS2015 - DLC37 (325986) Depot"
+			"dlcappid"		"325986"
+		}
+		"325987"
+		{
+			"name"		"TS2015 - DLC38 (325987) Depot"
+			"dlcappid"		"325987"
+		}
+		"325988"
+		{
+			"name"		"TS2015 - DLC39 (325988) Depot"
+			"dlcappid"		"325988"
+		}
+		"325989"
+		{
+			"name"		"TS2015 - DLC40 (325989) Depot"
+			"dlcappid"		"325989"
+		}
+		"325990"
+		{
+			"name"		"TS2015 - DLC41 (325990) Depot"
+			"dlcappid"		"325990"
+		}
+		"325991"
+		{
+			"name"		"TS2015 - DLC42 (325991) Depot"
+			"dlcappid"		"325991"
+		}
+		"325992"
+		{
+			"name"		"TS2015 - DLC43 (325992) Depot"
+			"dlcappid"		"325992"
+		}
+		"325993"
+		{
+			"name"		"TS2015 - DLC44 (325993) Depot"
+			"dlcappid"		"325993"
+		}
+		"325994"
+		{
+			"name"		"TS2015 - DLC45 (325994) Depot"
+			"dlcappid"		"325994"
+		}
+		"325995"
+		{
+			"name"		"TS2015 - DLC46 (325995) Depot"
+			"dlcappid"		"325995"
+		}
+		"325996"
+		{
+			"name"		"TS2015 - DLC47 (325996) Depot"
+			"dlcappid"		"325996"
+		}
+		"325997"
+		{
+			"name"		"TS2015 - DLC48 (325997) Depot"
+			"dlcappid"		"325997"
+		}
+		"325998"
+		{
+			"name"		"TS2015 - DLC49 (325998) Depot"
+			"dlcappid"		"325998"
+		}
+		"325999"
+		{
+			"name"		"TS2015 - DLC50 (325999) Depot"
+			"dlcappid"		"325999"
+		}
+		"326000"
+		{
+			"name"		"TS2015 - DLC51 (326000) Depot"
+			"dlcappid"		"326000"
+		}
+		"326001"
+		{
+			"name"		"TS2015 - DLC52 (326001) Depot"
+			"dlcappid"		"326001"
+		}
+		"326002"
+		{
+			"name"		"TS2015 - DLC53 (326002) Depot"
+			"dlcappid"		"326002"
+		}
+		"326003"
+		{
+			"name"		"TS2015 - DLC54 (326003) Depot"
+			"dlcappid"		"326003"
+		}
+		"326004"
+		{
+			"name"		"TS2015 - DLC55 (326004) Depot"
+			"dlcappid"		"326004"
+		}
+		"326005"
+		{
+			"name"		"TS2015 - DLC56 (326005) Depot"
+			"dlcappid"		"326005"
+		}
+		"326006"
+		{
+			"name"		"TS2015 - DLC57 (326006) Depot"
+			"dlcappid"		"326006"
+		}
+		"326007"
+		{
+			"name"		"TS2015 - DLC58 (326007) Depot"
+			"dlcappid"		"326007"
+		}
+		"326008"
+		{
+			"name"		"TS2015 - DLC59 (326008) Depot"
+			"dlcappid"		"326008"
+		}
+		"326009"
+		{
+			"name"		"TS2015 - DLC60 (326009) Depot"
+			"dlcappid"		"326009"
+		}
+		"326010"
+		{
+			"name"		"TS2015 - DLC61 (326010) Depot"
+			"dlcappid"		"326010"
+		}
+		"326011"
+		{
+			"name"		"TS2015 - DLC62 (326011) Depot"
+			"dlcappid"		"326011"
+		}
+		"326012"
+		{
+			"name"		"TS2015 - DLC63 (326012) Depot"
+			"dlcappid"		"326012"
+		}
+		"326013"
+		{
+			"name"		"TS2015 - DLC64 (326013) Depot"
+			"dlcappid"		"326013"
+		}
+		"326014"
+		{
+			"name"		"TS2015 - DLC65 (326014) Depot"
+			"dlcappid"		"326014"
+		}
+		"326015"
+		{
+			"name"		"TS2015 - DLC66 (326015) Depot"
+			"dlcappid"		"326015"
+		}
+		"326016"
+		{
+			"name"		"TS2015 - DLC67 (326016) Depot"
+			"dlcappid"		"326016"
+		}
+		"326017"
+		{
+			"name"		"TS2015 - DLC68 (326017) Depot"
+			"dlcappid"		"326017"
+		}
+		"326018"
+		{
+			"name"		"TS2015 - DLC69 (326018) Depot"
+			"dlcappid"		"326018"
+		}
+		"326019"
+		{
+			"name"		"TS2015 - DLC70 (326019) Depot"
+			"dlcappid"		"326019"
+		}
+		"326020"
+		{
+			"name"		"TS2015 - DLC71 (326020) Depot"
+			"dlcappid"		"326020"
+		}
+		"326021"
+		{
+			"name"		"TS2015 - DLC72 (326021) Depot"
+			"dlcappid"		"326021"
+		}
+		"326022"
+		{
+			"name"		"TS2015 - DLC73 (326022) Depot"
+			"dlcappid"		"326022"
+		}
+		"326023"
+		{
+			"name"		"TS2015 - DLC74 (326023) Depot"
+			"dlcappid"		"326023"
+		}
+		"326024"
+		{
+			"name"		"TS2015 - DLC75 (326024) Depot"
+			"dlcappid"		"326024"
+		}
+		"326025"
+		{
+			"name"		"TS2015 - DLC76 (326025) Depot"
+			"dlcappid"		"326025"
+		}
+		"326026"
+		{
+			"name"		"TS2015 - DLC77 (326026) Depot"
+			"dlcappid"		"326026"
+		}
+		"326027"
+		{
+			"name"		"TS2015 - DLC78 (326027) Depot"
+			"dlcappid"		"326027"
+		}
+		"326028"
+		{
+			"name"		"TS2015 - DLC79 (326028) Depot"
+			"dlcappid"		"326028"
+		}
+		"326029"
+		{
+			"name"		"TS2015 - DLC80 (326029) Depot"
+			"dlcappid"		"326029"
+		}
+		"326030"
+		{
+			"name"		"TS2015 - DLC81 (326030) Depot"
+			"dlcappid"		"326030"
+		}
+		"326031"
+		{
+			"name"		"TS2015 - DLC82 (326031) Depot"
+			"dlcappid"		"326031"
+		}
+		"326032"
+		{
+			"name"		"TS2015 - DLC83 (326032) Depot"
+			"dlcappid"		"326032"
+		}
+		"326033"
+		{
+			"name"		"TS2015 - DLC84 (326033) Depot"
+			"dlcappid"		"326033"
+		}
+		"326034"
+		{
+			"name"		"TS2015 - DLC85 (326034) Depot"
+			"dlcappid"		"326034"
+		}
+		"326035"
+		{
+			"name"		"TS2015 - DLC86 (326035) Depot"
+			"dlcappid"		"326035"
+		}
+		"326036"
+		{
+			"name"		"TS2015 - DLC87 (326036) Depot"
+			"dlcappid"		"326036"
+		}
+		"326037"
+		{
+			"name"		"TS2015 - DLC88 (326037) Depot"
+			"dlcappid"		"326037"
+		}
+		"326038"
+		{
+			"name"		"TS2015 - DLC89 (326038) Depot"
+			"dlcappid"		"326038"
+		}
+		"326039"
+		{
+			"name"		"TS2015 - DLC90 (326039) Depot"
+			"dlcappid"		"326039"
+		}
+		"326040"
+		{
+			"name"		"TS2015 - DLC91 (326040) Depot"
+			"dlcappid"		"326040"
+		}
+		"326041"
+		{
+			"name"		"TS2015 - DLC92 (326041) Depot"
+			"dlcappid"		"326041"
+		}
+		"326042"
+		{
+			"name"		"TS2015 - DLC93 (326042) Depot"
+			"dlcappid"		"326042"
+		}
+		"326043"
+		{
+			"name"		"TS2015 - DLC94 (326043) Depot"
+			"dlcappid"		"326043"
+		}
+		"326044"
+		{
+			"name"		"TS2015 - DLC95 (326044) Depot"
+			"dlcappid"		"326044"
+		}
+		"326045"
+		{
+			"name"		"TS2015 - DLC96 (326045) Depot"
+			"dlcappid"		"326045"
+		}
+		"326046"
+		{
+			"name"		"TS2015 - DLC97 (326046) Depot"
+			"dlcappid"		"326046"
+		}
+		"326047"
+		{
+			"name"		"TS2015 - DLC98 (326047) Depot"
+			"dlcappid"		"326047"
+		}
+		"326048"
+		{
+			"name"		"TS2015 - DLC99 (326048) Depot"
+			"dlcappid"		"326048"
+		}
+		"326049"
+		{
+			"name"		"TS2015 - DLC100 (326049) Depot"
+			"dlcappid"		"326049"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"477430"
+			}
+			"dlcfixes"
+			{
+				"buildid"		"477404"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"F3F8566DC192862DA117F9AADA32E9555C74DEC154749A7C63C573C151A31315A672B3E5BBEABDFA9367E1412AA8DAB388A01A0D"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"2000"
+	}
+}
+ 

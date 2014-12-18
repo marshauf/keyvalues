@@ -1,0 +1,562 @@
+"appinfo"
+{
+	"appid"		"289950"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Construction-Simulator 2015"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"b29a4daa6f5c6b9d47a3d61f9744af0558f1c063"
+		"logo_small"		"b29a4daa6f5c6b9d47a3d61f9744af0558f1c063_thumb"
+		"icon"		"ec228c48d13da67cec0d06c446c43fef73dc35f5"
+		"clienticon"		"524d1679b2a8dc057d8241436bf0101009a43471"
+		"clienttga"		"9cba1669a38a1918112ceed41726e079e7665679"
+		"eulas"
+		{
+			"2"
+			{
+				"id"		"289950_eula_2"
+				"name"		"Construction-Simulator 2015 EULA 2"
+				"url"		"http://store.steampowered.com//eula/289950_eula_2"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+		}
+		"clienticns"		"339cc897a436068ff83ba66cf51eebc03c330b0f"
+		"workshop_visible"		"1"
+		"metacritic_name"		"Construction Simulator 2015"
+		"controller_support"		"partial"
+		"community_visible_stats"		"1"
+		"gameid"		"289950"
+	}
+	"extended"
+	{
+		"listofdlc"		"320390,325680,325690,325691,325692,325693,329840,333470,333480,333481,334610,334611"
+		"developer"		"weltenbauer. Software Entwicklung GmbH"
+		"developer_url"		""
+		"publisher"		"astragon Software GmbH"
+		"homepage"		"http://www.construction-simulator.com"
+		"gamemanualurl"		"http://store.steampowered.com/manual/289950/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ConSim2015"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ConSim2015.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ConSim2015.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		""
+		"289951"
+		{
+			"name"		"Construction Simulator Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"291685430635873020"
+			}
+			"maxsize"		"2565390279"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"79460BE487D93B293B091742938E25FE6A1716C439BAA3E3D7CE2939933C2F3E3EC861C16B1392662A17F378EC60904DF4EA0167"
+				}
+				"mages"
+				{
+					"encrypted_gid"		"578129668131611B04267FE63950566C13F94D420463ED400A740E335636DAB95154B42512808B0AC6FE818293963D4B6ED0A330"
+				}
+				"rating"
+				{
+					"encrypted_gid"		"B319B33AD57BBAC5A86E96E803D0419E0BDF530056AE5DFB77675791437836DBC831F41EB8C7FEAD420EB81061BE75E7000164BF"
+				}
+				"review"
+				{
+					"encrypted_gid"		"F7D65417DB6A641D21A2D32BE94DF1D5D2FC89545069BB08DEA297CC30CED3867620A9E8131C9F2D99A9C3CD413CE768B4D7A20F"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"17DC722C9475B48CEEF82B3F0A626883DB13018C37F19C473F79B7B7CEB264EE1FFF25113C0256AC95211DA9B9BEB18FC14F1C3F"
+				}
+			}
+		}
+		"289952"
+		{
+			"name"		"Construction Simulator 2015 Depot Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"928410606081892348"
+			}
+			"maxsize"		"2451362274"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"29DEE1AB3B7539FC3EE19DB7369CFD196A1716C439BAA3E3D7CE2939933C2F3E6A7A357114FD36F72BCE3A64FAA048DA136FB5D8"
+				}
+				"mages"
+				{
+					"encrypted_gid"		"3FC73CC837F6D5E2C0B6D00D737BEB9F13F94D420463ED400A740E335636DAB9EFCD29837C627BFB81B87C1B8B51B6304F01B868"
+				}
+				"rating"
+				{
+					"encrypted_gid"		"A10C8FEAC97F06FCA615C5A7F0B5E8270BDF530056AE5DFB77675791437836DBF46DCA58A35BFAD52D948A7AA46C635BB37F0B99"
+				}
+				"review"
+				{
+					"encrypted_gid"		"2DD71AD9DA3FBDDFDE8F28F5A31A8D29D2FC89545069BB08DEA297CC30CED386F5AA3FC609E470DA456EAFEEC08B37716D426EAB"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"CD220CD9CAA66C685EEB043D8C89FA02DB13018C37F19C473F79B7B7CEB264EE90DA0DE740C14B06293C109483E42FB74AD65008"
+				}
+			}
+		}
+		"289954"
+		{
+			"name"		"Construction Simulator 2015 - English"
+			"config"
+			{
+				"language"		"english"
+			}
+		}
+		"289961"
+		{
+			"name"		"Construction-Simulator 2015 - Czech"
+			"config"
+			{
+				"language"		"czech"
+			}
+		}
+		"289955"
+		{
+			"name"		"Construction Simulator 2015 - French"
+			"config"
+			{
+				"language"		"french"
+			}
+		}
+		"289953"
+		{
+			"name"		"Construction Simulator 2015 - German"
+			"config"
+			{
+				"language"		"german"
+			}
+		}
+		"289958"
+		{
+			"name"		"Construction-Simulator 2015 - Hungarian"
+			"config"
+			{
+				"language"		"hungarian"
+			}
+		}
+		"289957"
+		{
+			"name"		"Construction Simulator 2015 - Italian"
+			"config"
+			{
+				"language"		"italian"
+			}
+		}
+		"289959"
+		{
+			"name"		"Construction-Simulator 2015 - Japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+		}
+		"289960"
+		{
+			"name"		"Construction-Simulator 2015 - Polish"
+			"config"
+			{
+				"language"		"polish"
+			}
+		}
+		"289962"
+		{
+			"name"		"Construction-Simulator 2015 - Russian"
+			"config"
+			{
+				"language"		"russian"
+			}
+		}
+		"289956"
+		{
+			"name"		"Construction Simulator 2015 - Spanish"
+			"config"
+			{
+				"language"		"spanish"
+			}
+		}
+		"325680"
+		{
+			"name"		"Construction Simulator 2015 - Media Markt Mission (325680) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"156511653060829929"
+			}
+			"maxsize"		"7800462"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"1DDF72E4F94A7B13CF8422FD6D11DC526A1716C439BAA3E3D7CE2939933C2F3E9F6FAA90A6CD0FB325BE787CCD3FE1652CFCE3B1"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"A3E0959A2B738EB1AF9F477E0B6F7862DB13018C37F19C473F79B7B7CEB264EE0C369DD3B3066A73B451826F63C50B46F212B45E"
+				}
+			}
+			"dlcappid"		"325680"
+		}
+		"325690"
+		{
+			"name"		"Construction Simulator 2015 - Saturn Mission (325690) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3634689372938526252"
+			}
+			"maxsize"		"8788311"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"CAECACC3AC047EBDEC4DB43D4A4E37106A1716C439BAA3E3D7CE2939933C2F3E6EF6D888EBAA55D747FF9A44427C755A10F7C96A"
+				}
+			}
+			"dlcappid"		"325690"
+		}
+		"325691"
+		{
+			"name"		"Construction Simulator 2015 - Libro Mission (325691) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7542654183503373103"
+			}
+			"maxsize"		"9334002"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"52D117DBD362BE4678C3305A17043CC36A1716C439BAA3E3D7CE2939933C2F3E18BBFD1AAB4582688809E390E39158C881AFC552"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"4DDEA8BCC900D8B34B89A1F9994C2B1ADB13018C37F19C473F79B7B7CEB264EE898416B331BC916332288B54E757BDC981B1F6E8"
+				}
+			}
+			"dlcappid"		"325691"
+		}
+		"325692"
+		{
+			"name"		"Construction Simulator 2015 - Amazon Mission (325692) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7594231817443881249"
+			}
+			"maxsize"		"7860029"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"84E6D9B7AD1DF20DED26AC9A63C4A4586A1716C439BAA3E3D7CE2939933C2F3E1B4BCA66DD96E23E1F2C292D81CB58A3BF465C01"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"56F33D7E46862D3D66FA6B7CE5B29D09DB13018C37F19C473F79B7B7CEB264EEC2D3407710650CE3BD7E05CD7CC4D20E275E8677"
+				}
+			}
+			"dlcappid"		"325692"
+		}
+		"325693"
+		{
+			"name"		"Construction Simulator 2015 - Steam Mission (325693) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4224477250559419251"
+			}
+			"maxsize"		"7999483"
+			"dlcappid"		"325693"
+		}
+		"320390"
+		{
+			"name"		"Construction Simulator 2015 - Media Markt Mission Mac (320390) Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6035267828894002076"
+			}
+			"maxsize"		"7800462"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"FA609DA0CB55D37647B0A0849063C4C26A1716C439BAA3E3D7CE2939933C2F3E032D075E8C0439333FA985EDBE4C75047EF3205D"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"36B4DD8483D76B7070D83E5A18FE8A97DB13018C37F19C473F79B7B7CEB264EEF9227F99EDFA8A4D7989A2DC83090E9059D24D21"
+				}
+			}
+			"dlcappid"		"320390"
+		}
+		"329840"
+		{
+			"name"		" Construction Simulator 2015 - Saturn Mission Mac (329840) Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8258124533991173819"
+			}
+			"maxsize"		"8788311"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"8E3640865ADE129BA91B0B1A46FFA2926A1716C439BAA3E3D7CE2939933C2F3EAAAE3AE747A1143D80E137B281CB96D1D6EFA934"
+				}
+			}
+			"dlcappid"		"329840"
+		}
+		"333480"
+		{
+			"name"		"Construction Simulator 2015 - Amazon Mission Mac (333480) Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"9042572159068741967"
+			}
+			"maxsize"		"7860029"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"89AD6B4BB738C3E7875FA68073F3BB616A1716C439BAA3E3D7CE2939933C2F3E1E69C294546B1C05DC86669B626160A6DB920FAA"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"D0C6E280803865D66DE13514ADA828CFDB13018C37F19C473F79B7B7CEB264EE336BA257A32DCEDA2ADECF72DBD4A142F193E8F0"
+				}
+			}
+			"dlcappid"		"333480"
+		}
+		"333470"
+		{
+			"name"		"Construction Simulator 2015 - Libro Mission Mac (333470) Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6411433008983477823"
+			}
+			"maxsize"		"9334002"
+			"encryptedmanifests"
+			{
+				"p_testing"
+				{
+					"encrypted_gid"		"93C95971F55E70287494B0AD2C0D1C426A1716C439BAA3E3D7CE2939933C2F3E5EAD523E775C1D62C2B68822FC27B751DA33BE43"
+				}
+				"testing"
+				{
+					"encrypted_gid"		"2A7E91DEB8FDEE7AFC8FB584ACC5A0E4DB13018C37F19C473F79B7B7CEB264EE0B6F6A7CCDA4CAF8EEFEEDB6B7FACC4E8BB7A151"
+				}
+			}
+			"dlcappid"		"333470"
+		}
+		"333481"
+		{
+			"name"		"Construction Simulator 2015 - Steam Mission Mac (333481) Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"7325959186355041415"
+			}
+			"maxsize"		"7999483"
+			"dlcappid"		"333481"
+		}
+		"334611"
+		{
+			"name"		"Construction Simulator 2015 - Zoo Mission Mac (334611) Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5723669214951226858"
+			}
+			"maxsize"		"9240706"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid"		"2483B1D36EF76757B9E1EBED55DFA0B0DB13018C37F19C473F79B7B7CEB264EECE622B16F9274981F9B58F267DF374DAE05218C4"
+				}
+			}
+			"dlcappid"		"334611"
+		}
+		"334610"
+		{
+			"name"		"Construction Simulator 2015 - Zoo Mission (334610) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"43674526992303730"
+			}
+			"maxsize"		"9240706"
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"encrypted_gid"		"9DCD30BD662369D0F59AC1BB7BDABE5FDB13018C37F19C473F79B7B7CEB264EE6CA13A9AB0504BDAC23133ADD3507B02122FFD30"
+				}
+			}
+			"dlcappid"		"334610"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"477004"
+			}
+			"p_testing"
+			{
+				"buildid"		"450436"
+				"description"		"Public testing branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"417FD63870572C5DA97A82F6ED07B3626A1716C439BAA3E3D7CE2939933C2F3EC2D6BCAD04BB11E039A6720D12FF98FEC76C5169"
+			}
+			"mages"
+			{
+				"buildid"		"362662"
+				"description"		"Review version for Mages"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"AD3F99D76C489B49843C263B84953A3513F94D420463ED400A740E335636DAB9CDDE61D2FDE850EC1611765639F91381DBBB9E06"
+			}
+			"rating"
+			{
+				"buildid"		"405796"
+				"description"		"USK/PEGI review"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"60D7ACE6BC2746945191270CD26FC7400BDF530056AE5DFB77675791437836DBF84469AA392F83B3F45BD067C1930E66FFE8A3FD"
+			}
+			"review"
+			{
+				"buildid"		"362662"
+				"description"		"Sales review branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"D8A038C1329A1B58959720B66109B1EFD2FC89545069BB08DEA297CC30CED386F7FB77836EDF8CCA1E7D214C3B695321D87D7889"
+			}
+			"testing"
+			{
+				"buildid"		"473261"
+				"description"		"with cheats"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"5977A57541CAC4B738DA9E1274D4B241DB13018C37F19C473F79B7B7CEB264EEBFE2E9A0BF5D772F507B3573E3E94A693903E2CE"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"ConstructionSimulator2015"
+				"pattern"		"*.wbb"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

@@ -1,0 +1,1010 @@
+"appinfo"
+{
+	"appid"		"232890"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Stronghold Crusader 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"5a4b1c5839682049aeb223ba69a2ff67298b164e"
+		"logo"		"938239398dafb14588dc4c5c17fbe13606f7206a"
+		"logo_small"		"938239398dafb14588dc4c5c17fbe13606f7206a_thumb"
+		"clienticon"		"0f76d51806079eff9a2722e45d7cfc207f58cd92"
+		"clienttga"		"6680dcafa0a8bb775312d6d445abebb8b35ef57a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"oslist"		"windows"
+		"workshop_visible"		"1"
+		"metacritic_name"		"Stronghold Crusader 2"
+		"controller_support"		"none"
+		"community_visible_stats"		"1"
+		"gameid"		"232890"
+	}
+	"extended"
+	{
+		"gamedir"		"Stronghold Crusader 2"
+		"noservers"		"0"
+		"listofdlc"		"316470,317590,317591,317592,317593,317594,319790,319800"
+		"developer"		"FireFly Studios"
+		"developer_url"		""
+		"publisher"		"FireFly Studios"
+		"homepage"		"http://www.strongholdcrusader2.com"
+		"gamemanualurl"		"http://store.steampowered.com/manual/232890/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Stronghold Crusader 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\win32_release\\Crusader2.exe"
+				"description"		"Stronghold Crusader 2"
+				"workingdir"		"bin\\win32_release"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"6c19bbb94752901f2e9f6181f29512bd7b00657aae785f274b663bd2d44f325b74d9278ea9281a1fff49fe65a6472c5541399f71eb08e2a502f3c0f8b4c6d2ff62db0dcdf22f55eca52e36583e55cf35e4ca4022c01670f9152176f3c2ee2bf8e2d90b2acf4ba1c2ddef2a3370f07540115d56af32330d941ab663278bec10d1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\232890"
+				"process 1"		"%INSTALLDIR%\\resources\\directx\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+			"vcredist2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\232890"
+				"process 1"		"%INSTALLDIR%\\resources\\redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q /norestart"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+			"firewall"
+			{
+				"stronghold crusader 2"		"%INSTALLDIR%\\bin\\win32_release\\Crusader2.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		""
+		"workshopdepot"		"232890"
+		"232891"
+		{
+			"name"		"Stronghold Crusader 2 Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5118412444547308912"
+			}
+			"maxsize"		"3415629520"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"692F7F454FE95AA3A0A0B9E54BFFBBCE90E2A95F203ECAA384F56E44F050DE4A4AD27F02D0B4DB0487BD68DD4BC3AFAAE5F9BAF6"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"6B9C33098C1AAA7EBD2E04C1DF08AB5F244A6D50A63E54F5121D5C2A52502902DD12C12A04166BB77B3A8AC801E99072E6C93703"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"9FC2B166EEF293DB19C23C3ACF878C9FCE5C3B3FE60B869781C6A2B6D51D42F1536B987DAA1B4D57423C2B447419371C927641E3"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"BCAAD84F8C43486F9298F9593F23B385C213C3B2998BE698413FD7C958AE9F391EBDF70C13D02AF20046EDA16CB180FDBCE6EF0F"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"82A6CF4871CF28DEBE11E8F6F202B002E4FDB249CFA5CBE6AC71D150C9DF804B4EF32E391FA06AF5C0763855D982B6E9964EB3D3"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"A51A0DEAB7A11ED9256657E5B26441CD8D3B663270A31234F9B8E9042B393C4B5D3DCAA842978A3F27B28568FB5B7D86DAFE830F"
+				}
+				"review"
+				{
+					"encrypted_gid"		"692B8B0FEF2C7E3AB8452352712754CE4895D15CC1A52AEB464CC43FA828297C4698D1867200C9AC445A814051F8CA5DB12F2639"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"6A4449E639D978EEDA60C134006D2B6DC143BE336D848D4900E7C008D0050DACE3203104CEA0F422B000EC3C7137BAE4E101D1D6"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"760C9633811254828554EC2DD0D148B0A3E2D1AD2B3AB5842D9852044F7B2959A6BD4429B0D326E947536F593EB59E864547143F"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"C508CC3C67872C9C0933EB712EACAF0CB2B2C0E35CF687DB6E10DE77E281E64AA56452740F3037C64C8A364BA4E8196EB6DF0267"
+				}
+				"test"
+				{
+					"encrypted_gid"		"2A351572E300D1B45AD2B5CD09C6E0CBAEA176E290A72FBD1CAA5C1311AA059BA43CE5442A2067FBEBB8C128FA1EBBB0872966E4"
+				}
+			}
+		}
+		"232892"
+		{
+			"name"		"Stronghold Crusader 2 English"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7932220044878159482"
+			}
+			"maxsize"		"163824332"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"D9EC05EE8A899BC0B2917F0D374B0F5790E2A95F203ECAA384F56E44F050DE4A0CDCCF369E38801EBB37DA8546E37F55597C9656"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"017A654BC3F3976C5D82B9CC42E2B047244A6D50A63E54F5121D5C2A525029025F5F10C3148945F558711C9419BAA7121DBDA8AD"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"75B58D5E510ECC58CF7F944C4C1317CCCE5C3B3FE60B869781C6A2B6D51D42F1E65B4B6FFE242251946989F34CC57AA081B63B39"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"0FDE1CB8F7238975D798B1EED58F08C7C213C3B2998BE698413FD7C958AE9F392CE4065858B00F0F2FD289E3390FB5FC6108D5B5"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"55A75A166C9FE52E9830A3F3FB75E708E4FDB249CFA5CBE6AC71D150C9DF804B0A966BB62DAB07EFDE0A155077FF5E14CC6E480C"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"C596CB0A6BBBE2BB5142F52A59E50D958D3B663270A31234F9B8E9042B393C4B764164CBC3C68410F9633881687A8FA7C17C0606"
+				}
+				"review"
+				{
+					"encrypted_gid"		"A00C44DAC48A0104A81FED8573C08A414895D15CC1A52AEB464CC43FA828297CD44ABD499C7B5F7EAF1B4136F07F4134A36D8456"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"D0B64A007B2636B82B8BD033553C18CAC143BE336D848D4900E7C008D0050DACAAD14E60F5C1FDB783A4E98701E451BE13B55966"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"E6274D4C54A81115C963FBC93DC9BB77A3E2D1AD2B3AB5842D9852044F7B2959755135FF27E3C538F15AFCE2BA9C64E93138E7EE"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"DB756047BCFA064842134F825D4E50DCB2B2C0E35CF687DB6E10DE77E281E64AA9938D4B45A142D1950F791462FAF610FB07B1D3"
+				}
+				"test"
+				{
+					"encrypted_gid"		"EE6BD7E35F495FCF69D28B2C3EE01D36AEA176E290A72FBD1CAA5C1311AA059B3EE217A7B1D2B89460C3FBA83C48428DAFE0B7AC"
+				}
+			}
+		}
+		"232893"
+		{
+			"name"		"Stronghold Crusader 2 French"
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5035281328775239096"
+			}
+			"maxsize"		"146704393"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"5132ECE86174CFFE5C760695F83DF8AC90E2A95F203ECAA384F56E44F050DE4AB3C578A0E031A07C60DB7AB35A0C82DDAD79E8A5"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"BF17A9DBB7FE31158129743C3A54955A244A6D50A63E54F5121D5C2A52502902F9BDF406135D04F6000CADBCB149B5B9332AF786"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"9416C605797BD017CD38F9AF3FEA78EFCE5C3B3FE60B869781C6A2B6D51D42F1074C0202E80FBBC083EE434A074496070A6F1428"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"A21A4799766462228DF1FCC35805DC90C213C3B2998BE698413FD7C958AE9F397C9B62392F36F0BCAE8C7E4939477C5BEA2CD42A"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"E59FE19D1EC6A861A47A1BB221CFD5C4E4FDB249CFA5CBE6AC71D150C9DF804B315348C6D18D6E6EDDA4D8D47B0EE84BD4BF837B"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"698F5B460243C7D5FC90F999ACDC6B868D3B663270A31234F9B8E9042B393C4BB1F2CC6898CA38253AD6AC3D872FBF2457E2D5BD"
+				}
+				"review"
+				{
+					"encrypted_gid"		"D109A0A34D72D1F41B44D7B5B3D32BEE4895D15CC1A52AEB464CC43FA828297C275B596965159D120E4D6858DF9B3A41A8C8DD20"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"C0EA969F3B778EB446A03B135A328ECDC143BE336D848D4900E7C008D0050DAC09F8329DCA10EC0485B9EEEA622064E611271726"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"4C493F62A24BA25FD1E3F073C49C8926A3E2D1AD2B3AB5842D9852044F7B295955FDEC2C0B059DCCC776D213E0B76A102F6BE078"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"663F03CD1A001CC98F4F0D1D8D1A59E2B2B2C0E35CF687DB6E10DE77E281E64A0B2DA2B1189E66F1FB5F621EA2D7B562A35B8586"
+				}
+				"test"
+				{
+					"encrypted_gid"		"12B41D1801B8660E004CDFFB17F5B8AAAEA176E290A72FBD1CAA5C1311AA059B5ACD42BF43ACA4DC122E616594931B5343214115"
+				}
+			}
+		}
+		"232894"
+		{
+			"name"		"Stronghold Crusader 2 German"
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1806042391863345361"
+			}
+			"maxsize"		"151627698"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"3A809F281F0FE2CFA4367DF6B084AD5490E2A95F203ECAA384F56E44F050DE4AA581E94AF4FD247CEEAB22B298AB486F6C6642DD"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"C42B1CB76E11685780C45A100688998F244A6D50A63E54F5121D5C2A5250290266D685305D16C22900513494D420402B814AE037"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"05BE3B470B972E2B0D8A34CC1B2F5A9ECE5C3B3FE60B869781C6A2B6D51D42F18FB6D70131997F64C2A98FEF71483427ABD324F0"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"12098982063AAC3804D1E451801B3E5EC213C3B2998BE698413FD7C958AE9F393A5C230A91282D975FDCE1D78088935BFDE644A1"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"862D18CEA48D60820FD11F9D3A4D2C40E4FDB249CFA5CBE6AC71D150C9DF804B281AF366D56904CA4385FB10D3ADA036DB647D67"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"CFE0BDB951A12A94C3CC3A7EAEBD44CD8D3B663270A31234F9B8E9042B393C4B935513DFB7DD7528C827B9AC9C8127139B020255"
+				}
+				"review"
+				{
+					"encrypted_gid"		"86861CB7B3E1E63C37DEF3548D7A0D184895D15CC1A52AEB464CC43FA828297CD79D86E1D9B42D7F3B1F6E60C274833E85A106D9"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"7269B1591FBFAE09DDD12487D3D431E0C143BE336D848D4900E7C008D0050DAC603708F8B19C79D8066DFAE5CB002F85BF5C3772"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"587E9CD8E9D9E6FE3EFA3E37E1C3D9ECA3E2D1AD2B3AB5842D9852044F7B2959B2C6F85693381C64630218A83D8E756A8C202F9D"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"93477A4D927610603D83690ACDC68D80B2B2C0E35CF687DB6E10DE77E281E64A788AFDC2445E53681DF772E8D77F1245F538DE5D"
+				}
+				"test"
+				{
+					"encrypted_gid"		"7600EAF6EEEDB274633B79A40292941DAEA176E290A72FBD1CAA5C1311AA059BAE67EECFE5C535E14B76D5D34BF9B3D0ADA1B310"
+				}
+			}
+		}
+		"232895"
+		{
+			"name"		"Stronghold Crusader 2 Italian"
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2894148716543097275"
+			}
+			"maxsize"		"147419120"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"F6A84EEB073026CC20C9A1CD9D18E0BC90E2A95F203ECAA384F56E44F050DE4A1FF6234AB37686BE7C36A67F73B9B0F912517D8D"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"CB49D468191E6D16A9B8A3B111202217244A6D50A63E54F5121D5C2A52502902DD367C2B010B72964EBE1A360311069C5F4849FB"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"B82CEF8849025B6702AAFFB2144C25DECE5C3B3FE60B869781C6A2B6D51D42F1C3B87EBEC4AA16E186758BDC2EA030B6BFCD0005"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"2AFE762D187656900622144153BC92E3C213C3B2998BE698413FD7C958AE9F396640320C96BED1696361E8AB706EE2344705C48A"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"875BB0AE912684731C48472D75815ADFE4FDB249CFA5CBE6AC71D150C9DF804B138F287227F043C6EB61B309287677F7483BFE3F"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"AD12A201BD67E2EA53E7F7FC6F2BEBCC8D3B663270A31234F9B8E9042B393C4BF4013598AE87D9884C071E908561EDC4F762E7E4"
+				}
+				"review"
+				{
+					"encrypted_gid"		"BF9C6DCAEB2338F1EB8DE09BC1E516324895D15CC1A52AEB464CC43FA828297CC0E90A9B251D1152F40A342F34CA7016109D850B"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"FEC109C9B97B2B2A0F1AEA2CEEF9FC2BC143BE336D848D4900E7C008D0050DAC8613A9412BC114F99C74FEEEE7F694FBFD2F6FB1"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"47FB75380F0F0118DDFD1A98FC86B8D9A3E2D1AD2B3AB5842D9852044F7B2959D4E0CEE49C63139E083D54FC23DD67C89A3EF569"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"825F40A9D4260932A8C08A7C74B7BAD7B2B2C0E35CF687DB6E10DE77E281E64A569D5B359B56DEC33FA21877E754EFE8FBFBA3E6"
+				}
+				"test"
+				{
+					"encrypted_gid"		"B00125DB33E62E04293DAE61DE123CDCAEA176E290A72FBD1CAA5C1311AA059B68CBEA5ACB252ADA01501780AD3976E8443B531B"
+				}
+			}
+		}
+		"232896"
+		{
+			"name"		"Stronghold Crusader 2 Spanish"
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2989690181791711783"
+			}
+			"maxsize"		"154953320"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"C584A7341E32BCE8ABD6A53D2821CB1590E2A95F203ECAA384F56E44F050DE4AB6FBAF598CF6257986905C50A82B1B38005A2416"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"99EEA3A31CD2D481A83BDD019D0A3798244A6D50A63E54F5121D5C2A52502902E402693BFE0D81D2F6915FB2DCC81EC9BA137750"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"9762B0974A16B02260DB972992392FF1CE5C3B3FE60B869781C6A2B6D51D42F18644DF112DAECA0C02419AA5A222C4774E6E85C6"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"8704B3811C3331A6F821B57058AAAEA7C213C3B2998BE698413FD7C958AE9F39098C154ED129CD0BEFA6D6EF3FF4B9EF150AA2F1"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"D4CE278DE09D09BF1768C2A8EB83B247E4FDB249CFA5CBE6AC71D150C9DF804B0BC51C9576D7C3FD908F28FF9D205DF308F3EB59"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"32EC8F84AEB820AAC9E9FA4F533FEA078D3B663270A31234F9B8E9042B393C4B8D120C00543BC0472AEBDBDE0102B21813B5B3FD"
+				}
+				"review"
+				{
+					"encrypted_gid"		"5C762D8C7FE4267FDA719571016B3B284895D15CC1A52AEB464CC43FA828297C2F8B27E92B18CB0075B5D2E3FA96363F13FB5036"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"AE0AC8C7EB28BEB8958640F166444ACAC143BE336D848D4900E7C008D0050DAC03F15FA83DFD8BF0347A7130050827D1E776AA88"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"9C19DE16A962D123353A5317A67ED0E3A3E2D1AD2B3AB5842D9852044F7B29597997795A080F5C7FCE80641868626098A445B086"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"237731DA5ECB468E13853D8710A620A1B2B2C0E35CF687DB6E10DE77E281E64ACA2114AF13338F6E204B2A9F76A42B7A81B997B4"
+				}
+				"test"
+				{
+					"encrypted_gid"		"1181F4C16D68AAC74C2E4CFB532CB2DDAEA176E290A72FBD1CAA5C1311AA059BCE6F05EE04505B44A1D83390AFDA8320CB105C95"
+				}
+			}
+		}
+		"232897"
+		{
+			"name"		"Stronghold Crusader 2 Russian"
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6215071679287261416"
+			}
+			"maxsize"		"154212968"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"174BE3701204A17013BF1C789010B36990E2A95F203ECAA384F56E44F050DE4A6DBCAABDE00A1BE80DC35C6B50F411F7982A888F"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"33DB3451EDE61903AE36E3C8228F039E244A6D50A63E54F5121D5C2A525029024FB27A1323CB64DA24A6E883DD8753C1D71FC8CE"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"A43262CD5B0C6B0059A0CE5C21B6C816CE5C3B3FE60B869781C6A2B6D51D42F18DE65C60029B62B282E753006114B8F90E0D96B9"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"BC8D719091B70149399B9DC73912CA62C213C3B2998BE698413FD7C958AE9F39F3404AA149C49FEF80D830849722BAAA1BC51BDD"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"B39932464F9EE81CBF4C641AEFB52DD0E4FDB249CFA5CBE6AC71D150C9DF804B4A15F68829052DC1C0A513F497C29408E32B2F5B"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"017E522ACEB71B370440CF257138A4228D3B663270A31234F9B8E9042B393C4B06ACBAA2E7F20971CAA0BF0ABACCD7A9E9FF7506"
+				}
+				"review"
+				{
+					"encrypted_gid"		"FD71A45DDB1FC564DC1AE61B26F140F14895D15CC1A52AEB464CC43FA828297C1928AACFC9D54177EE6B8B872D1CBCA2CBCBF995"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"EEC5177A12A0E1D10C96CD8A27ECD4C2C143BE336D848D4900E7C008D0050DAC5D2EA916993C5BA1F6FEE24F8381B0A33AF0367C"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"793722BB00B2A545B86D8E3AA72A9A32A3E2D1AD2B3AB5842D9852044F7B29599B0C706056F425B44A634CCF040BC9F45C9AB61B"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"9E8A74EF2F9BAD0832C5D4D6CB3609EEB2B2C0E35CF687DB6E10DE77E281E64AECA462B335C29FE8E62B48F54F14BBAC764AFDFC"
+				}
+				"test"
+				{
+					"encrypted_gid"		"EF5937DA1B915C3E49A0EAA2A6711035AEA176E290A72FBD1CAA5C1311AA059B57CF796C6837CA296E19C48946637EC2B3DC055B"
+				}
+			}
+		}
+		"232898"
+		{
+			"name"		"Stronghold Crusader 2 Polish"
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8499090438245960865"
+			}
+			"maxsize"		"147214235"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"A2A85333036D59F74B0EFA5D28C1BD7590E2A95F203ECAA384F56E44F050DE4A667FA709DC89B9E545E4416E8074083140B82F50"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"2D87A9DECDFFC1193A7501DB5374BA2A244A6D50A63E54F5121D5C2A5250290299D4649278DF664970BB2B85800D6ADB70244E33"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"D61B899F096C72E765B1D0BE70E51D48CE5C3B3FE60B869781C6A2B6D51D42F157B1DC4B8C5248FE2A2CA0F367474DB935DE956C"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"064F90DCF42BBB755AA37C80F8E17F54C213C3B2998BE698413FD7C958AE9F39D0A4C61845D6920DE66EE51B08B199F51A05E9F1"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"BD39C0DDFD19FD5B4B96174D713279EFE4FDB249CFA5CBE6AC71D150C9DF804B0CCEC70E8495366BAB667A9982D4FD3D798B7C20"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"5BC206DEAFAEBF105C2D2ED4D4B2632E8D3B663270A31234F9B8E9042B393C4B65AF3A5982FEC25F93FFC64C3595C176C4BC86DE"
+				}
+				"review"
+				{
+					"encrypted_gid"		"529469FBD8CF7413E78E91DFDED956274895D15CC1A52AEB464CC43FA828297C41E9F023E908881F5F837AD0C9110F62D861C6D9"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"1EE616D0C71969BC6643D60E6E15DA37C143BE336D848D4900E7C008D0050DACE9A0351EFA8E951EC33829132DDFD957ADE5FF43"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"EBC322DD7E22AAB76B78F21AE149E842A3E2D1AD2B3AB5842D9852044F7B29595CBDAB205813713D18F30E7E1D64A3E225E6B36A"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"36193550954EE68874D61EFD067728C3B2B2C0E35CF687DB6E10DE77E281E64AC3841C6FD128C3A92DB351BB874AA6E8CA51F909"
+				}
+				"test"
+				{
+					"encrypted_gid"		"7F3DA36BB2F8C2D8802C12929BF02FA4AEA176E290A72FBD1CAA5C1311AA059B324D8AB3759F5186CBD684B9BC4284EC7336DA6D"
+				}
+			}
+		}
+		"232899"
+		{
+			"name"		"Stronghold Crusader 2 Brazilian"
+			"config"
+			{
+				"language"		"brazilian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7391177760578574985"
+			}
+			"maxsize"		"161869409"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"65D4B57B6DCD5D963315C85ED2C9483E90E2A95F203ECAA384F56E44F050DE4AC7CBA8FD13A32A800B3564E262F75C8621F68C44"
+				}
+				"gert_schmidt"
+				{
+					"encrypted_gid"		"482C50001151696BF7E6DCDAD2311FB7244A6D50A63E54F5121D5C2A52502902440198FA2C0DBED191763F42423460A6CB050371"
+				}
+				"jackandrews"
+				{
+					"encrypted_gid"		"29AA490D0957FA839A4F2ECFFACF8460CE5C3B3FE60B869781C6A2B6D51D42F1F1E56E3453A7D89DBBBDF563BB5E4EBACEE3CC37"
+				}
+				"micah.thornhill"
+				{
+					"encrypted_gid"		"7589AEC86D662019E59DA930DF393F85C213C3B2998BE698413FD7C958AE9F39F5A5BE7DACD836E443B67658A50101C90901F3A5"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"7EC857BAC468A12C690213D4687D3A69E4FDB249CFA5CBE6AC71D150C9DF804B30E9F0DAF5B3B26B6C37CEDFDBE3498EFE1C42A4"
+				}
+				"alberto"
+				{
+					"encrypted_gid"		"B05E37CA36AC28885628FA3DE26B21D98D3B663270A31234F9B8E9042B393C4B24FD91A648241F45022930D2EEC950949B243F65"
+				}
+				"review"
+				{
+					"encrypted_gid"		"ED9FDEA1773715B11CF20D3E3C7E31B24895D15CC1A52AEB464CC43FA828297CAA825B8CF9A3E0B2E84B6632205288E02A8B92AB"
+				}
+				"shc2_log_test"
+				{
+					"encrypted_gid"		"64F00427910B93C089002A51BC1B5FB3C143BE336D848D4900E7C008D0050DAC9AC65254A0B6067C08F8D87DE719B5CFA75D22A4"
+				}
+				"shc2_log_test_2"
+				{
+					"encrypted_gid"		"DFE9B3DD38B41773F7D74C6A77B56950A3E2D1AD2B3AB5842D9852044F7B295981E4CF70C1FBCA07147E745822D7B926D0F0DC33"
+				}
+				"soundtest"
+				{
+					"encrypted_gid"		"9325AE9A2F0A24CE28689412936D1A2BB2B2C0E35CF687DB6E10DE77E281E64A4E9F6631A7F1BBD33582BBD16A9BAF25EAC0D7E2"
+				}
+				"test"
+				{
+					"encrypted_gid"		"62171DD68519D3587A5D305E61076252AEA176E290A72FBD1CAA5C1311AA059B25F058961FBA48E8338BF7E393676D0206A6765A"
+				}
+			}
+		}
+		"232909"
+		{
+			"name"		"Stronghold Crusader 2 Koch Logo"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"448902471441250152"
+			}
+			"maxsize"		"16794932"
+			"encryptedmanifests"
+			{
+				"onlive"
+				{
+					"encrypted_gid"		"4DE6370787F129C415701DA9D6AA9061E4FDB249CFA5CBE6AC71D150C9DF804B0B3241715DE53256C94AEDD75B9675BB26D84F2A"
+				}
+			}
+		}
+		"232900"
+		{
+			"name"		"Stronghold Crusader 2 Japanese"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"8862881787689816768"
+			}
+			"maxsize"		"166224289"
+			"encryptedmanifests"
+			{
+				"mp"
+				{
+					"encrypted_gid"		"70EF6B5895F97F6CB023382DC883F94E9E8C2F58354AF415E7BB462A5DAD1B8FF7549A038B93EE2A9D8F3021985B6200C17612C7"
+				}
+				"zoo"
+				{
+					"encrypted_gid"		"F288406FBC526F3D0D499EC13B9D8FCB4C3518B0A0CBBC857B0707FED8E7C65870FAA435E119501AA23F65F579A74A41DC315877"
+				}
+			}
+		}
+		"317590"
+		{
+			"name"		"Pre-order \"Delivering Justice\" mini-campaign (317590) Depot"
+			"manifests"
+			{
+				"public"		"3230528147211986052"
+			}
+			"maxsize"		"3643419"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"C1FD8E65FF53CE77CC971EC920FF8BCE90E2A95F203ECAA384F56E44F050DE4ABF4042893AFC1A563FBF51608FD39CFD0F0A8336"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"7475A4E0358867FE4D19B44ADBB63FD0E4FDB249CFA5CBE6AC71D150C9DF804BF922DE2D75E72ED98925FF0B1D82AD00A0FABD5E"
+				}
+			}
+			"dlcappid"		"317590"
+		}
+		"317591"
+		{
+			"name"		"Pre-order \"Freedom Fighters\" mini-campaign (317591) Depot"
+			"manifests"
+			{
+				"public"		"7323448381257415629"
+			}
+			"maxsize"		"5599890"
+			"encryptedmanifests"
+			{
+				"day1release"
+				{
+					"encrypted_gid"		"F085413A4ABFCB508A91299E76959F0B90E2A95F203ECAA384F56E44F050DE4A24703DE3B78A676E38D9618B3CC7A51E8E36ADAC"
+				}
+				"onlive"
+				{
+					"encrypted_gid"		"F8ADBE05E7DF5EFA7E06B57DBEB96CAAE4FDB249CFA5CBE6AC71D150C9DF804BAE051254671170F2C97190313DD0222E2D967B0A"
+				}
+			}
+			"dlcappid"		"317591"
+		}
+		"317592"
+		{
+			"name"		"Pre-order bonus shields (317592) Depot"
+			"dlcappid"		"317592"
+		}
+		"317593"
+		{
+			"name"		"Firefly shield (317593) Depot"
+			"dlcappid"		"317593"
+		}
+		"317594"
+		{
+			"name"		"Beta Tester shield (317594) Depot"
+			"dlcappid"		"317594"
+		}
+		"319790"
+		{
+			"name"		"Stronghold Crusader 2 - Official Soundtrack (319790) Depot"
+			"manifests"
+			{
+				"public"		"623015975141154907"
+			}
+			"maxsize"		"204172752"
+			"encryptedmanifests"
+			{
+				"onlive"
+				{
+					"encrypted_gid"		"691BDE8CF773483FBCB0B3211DEFDEFFE4FDB249CFA5CBE6AC71D150C9DF804BBDB72955DFDA800B6E8B9E71CF014AE23210AB3D"
+				}
+			}
+			"dlcappid"		"319790"
+		}
+		"319800"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book (319800) Depot"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"1710504930767756683"
+			}
+			"maxsize"		"218179205"
+			"encryptedmanifests"
+			{
+				"onlive"
+				{
+					"encrypted_gid"		"133DEF85F29C1E9C880053D14BE01EECE4FDB249CFA5CBE6AC71D150C9DF804BA22C03EF20CF81A4A8EE91389D4D06D9695157D0"
+				}
+			}
+			"dlcappid"		"319800"
+		}
+		"319801"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"french"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"966594649947872662"
+			}
+			"maxsize"		"218187629"
+		}
+		"319802"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"german"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"1360799941782512746"
+			}
+			"maxsize"		"218022618"
+		}
+		"319803"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"2280169271085485294"
+			}
+			"maxsize"		"218029478"
+		}
+		"319804"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"5884248621686496835"
+			}
+			"maxsize"		"218034759"
+		}
+		"319805"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"1021702783831850310"
+			}
+			"maxsize"		"218116497"
+		}
+		"319806"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"204399767611202319"
+			}
+			"maxsize"		"217365470"
+		}
+		"319807"
+		{
+			"name"		"Stronghold Crusader 2 - Art Book"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"dlcappid"		"319800"
+			"manifests"
+			{
+				"public"		"1619979517702073925"
+			}
+			"maxsize"		"218034390"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"477034"
+			}
+			"day1release"
+			{
+				"buildid"		"391086"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"5072B2661E46E9D713BCC132F3018C9B90E2A95F203ECAA384F56E44F050DE4A012716D15B29AA020021EFEEDFAFDE5E3C05CA39"
+			}
+			"gert_schmidt"
+			{
+				"buildid"		"453900"
+				"description"		"gert_schmidt@gmx.de"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"FB3B5B9007385A8F0B5C0BAFF1140F61244A6D50A63E54F5121D5C2A52502902182D31134C588EFB69B9B95861CB3BD6BB99BD52"
+			}
+			"jackandrews"
+			{
+				"buildid"		"434449"
+				"description"		"jackandrews2@hotmail.co.uk"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7C4827D4784EC8461FFB15D3D2465516CE5C3B3FE60B869781C6A2B6D51D42F1CA53FF7C6A04B4DAC548D7221A0C7B5A8BF9ECAE"
+			}
+			"micah.thornhill"
+			{
+				"buildid"		"434449"
+				"description"		"micah.thornhill@gmail.com"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"9EBDFC4B29A0E41D3620A4179883E175C213C3B2998BE698413FD7C958AE9F39E077417B739545F8BCF761212346B40401D325D2"
+			}
+			"mp"
+			{
+				"buildid"		"475793"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"3EC8D5E3B47DEAE8BF6716FE15AF866A9E8C2F58354AF415E7BB462A5DAD1B8F4C50B5E436996241F6AC520C26C6A7654CA4BBCD"
+			}
+			"onlive"
+			{
+				"buildid"		"381336"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"F02B642282EE5144742ACD9E1806EAC3E4FDB249CFA5CBE6AC71D150C9DF804BD7E008E6409A7C9B293D24DD7BAFEB8749CD9FC9"
+			}
+			"alberto"
+			{
+				"buildid"		"419841"
+				"description"		"coppoalberto@libero.it"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"3EF879ACA19700B957E9274F85EBB1B68D3B663270A31234F9B8E9042B393C4B4E3203348095572F4112074D847DA6DE53FAC54A"
+			}
+			"review"
+			{
+				"buildid"		"433336"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"2AD665BE6AD43ED1C27FE100FA00714B4895D15CC1A52AEB464CC43FA828297C677B83DF654A8477667B1883A3F7D6D665E83243"
+			}
+			"shc2_log_test"
+			{
+				"buildid"		"440168"
+				"description"		"NOT FOR GENERAL RELEASE"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7B6A2F006609407B7E4A4D84BD28D7AAC143BE336D848D4900E7C008D0050DAC44443970F118D0533D915F0143B07B1E7B1348E9"
+			}
+			"shc2_log_test_2"
+			{
+				"buildid"		"443795"
+				"description"		"NOT FOR GENERAL RELEASE"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"EBB25190EEA02E9F5D0A1AA24E98C4AAA3E2D1AD2B3AB5842D9852044F7B2959985C5FF70CCBE637BA214D51C1661E1DC74DFFD2"
+			}
+			"soundtest"
+			{
+				"buildid"		"419841"
+				"description"		"special exe to test no sound"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"4CD120A652ACC9B401EDC82FB682D86AB2B2C0E35CF687DB6E10DE77E281E64A593EF6D56990F045C001987E96B5BF821AFD1049"
+			}
+			"test"
+			{
+				"buildid"		"442334"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"5221CD33F29DBB3AF3E67FF1B1EA3D73AEA176E290A72FBD1CAA5C1311AA059B0D9C4F13E3723DD240B5430BE15C96524A5FB1D1"
+			}
+			"zoo"
+			{
+				"buildid"		"475793"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"32DB5762D9D0BE987787F6CE9E983F184C3518B0A0CBBC857B0707FED8E7C658EB50FB671ACBDC7A8CEF50A03BACE38A875EEB6C"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Stronghold Crusader 2/Saved Games"
+				"pattern"		"*.sgd"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Stronghold Crusader 2/Profiles"
+				"pattern"		"campaign_manager_state.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
+ 

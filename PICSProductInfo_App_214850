@@ -1,0 +1,411 @@
+"appinfo"
+{
+	"appid"		"214850"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"GameMaker: Studio"
+		"type"		"Application"
+		"logo"		"21eb21c148278276851b4fdbfaf6641f780cf390"
+		"logo_small"		"21eb21c148278276851b4fdbfaf6641f780cf390_thumb"
+		"icon"		"a7ec5d5a350ab19d66ecf5f1ed0b5fc82f74a5d6"
+		"clienttga"		"f8c4d10965801d8c4d61ba73755c8c3e3626dec7"
+		"clienticns"		"294297f16cb338859580d95f18421475e80e1b6a"
+		"clienticon"		"e81cce6bc7a866af6a7eca16c234090076b5bc3b"
+		"workshop_visible"		"1"
+		"freeondemand"		"1"
+		"oslist"		"windows,macos"
+		"metacritic_name"		"GameMaker:Studio"
+		"controller_support"		"none"
+		"community_visible_stats"		"1"
+		"gameid"		"214850"
+	}
+	"extended"
+	{
+		"developer"		"YoYo Games Ltd."
+		"disableoverlay"		"1"
+		"gamedir"		"GameMaker: Studio"
+		"homepage"		"http://www.yoyogames.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"217350,217370,217390,217410,217430,226260,232830,247620,247640,328260"
+		"developer_url"		""
+		"publisher"		"YoYo Games Ltd."
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"gamemaker_studio"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GameMakerPlayer.exe"
+				"description"		"Launch GameMaker:Studio"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"GMPlayer.app"
+				"description"		"Launch GameMaker: Studio PLAYER"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"installscriptsignature"		"6d4d696ed823ca55649a8dd6ba6fca906f3a4a62c6f79079fa353b6e1bae5e9deba3b75fd00e499f8bcc42c08dc62ab91d916a991433f07a37cebdcc933e82de4916c8afd4378f2a172674e4b621f56b90c878ebb744138bad639042b74338ea53e994ae6f048817b7538c60ccdc3178c1e3708aa6efcbbfcce8ca37a3336a0d"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\\software\\gmstudio_steam\\version 1.0\\preferences"
+			{
+				"string"
+				{
+					"5piceassetcompilerlocation"		"%INSTALLDIR%\\GMAssetCompiler.exe"
+					"5picecpprunnerlocation"		"%INSTALLDIR%\\Runner.exe"
+					"5picehtmlrunnerlocation"		"%INSTALLDIR%\\scripts.html5.zip"
+				}
+			}
+		}
+		"run process"
+		{
+			".net3.5"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\GMStudio_Steam\\Version 1.0\\Preferences"
+				"process 1"		"%INSTALLDIR%\\dotNetFx35setup.exe"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"214851"
+		{
+			"name"		"GameMaker Studio WINDOWS"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5356893247200926395"
+				"beta-1.3"		"3777882206882287887"
+				"current-1"		"3777882206882287887"
+				"current-2"		"7209701277548232433"
+				"current-3"		"3556020624410729076"
+				"current-4"		"2262645403679139612"
+				"early-access"		"5963971057909343469"
+				"beta"		"513764772812476232"
+				"v1.2"		"2262645403679139612"
+				"v1.3"		"3777882206882287887"
+			}
+			"maxsize"		"417405201"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"B8CCC4BBBA9AABA0DD7D2CEF43CA14A2CD33300BCB9F4AE5F4D8B801A23966A204D74A241FBDE3BBD85B3C2EA40F6708AF191C75"
+				}
+			}
+		}
+		"214852"
+		{
+			"name"		"GameMaker Studio MAC"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5726687280289377399"
+				"beta-1.3"		"1195973696494426956"
+				"current-1"		"1195973696494426956"
+				"current-2"		"3727353099429013207"
+				"current-3"		"5026186599356110501"
+				"current-4"		"5148315023206320953"
+				"early-access"		"8770752725634003471"
+				"beta"		"3710327052029496800"
+				"v1.2"		"5148315023206320953"
+				"v1.3"		"1195973696494426956"
+			}
+			"maxsize"		"6063818"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"5352888378133D85913D73F1C144A197CD33300BCB9F4AE5F4D8B801A23966A25D54740678DA690F4C39A7298C20CC2DA4D0D083"
+				}
+			}
+		}
+		"247640"
+		{
+			"name"		"GameMaker: Studio Tizen (247640) Depot"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6633876249249081956"
+				"early-access"		"6448853209825822876"
+				"beta"		"1128441105155260266"
+			}
+			"maxsize"		"8050114"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"EEE1A9A2442349A630406E2728A0E884CD33300BCB9F4AE5F4D8B801A23966A2EDC5055B36923AF8B03AB19EA90C1325898C4BD4"
+				}
+			}
+			"dlcappid"		"247640"
+		}
+		"217390"
+		{
+			"name"		"GameMaker: Studio HTML5 (217390) Depot"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7122860936220737046"
+			}
+			"maxsize"		"52111"
+			"dlcappid"		"217390"
+		}
+		"217410"
+		{
+			"name"		"GameMaker: Studio iOS (217410) Depot"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5475283516969091295"
+				"early-access"		"6150505841675338730"
+				"beta"		"1824599731632143719"
+			}
+			"maxsize"		"261031625"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"DCD01EECB52C8E0282F455AD08FEE6D8CD33300BCB9F4AE5F4D8B801A23966A2089E642D916895EB5EC1C04D8CA45003E6C02F38"
+				}
+			}
+			"dlcappid"		"217410"
+		}
+		"217430"
+		{
+			"name"		"GameMaker: Studio Android (217430) Depot"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6556717650601752408"
+				"early-access"		"7864133255753344194"
+				"beta"		"3212074167565514890"
+			}
+			"maxsize"		"71157841"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"69DA79C0C3B64A388EF67BDF96F27B0ACD33300BCB9F4AE5F4D8B801A23966A2EFFD3B1B65577EF445FB5344BC0A14226CDF117B"
+				}
+			}
+			"dlcappid"		"217430"
+		}
+		"232830"
+		{
+			"name"		"GameMaker: Studio Ubuntu Export (232830) Depot"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7154242838595886123"
+				"early-access"		"6942905751266608240"
+				"beta"		"7199158517397198554"
+			}
+			"maxsize"		"1485814"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"948F989C90960571D7D3C5DB5026913CCD33300BCB9F4AE5F4D8B801A23966A2031427F2D717BBB04BB3CA6ABA8789F66DFC60DE"
+				}
+			}
+			"dlcappid"		"232830"
+		}
+		"226260"
+		{
+			"name"		"GameMaker: Studio Windows Phone 8 (226260) Depot"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"48940409287247830"
+				"early-access"		"3837370939592797134"
+				"beta"		"4595568296649748300"
+				"v1.2"		"2722051100058011707"
+				"v1.3"		"2722051100058011707"
+			}
+			"maxsize"		"19489614"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"C2BECD4DE2194DF1D8F7B2FDB859C285CD33300BCB9F4AE5F4D8B801A23966A26BCE89A8575BC60BD6CB2202F58B64DD598DA478"
+				}
+			}
+			"dlcappid"		"226260"
+		}
+		"217370"
+		{
+			"name"		"GameMaker: Studio Professional (217370) Depot"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4201856578562125639"
+				"early-access"		"5171071894583855878"
+				"beta"		"6953696638385837319"
+			}
+			"maxsize"		"124722971"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"CB3625188F4329C43FC0DFF7E24182B0CD33300BCB9F4AE5F4D8B801A23966A2CABF899446013E6607CDB6650E80ADF7B5C0BF48"
+				}
+			}
+			"dlcappid"		"217370"
+		}
+		"328260"
+		{
+			"name"		"GameMaker: Studio Mac OS X (328260) Depot"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3333471672818715518"
+				"early-access"		"7676610130083087466"
+				"beta"		"2924072935251130396"
+				"v1.2"		"698087532000811940"
+				"v1.3"		"698087532000811940"
+			}
+			"maxsize"		"10581078"
+			"encryptedmanifests"
+			{
+				"testbranch"
+				{
+					"encrypted_gid"		"058A101A91BFFC99644C716B601DEBAECD33300BCB9F4AE5F4D8B801A23966A258C10CF1D64BE3D868E3FD7DBE3C18B3888BEB4F"
+				}
+			}
+			"dlcappid"		"328260"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"468632"
+			}
+			"beta-1.3"
+			{
+				"buildid"		"392131"
+				"description"		""
+			}
+			"current-1"
+			{
+				"buildid"		"392131"
+				"description"		""
+			}
+			"current-2"
+			{
+				"buildid"		"346127"
+				"description"		""
+			}
+			"current-3"
+			{
+				"buildid"		"266355"
+				"description"		""
+			}
+			"current-4"
+			{
+				"buildid"		"199825"
+				"description"		""
+			}
+			"early-access"
+			{
+				"buildid"		"477131"
+				"description"		""
+			}
+			"beta"
+			{
+				"buildid"		"474573"
+				"description"		""
+			}
+			"testbranch"
+			{
+				"buildid"		"477131"
+				"description"		"Testing branch"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"83A15DBF017B9728F2E5E219AA1CDCDCCD33300BCB9F4AE5F4D8B801A23966A2E0B32A3C67565E20C209DBBBB5B9A655A72BE5B7"
+			}
+			"v1.2"
+			{
+				"buildid"		"457475"
+				"description"		"Last stable 1.2 build"
+			}
+			"v1.3"
+			{
+				"buildid"		"457474"
+				"description"		"Last stable 1.3 build"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+	}
+}
+ 

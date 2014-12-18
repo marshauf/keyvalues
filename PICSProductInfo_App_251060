@@ -1,0 +1,558 @@
+"appinfo"
+{
+	"appid"		"251060"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Wargame: Red Dragon"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"a218f9f3823549036f480368f3db6795adc04672"
+		"logo_small"		"a218f9f3823549036f480368f3db6795adc04672_thumb"
+		"clienticon"		"deb32bcbf5e91c4f5ac36b5dce4363b2b089cfff"
+		"clienttga"		"d956e25e5ee7c24dd22105d35c458a1b14ce9d06"
+		"icon"		"9867c16f7aff2a6decec47ae90f1909742a4c6e1"
+		"metacritic_name"		"Wargame: Red Dragon"
+		"controller_support"		"none"
+		"metacritic_score"		"78"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/wargame-red-dragon"
+		"community_visible_stats"		"1"
+		"gameid"		"251060"
+	}
+	"extended"
+	{
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp251060\\SteamKey"
+		"legacykeyregistrationmethod"		"registry"
+		"supportscdkeycopytoclipboard"		"1"
+		"showcdkeyonlaunch"		"1"
+		"listofdlc"		"313560,318290"
+		"developer"		"Eugen Systems"
+		"developer_url"		""
+		"publisher"		"Focus Home Interactive"
+		"homepage"		"http://wargame-rd.com/"
+		"gamemanualurl"		"http://store.steampowered.com/manual/251060/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Wargame Red Dragon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"wargame3.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"WarGame3"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"WarGame3"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		""
+		"markdlcdepots"		"1"
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8629947100341372849"
+			}
+			"maxsize"		"13738197"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"251061"
+		{
+			"name"		"Wargame: Red Dragon Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7923301199735174911"
+				"beta"		"2600322914954612872"
+				"local"		"6577864178347553250"
+			}
+			"maxsize"		"21289025627"
+			"encryptedmanifests"
+			{
+				"focus"
+				{
+					"encrypted_gid"		"D78F26607D4406FE00D29073BD2A546EAEAEB84E176BCDC5B9DF7BEDC0C08D67B1B5D48632159B470ADE483E431EC6C13A9C34DC"
+				}
+				"linux"
+				{
+					"encrypted_gid"		"9B07925C2DC86486BF6CE07E5AEB320A0C9B7F680535A87A3DB32CF303BFF7A4022C28F1BEFBE233FDFA91D1DF531590C457278F"
+				}
+				"locatest"
+				{
+					"encrypted_gid"		"6FFB65846B32C8B070E3D47B6333C8E513D63B26982FC3E763EEFF6DE1A8FD1C146169F9139B3272D2D7E355FDFD4CD33F5EA950"
+				}
+				"marshal2"
+				{
+					"encrypted_gid"		"7930979E4F91601A4E02AE396ACDB5F0D2C874020658D248FE2DEA86D421139E661246034DB41E0600EC4F3867432BAA9CF7D614"
+				}
+				"multitouch"
+				{
+					"encrypted_gid"		"013833CA7A4B9DC010671B359C739EC2B6206AEDA7FF133A9452288C42B858EDC1D244397109EA08FE025EC54AF0086B44525604"
+				}
+				"multitouch8"
+				{
+					"encrypted_gid"		"507E6D6286487A5A05E4DCFC6CD80C83DDA3E2ABFAAFA6F1D6E77F119536A3E2025548DDE9310141E848A5DA38E40525834E9F2C"
+				}
+				"prospect"
+				{
+					"encrypted_gid"		"B47043F9B32090D2492101388BD94E3672568873418BD53232D3D30D0E36DEF2BCF90CBF9C4EFFFF8B7398F890F99F7666B79061"
+				}
+				"age_rating"
+				{
+					"encrypted_gid"		"D55D5A43B83AAF1A731EBFA2CCB45FD6C369F5E24AD70CE3C3EBFADD0DDCC004A109F089AB6B1B6F05ECA0246F993E88166F2C7F"
+				}
+				"qa_test"
+				{
+					"encrypted_gid"		"72569D0857D2B6E6AFECEC7583D9C338CDD4B0C9A0246145EDD5DD005368D925AF8E1E1B482CC3D4514DE94C249B85F9421539F8"
+				}
+			}
+		}
+		"251062"
+		{
+			"name"		"Windows Specific"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"7422817684622450272"
+				"beta"		"4563334087098156428"
+				"local"		"2544909918997880603"
+			}
+			"maxsize"		"1911957931"
+			"encryptedmanifests"
+			{
+				"focus"
+				{
+					"encrypted_gid"		"45780A245FB71644BEC752CA92879823AEAEB84E176BCDC5B9DF7BEDC0C08D67F2FE00F63B9AC03747070FF253C82CDA8AE0EBC2"
+				}
+				"linux"
+				{
+					"encrypted_gid"		"A45C7557E2047FF2D9FFBA957D6A65F80C9B7F680535A87A3DB32CF303BFF7A4BF46C974DB6FEA03AA8E6BFD8D496300D94D3864"
+				}
+				"locatest"
+				{
+					"encrypted_gid"		"7DBEEEB71401FC82CE64A8C39CFB55B513D63B26982FC3E763EEFF6DE1A8FD1CD07FA6594F7CEC9AB6579F86AF716802CBAB80B0"
+				}
+				"marshal2"
+				{
+					"encrypted_gid"		"82B63840F68786811B6A26022F861702D2C874020658D248FE2DEA86D421139ED98FADF1EA8DD038633FD17BBEDC08AD0FB1C375"
+				}
+				"multitouch"
+				{
+					"encrypted_gid"		"633BD2771BF039A363AB6B920BBEF3FBB6206AEDA7FF133A9452288C42B858EDF9D8F0AECCD75660B341F3D5025658E7255B8B1C"
+				}
+				"multitouch8"
+				{
+					"encrypted_gid"		"23D32C848992D1F2BEAD5A5B7536E21BDDA3E2ABFAAFA6F1D6E77F119536A3E2E8F2801A98E5F2D9A302B491C11F59A3B1C6A8A0"
+				}
+				"prospect"
+				{
+					"encrypted_gid"		"022295BAC498D2B52407B46CC0856E2872568873418BD53232D3D30D0E36DEF2E72C20729A1B78D71FF87E775CDFE6D5077F4663"
+				}
+				"age_rating"
+				{
+					"encrypted_gid"		"CF75C7763673BA3F20CEF2A7F854BD24C369F5E24AD70CE3C3EBFADD0DDCC004A30D1B277D92E2B09146E8F0D1A57AD763B9B0F2"
+				}
+				"qa_test"
+				{
+					"encrypted_gid"		"D233FA5C9EE5371381E4AAC507D29C3CCDD4B0C9A0246145EDD5DD005368D9256322A02215156DDB0CA6EE9EB71954D7CC51F78A"
+				}
+			}
+		}
+		"251063"
+		{
+			"name"		"OSX Specific"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5771737805083221025"
+				"beta"		"5089278443815469521"
+				"local"		"5150219268361876027"
+			}
+			"maxsize"		"972020384"
+			"encryptedmanifests"
+			{
+				"focus"
+				{
+					"encrypted_gid"		"7225EE5E307886A5DBE9E3C630514BCBAEAEB84E176BCDC5B9DF7BEDC0C08D677876D74708881226E1B70F94E5225BDAE6D3E781"
+				}
+				"linux"
+				{
+					"encrypted_gid"		"F5BE72308C6E83F408236C82D3C0F53C0C9B7F680535A87A3DB32CF303BFF7A4EF60AB37FCDBE132FF90E4D6BD508BC2AE70F2E0"
+				}
+				"locatest"
+				{
+					"encrypted_gid"		"7EFF25553BFF845697547B6E92E35D5313D63B26982FC3E763EEFF6DE1A8FD1CFD2527E19C20A1E3BD62B3D82EC1BC1D78B7F40A"
+				}
+				"marshal2"
+				{
+					"encrypted_gid"		"2D38ECC4889B4814CF25324B5564265BD2C874020658D248FE2DEA86D421139E97EF3EE75AC281B5C577EE4364611E5C5792EE70"
+				}
+				"multitouch"
+				{
+					"encrypted_gid"		"3E9E05B2025A8CE9D8F032D63D12C2E3B6206AEDA7FF133A9452288C42B858EDE9881281C189515FEF82E743EF6C8C7099C4E17D"
+				}
+				"multitouch8"
+				{
+					"encrypted_gid"		"1BC997174E4199CA87ECA5CB012D71A2DDA3E2ABFAAFA6F1D6E77F119536A3E229D0B7B4391615AAA718A594F922691A9D49C07B"
+				}
+				"prospect"
+				{
+					"encrypted_gid"		"0AB94F345E3AE41C6ECF2DCD4BABB83272568873418BD53232D3D30D0E36DEF2A5FF6D09CD6EBDD5059786A85689AAB262750315"
+				}
+				"age_rating"
+				{
+					"encrypted_gid"		"3433D955D90F63323A11CE8674702FD4C369F5E24AD70CE3C3EBFADD0DDCC004310FEA00BB92EB3A0D7EBE97BD1ED06421ECB672"
+				}
+				"qa_test"
+				{
+					"encrypted_gid"		"6BBCDC220D490F505DDD5C46283C9460CDD4B0C9A0246145EDD5DD005368D925C4AE1FA0A4CC43E6D2BF9E2E2CAD6D5287552C16"
+				}
+			}
+		}
+		"251064"
+		{
+			"name"		"Linux Specific"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"2227577120457167928"
+				"beta"		"8370407892499387265"
+				"local"		"8944924108058535249"
+			}
+			"maxsize"		"1470948471"
+			"encryptedmanifests"
+			{
+				"focus"
+				{
+					"encrypted_gid"		"C877870E82778408C9BA1D22977D5519AEAEB84E176BCDC5B9DF7BEDC0C08D67F14BD6B24DCE31F4E9307DE2054A606902CB1C24"
+				}
+				"linux"
+				{
+					"encrypted_gid"		"E2F3EEEE7618ABE8921AA224E19AC3B90C9B7F680535A87A3DB32CF303BFF7A49209F035B00F8A34ED31CBD19A8FDB6876B2127E"
+				}
+				"locatest"
+				{
+					"encrypted_gid"		"B5A0ABADBF9A1A49C429006EA07C0F0C13D63B26982FC3E763EEFF6DE1A8FD1CFA458CF7275C3182A56560D08C600607AB5EF4A4"
+				}
+				"marshal2"
+				{
+					"encrypted_gid"		"C1792EEF5323BA3F9AA38055DA052BF4D2C874020658D248FE2DEA86D421139EE2ADF000B52A8DAA7FA1BDF61D5C1C4A2627DEC9"
+				}
+				"multitouch"
+				{
+					"encrypted_gid"		"17F36E4C9CBC1E533E4FFCD3B0EC20EFB6206AEDA7FF133A9452288C42B858ED95EFA20D7098C2316B39C6E9E2F0B4F803E9965E"
+				}
+				"multitouch8"
+				{
+					"encrypted_gid"		"B5F74268CC527D792CC07F2D9ECDA1ECDDA3E2ABFAAFA6F1D6E77F119536A3E28756DC6C184EA15A4076719A0CD8EEAFF0CFD2DF"
+				}
+				"prospect"
+				{
+					"encrypted_gid"		"77C7CD9BD16C0E835BAFE9994A6CDC9B72568873418BD53232D3D30D0E36DEF2D375A9464387C5E209B2CC3F5983C2808242A8B4"
+				}
+				"age_rating"
+				{
+					"encrypted_gid"		"601A18E5140E7D4B7A84293EF2E21F65C369F5E24AD70CE3C3EBFADD0DDCC004D2BDF9A2707A720A6CE264A9461CDFDB8476DB1B"
+				}
+				"qa_test"
+				{
+					"encrypted_gid"		"03616DB2EA4354D28738D1F45ABBE33ECDD4B0C9A0246145EDD5DD005368D925F218609EA52F9049E69EAC0183D3756FBC07388E"
+				}
+			}
+		}
+		"251065"
+		{
+			"name"		"PL data"
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"		"4741082622444030764"
+			}
+		}
+		"251066"
+		{
+			"name"		"RU data"
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"		"5603501002988986246"
+			}
+		}
+		"251067"
+		{
+			"name"		"JP data"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"8666184972259464325"
+			}
+		}
+		"251068"
+		{
+			"name"		"TC data"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"7477697335614012460"
+			}
+		}
+		"251069"
+		{
+			"name"		"KR data"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"8715609792708572651"
+			}
+		}
+		"251070"
+		{
+			"name"		"EN data"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"		"5659874598125191659"
+			}
+		}
+		"251071"
+		{
+			"name"		"FR data"
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"		"4547118644096072640"
+			}
+		}
+		"251072"
+		{
+			"name"		"IT data"
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"		"4604915379547185492"
+			}
+		}
+		"251073"
+		{
+			"name"		"DE data"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"		"3718816869328921270"
+			}
+		}
+		"251074"
+		{
+			"name"		"SP data"
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"		"3686907766941799140"
+			}
+		}
+		"313560"
+		{
+			"name"		"Wargame Red Dragon - DLC 1 (313560) Depot"
+			"manifests"
+			{
+				"public"		"8185976189903563862"
+			}
+			"dlcappid"		"313560"
+		}
+		"318290"
+		{
+			"name"		"Wargame Red Dragon - DLC2 (318290) Depot"
+			"manifests"
+			{
+				"public"		"3480541620533150458"
+			}
+			"encryptedmanifests"
+			{
+				"focus"
+				{
+					"encrypted_gid"		"D00A43D43E85378B613EC8F123CBE8A4AEAEB84E176BCDC5B9DF7BEDC0C08D6751A2B26AF236F85FAE5BE512A86E26A37C422133"
+				}
+				"marshal2"
+				{
+					"encrypted_gid"		"9DFC2AD53720DC13C3FF7197724EE3A6D2C874020658D248FE2DEA86D421139E96515BE7D09BE1D57EE279E5111F4C95726B5309"
+				}
+			}
+			"dlcappid"		"318290"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"445164"
+			}
+			"beta"
+			{
+				"buildid"		"477308"
+				"description"		"DLC3 Early Access"
+			}
+			"focus"
+			{
+				"buildid"		"368735"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"2297C667AFCB03172FC89FB7248F737AAEAEB84E176BCDC5B9DF7BEDC0C08D67C262BC9B20C002F7C9F39014F8F7C8A286649969"
+			}
+			"linux"
+			{
+				"buildid"		"282306"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"A974A0E4C85E39009C46249893D36B350C9B7F680535A87A3DB32CF303BFF7A4B93109F5E5827E77C3C815F6D2E8428A3E106487"
+			}
+			"local"
+			{
+				"buildid"		"237759"
+				"description"		"Local Content Server"
+			}
+			"locatest"
+			{
+				"buildid"		"282134"
+				"description"		"Localisation test version"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"921CEAA0FD3B8DF99408B688BF76D16013D63B26982FC3E763EEFF6DE1A8FD1C0711A07A4B7A206E684205BBAC468AF9E0F92B7A"
+			}
+			"marshal2"
+			{
+				"buildid"		"368735"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"6AA155716B15B4789DA3F0957B60CD98D2C874020658D248FE2DEA86D421139EC4AB80830FCB6DD1D24F8FD107495834E7CA3BB2"
+			}
+			"multitouch"
+			{
+				"buildid"		"398949"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"D92095FFE9F342CDB9C567D4C964C2B6B6206AEDA7FF133A9452288C42B858EDFA60FDAD551DB76B3FD857B76F0A0A181ED3A3F2"
+			}
+			"multitouch8"
+			{
+				"buildid"		"382750"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"9F3F10F3211AC4C92416F92A82795182DDA3E2ABFAAFA6F1D6E77F119536A3E251FB5F7B88AA1E63C96A2D9380156E5A204550F1"
+			}
+			"prospect"
+			{
+				"buildid"		"192944"
+				"description"		"Full version for early demos"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C628C63039F10BC02D161E014E10972972568873418BD53232D3D30D0E36DEF2E288AAD099A87150C4EDD3A78D4ECDED898350F4"
+			}
+			"age_rating"
+			{
+				"buildid"		"215211"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"383EBDD7B57DF52E9645A6A36F0EE452C369F5E24AD70CE3C3EBFADD0DDCC004C2C0E3D09B1DC780BB8D8880BE7CEB5F47359612"
+			}
+			"qa_test"
+			{
+				"buildid"		"477308"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"878EBE8C134B5F00EAF391DF6F84854ACDD4B0C9A0246145EDD5DD005368D925E3DB37C965580123CB9532F486026C3A7CCAC8C7"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"50"
+	}
+}
+ 

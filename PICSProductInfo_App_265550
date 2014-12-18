@@ -1,0 +1,484 @@
+"appinfo"
+{
+	"appid"		"265550"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Dead Rising 3"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"0937bcb4ba3b212882a70afcd3162ba7b7e94dae"
+		"clienticon"		"dd2b6833f7c693f49aa22eab1df17a6c9a9f84bc"
+		"icon"		"f5cdf9af7b3ab97308c13a326fe22bad9445419c"
+		"logo"		"5ceb6870a685e3ec406d76d2a0bd783fa768823c"
+		"logo_small"		"5ceb6870a685e3ec406d76d2a0bd783fa768823c_thumb"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"265550_eula_0"
+				"name"		"Dead Rising 3 EULA"
+				"url"		"http://store.steampowered.com//eula/265550_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"dutch"		"1"
+			"brazilian"		"1"
+		}
+		"metacritic_name"		"Walking"
+		"controller_support"		"full"
+		"community_visible_stats"		"1"
+		"gameid"		"265550"
+	}
+	"extended"
+	{
+		"iploginrestriction"		"50.0.11.114/32,78.133.141.10/32,71.19.177.226/32,80.169.135.18/32,80.4.144.58/32,213.120.119.98/32,64.160.161.4/32,67.180.60.96/32,172.16.248.100/32,219.101.226.2/32,74.93.5.218/32"
+		"listofdlc"		"274110,274111,274112,278140,322180"
+		"developer"		"Capcom Game Studio Vancouver"
+		"developer_url"		""
+		"publisher"		"Capcom"
+		"homepage"		"http://www.facebook.com/deadrising"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"deadrising3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"deadrising3.exe"
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8124929965194586177"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8629947100341372849"
+			}
+			"maxsize"		"13738197"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"265551"
+		{
+			"name"		"Walking Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8433114635326159202"
+				"local"		"701315260622456902"
+			}
+			"maxsize"		"33689334946"
+			"encryptedmanifests"
+			{
+				"cusa"
+				{
+					"encrypted_gid"		"67F55AEB860FD7D1546449D01EF4E584C63C944D154DE399F2E724FF068B5EEC98F6AEA9B1C4C268F3838AAEEBB4B0C45476C6B3"
+				}
+				"cusa_rdi"
+				{
+					"encrypted_gid"		"FC773E2ABA2361D720EEBE6A83B0CDB62244389EEE8FEA2081537094367272EC3ED467632B80C878206BEC474E930BA7F7678EFA"
+				}
+				"cusa_wave2"
+				{
+					"encrypted_gid"		"74640B47D8AABD58CBE11F437174D4CC145EC45123D67D16507A39FFF2646E250B19FE254F8A8ECDA17CFF58CD35C4628C6E1B02"
+				}
+				"cvqa2"
+				{
+					"encrypted_gid"		"EA380BB1A93F2C272F4F0129AB772A83E5FDF7B41DA09BE3FDA7B82EB0905F590BCACF62449BB05460A863F6E75A69257CCD8A7A"
+				}
+				"gnet"
+				{
+					"encrypted_gid"		"774C7530CAF079AC94E978218DF3083FD914B383E87A4D3D36B98650F61B3D50898E814846736F002A2123B4A1A212C18DAA28F5"
+				}
+				"grb_korea"
+				{
+					"encrypted_gid"		"AE027554FC4EFA47F4439571FC6B4426D95A41BC7CDA01C04826ACC2DBF618149684AF1A82F6CDECF58B8F05827EEB0D925612BA"
+				}
+				"intel"
+				{
+					"encrypted_gid"		"38C6272CE8F14DF3107212E4242CAC77BD5785D6F221B239E21316A4B7F960A9E256570F47E4148CED9939711D1139DBBD3A4254"
+				}
+				"nvidia"
+				{
+					"encrypted_gid"		"3BD96BCF0F338B1592644FAA0486C5CDE235482224D101CECC7C2204CA629F232607E69D0783AE5CCA3F3CA0CA44939563DD49DF"
+				}
+				"pegi"
+				{
+					"encrypted_gid"		"52D5C4EADD1ED6DD98CCC4E383139DB0203044BEA5DCECA048C477FE7C8D27A9219001383F5E6B8BB98EFCDC3DA5F6E426E32275"
+				}
+				"press"
+				{
+					"encrypted_gid"		"5AA661F13ABE08EB4C888715E55FDA565E843AC891FEA5D221FD25FDF845C649C6ACF94C8B98F8815BEE5F100D13F63176101381"
+				}
+				"amd"
+				{
+					"encrypted_gid"		"8FE4D86C2E1EF7579496211B6AB3F3D9AD2F607613F8A46E6B1FF32BD5722701FA599E0A3456DF259585DA2D715E118704FB78B2"
+				}
+			}
+		}
+		"274110"
+		{
+			"name"		"Walking DLC1 (274110) Depot"
+			"manifests"
+			{
+				"public"		"8114897424869582548"
+			}
+			"encryptedmanifests"
+			{
+				"cusa"
+				{
+					"encrypted_gid"		"7BDDA1E818880A62287D179096F32609C63C944D154DE399F2E724FF068B5EECFC275A24B8340048C2CF9DF0B8854301136327CF"
+				}
+				"cvqa"
+				{
+					"encrypted_gid"		"2455F8BAB5022EA8467F6E20DDE3F663F2972FD41FA74FABA0E9B83F5D2373D8AF1E768B2D139E0B6C7DDFC4C13D2F2D7AE3233A"
+				}
+				"gnet"
+				{
+					"encrypted_gid"		"BE2941DA3A2F8EB18C031B449E43AAF4D914B383E87A4D3D36B98650F61B3D50F7575D124755A2C91447DAC99BE8FDBFFD4D2896"
+				}
+				"intel"
+				{
+					"encrypted_gid"		"9415EBE203EF1E3675C31809B4BA66B1BD5785D6F221B239E21316A4B7F960A909398A082CB4D5B100B875F2E5EFB5EE8D83FB8B"
+				}
+				"nvidia"
+				{
+					"encrypted_gid"		"0BE47575A0AF015621625D74597E7339E235482224D101CECC7C2204CA629F2372688C32C51261134B28EBA9F0F21588E79F2F5F"
+				}
+				"amd"
+				{
+					"encrypted_gid"		"5EEA26C67AEF9A26132507A9846EE702AD2F607613F8A46E6B1FF32BD5722701141A68FBBAB0F933BF73C2A2D85A47E1186BDC98"
+				}
+			}
+			"maxsize"		"744054615"
+			"dlcappid"		"274110"
+		}
+		"274111"
+		{
+			"name"		"Walking DLC2 (274111) Depot"
+			"manifests"
+			{
+				"public"		"5261805151556622202"
+			}
+			"encryptedmanifests"
+			{
+				"cusa"
+				{
+					"encrypted_gid"		"EFCCBB9AE19833E151F263E74980B471C63C944D154DE399F2E724FF068B5EECB99332BD063102C71701B6F6579D52B1330C04D5"
+				}
+				"cvqa"
+				{
+					"encrypted_gid"		"B0AA26D0FF7F6B9DC34C0B6472492311F2972FD41FA74FABA0E9B83F5D2373D819EA30F5967CE4F2B16C5A42D55B64CA0C87071A"
+				}
+				"gnet"
+				{
+					"encrypted_gid"		"F951EF7FB211719934BE9B48B9B0E667D914B383E87A4D3D36B98650F61B3D50769D78632EED889D83874BCA84920C989FA6477B"
+				}
+				"intel"
+				{
+					"encrypted_gid"		"91B9AD82D48C1FEC8D410FFEB2D3571DBD5785D6F221B239E21316A4B7F960A9143705CB8649F106F2641F54C66585CDDBCEC848"
+				}
+				"nvidia"
+				{
+					"encrypted_gid"		"4E2F386A3D68AB93AC2470E20AA27DB5E235482224D101CECC7C2204CA629F230B2713E6EC9DC3165DAFF5F8D8C7CDCE5F6174B2"
+				}
+				"amd"
+				{
+					"encrypted_gid"		"65AA74CE8A0E80DDD38EC35F409D6FADAD2F607613F8A46E6B1FF32BD5722701B9577DEA3526EC61B8F7EC635F2734D19B6F89B0"
+				}
+			}
+			"maxsize"		"703874288"
+			"dlcappid"		"274111"
+		}
+		"274112"
+		{
+			"name"		"Walking DLC3 (274112) Depot"
+			"manifests"
+			{
+				"public"		"338860370970731445"
+			}
+			"encryptedmanifests"
+			{
+				"cusa"
+				{
+					"encrypted_gid"		"B8C6263F7CC603D30A97A6CDFE8B1999C63C944D154DE399F2E724FF068B5EEC441756EFBCBF2BD4C69A09FEEB50BAA5E0C7E967"
+				}
+				"cvqa"
+				{
+					"encrypted_gid"		"4B13FA29F35E448A4C81BE0FA51F264CF2972FD41FA74FABA0E9B83F5D2373D8E0366D4738E1872794B8E6BE641A55051B25ACE4"
+				}
+				"gnet"
+				{
+					"encrypted_gid"		"BCD0509E67656D84EA35B319CBA1526ED914B383E87A4D3D36B98650F61B3D50A6AA992D636E9C2D5F35960D151D03FA2C9EDA5E"
+				}
+				"intel"
+				{
+					"encrypted_gid"		"EA25FFBBD0C3D73CDDFC9EB73D1CB990BD5785D6F221B239E21316A4B7F960A96CEB54B4FFE4B5D684E4F69A1158CE089C07ADD1"
+				}
+				"nvidia"
+				{
+					"encrypted_gid"		"11745D76F5A011985A5D69171DE2FB07E235482224D101CECC7C2204CA629F239D42A856BBD9B9B2941C1E4F90D078D8DCA50FD9"
+				}
+				"amd"
+				{
+					"encrypted_gid"		"C43FF17C3EE25860B7BDCE63E52B80D5AD2F607613F8A46E6B1FF32BD5722701C8B2C100399C6843577ACD46CC903002F0C929BE"
+				}
+			}
+			"maxsize"		"751159621"
+			"dlcappid"		"274112"
+		}
+		"278140"
+		{
+			"name"		"Walking DLC4 (278140) Depot"
+			"manifests"
+			{
+				"public"		"5538128077113190254"
+			}
+			"encryptedmanifests"
+			{
+				"cusa"
+				{
+					"encrypted_gid"		"4C46107F9BD83F422FA7E8F0DC8112F2C63C944D154DE399F2E724FF068B5EEC7C45AD0C4B13DE0D7B413D17583486BF2F73F8B3"
+				}
+				"cvqa"
+				{
+					"encrypted_gid"		"5C0A97A2D3599A7887974590672C93E6F2972FD41FA74FABA0E9B83F5D2373D87BBFE12ADCEFC53800F1BEE2F85185A5687C0E5F"
+				}
+				"gnet"
+				{
+					"encrypted_gid"		"FBF74FFCE4B3DAF2CDA714C458D0CE2CD914B383E87A4D3D36B98650F61B3D506E0214A224AA541A54D6CE1018B3FDBB71E90105"
+				}
+				"intel"
+				{
+					"encrypted_gid"		"E858AA18957F3BA585DFA196F9EE080DBD5785D6F221B239E21316A4B7F960A9B836A7846490154719ED591847A3587C83F24D64"
+				}
+				"nvidia"
+				{
+					"encrypted_gid"		"268F6DAFBFA07887017942A0DA87F447E235482224D101CECC7C2204CA629F2307F617303FA58138139BCABB4B0065233F760327"
+				}
+				"amd"
+				{
+					"encrypted_gid"		"AEF482C758733BFC8B7DE1373E513301AD2F607613F8A46E6B1FF32BD572270105143A14F5E72DB0792259AA3AE3C8F89D9AAB41"
+				}
+			}
+			"maxsize"		"787066958"
+			"dlcappid"		"278140"
+		}
+		"265553"
+		{
+			"name"		"Dead Rising 3 JP"
+			"manifests"
+			{
+				"public"		"4214359349980181997"
+			}
+			"maxsize"		"35287875746"
+			"encryptedmanifests"
+			{
+				"cusa_wave2"
+				{
+					"encrypted_gid"		"CDAE7C7B5E828FA52C1A47EDAC02AD32145EC45123D67D16507A39FFF2646E251727F74187511B50BBEDB7B43B35530E9AA3454A"
+				}
+			}
+		}
+		"265552"
+		{
+			"name"		"Dead Rising 3 ROW"
+			"manifests"
+			{
+				"public"		"1491270682358049290"
+			}
+			"maxsize"		"1636043084"
+			"encryptedmanifests"
+			{
+				"grb_korea"
+				{
+					"encrypted_gid"		"0A9E113AA40C115C771A5D58D2801228D95A41BC7CDA01C04826ACC2DBF618147461D9C0C2662066863D6D4818AAE88142891758"
+				}
+				"intel"
+				{
+					"encrypted_gid"		"11D118B8B7BABAF9FB9E96B207943FCABD5785D6F221B239E21316A4B7F960A943A68247AB434D8B9CCD634447A1AF7D522CAA34"
+				}
+				"amd"
+				{
+					"encrypted_gid"		"287EA6E8829974AC8A5635AB4A2A8645AD2F607613F8A46E6B1FF32BD5722701379987263E11A544358FF2C0FF84213B5BE171D6"
+				}
+			}
+		}
+		"265554"
+		{
+			"name"		"Dead Rising 3 Digital Extras"
+			"manifests"
+			{
+				"public"		"6581835786989277397"
+			}
+			"maxsize"		"49739006"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"413626"
+			}
+			"cusa"
+			{
+				"buildid"		"393412"
+				"description"		"Branch for CUSA"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"9A28081FA6DBD485FDC4FD7E541D714CC63C944D154DE399F2E724FF068B5EEC402F5551EF06A0F1170035EC5B88B9EF1C03617D"
+			}
+			"cusa_rdi"
+			{
+				"buildid"		"337274"
+				"description"		"Branch for CUSA RDI testing"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"9B09831812285CF97336FF17C31DC7062244389EEE8FEA2081537094367272EC5039A32E72935246408B1CE77435D5D8308919FF"
+			}
+			"cusa_wave2"
+			{
+				"buildid"		"393413"
+				"description"		"Branch for CUSA Wave 2"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"A0527B75F91BD3F2CB28D30498EF1431145EC45123D67D16507A39FFF2646E25B740326C5283CC3527E4A937546246F4987AC98A"
+			}
+			"cvqa"
+			{
+				"buildid"		"412689"
+				"description"		"For Internal CV Testing"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C0F76271EBFC2A1575438A51B50381A3F2972FD41FA74FABA0E9B83F5D2373D8033BCF9597E2C3250FFC48A6C24323BE15494555"
+			}
+			"cvqa2"
+			{
+				"buildid"		"409743"
+				"description"		"For Internal CV Testing"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"56802CA9752FE84A46FA5AE04E52E872E5FDF7B41DA09BE3FDA7B82EB0905F597D741040765918CF0908B6FA3AA473D0B28768E6"
+			}
+			"gnet"
+			{
+				"buildid"		"270468"
+				"description"		"Branch for Gnet"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"F6B25E7F543AA1C07ACB2AEF8AD2D128D914B383E87A4D3D36B98650F61B3D50EB413A4CC3E8EE2FB964C731BAABB16D4F4CFCC5"
+			}
+			"grb_korea"
+			{
+				"buildid"		"336089"
+				"description"		"Korean GRB Rating"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C351AFD1E4F8CD7A7C9FBC5003B59CFDD95A41BC7CDA01C04826ACC2DBF618146AF2AEE70577E5A51B3A4411A3BA6FA36993BD69"
+			}
+			"intel"
+			{
+				"buildid"		"335966"
+				"description"		"Branch for Intel"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"1ADB912EFF5A1D9FC249AECA89358C8EBD5785D6F221B239E21316A4B7F960A99D54DD46106AC8A67B2A6D926F457D2418B0503C"
+			}
+			"local"
+			{
+				"buildid"		"339342"
+				"description"		"Local Content Server"
+			}
+			"nvidia"
+			{
+				"buildid"		"336145"
+				"description"		"For Testing with NVIDIA"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"2F3183EC5779B3DDC4DEFF6AFBAA9D67E235482224D101CECC7C2204CA629F239D956DEDFECD7620344A76B18643FE692A06A5E7"
+			}
+			"pegi"
+			{
+				"buildid"		"325751"
+				"description"		"Branch for PEGI"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"BC3E24EEBF7185AFDAA72D86350D6B6B203044BEA5DCECA048C477FE7C8D27A99BDB6B63146E7E9449556D8BC42DF773DE850042"
+			}
+			"press"
+			{
+				"buildid"		"368154"
+				"description"		"Branch for Press Preview"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C87B9E51E2CF08DB7BBB8072F29F618F5E843AC891FEA5D221FD25FDF845C649F37DF4036C2B4208B018D523E3BAE453C0AF4534"
+			}
+			"amd"
+			{
+				"buildid"		"336105"
+				"description"		"For Testing with AMD"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"B1E386B9D1AEB326EB523F94D58675FEAD2F607613F8A46E6B1FF32BD5722701CD927E0D45488159BE5FDBEBEA2B112BFA4D4E62"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Dead Rising 3"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

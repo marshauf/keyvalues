@@ -1,0 +1,611 @@
+"appinfo"
+{
+	"appid"		"240760"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Wasteland 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"fa2f340bb16fd48e63e3057ce0bba89b4b4d4a34"
+		"logo_small"		"fa2f340bb16fd48e63e3057ce0bba89b4b4d4a34_thumb"
+		"clienticon"		"f3bf319e8856c98710898cdff90c980a294f1e29"
+		"clienttga"		"b38458788fbba9afcdad8b09a93aeb343fb8d297"
+		"icon"		"b86ee8dadc97895c777934d27cdc4e06b2105a34"
+		"clienticns"		"f67086118a8f5294081336242e8e2ab39ddee3ba"
+		"linuxclienticon"		"397c0e9b0e889f3997dc38750656266cfcc4df60"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+		}
+		"metacritic_name"		"Wasteland 2"
+		"controller_support"		"none"
+		"metacritic_score"		"81"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/wasteland-2"
+		"community_visible_stats"		"1"
+		"gameid"		"240760"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"inXile Entertainment"
+		"gamedir"		"ValveTestApp240760"
+		"homepage"		"http://wasteland.inxile-entertainment.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"271080,272290,305540,318540,324180,324200,332990,333000,338780"
+		"developer_url"		""
+		"publisher"		"inXile Entertainment"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Wasteland 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Build\\WL2.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"OSX\\WL2.app\\Contents\\MacOS\\WL2"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Linux\\WL2"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english"
+		"markdlcdepots"		"1"
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2393620832831260610"
+			}
+			"maxsize"		"13687645"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"229004"
+		{
+			"name"		".NET 4.5.1 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3575109949731994142"
+			}
+			"maxsize"		"143305798"
+			"depotfromapp"		"228980"
+		}
+		"240761"
+		{
+			"name"		"Wasteland 2 Content"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"6621166615553679588"
+			}
+			"maxsize"		"22626449420"
+			"encryptedmanifests"
+			{
+				"korean"
+				{
+					"encrypted_gid"		"3E791B7292997299016E0A7A6F0B42FB01E6BF44B4248E5C204FC22A3C7EE91F0CB0DF7F48412A569AE164088E468A0BD92455C3"
+				}
+				"latest"
+				{
+					"encrypted_gid"		"FE87BC8F260E7AF3B62DA586A12BFC44794379CA7174DF61332BCDBB815C5410B6E4BAEBA36A2EB6FC82D04B90C336668730572A"
+				}
+				"localization"
+				{
+					"encrypted_gid"		"E3FDDCB1E39A7D1DBE674A706496D4471B9D13E322EC80D57848F53CE7E206B0E7AE5718D2A4EDAD6876F2E744D9B25991FFE053"
+				}
+				"osxtestbranch"
+				{
+					"encrypted_gid"		"781767D9B30F5BC9AD804AE3F40E1CCAEAA3F439F74883EFD8B280D4A2BE0FB008861019EB3EA1C4939E62601DD5791149E2710D"
+				}
+				"press"
+				{
+					"encrypted_gid"		"ED95E7172A82E5079FC357E210FF3FF34F822D9B4DD3F2613AFFB0E0AC89B51F98EC76FE405162A5906355AE05859E2924A6777F"
+				}
+			}
+		}
+		"240763"
+		{
+			"name"		"Wasteland 2 Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"1847267837529350299"
+			}
+			"maxsize"		"22618258256"
+			"encryptedmanifests"
+			{
+				"korean"
+				{
+					"encrypted_gid"		"D12084994B0F3B3B7FBD58BEE651E45601E6BF44B4248E5C204FC22A3C7EE91F66D0303CEBBEBFA3146B0638E3F7EF5DB85328F3"
+				}
+				"latest"
+				{
+					"encrypted_gid"		"81E59CDA307C537496F21BED3504A55A794379CA7174DF61332BCDBB815C541032D5EC10F88EC4859EB9D8060FF538A966082890"
+				}
+				"localization"
+				{
+					"encrypted_gid"		"EFC85545DB01F2951B8DC8CCB7CF351C1B9D13E322EC80D57848F53CE7E206B0BEEA99284AA0818327B0BCE5EF6261F55257CC76"
+				}
+				"osxtestbranch"
+				{
+					"encrypted_gid"		"325EC2282B378C6B362F85CBE693991DEAA3F439F74883EFD8B280D4A2BE0FB059D73BCB80DC5059788D4FAE58D5CC0FA44B72D7"
+				}
+				"press"
+				{
+					"encrypted_gid"		"6E410193E42E0435F8D1DFDB517A9BC84F822D9B4DD3F2613AFFB0E0AC89B51FABEE614117AF9131BEA3BE3D346A0FE46969ACB3"
+				}
+			}
+		}
+		"240762"
+		{
+			"name"		"Wasteland 2 OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"9185259131761222836"
+			}
+			"maxsize"		"22622085972"
+			"encryptedmanifests"
+			{
+				"korean"
+				{
+					"encrypted_gid"		"07184A65180C0E5CC17431594F06A93101E6BF44B4248E5C204FC22A3C7EE91F0C9806173A7980953A3E9C1AFE16DF5FD266CDD6"
+				}
+				"latest"
+				{
+					"encrypted_gid"		"2FC488257B66D44BF5728B3B65112531794379CA7174DF61332BCDBB815C541080AACC89C18A18DC77EC91CEBE97114AB635F8EE"
+				}
+				"localization"
+				{
+					"encrypted_gid"		"7F933D4BD5A2FE2286DF89DE2E6CA2701B9D13E322EC80D57848F53CE7E206B01886DF19C5323BA331C0CE34A9A384C4312678E4"
+				}
+				"osxtestbranch"
+				{
+					"encrypted_gid"		"87E2F4F7502A6C00AAC39419C935CC40EAA3F439F74883EFD8B280D4A2BE0FB03AD07A11CC20647AF2035963F68D23A30836F09B"
+				}
+				"press"
+				{
+					"encrypted_gid"		"2ABA9324993ED7E93BBBB8E99048F4AA4F822D9B4DD3F2613AFFB0E0AC89B51FF121779E86DE55E5002E0CC9087816FB24857B8C"
+				}
+			}
+		}
+		"272290"
+		{
+			"name"		"Wasteland 2 - All Bad Things"
+			"manifests"
+			{
+				"public"		"6025082715597931152"
+			}
+			"maxsize"		"3028190"
+			"dlcappid"		"272290"
+		}
+		"305540"
+		{
+			"name"		"Wasteland 2 - The Earth Transformed Ghost Book One (305540) Depot"
+			"manifests"
+			{
+				"public"		"6115339838196097967"
+			}
+			"maxsize"		"2876542"
+			"dlcappid"		"305540"
+		}
+		"324180"
+		{
+			"name"		"Wasteland 2 - Death Machines Ghost Book Two (324180) Depot"
+			"manifests"
+			{
+				"public"		"27907594342922298"
+			}
+			"maxsize"		"2255993"
+			"dlcappid"		"324180"
+		}
+		"324200"
+		{
+			"name"		"Wasteland 2 - Concept Art Book (324200) Depot"
+			"manifests"
+			{
+				"public"		"7943539080670629873"
+			}
+			"maxsize"		"3778527"
+			"dlcappid"		"324200"
+		}
+		"332990"
+		{
+			"name"		"Wasteland 2 - Choir Songs EP (332990) Depot"
+			"manifests"
+			{
+				"public"		"1648031875946924095"
+			}
+			"maxsize"		"10028833"
+			"dlcappid"		"332990"
+		}
+		"333000"
+		{
+			"name"		"Wasteland 2 - Original Soundtrack (333000) Depot"
+			"manifests"
+			{
+				"public"		"4578363010064233010"
+			}
+			"maxsize"		"107098274"
+			"dlcappid"		"333000"
+		}
+		"240764"
+		{
+			"name"		"Wasteland 2 Korean"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5339641401306048311"
+			}
+			"maxsize"		"20178603328"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid"		"E7BBC79CBAFFB9F5FFFECAFB493647FF794379CA7174DF61332BCDBB815C5410AA2ECFEB8D65DFC7D7E0EA5899A81881EB1F204B"
+				}
+			}
+		}
+		"240765"
+		{
+			"name"		"Wasteland 2 Korean OSX"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"8839671571718126443"
+			}
+			"maxsize"		"20172958759"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid"		"274B6F884F8EDA27F3D77BFE08387752794379CA7174DF61332BCDBB815C5410E90B93824C11B0E48244E5C4FA544CA3F95E3E7B"
+				}
+			}
+		}
+		"240766"
+		{
+			"name"		"Wasteland 2 Korean LINUX"
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"873778321266514565"
+			}
+			"maxsize"		"20209524463"
+			"encryptedmanifests"
+			{
+				"latest"
+				{
+					"encrypted_gid"		"892676575751AF07C3734324496E9959794379CA7174DF61332BCDBB815C54100ECEF18BF6CDD968E969AF21B1CD1112525683A3"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"476450"
+			}
+			"backup"
+			{
+				"buildid"		"473844"
+				"description"		"Backup build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C7CA8F3EECF9EB4772064E2B3CCA05D9F95365D1B5DD7DBFC81BACED6E533251D3366D934F91C98BA4F066565202A6C6EE952776"
+			}
+			"korean"
+			{
+				"buildid"		"476395"
+				"description"		"for Korean-only builds"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C351C82BCBE725E87E6D5BA8B61CD2D601E6BF44B4248E5C204FC22A3C7EE91F5604459D7F1127FE0571744CFDDD0ED178C2E844"
+			}
+			"latest"
+			{
+				"buildid"		"475405"
+				"description"		"Latest build"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"5F905D982D9335ACCC01840C2C86588D794379CA7174DF61332BCDBB815C5410E64F8C126EE3D6770E1B72851AB14472D607146C"
+			}
+			"localization"
+			{
+				"buildid"		"334783"
+				"description"		"For localization"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"85D1C27E25D93D44125FB050C71A83771B9D13E322EC80D57848F53CE7E206B0616E4406CF64D2EA55CAF6207B2D3032E80A6BCA"
+			}
+			"osxtestbranch"
+			{
+				"buildid"		"342926"
+				"description"		"testing osx uploads"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"3E7EE6FD56B1DB9078F42DAEC82071DDEAA3F439F74883EFD8B280D4A2BE0FB0D05724D1327D08756C93FDF02395565E34724468"
+			}
+			"press"
+			{
+				"buildid"		"379671"
+				"description"		"For Press & Partners"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"4B8F5FC4E83F353AF57D31955E87D0D64F822D9B4DD3F2613AFFB0E0AC89B51F86D709072B2BA411B922A459DD1165B514B9FA12"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Wasteland2/Save Games/"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Wasteland2/Save Games/"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Wasteland2/Custom Portraits"
+				"pattern"		"*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"3"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Wasteland2/Characters"
+				"pattern"		"*.char"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"4"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Wasteland2/Save Games/"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"5"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Wasteland2/Save Games/"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"6"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Wasteland2/Custom Portraits"
+				"pattern"		"*.png"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"7"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Wasteland2/Characters"
+				"pattern"		"*.char"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"8"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Wasteland2/Save Games"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"9"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Wasteland2/Save Games"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"10"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Wasteland2/Custom Portraits"
+				"pattern"		"*.png"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"11"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Wasteland2/Characters"
+				"pattern"		"*.char"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"12"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Wasteland2/Custom Portraits"
+				"pattern"		"*.jpg"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"13"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Wasteland2/Custom Portraits"
+				"pattern"		"*.jpg"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"14"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Wasteland2/Custom Portraits"
+				"pattern"		"*.jpg"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"15"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Wasteland2/Custom Portraits"
+				"pattern"		"*.jpeg"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"16"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Wasteland2/Custom Portraits"
+				"pattern"		"*.jpeg"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"17"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Wasteland2/Custom Portraits"
+				"pattern"		"*.jpeg"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
+ 

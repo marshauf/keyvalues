@@ -1,0 +1,498 @@
+"appinfo"
+{
+	"appid"		"292180"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"X-Plane 10 Global - 64 Bit"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"0bb743afecf265bb53382d2660cb1a5fc285ec4a"
+		"logo_small"		"0bb743afecf265bb53382d2660cb1a5fc285ec4a_thumb"
+		"clienticon"		"6ab47b6155477cf3d01eed8f359b5a3e501cef50"
+		"clienttga"		"5e05a4f4aa5b084671cbeb33c2624784c9cfa623"
+		"icon"		"95a60b04722be521a065e12ace6eb27ba525f59a"
+		"clienticns"		"f5c4e1414cdc03de5ef6795a71e65ea8455c7587"
+		"linuxclienticon"		"e4aaf440c57d3594095e8e42320259732771ae12"
+		"metacritic_name"		"X-Plane 10 Global - 64 Bit"
+		"controller_support"		"none"
+		"community_visible_stats"		"1"
+		"gameid"		"292180"
+	}
+	"extended"
+	{
+		"listofdlc"		"294560,298620,310410,310420,310430,310440,315010,316280,316290,324780,325130,325131,325132,325133,325134,325135,325136,325137,325138,325139,325140,325141,325142,325143,325144,339380,339381,339382,339383,339384,339385,339386,339387,339388,339389,339390,339391,339392,339393,339394,339395,339396,339397,339398,339399"
+		"developer"		"Laminar Research"
+		"developer_url"		""
+		"publisher"		"Aerosoft GmbH"
+		"homepage"		"www.x-plane.com"
+		"gamemanualurl"		"http://store.steampowered.com/manual/292180/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"X-Plane 10"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"X-Plane.exe"
+				"description"		"X-Plane 64Bit"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"X-Plane-32bit.exe"
+				"description"		"X-Plane 10 Global - 32 Bit"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Airfoil-Maker.exe"
+				"description"		"Airfoil Maker"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Plane-Maker.exe"
+				"description"		"Plane Maker"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"X-Plane-x86_64"
+				"description"		"X-Plane"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"X-Plane-i386"
+				"description"		"X-Plane 10 Global - 32 Bit"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"X-Plane.app"
+				"description"		"X-Plane"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"7"
+			{
+				"executable"		"X-Plane-32bit.app"
+				"description"		"X-Plane 10 Global - 32 Bit"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"8"
+			{
+				"executable"		"Plane-Maker.app"
+				"description"		"Plane Maker"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"9"
+			{
+				"executable"		"Airfoil-Maker.app"
+				"description"		"Airfoil Maker"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"10"
+			{
+				"executable"		"Plane-Maker-i386"
+				"description"		"Plane Maker"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"11"
+			{
+				"executable"		"Airfoil-Maker-i386"
+				"description"		"Airfoil Maker"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"292181"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit Content"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"592554362280456908"
+			}
+			"maxsize"		"5732455827"
+		}
+		"292182"
+		{
+			"name"		"Windows"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"617738561259005856"
+			}
+			"maxsize"		"60670336"
+		}
+		"292183"
+		{
+			"name"		"Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"562970283508502531"
+			}
+			"maxsize"		"95554460"
+		}
+		"292184"
+		{
+			"name"		"Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"6608212567802769242"
+			}
+			"maxsize"		"94293688"
+		}
+		"298620"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - Africa Scenery (298620) Depot"
+			"manifests"
+			{
+				"public"		"8248985313611546296"
+				"local"		"3819610961293290834"
+			}
+			"maxsize"		"11020000217"
+			"dlcappid"		"298620"
+			"config"
+			{
+				"optionaldlc"		"298620"
+			}
+		}
+		"294560"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - Europe Scenery (294560) Depot"
+			"manifests"
+			{
+				"public"		"3693761221676851040"
+			}
+			"maxsize"		"9117025698"
+			"dlcappid"		"294560"
+			"config"
+			{
+				"optionaldlc"		"294560"
+			}
+		}
+		"310410"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - Asia Scenery (310410) Depot"
+			"manifests"
+			{
+				"public"		"4416329830312258558"
+				"local"		"4312269949575300227"
+			}
+			"maxsize"		"18025786581"
+			"dlcappid"		"310410"
+			"config"
+			{
+				"optionaldlc"		"310410"
+			}
+		}
+		"310430"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - North America Scenery (310430) Depot"
+			"manifests"
+			{
+				"public"		"4912707420041673799"
+				"local"		"4942223048921084527"
+			}
+			"maxsize"		"13613615446"
+			"dlcappid"		"310430"
+		}
+		"310420"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - Australia Scenery (310420) Depot"
+			"manifests"
+			{
+				"public"		"3795207172001420436"
+			}
+			"maxsize"		"2927788642"
+			"dlcappid"		"310420"
+			"config"
+			{
+				"optionaldlc"		"310420"
+			}
+		}
+		"310440"
+		{
+			"name"		"South America (310440) Depot"
+			"manifests"
+			{
+				"public"		"1654636570886815456"
+			}
+			"maxsize"		"4939479701"
+			"dlcappid"		"310440"
+			"config"
+			{
+				"optionaldlc"		"310440"
+			}
+		}
+		"315010"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - Airport Amsterdam (315010) Depot"
+			"manifests"
+			{
+				"public"		"7720274903721657773"
+			}
+			"maxsize"		"527016746"
+			"dlcappid"		"315010"
+		}
+		"316290"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - Airport Dusseldorf (316290) Depot"
+			"manifests"
+			{
+				"public"		"1795474785236075494"
+			}
+			"maxsize"		"176545561"
+			"dlcappid"		"316290"
+		}
+		"316280"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - Airport Anchorage (316280) Depot"
+			"manifests"
+			{
+				"public"		"7612025756929749276"
+			}
+			"maxsize"		"3526806180"
+			"dlcappid"		"316280"
+		}
+		"324780"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - Airport Dublin (324780) Depot"
+			"manifests"
+			{
+				"public"		"7779979983012171009"
+			}
+			"maxsize"		"1030299179"
+			"dlcappid"		"324780"
+		}
+		"325144"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - M20J 201 (325144) Depot"
+			"manifests"
+			{
+				"public"		"6416803744184501884"
+			}
+			"maxsize"		"149849020"
+			"dlcappid"		"325144"
+		}
+		"325143"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - PA32R 301 Saratoga SP (325143) Depot"
+			"manifests"
+			{
+				"public"		"2008553391426920278"
+			}
+			"maxsize"		"197872247"
+			"dlcappid"		"325143"
+		}
+		"325142"
+		{
+			"name"		"X-Plane 10 Global - 64 Bit - C152 II (325142) Depot"
+			"manifests"
+			{
+				"public"		"6415319481302122697"
+			}
+			"maxsize"		"153142421"
+			"dlcappid"		"325142"
+		}
+		"325141"
+		{
+			"name"		"X-Plane 10 AddOn - Carenado - PA28 181 Archer II (325141) Depot"
+			"manifests"
+			{
+				"public"		"6661324362951098730"
+			}
+			"maxsize"		"186407414"
+			"dlcappid"		"325141"
+		}
+		"325140"
+		{
+			"name"		"X-Plane 10 AddOn - Carenado - C172N Skyhawk II (325140) Depot"
+			"manifests"
+			{
+				"public"		"1366294881612241570"
+			}
+			"maxsize"		"265606767"
+			"dlcappid"		"325140"
+		}
+		"325139"
+		{
+			"name"		"X-Plane 10 AddOn - Carenado - F33A Bonanza (325139) Depot"
+			"manifests"
+			{
+				"public"		"1288578067606885488"
+			}
+			"maxsize"		"300792539"
+			"dlcappid"		"325139"
+		}
+		"325130"
+		{
+			"name"		"X-Plane 10 AddOn - Aerosoft - Airport Mykonos (325130) Depot"
+			"manifests"
+			{
+				"public"		"4038307983759220683"
+			}
+			"maxsize"		"1610704699"
+			"dlcappid"		"325130"
+		}
+		"325137"
+		{
+			"name"		"X-Plane 10 AddOn - Carenado - V35 Bonanza (325137) Depot"
+			"manifests"
+			{
+				"public"		"8053111815316545644"
+			}
+			"maxsize"		"250556282"
+			"dlcappid"		"325137"
+		}
+		"325136"
+		{
+			"name"		"X-Plane 10 AddOn - Carenado - PA34 200T Seneca II (325136) Depot"
+			"manifests"
+			{
+				"public"		"8890110682005686324"
+			}
+			"maxsize"		"224820827"
+			"dlcappid"		"325136"
+		}
+		"325135"
+		{
+			"name"		"X-Plane 10 AddOn - Carenado - C208B Grand Caravan (325135) Depot"
+			"manifests"
+			{
+				"public"		"4567583482148559497"
+			}
+			"maxsize"		"819553841"
+			"dlcappid"		"325135"
+		}
+		"325131"
+		{
+			"name"		"X-Plane 10 AddOn - Aerosoft - Airport Wilmington (325131) Depot"
+			"manifests"
+			{
+				"public"		"4066623681957043396"
+			}
+			"maxsize"		"1004130265"
+			"dlcappid"		"325131"
+		}
+		"325132"
+		{
+			"name"		"X-Plane 10 AddOn - Aerosoft - Airport Lugano (325132) Depot"
+			"manifests"
+			{
+				"public"		"8995618573433903951"
+			}
+			"maxsize"		"192287440"
+			"dlcappid"		"325132"
+		}
+		"325133"
+		{
+			"name"		"X-Plane 10 AddOn - Aerosoft - Airport Weeze (325133) Depot"
+			"manifests"
+			{
+				"public"		"311703927774756404"
+			}
+			"maxsize"		"219200099"
+			"dlcappid"		"325133"
+		}
+		"325138"
+		{
+			"name"		"X-Plane 10 AddOn - Carenado - C185F Skywagon (325138) Depot"
+			"manifests"
+			{
+				"public"		"4469026063432899762"
+			}
+			"maxsize"		"457083312"
+			"dlcappid"		"325138"
+		}
+		"325134"
+		{
+			"name"		"X-Plane 10 AddOn - Aerosoft - Airport Frankfurt-Hahn (325134) Depot"
+			"manifests"
+			{
+				"public"		"1596384665142878498"
+			}
+			"maxsize"		"399438298"
+			"dlcappid"		"325134"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"469492"
+			}
+			"local"
+			{
+				"buildid"		"463768"
+				"description"		"Local Content Server"
+			}
+			"beta"
+			{
+				"buildid"		"469492"
+				"description"		"for beta testing"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"003A7DE0FC57279C9EC0E3A95410DF3BCF048521FD5A9E12ABD8BA6F9525BD56BA648DDDC195ADD13810E08C4F5BBB8C5B73C719"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+}
+ 

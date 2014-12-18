@@ -1,0 +1,927 @@
+"appinfo"
+{
+	"appid"		"313160"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Farming Simulator 15"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"c69de320668ec24adb17bad4faba87da87bf9a9f"
+		"logo_small"		"c69de320668ec24adb17bad4faba87da87bf9a9f_thumb"
+		"clienticon"		"d50156b3f1304df1ac2cfd17d04e0b3ee80ef087"
+		"clienttga"		"976418aa1922e7bae306ecc4d8a940f03c6a4133"
+		"icon"		"896b57d24d3c5460adfb2b8fbb9609e04af2a197"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+			"romanian"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"controller_support"		"partial"
+		"community_visible_stats"		"1"
+		"gameid"		"313160"
+	}
+	"extended"
+	{
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp313160\\SteamKey"
+		"legacykeydisklocation"		"steamdata.dat"
+		"legacykeyregistrationmethod"		"disk"
+		"showcdkeyinmenu"		"1"
+		"supportscdkeycopytoclipboard"		"1"
+		"listofdlc"		"335290"
+		"developer"		"Giants Software"
+		"developer_url"		""
+		"publisher"		"Focus Home Interactive"
+		"homepage"		"www.farming-simulator.com"
+		"gamemanualurl"		"http://store.steampowered.com/manual/313160/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Farming Simulator 15"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"x86/FarmingSimulator2015Game.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"x64/FarmingSimulator2015Game.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Farming Simulator 2015.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"313161"
+		{
+			"name"		"Farming Simulator 15 Win"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2530902266030243153"
+				"patch1.1.0.1"		"2304407854524140948"
+			}
+			"maxsize"		"2846900077"
+			"encryptedmanifests"
+			{
+				"launch_test"
+				{
+					"encrypted_gid"		"02CBB1D5CA1C254ADACA7E9805396664384EF32CBF74F9CA8518851F7BCC6FE0F2A588090A1C84795413EBDD414F06D644D716A3"
+				}
+				"loca"
+				{
+					"encrypted_gid"		"DBD60DB723148B8ED7EA0002EBD3B5BC1B1FE8BB6EC8CD108972D8015818D887E42DA2075049317182083EC53013C6CF09B0DC41"
+				}
+				"loca2"
+				{
+					"encrypted_gid"		"1D718D06525464DEC3BF41CAB755AC121BC2F3B6D98EE51C446BBD45BA2B3998EDDA509CF014253E01ACDFB242E213ADA10ACD18"
+				}
+				"master"
+				{
+					"encrypted_gid"		"D3FAA66C08D9454FB353CD3FC2C626A0572CB57A50EB94C78EB386997ECD591EDE8D0923D7320A5CE5174EBC4698A003566E00F5"
+				}
+				"prospect"
+				{
+					"encrypted_gid"		"2E55E3E1F7B550B7F6B885DBD92B20F9480BAE605820BBA64A2384C16946A1E60EF3BBC8B351A8AAA58996C4AFF61678256AC0CA"
+				}
+				"lab"
+				{
+					"encrypted_gid"		"9A0AE39658E268EEB4835EC5F9389F8A103D75BC0C1EF2216C224AE755EA8CD1B4D6C1218F458FA6FB07445DE5A3B02ADB9E2C13"
+				}
+				"qa_test"
+				{
+					"encrypted_gid"		"CD2EB3B39B6D31B42DDF1E3D52EC868FC918D9EBEC8276B9A36395DF09859253EC9A9C0FDBF61F2F104D5B07BE4B5BB45999C839"
+				}
+			}
+		}
+		"313162"
+		{
+			"name"		"Farming Simulator 15 Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"2092476849895924985"
+				"patch1.1.0.1"		"1400335052906649193"
+			}
+			"maxsize"		"2805384931"
+			"encryptedmanifests"
+			{
+				"testing_mp"
+				{
+					"encrypted_gid"		"7DEDF5402A56EB610F28214C8B111A8F9F79CEDD88C5DA809CCA5FFC17D40DF1C29B745E0A919C0D5B7DA0CFB7F57717953415A1"
+				}
+			}
+		}
+		"313163"
+		{
+			"name"		"Farming Simulator 15 LangEN"
+			"config"
+			{
+				"language"		"english"
+			}
+		}
+		"313164"
+		{
+			"name"		"Farming Simulator 15 LangDE"
+			"config"
+			{
+				"language"		"german"
+			}
+		}
+		"313165"
+		{
+			"name"		"Farming Simulator 15 LangFR"
+			"config"
+			{
+				"language"		"french"
+			}
+		}
+		"313166"
+		{
+			"name"		"Farming Simulator 15 LangIT"
+			"config"
+			{
+				"language"		"italian"
+			}
+		}
+		"313167"
+		{
+			"name"		"Farming Simulator 15 LangES"
+			"config"
+			{
+				"language"		"spanish"
+			}
+		}
+		"313168"
+		{
+			"name"		"Farming Simulator 15 LangBRPT"
+			"config"
+			{
+				"language"		"brazilian"
+			}
+		}
+		"313169"
+		{
+			"name"		"Farming Simulator 15 LangRU"
+			"config"
+			{
+				"language"		"russian"
+			}
+		}
+		"327540"
+		{
+			"name"		"Farming Simulator 15 LangPL"
+			"config"
+			{
+				"language"		"polish"
+			}
+		}
+		"327541"
+		{
+			"name"		"Farming Simulator 15 LangCZ"
+			"config"
+			{
+				"language"		"czech"
+			}
+		}
+		"327542"
+		{
+			"name"		"Farming Simulator 15 LangHU"
+			"config"
+			{
+				"language"		"hungarian"
+			}
+		}
+		"327543"
+		{
+			"name"		"Farming Simulator 15 LangNL"
+			"config"
+			{
+				"language"		"dutch"
+			}
+		}
+		"327544"
+		{
+			"name"		"Farming Simulator 15 LangJP"
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"		"1563720289562350878"
+			}
+			"maxsize"		"938382"
+			"encryptedmanifests"
+			{
+				"master"
+				{
+					"encrypted_gid"		"00BA898027ABB41CA3C1CED28AA7EBA7572CB57A50EB94C78EB386997ECD591E43AFD7D042B02018A2906063C3CF3ECC38A7C4EC"
+				}
+			}
+		}
+		"327545"
+		{
+			"name"		"Farming Simulator 15 LangPT"
+			"config"
+			{
+				"language"		"portuguese"
+			}
+		}
+		"327546"
+		{
+			"name"		"Farming Simulator 15 LangCS"
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"		"7198781900574804684"
+			}
+			"maxsize"		"1036206"
+			"encryptedmanifests"
+			{
+				"master"
+				{
+					"encrypted_gid"		"DDC6A2D9E8D72259D25F0AB65663E8A4572CB57A50EB94C78EB386997ECD591E486D87E69463CEB32258C50A9530589C00B3FDB3"
+				}
+			}
+		}
+		"327547"
+		{
+			"name"		"Farming Simulator 15 LangCT"
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"		"1417547065508211984"
+			}
+			"maxsize"		"1069590"
+			"encryptedmanifests"
+			{
+				"master"
+				{
+					"encrypted_gid"		"DD38247E27DEA96BE8525663CA72F677572CB57A50EB94C78EB386997ECD591E8EB70D7BFE87B3890F99F0A010699AA7B5EEE5F5"
+				}
+			}
+		}
+		"327548"
+		{
+			"name"		"Farming Simulator 15 LangTR"
+			"config"
+			{
+				"language"		"turkish"
+			}
+		}
+		"327549"
+		{
+			"name"		"Farming Simulator 15 LangRO"
+			"config"
+			{
+				"language"		"romanian"
+			}
+		}
+		"327550"
+		{
+			"name"		"Farming Simulator 15 LangKR"
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"		"3214100404378613224"
+			}
+			"maxsize"		"938382"
+			"encryptedmanifests"
+			{
+				"master"
+				{
+					"encrypted_gid"		"46EC1CB5BA686C3BD1ECE4E5CDF7D122572CB57A50EB94C78EB386997ECD591E450AEDDD66A3139A826CA7CA2E48422D1705972B"
+				}
+			}
+		}
+		"335290"
+		{
+			"name"		"Farming Simulator 15 - ITRunner (335290) Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"7984953826075255262"
+			}
+			"maxsize"		"77326848"
+			"dlcappid"		"335290"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"469698"
+			}
+			"launch_test"
+			{
+				"buildid"		"464111"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"F9FC227757116DCB6C7D44F3338EAE74384EF32CBF74F9CA8518851F7BCC6FE0ED8ED4CE7FCD4FB0D16D8725E25419AB7E5A6D32"
+			}
+			"loca"
+			{
+				"buildid"		"389951"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"355F95A1894E47AE1EE836F397283E6D1B1FE8BB6EC8CD108972D8015818D887B722C2F5FB5DA1C4A0F5423DA8D9946EDE963606"
+			}
+			"loca2"
+			{
+				"buildid"		"424600"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"0761CD3BCA80DDEE63A4EBA46B1E75691BC2F3B6D98EE51C446BBD45BA2B39989B47504B9F288C51C7CADAEB26335F368EBCFE17"
+			}
+			"master"
+			{
+				"buildid"		"406565"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"6B2A508A5653BFA60B3017F809010439572CB57A50EB94C78EB386997ECD591ED2D9EC373E9617F957A659D232CECCDE289DED2F"
+			}
+			"patch1.1.0.1"
+			{
+				"buildid"		"445230"
+				"description"		""
+			}
+			"patch1.2"
+			{
+				"buildid"		"469698"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7CB7B07E3F3697DB2FD5E17480E3EA1CFB79B183F835740749C634388434E45EC908B6A4A8E54A0C17F49C702643E734B5D3F64F"
+			}
+			"prospect"
+			{
+				"buildid"		"389951"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"1AD240E6966D9E9ED445017FB1E632FA480BAE605820BBA64A2384C16946A1E613352746D2F226A240B8873F5523DAE20051D5FA"
+			}
+			"lab"
+			{
+				"buildid"		"423623"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"539F748A20DECDDE960E94EB45FB8EA4103D75BC0C1EF2216C224AE755EA8CD1C7E61241C2C2934204DD5DE5EB9C50537A928346"
+			}
+			"qa_test"
+			{
+				"buildid"		"423614"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"D413819A276FA6086914EA2187C6B2D5C918D9EBEC8276B9A36395DF09859253D7B86F7290DD691DA0DE7431805789A0800B834C"
+			}
+			"testing_mp"
+			{
+				"buildid"		"475696"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"3DB83F880D3F72B113042945C8CE67C49F79CEDD88C5DA809CCA5FFC17D40DF15DB9800D41A30A00CEAEA2AD4004A6AD9D656483"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/"
+				"pattern"		"inputBinding.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame1"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame2"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame3"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"4"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame4"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"5"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame5"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"6"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame6"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"7"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame7"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"8"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame8"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"9"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame9"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"10"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame10"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"11"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame11"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"12"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame12"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"13"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame13"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"14"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame14"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"15"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame15"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"16"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame16"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"17"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame17"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"18"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame18"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"19"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame19"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"20"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/My Games/FarmingSimulator2015/savegame20"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"21"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015"
+				"pattern"		"inputBinding.xml"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"22"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame1"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"23"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame2"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"24"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame3"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"25"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame4"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"26"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame5"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"27"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame6"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"28"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame7"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"29"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame8"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"30"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame9"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"31"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame10"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"32"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame11"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"33"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame12"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"34"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame13"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"35"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame14"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"36"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame15"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"37"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame16"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"38"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame17"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"39"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame18"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"40"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame19"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"41"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/FarmingSimulator2015/savegame20"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
+ 

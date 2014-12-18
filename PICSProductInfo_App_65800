@@ -1,0 +1,441 @@
+"appinfo"
+{
+	"appid"		"65800"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Dungeon Defenders"
+		"logo"		"71af270cff61ab197f9932212012134a436d9682"
+		"logo_small"		"71af270cff61ab197f9932212012134a436d9682_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"icon"		"8de7e7e9af523591c34b713b0b21910058ab4169"
+		"clienticon"		"a691a6036757d19f3920a2c6ccdb65d8e763d1f1"
+		"clienttga"		"18a75ccf65442505be71777fb83bc3d8aba6f82b"
+		"linuxclienticon"		"a7744a8149b6bc7fc2e776448487af65554ae847"
+		"oslist"		"windows,macos"
+		"clienticns"		"ae091349011646c912f8cc6971ea8837d5f5fe95"
+		"workshop_visible"		"1"
+		"type"		"game"
+		"metacritic_name"		"Dungeon Defenders"
+		"controller_support"		"full"
+		"metacritic_score"		"81"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/dungeon-defenders"
+		"community_visible_stats"		"1"
+		"gameid"		"65800"
+	}
+	"extended"
+	{
+		"developer"		"Trendy Entertainment"
+		"dlcavailableonstore"		"1"
+		"dlcpurchasefromingame"		"1"
+		"gamedir"		"Dungeon Defenders"
+		"homepage"		"http://dungeondefenders.com/"
+		"icon"		""
+		"installscript_macos"		"DunDef.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"65801"
+		"primarycache_macos"		"65802"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"vacmacmodulecache"		"160"
+		"vacmodulecache"		"202"
+		"vacmodulefilename"		"sourceinit.dat"
+		"validoslist"		"windows,macos"
+		"listofdlc"		"65810,65811,202010,202020,202030,202040,202520,202521,202522,202523,202524,203700,203701,203702,204380,204381,204382,204383,204384,204385,204386,204387,204388,208540,208541,208542,208543,208544,208545,208546,214120,222680,238230"
+		"developer_url"		""
+		"publisher"		"Trendy Entertainment"
+	}
+	"config"
+	{
+		"usemms"		""
+		"installscriptsignature"		"918af93a9ccda95caf0d1015eca9cfafd2987a018a0f652dd65e461f235e2472f0f341ef9585e1c2e854ccbe5fc3f1dd834dd0e066ae293d3a261aa77ce91119fd67278ce6d974f914ceea82780714078ab471f80100452c9f9f01f405318ca55eaba68361f9731633009c40d2dd2aba7273e355001531f76c4f68d864a4baa2"
+		"installscriptoverride"		"0"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\DungeonDefenders.exe"
+				"vacmodulefilename"		"resource\\sourceinit.dat"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DunDef.app/Contents/MacOS/DunDef"
+				"vacmodulefilename"		"resource\\sourceinit_macos.dat"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"description"		"Configure Dungeon Defenders"
+				"executable"		"DunDef.app/Config/Contents/MacOS/DDConfig"
+				"vacmodulefilename"		"resource\\sourceinit_macos.dat"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"DungeonDefenders"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"systemprofile"		"1"
+		"contenttype"		"3"
+		"installdir"		"Dungeon Defenders"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"65801"
+		{
+			"name"		"Dungeon Defenders Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"8380557276238493850"
+			}
+			"maxsize"		"5552989204"
+			"encryptedmanifests"
+			{
+				"localtest"
+				{
+					"encrypted_gid"		"CE0F3E4D52609F5A4F20E48AC86A037D11EB951FF3E772316D83A292AD9A0D27EB123370F07B41CBAE9B4805B5869A2F6794523D"
+				}
+				"linuxbeta"
+				{
+					"encrypted_gid"		"942D6377D43BB8A93700105203440236AA2D7487A1BE712744D1569B92A5CB3C0EAB2CCF452F2B847224816204EB468C31B58BD9"
+				}
+			}
+		}
+		"65802"
+		{
+			"name"		"Dun Def Mac"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"9070844342175698237"
+			}
+			"maxsize"		"6319847478"
+			"encryptedmanifests"
+			{
+				"localtest"
+				{
+					"encrypted_gid"		"B984BE0E585A09BF4A1D8FD3FDE1CAA911EB951FF3E772316D83A292AD9A0D270B7553FE193B6B2FEB5BF1EBFA99966397245F27"
+				}
+				"linuxbeta"
+				{
+					"encrypted_gid"		"554EBA526AB037090D78312CC730C16AAA2D7487A1BE712744D1569B92A5CB3C0513C4EBE84A47719235368AE139C30952806D9B"
+				}
+			}
+		}
+		"65803"
+		{
+			"name"		"Dun Def Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"		"5064099269139857800"
+			}
+			"maxsize"		"7747952257"
+			"encryptedmanifests"
+			{
+				"linuxbeta"
+				{
+					"encrypted_gid"		"CAEC95CB1A9E2BB20673E7B1E2CADBB6AA2D7487A1BE712744D1569B92A5CB3C40B6A13FC328F5CA5DED3CD92AC28FB9FE30DC1B"
+				}
+			}
+		}
+		"204381"
+		{
+			"name"		"Dungeon Defenders Eternia Shards Part 1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"8762085731756143885"
+			}
+			"maxsize"		"223872720"
+			"encryptedmanifests"
+			{
+				"localtest"
+				{
+					"encrypted_gid"		"ECD0B0C47BE81F47B8BC49045E323B8511EB951FF3E772316D83A292AD9A0D27D6C682928B7E2E6C76093E4C027F0E02A1EE2E14"
+				}
+			}
+			"dlcappid"		"204381"
+		}
+		"204382"
+		{
+			"name"		"EterniaShards2"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"2224350697969357907"
+			}
+			"maxsize"		"215979279"
+			"encryptedmanifests"
+			{
+				"localtest"
+				{
+					"encrypted_gid"		"654BB610A53A260CE925594C2102718C11EB951FF3E772316D83A292AD9A0D271696A8673907C42F1EC7316D3042C969328B5746"
+				}
+			}
+			"dlcappid"		"204382"
+		}
+		"204383"
+		{
+			"name"		"EterniaShards3"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"7988299979100218498"
+			}
+			"maxsize"		"252005173"
+			"encryptedmanifests"
+			{
+				"localtest"
+				{
+					"encrypted_gid"		"A9B9507995D05C5213C4383F66866DE311EB951FF3E772316D83A292AD9A0D270FE57FE04BE045F41294EFA00F78BF1399902E8D"
+				}
+			}
+			"dlcappid"		"204383"
+		}
+		"202020"
+		{
+			"name"		"Mephisto Pet"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"733678327698030634"
+			}
+			"maxsize"		"46"
+			"dlcappid"		"202020"
+		}
+		"202030"
+		{
+			"name"		"Argo Pet"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"3348906717373628147"
+			}
+			"maxsize"		"44"
+			"dlcappid"		"202030"
+		}
+		"202040"
+		{
+			"name"		"Archimedes Pet"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"3169769732489683326"
+			}
+			"maxsize"		"41"
+			"dlcappid"		"202040"
+		}
+		"202010"
+		{
+			"name"		"Nagi Pet"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"1447659790929140628"
+			}
+			"maxsize"		"40"
+			"dlcappid"		"202010"
+		}
+		"65811"
+		{
+			"name"		"Advanced Technology Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"7100477968665683839"
+			}
+			"maxsize"		"43"
+			"dlcappid"		"65811"
+		}
+		"65810"
+		{
+			"name"		"Elite Gear Pack"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"9039071945796297350"
+			}
+			"maxsize"		"40"
+			"dlcappid"		"65810"
+		}
+		"202522"
+		{
+			"name"		"Dungeon Defenders Dev Kit"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"manifests"
+			{
+				"public"		"8185307045877308030"
+			}
+			"maxsize"		"3240206976"
+			"encryptedmanifests"
+			{
+				"localtest"
+				{
+					"encrypted_gid"		"FAFF98F52C638A2EE94ACD284781335911EB951FF3E772316D83A292AD9A0D2711D90AAF2A98EA1AD048AADA5869876B66EDC7B7"
+				}
+			}
+			"dlcappid"		"202522"
+		}
+		"214120"
+		{
+			"name"		"DunDef Testing"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1692674904196575998"
+			}
+			"encryptedmanifests"
+			{
+				"localtest"
+				{
+					"encrypted_gid"		"61218FC7CD67454CFB5776A92E95C7D311EB951FF3E772316D83A292AD9A0D277824B11BC473E3E19D1180C6102CF1CAD14852A1"
+				}
+			}
+			"maxsize"		"348655776"
+			"dlcappid"		"214120"
+		}
+		"204384"
+		{
+			"name"		"EterniaShards4"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3020494903456508803"
+			}
+			"maxsize"		"275811147"
+			"dlcappid"		"204384"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"243883"
+			}
+			"localtest"
+			{
+				"buildid"		"5068"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"6966A7AEBC998DF81848B1D6671047DF11EB951FF3E772316D83A292AD9A0D278407530679002A97AABC045369F1896EEB589732"
+			}
+			"linuxbeta"
+			{
+				"buildid"		"72748"
+				"description"		"Linux beta testing"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"008E8C9D3B1E4C9A01F26AA486321313AA2D7487A1BE712744D1569B92A5CB3C9B9A3D642C8EA9279683AD564653963A4FA691BF"
+			}
+			"testing"
+			{
+				"buildid"		"243883"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"C9092FB0D51AF171A9F358D2FCAC5105EA29D241309960515AA8A86F22A847B1935CF61BD7B48485F7BC25D1BA23A1C33C83D257"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Binaries/Win32"
+				"pattern"		"DunDefHeroes.dun"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+		}
+	}
+}
+ 
