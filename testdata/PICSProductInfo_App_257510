@@ -31,7 +31,7 @@
 		"workshop_visible"		"1"
 		"metacritic_name"		"The Talos Principle"
 		"controller_support"		"full"
-		"metacritic_score"		"88"
+		"metacritic_score"		"87"
 		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/the-talos-principle"
 		"community_visible_stats"		"1"
 		"gameid"		"257510"
@@ -108,7 +108,7 @@
 			}
 		}
 		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100923FF420FC5A554E011D6391BD70CABFC6E97E5854BC960864DA0B5581C242FA44F424DCE8447A96CE45BF11C7108C459F23CE1D8C8917E33866B9EADCB17F911D5C2CABB370A813E234949A0290819A23D4303E69F7F06D3CF9FF676B01CDAA0FA5BF77845882DA5AB51C5CC1500B5F827822231C0FB8BF90EDC0DD068BB4A3020111"
-		"checkguid"		"Talos.exe"
+		"checkguid"		"Talos_Unrestricted.exe"
 		"checkguids"		"talos_unrestricted.exe;talos.exe"
 	}
 	"depots"

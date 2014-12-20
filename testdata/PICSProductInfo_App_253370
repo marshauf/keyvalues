@@ -1,0 +1,685 @@
+"appinfo"
+{
+	"appid"		"253370"
+	"change_number"		"1"
+	"common"
+	{
+		"name"		"Axis Game Factory's AGFPRO 2.0"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"a6260797c26bc4e268da79bd821f3694ff8452e6"
+		"logo_small"		"a6260797c26bc4e268da79bd821f3694ff8452e6_thumb"
+		"clienttga"		"27639ab4ac2223ae6aee26c30fe345fc34c74fe5"
+		"icon"		"6428c935e7a54263ba12d4fb1e384eb7c8a52376"
+		"clienticon"		"07a577b60602f6adc62ea6422ce837e967b058ca"
+		"clienticns"		"0144e0b23ce72f10d419c500133771df6b61ce76"
+		"metacritic_name"		"UntitledApp"
+		"controller_support"		"none"
+		"community_visible_stats"		"1"
+		"gameid"		"253370"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"listofdlc"		"266590,270940,270941,270942,337120"
+		"developer"		"Axis Game Factory LLC"
+		"developer_url"		""
+		"publisher"		"Axis Game Factory LLC"
+		"homepage"		"http://www.axisgamefactory.com/"
+		"gamemanualurl"		"http://store.steampowered.com/manual/253370/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Axis Game Factory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Axis Game Factory.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Axis Game Factory.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Axis Game Factory.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Axis Game Factory.x86_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"name"		"VC 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8124929965194586177"
+			}
+			"maxsize"		"19265607"
+			"depotfromapp"		"228980"
+		}
+		"228984"
+		{
+			"name"		"VC 2012 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"8629947100341372849"
+			}
+			"maxsize"		"13738197"
+			"depotfromapp"		"228980"
+		}
+		"228985"
+		{
+			"name"		"VC 2013 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"2393620832831260610"
+			}
+			"maxsize"		"13687645"
+			"depotfromapp"		"228980"
+		}
+		"228990"
+		{
+			"name"		"DirectX Jun 2010 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1829726630299308803"
+			}
+			"maxsize"		"102931551"
+			"depotfromapp"		"228980"
+		}
+		"229004"
+		{
+			"name"		".NET 4.5.1 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"3575109949731994142"
+			}
+			"maxsize"		"143305798"
+			"depotfromapp"		"228980"
+		}
+		"229012"
+		{
+			"name"		"XNA 4.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4353723233161159493"
+			}
+			"maxsize"		"7061608"
+			"depotfromapp"		"228980"
+		}
+		"229020"
+		{
+			"name"		"OpenAL 2.0.7.0 Redist"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5799761707845834510"
+			}
+			"maxsize"		"810085"
+			"depotfromapp"		"228980"
+		}
+		"229032"
+		{
+			"name"		"PhysX System Software 9.13.1220"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1375268461476746048"
+			}
+			"maxsize"		"41178218"
+			"depotfromapp"		"228980"
+		}
+		"250821"
+		{
+			"name"		"OpenVR Win32"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"maxsize"		"33420382"
+			"depotfromapp"		"250820"
+			"sharedinstall"		"1"
+		}
+		"250822"
+		{
+			"name"		"OpenVR OSX"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"maxsize"		"4342340"
+			"depotfromapp"		"250820"
+			"sharedinstall"		"1"
+		}
+		"250823"
+		{
+			"name"		"OpenVR Linux"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"maxsize"		"26528677"
+			"depotfromapp"		"250820"
+			"sharedinstall"		"1"
+		}
+		"250824"
+		{
+			"name"		"OpenVR Content"
+			"systemdefined"		"1"
+			"maxsize"		"4355559"
+			"depotfromapp"		"250820"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"253371"
+		{
+			"name"		"Windows 32 Depot"
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"1325572835415442386"
+			}
+			"maxsize"		"951162980"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"1DE08241740980164A85C2EBF7232AFA55DAF68F29900CD89D4285F79F99AFF03F200CEE5E810273064135B0CC4E9BF9A853B2B7"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"C48657611950D55CFBDE0BA983001E4E36D66EC17D23D99F9AD1A4507DF2CAB91E941F972158E320A744F3694394FC8BC7403679"
+				}
+				"battlemaptesting"
+				{
+					"encrypted_gid"		"07FCA0C8B8F0534B1CF2A825AD7100D3CBA03ABB77C244EA28E522BA8E2F9C38487A4976C343BB8401F7E7EE95ED1032F59A286A"
+				}
+				"cdlink"
+				{
+					"encrypted_gid"		"9EE3DD1F665EECB54E9E4908578BE4BE51AC5F9B90780C432CD00DC7D5ACE2D3029DE5145866FC042E797FEA8FDF371EB6DDC0E4"
+				}
+				"internal_networking"
+				{
+					"encrypted_gid"		"199ECC8BC0D08F9D7CD14CE225655CE8154441F6E6F4ED4C117EE178963893F7A51F127FBF934049B76CD2A373619854C14EBBE5"
+				}
+				"internal_testing"
+				{
+					"encrypted_gid"		"4E432F77127A69CDA59912D4B0BCE9AFC1FDB2DE0051B752BB1CFD39E6B992E5D870028E8A6E4C65DEAEC61261C5F40903642EE5"
+				}
+				"mactesting"
+				{
+					"encrypted_gid"		"74E614E1F58738B8691906450056B5339EEBA27DDD5B4636FCB2B2521CE709955426BD3625E71A51DD4BC4AF83B750D20D466FEA"
+				}
+				"madrid"
+				{
+					"encrypted_gid"		"231306E390AD3067947B66F626BC1F01BB2274C8D34FA1C7D0AFAAA5C35E6F8195FDD46E3F4FA40D54C9FA7A98C05F0097E83662"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"7564AD89BDDD1ECD6B9B20A4E150D260FB4006C37652F70AE0B3D979DA74DDA8816C658D166C5498C3D0160DF0EF9705DA8261F4"
+				}
+			}
+		}
+		"253372"
+		{
+			"name"		"Windows 64 Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"253373"
+		{
+			"name"		"Mac Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"6760835694313901607"
+			}
+			"maxsize"		"1158736545"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"B7827BB27D8CA1B674CF4DB843DB636F55DAF68F29900CD89D4285F79F99AFF09FBDF7A4FB0B69CBAF1923CAA3D89E744FC8B596"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"B244A2D54069E79A44448A6C442DCE5336D66EC17D23D99F9AD1A4507DF2CAB9A250AB397F6191DD5D9916F634E2EB7D31828A76"
+				}
+				"battlemaptesting"
+				{
+					"encrypted_gid"		"9357F0F66C09C358AC96CCCB9167B2FFCBA03ABB77C244EA28E522BA8E2F9C383098C21D20A1701940655D0C23901322CE868422"
+				}
+				"cdlink"
+				{
+					"encrypted_gid"		"2CE6C4352F92941BFC1324FAF805B9A151AC5F9B90780C432CD00DC7D5ACE2D33FC98D69191356F068D98FCA0B1D911ACB59199D"
+				}
+				"internal_networking"
+				{
+					"encrypted_gid"		"743E6B00CE8866DF0BA5EEC43ECFA2C0154441F6E6F4ED4C117EE178963893F75C091525240C763E19B2D88052AABC356E207223"
+				}
+				"internal_testing"
+				{
+					"encrypted_gid"		"3CE985AB00D451A0B0E33EE6533AFE98C1FDB2DE0051B752BB1CFD39E6B992E5800B631084CBE724F11EA9F0C842A3A39F7B5114"
+				}
+				"mactesting"
+				{
+					"encrypted_gid"		"D6EEC2ED7B7215A0FFFF29CF3B1DEAD39EEBA27DDD5B4636FCB2B2521CE70995F1A863B3D10E10B8D1F1BBE4A6529FF4AC321DB4"
+				}
+				"madrid"
+				{
+					"encrypted_gid"		"CD5BF6FE16609768DC7A039B6616B0D8BB2274C8D34FA1C7D0AFAAA5C35E6F810C355791DE1B91E94B10E3A2059C644731250EE2"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"2153DD3A3D0D660F91AC26D0773FCF70FB4006C37652F70AE0B3D979DA74DDA84FE6A24EFD979F0DD16725555BC9C92ABFD30B90"
+				}
+			}
+		}
+		"253374"
+		{
+			"name"		"Linux Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"2211377568398384329"
+			}
+			"maxsize"		"1123494487"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"A8DAF8D0980FE202BB3D77E0ABF9B2FD55DAF68F29900CD89D4285F79F99AFF0E06A6CB90DDF1E15A57884B444E2F828E305EB23"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"B5D56FF989484E0D337C17C83406A77E36D66EC17D23D99F9AD1A4507DF2CAB9F1B735A90B94B19AC400706329DF1DAACC489675"
+				}
+				"battlemaptesting"
+				{
+					"encrypted_gid"		"9D3052A4BAAE2306EE4BE9B3B75177E9CBA03ABB77C244EA28E522BA8E2F9C380873A222C338B0BE18B0790A0BCEFA39C0F18471"
+				}
+				"cdlink"
+				{
+					"encrypted_gid"		"2325F18C2D056EEB4FF641B26AFB677651AC5F9B90780C432CD00DC7D5ACE2D3C5AF036B07187A3F6FDB224BFA4CDCDA5FA06A07"
+				}
+				"internal_networking"
+				{
+					"encrypted_gid"		"7AED3434DA396855D66C2B3A90797CD2154441F6E6F4ED4C117EE178963893F74C3DE80BEF3F6A271D86676FC6191C871AF2309C"
+				}
+				"internal_testing"
+				{
+					"encrypted_gid"		"9E1968ABF5E3803E81F23FD08CB20472C1FDB2DE0051B752BB1CFD39E6B992E50D8E8C1E97E53A2EAF5F7A8EF22B4CA5980CD86C"
+				}
+				"mactesting"
+				{
+					"encrypted_gid"		"558DF047F2901A559FE89DBF52B7CFD39EEBA27DDD5B4636FCB2B2521CE70995150056481327EC5939213145E5F0045C43A62453"
+				}
+				"madrid"
+				{
+					"encrypted_gid"		"F0D235401131B198FAEC56FA5E01E956BB2274C8D34FA1C7D0AFAAA5C35E6F818EFF6E9E0AC11B42C5C79A5733569218D00792EB"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"AE19FD739615ADC20E066C3C526110B5FB4006C37652F70AE0B3D979DA74DDA82DD47EF6D71A8C446DCC6E956A921B68D4069587"
+				}
+			}
+		}
+		"266590"
+		{
+			"name"		"Axis Game Factory Premium (266590) Depot"
+			"manifests"
+			{
+				"public"		"349060145419160734"
+			}
+			"maxsize"		"303438344"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"98850F396D2B360958417AF4895D7D3555DAF68F29900CD89D4285F79F99AFF03158CE1D8C004E45C8C5186FCCEB16B963B2786A"
+				}
+			}
+			"dlcappid"		"266590"
+		}
+		"270943"
+		{
+			"name"		"Zombie FPS Player DLC (270940) Windows 32 Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"4483624100603503789"
+			}
+			"maxsize"		"302971068"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"1621704CFB6D402FECE9EEAE68F57F0455DAF68F29900CD89D4285F79F99AFF02BB82857AA007A6EC20CD377605FC04B3C8B0898"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"17C6B698C9422B4AEEE6C0FF6E14CBB936D66EC17D23D99F9AD1A4507DF2CAB9EDBE8A114FE08355CFD332CEEA259A042C245F18"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"F2DAD65A660257BF21253141285CDFB1FB4006C37652F70AE0B3D979DA74DDA84ABCF0C59762F463D1BED641DA2D02609527B3CE"
+				}
+			}
+		}
+		"270944"
+		{
+			"name"		"Zombie FPS Player DLC (270940) Mac Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"5331542019853529350"
+			}
+			"maxsize"		"356242249"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"D95A65484F486E8057C6C6BD69C9345655DAF68F29900CD89D4285F79F99AFF0FA9BA87761A3D6122B27E54794FA98AFB25C508E"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"904C4B3D97306109FC29F6BFF310A2F636D66EC17D23D99F9AD1A4507DF2CAB9A514142F9B07940A0CD2F0DEF4F2C58E7243A86A"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"7ACD10AF95CA27B6ED08416BAD5A313FFB4006C37652F70AE0B3D979DA74DDA840A6747FE47F3BC0C9320073B33810FDB0449221"
+				}
+			}
+		}
+		"270945"
+		{
+			"name"		"Zombie FPS Player DLC (270940) Linux Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"7686879934289350593"
+			}
+			"maxsize"		"352020695"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"5A0825C9884FD871451130E3D54A321D55DAF68F29900CD89D4285F79F99AFF002F0F2C4016BC275F8CE4FEFAF9ED8BEECC4CE6E"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"5E41C2A2A63C4BF4A683068E1EEBC30D36D66EC17D23D99F9AD1A4507DF2CAB9C2E4EB848F89D8524F4DB630E8B4FEBFAE370B28"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"4677C9913491D10265D952B98FCF6C08FB4006C37652F70AE0B3D979DA74DDA83D43E8E2B295AE661E42B2F359A7FF633897B08A"
+				}
+			}
+		}
+		"270946"
+		{
+			"name"		"Fantasy Side-Scroller Player DLC (270941) Windows 32 Depot"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"		"5435082311873639114"
+			}
+			"maxsize"		"226670018"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"2828FE51A985E28DB72C3532C141CA8D55DAF68F29900CD89D4285F79F99AFF0ED8F42B6BBF289A1A07B7EE0C2C1CA624410AED4"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"B6BB47A67C1FE384762EB5DFB306850236D66EC17D23D99F9AD1A4507DF2CAB9B85714E351AFE31F356875A427414AFE50940609"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"7912224BC54CE36E0BF12289D59C2E08FB4006C37652F70AE0B3D979DA74DDA8BE5D31419AFE203616894EFC872730C0E8935CF1"
+				}
+			}
+		}
+		"270947"
+		{
+			"name"		"Fantasy Side-Scroller Player DLC (270941) Mac Depot"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"		"4005632901256500687"
+			}
+			"maxsize"		"268580570"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"6FCD2728F63832F0C19173AD4D6BE72055DAF68F29900CD89D4285F79F99AFF030068AF95C08F82B19E091D9D37D7A899124AEFF"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"F73F659421EB8D95DE273C89F73E58EA36D66EC17D23D99F9AD1A4507DF2CAB91BC94E322BC7936FC30B56EF114147816BFA8D6F"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"F6458FDD3F30D2D11BC8C7DDDEC10E0AFB4006C37652F70AE0B3D979DA74DDA8B9F40970EB0A196D090A6149B9B65D3C45B10881"
+				}
+			}
+		}
+		"270948"
+		{
+			"name"		"Fantasy Side-Scroller Player DLC (270941) Linux Depot"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"		"5170968109756212322"
+			}
+			"maxsize"		"263470322"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"7C12B63AE6C43221C00898BA0B46D95155DAF68F29900CD89D4285F79F99AFF05524B6EB684275828F4ABFEA574E0B4311671EF3"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"E17C0A82904F0B0691643AD312B04B4836D66EC17D23D99F9AD1A4507DF2CAB9D0956993FDB9B670E5948611A78B25B7D215E680"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"E49C3F3368879EE09207967701CB8302FB4006C37652F70AE0B3D979DA74DDA809916DB2B6103BA0C4DE11DE368CC7E54AE6F13E"
+				}
+			}
+		}
+		"270942"
+		{
+			"name"		"Axis Game Factory DLC 3 (270942) Depot"
+			"manifests"
+			{
+				"public"		"6510398436364289610"
+			}
+			"maxsize"		"174483959"
+			"encryptedmanifests"
+			{
+				"agf_release_07.21.2014_before_v2_beta"
+				{
+					"encrypted_gid"		"C8D8F98B97E15FFD452131525BF5A2CD55DAF68F29900CD89D4285F79F99AFF081E63C0EC6FB1D29A2F2606E29DBB2A2879DE467"
+				}
+				"agfv2_64bit_pc"
+				{
+					"encrypted_gid"		"4E2728B3B44886326A7851B4C0BA231D36D66EC17D23D99F9AD1A4507DF2CAB9D08907A926039D04765DB22D2661DE472B1D8995"
+				}
+				"agf_portable"
+				{
+					"encrypted_gid"		"7560FC5ECEC527C2EAA1F2ABFCB1275EFB4006C37652F70AE0B3D979DA74DDA8A1D6900C0BF899357F6DF1F8EA16C88577D5CB1C"
+				}
+			}
+			"dlcappid"		"270942"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"468646"
+			}
+			"agf_release_07.21.2014_before_v2_beta"
+			{
+				"buildid"		"298483"
+				"description"		"AGFPRO Last build before v2"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"8FFBC16B694B119A1DD38CF7DCCDFB3B55DAF68F29900CD89D4285F79F99AFF08B09408604C5291326EECCA00F3194857B07D67E"
+			}
+			"agfv2_64bit_pc"
+			{
+				"buildid"		"407375"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"7A9B9D4CC0379B814FCA8DD71F898BBC36D66EC17D23D99F9AD1A4507DF2CAB9B2099A9B11088B6FF58860EBB882ED470EED3E6B"
+			}
+			"battlemaptesting"
+			{
+				"buildid"		"472741"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"91EC70C602829A51581769A0E3EB63C6CBA03ABB77C244EA28E522BA8E2F9C38F33CB33A5FEB2A8300C30956B29C4B0B2CC5DC0D"
+			}
+			"cdlink"
+			{
+				"buildid"		"472741"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"72D4267C195E5F7081BDB3EDC1EC2D0951AC5F9B90780C432CD00DC7D5ACE2D3E3DFCD1B71FEDA14F4508F88156F0ED351764B46"
+			}
+			"internal_networking"
+			{
+				"buildid"		"479050"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"CDE3423E07D5FE7B702D71435B71A155154441F6E6F4ED4C117EE178963893F76391836D1C39ACEBF0397F80EDA20F0C74639EA2"
+			}
+			"internal_testing"
+			{
+				"buildid"		"479050"
+				"description"		"Internal testing branch."
+				"pwdrequired"		"1"
+				"pwdtestgid"		"5B1E048443352A5D2A4B4C1A6B919096C1FDB2DE0051B752BB1CFD39E6B992E5254600979E337D6E21CEE0B0C51581A4DED12931"
+			}
+			"mactesting"
+			{
+				"buildid"		"472741"
+				"description"		"mactestingonly"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"094800BFD274DBEAF6E223056D04C8019EEBA27DDD5B4636FCB2B2521CE709950E54735DECFBFA14993813751708A45139AD606E"
+			}
+			"madrid"
+			{
+				"buildid"		"472741"
+				"description"		""
+				"pwdrequired"		"1"
+				"pwdtestgid"		"BDF821593637572A6929F928B6E796F4BB2274C8D34FA1C7D0AFAAA5C35E6F81A056F419F9745844957741E8D343E9FA14FCD6A3"
+			}
+			"agf_portable"
+			{
+				"buildid"		"416819"
+				"description"		"Portable Version"
+				"pwdrequired"		"1"
+				"pwdtestgid"		"FF3E79527166095F09E727266D3B36D9FB4006C37652F70AE0B3D979DA74DDA8091DE0DCE227116885BFE999282240BF70E60091"
+			}
+		}
+	}
+}
+ 

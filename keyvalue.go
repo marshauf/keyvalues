@@ -1,7 +1,10 @@
 package keyvalues
 
 import (
+	"bufio"
 	"fmt"
+	"io"
+	"strconv"
 )
 
 const (
@@ -106,7 +109,88 @@ func Unmarshal(data []byte) (*KeyValue, error) {
 	root := &KeyValue{}
 	readObject(tokens, root)
 
-	return root.children[0], nil
+	return root.children[0], nil // Return root or first root children? Is it possible that multiple top level key, value pairs can exist?
+}
+
+const (
+	TypeNone byte = iota
+	TypeString
+	TypeInt32
+	TypeFloat32
+	TypePointer
+	TypeWideString
+	TypeColor
+	TypeUint64
+	TypeEnd
+)
+
+func UnmarshalBinary(rd io.Reader) (*KeyValue, error) {
+	root := &KeyValue{}
+	err := readBinaryObject(bufio.NewReader(rd), root)
+	return root, err
+}
+
+func readBinaryObject(rd *bufio.Reader, kv *KeyValue) error {
+	t, err := rd.ReadByte()
+	if err != nil {
+		return err
+	}
+	for {
+		if t == TypeEnd {
+			break
+		}
+
+		current := &KeyValue{}
+		current.Key, err = rd.ReadString('\000')
+		if err != nil {
+			return err
+		}
+
+		switch t {
+		case TypeNone:
+			kv.SetChild(current)
+			err = readBinaryObject(rd, current)
+			if err != nil {
+				return err
+			}
+		case TypeString:
+			current.Value, err = rd.ReadString('\000')
+			if err != nil {
+				return err
+			}
+		case TypeWideString: // https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/tier1/kvpacker.cpp#L206
+			return fmt.Errorf("WideString not supported")
+		case TypeInt32, TypeColor, TypePointer:
+			b := make([]byte, 4)
+			n, err := rd.Read(b)
+			if err != nil {
+				return err
+			}
+			if n != 4 {
+				return fmt.Errorf("Read less than four bytes for 32bits.")
+			}
+			current.Value = strconv.Itoa(int(b[0]<<24 + b[1]<<16 + b[2]<<8 + b[3]))
+		case TypeUint64:
+			// TODO
+			return fmt.Errorf("Uint64 Not supported")
+		case TypeFloat32:
+			// TODO
+			return fmt.Errorf("Float32 not supported")
+		}
+
+		t, err = rd.ReadByte()
+		if err != nil {
+			return err
+		}
+
+		if t == TypeEnd {
+			break
+		}
+
+		//fmt.Printf("Type:\"%d\" Key:\"%s\" Value:\"%s\"\n", t, current.Key, current.Value)
+		kv.SetChild(current)
+	}
+	return nil
 }
 
 func readObject(tokens []*Token, root *KeyValue) int {
