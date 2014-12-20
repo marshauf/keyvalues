@@ -1,10 +1,9 @@
 package keyvalues
 
 import (
-	"bufio"
+	"encoding/binary"
 	"fmt"
 	"io"
-	"strconv"
 )
 
 const (
@@ -47,12 +46,14 @@ func (kv *KeyValue) GetChild(key string) *KeyValue {
 
 func (kv *KeyValue) String() string {
 	str := fmt.Sprintf("\"%s\" ", kv.Key)
-	if len(kv.Value) == 0 && kv.children != nil {
-		str += "\n{\n"
-		for _, t := range kv.children {
-			str += t.String()
+	if len(kv.Value) == 0 {
+		if kv.children != nil {
+			str += "\n{\n"
+			for _, t := range kv.children {
+				str += t.String()
+			}
+			str += "}\n"
 		}
-		str += "}\n"
 	} else {
 		str += fmt.Sprintf("\"%s\"\n", kv.Value)
 	}
@@ -126,12 +127,12 @@ const (
 
 func UnmarshalBinary(rd io.Reader) (*KeyValue, error) {
 	root := &KeyValue{}
-	err := readBinaryObject(bufio.NewReader(rd), root)
+	err := readBinaryObject(rd, root)
 	return root, err
 }
 
-func readBinaryObject(rd *bufio.Reader, kv *KeyValue) error {
-	t, err := rd.ReadByte()
+func readBinaryObject(rd io.Reader, kv *KeyValue) error {
+	t, err := ReadByte(rd)
 	if err != nil {
 		return err
 	}
@@ -141,7 +142,9 @@ func readBinaryObject(rd *bufio.Reader, kv *KeyValue) error {
 		}
 
 		current := &KeyValue{}
-		current.Key, err = rd.ReadString('\000')
+
+		// current.Key, err = rd.ReadString('\x00')
+		current.Key, err = ReadString(rd)
 		if err != nil {
 			return err
 		}
@@ -154,31 +157,34 @@ func readBinaryObject(rd *bufio.Reader, kv *KeyValue) error {
 				return err
 			}
 		case TypeString:
-			current.Value, err = rd.ReadString('\000')
+			//current.Value, err = rd.ReadString('\x00')
+			current.Value, err = ReadString(rd)
 			if err != nil {
 				return err
 			}
 		case TypeWideString: // https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/tier1/kvpacker.cpp#L206
 			return fmt.Errorf("WideString not supported")
 		case TypeInt32, TypeColor, TypePointer:
-			b := make([]byte, 4)
-			n, err := rd.Read(b)
+			n, err := ReadInt32(rd)
 			if err != nil {
 				return err
 			}
-			if n != 4 {
-				return fmt.Errorf("Read less than four bytes for 32bits.")
-			}
-			current.Value = strconv.Itoa(int(b[0]<<24 + b[1]<<16 + b[2]<<8 + b[3]))
+			current.Value = fmt.Sprintf("%d", n)
 		case TypeUint64:
-			// TODO
-			return fmt.Errorf("Uint64 Not supported")
+			n, err := ReadUint32(rd)
+			if err != nil {
+				return err
+			}
+			current.Value = fmt.Sprintf("%d", n)
 		case TypeFloat32:
-			// TODO
-			return fmt.Errorf("Float32 not supported")
+			n, err := ReadFloat32(rd)
+			if err != nil {
+				return err
+			}
+			current.Value = fmt.Sprintf("%g", n)
 		}
 
-		t, err = rd.ReadByte()
+		t, err = ReadByte(rd)
 		if err != nil {
 			return err
 		}
@@ -191,6 +197,44 @@ func readBinaryObject(rd *bufio.Reader, kv *KeyValue) error {
 		kv.SetChild(current)
 	}
 	return nil
+}
+
+func ReadFloat32(r io.Reader) (float32, error) {
+	var c float32
+	err := binary.Read(r, binary.LittleEndian, &c)
+	return c, err
+}
+
+func ReadByte(r io.Reader) (byte, error) {
+	var c byte
+	err := binary.Read(r, binary.LittleEndian, &c)
+	return c, err
+}
+
+func ReadInt32(r io.Reader) (int32, error) {
+	var c int32
+	err := binary.Read(r, binary.LittleEndian, &c)
+	return c, err
+}
+
+func ReadUint32(r io.Reader) (uint32, error) {
+	var c uint32
+	err := binary.Read(r, binary.LittleEndian, &c)
+	return c, err
+}
+
+func ReadString(r io.Reader) (string, error) {
+	c := make([]byte, 0)
+	var err error
+	for {
+		var b byte
+		err = binary.Read(r, binary.LittleEndian, &b)
+		if b == byte(0x0) || err != nil {
+			break
+		}
+		c = append(c, b)
+	}
+	return string(c), err
 }
 
 func readObject(tokens []*Token, root *KeyValue) int {
